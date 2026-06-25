@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CI RoI — Proposed Sequence Diagram</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<style>
+  @media print {
+    body { margin: 0; padding: 10mm; }
+    .no-print { display: none !important; }
+    h1 { font-size: 16pt; }
+    .subtitle { font-size: 10pt; }
+  }
+  @media screen {
+    body { max-width: 1400px; margin: 0 auto; padding: 24px; }
+  }
+  body { font-family: 'Segoe UI', Calibri, Arial, sans-serif; color: #222; background: #fff; }
+  h1 { margin-bottom: 4px; font-size: 20px; }
+  .subtitle { color: #555; font-size: 13px; margin-bottom: 24px; }
+  .diagram-container { background: #fafafa; border: 1px solid #ddd; border-radius: 6px; padding: 16px; overflow-x: auto; }
+  .notes { margin-top: 28px; font-size: 13px; line-height: 1.6; }
+  .notes h2 { font-size: 15px; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+  .notes h3 { font-size: 13px; margin-top: 14px; margin-bottom: 4px; }
+  .no-print { text-align: right; margin-bottom: 12px; }
+  .no-print button { padding: 8px 16px; font-size: 13px; cursor: pointer; background: #0066b2; color: #fff; border: none; border-radius: 4px; }
+  .no-print button:hover { background: #004e8c; }
+</style>
+</head>
+<body>
+
+<div class="no-print">
+  <button onclick="window.print()">Print / Save as PDF</button>
+</div>
+
+<h1>Compassionate Intervention — Release of Information</h1>
+<div class="subtitle">Proposed Integration: Compassionate Intervention Program ↔ HSS (IBM Integration Engine + Akana API Gateway) ↔ Epic ROI Web Service API ↔ Snowflake</div>
+
+<div class="diagram-container">
+<pre class="mermaid">
+sequenceDiagram
+    autonumber
+
+    box rgb(255,255,224) Compassionate Intervention Program
+        participant CMI as CMI Application
+        participant WH as Webhook Endpoint
+    end
+
+    box rgb(224,240,255) HSS Integration Services
+        participant HSS as IBM Integration Engine
+        participant AKA as Akana API Gateway
+    end
+
+    box rgb(200,230,200) Epic Connect Care
+        participant ROI as Epic ROI Web Service API
+        participant HIM as HIM ROI Module
+    end
+
+    box rgb(230,220,255) HSS Data Platform
+        participant SF as Snowflake Analytics Repository
+    end
+
+    Note over CMI,HIM: 1. ROI Request Submission
+
+    CMI->>HSS: POST /roi-request (demographics, request type, statutory authority ref, callback URL)
+    HSS-->>CMI: 202 Accepted (Request ID)
+
+    Note over HSS,HIM: 2. Create ROI Request in Epic HIM
+
+    HSS->>AKA: Create ROI Request (patient ID, request type, requester info, authorization)
+    AKA->>ROI: Forward request (authenticated, rate-limited)
+    ROI->>HIM: Log ROI case for review
+    HIM-->>ROI: ROI Case ID
+    ROI-->>AKA: Response (ROI Case ID)
+    AKA-->>HSS: Response (ROI Case ID)
+
+    Note over HIM,HIM: 3. Clinician Review (within Epic)
+
+    alt Automated Response (No Human Review)
+        HIM->>HIM: Auto-approve per predefined rules
+        Note over HSS,ROI: 4a. HSS Detects Approval
+        HSS->>AKA: Poll ROI status (ROI Case ID)
+        AKA->>ROI: Forward poll request
+        ROI-->>AKA: Status: Approved
+        AKA-->>HSS: Status: Approved
+
+        Note over HSS,SF: 5a. Automated Data Retrieval
+        HSS->>SF: Query encounter summary (Patient ID, cross-CIS view)
+        SF-->>HSS: Encounter summary resultset
+
+        Note over CMI,HSS: 6a. Deliver Automated Response
+        HSS->>HSS: Format payload, log disclosure for audit
+        HSS->>WH: POST /webhook (JSON: encounter summary, ROI Case ID, disclosure log ref)
+        WH-->>HSS: 200 OK
+
+    else Clinician-Prepared Response (Human Review)
+        HIM->>HIM: Clinician reviews request, prepares response document
+        Note over HSS,ROI: 4b. HSS Detects Completion
+        HSS->>AKA: Poll ROI status (ROI Case ID)
+        AKA->>ROI: Forward poll request
+        ROI-->>AKA: Status: Complete (response document reference)
+        AKA-->>HSS: Status: Complete (response document reference)
+
+        Note over HSS,ROI: 5b. Retrieve Response Document
+        HSS->>AKA: Get document (document reference)
+        AKA->>ROI: Forward document request
+        ROI-->>AKA: Clinician response document
+        AKA-->>HSS: Clinician response document
+
+        Note over CMI,HSS: 6b. Deliver Clinician Response
+        HSS->>HSS: Package document, log disclosure for audit
+        HSS->>WH: POST /webhook (JSON: clinician document, ROI Case ID, disclosure log ref)
+        WH-->>HSS: 200 OK
+    end
+
+    Note over CMI,WH: 7. CMI processes ROI response
+</pre>
+</div>
+
+<div class="notes">
+<h2>Design Rationale</h2>
+
+<h3>Why Epic's ROI Web Service API?</h3>
+<p>Epic provides a proprietary REST web service specifically for creating and updating ROI requests (open.epic specification #5450, under Web Services). This is the supported API for programmatic ROI integration. The API requires a client ID obtained through Epic's app registration process.</p>
+
+<h3>Akana API Gateway</h3>
+<p>All calls from the IBM Integration Engine to Epic route through the Akana API Gateway, which provides authentication management, rate limiting, API governance, and audit logging at the gateway layer.</p>
+
+<h3>Two Response Paths</h3>
+<p><strong>Automated (4a-6a):</strong> Pre-approved request types bypass clinician review. HSS detects the approval via polling through Akana, then pulls the cross-CIS encounter summary from Snowflake.</p>
+<p><strong>Clinician-prepared (4b-6b):</strong> A clinician reviews the request within Epic, prepares a response document, and HSS retrieves that document via the API once the status indicates completion.</p>
+
+<h3>Why Snowflake for the Automated Path?</h3>
+<p>The CI program requires an encounter summary across multiple clinical information systems, not just Epic Connect Care. Snowflake already aggregates this cross-CIS data for analytics.</p>
+
+<h2>Key Considerations</h2>
+<p><strong>Client ID registration:</strong> HSS needs a registered client ID through Epic's app creation process. The full API spec (#5450) requires an open.epic login.</p>
+<p><strong>Patient identity resolution:</strong> PHN is optional. Epic's Patient Lookup and Identifiers Web Service (spec #5454) can resolve patient identity prior to creating the ROI request.</p>
+<p><strong>Denial / partial approval:</strong> Design should handle denial or requests for additional information from the clinician.</p>
+<p><strong>Audit and disclosure logging:</strong> Every data release must be logged with statutory authority reference, ROI Case ID, and actual data disclosed (HIA compliance).</p>
+<p><strong>Timeout handling:</strong> If clinician review exceeds an SLA, CMI should be notified for escalation.</p>
+</div>
+
+<script>
+mermaid.initialize({
+  startOnLoad: true,
+  theme: 'default',
+  sequence: {
+    diagramMarginX: 20,
+    diagramMarginY: 10,
+    actorMargin: 50,
+    width: 160,
+    height: 50,
+    boxMargin: 10,
+    useMaxWidth: true,
+    wrap: true,
+    wrapPadding: 10
+  }
+});
+</script>
+</body>
+</html>

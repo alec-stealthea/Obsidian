@@ -1,0 +1,168 @@
+/*
+ * Export Archi View to CSV + PNG
+ *
+ * Exports the currently selected view as:
+ *   1. A CSV file with all elements and relationships
+ *   2. A PNG image of the view
+ *
+ * Both files are saved to the same directory with the view name as filename.
+ *
+ * Usage: Select a view in the Models Tree or open a diagram view, then run this script.
+ *
+ * jArchi API Reference: https://github.com/archimatetool/archi-scripting-plugin/wiki
+ */
+
+// ---------------------------------------------------------------------------
+// Configuration
+// ---------------------------------------------------------------------------
+var IMAGE_SCALE  = 2;      // 1–4; higher = sharper PNG
+var IMAGE_MARGIN = 20;     // pixel margin around the diagram
+var CSV_SEPARATOR = ",";   // change to "\t" for TSV if you prefer
+
+// ---------------------------------------------------------------------------
+// Resolve the selected view
+// ---------------------------------------------------------------------------
+var view = null;
+
+// Try to get view from selection (works when a view is selected in the Models Tree
+// or when a diagram is open and focused)
+if (typeof selection !== "undefined" && selection !== null) {
+    // If a diagram view is open, selection may contain visual objects — walk up to the view
+    view = selection.filter("archimate-diagram-model").first();
+
+    if (!view) {
+        view = selection.filter("sketch-model").first();
+    }
+    if (!view) {
+        view = selection.filter("canvas-model").first();
+    }
+
+    // If still no view, check if a visual object is selected and get its view
+    if (!view && selection.size() > 0) {
+        var firstObj = selection.first();
+        if (firstObj && firstObj.view) {
+            view = firstObj.view;
+        }
+    }
+}
+
+if (!view) {
+    window.alert("Please select a view in the Models Tree or open a diagram view.");
+    throw new Error("No view selected");
+}
+
+// ---------------------------------------------------------------------------
+// Prompt for output directory
+// ---------------------------------------------------------------------------
+var outputDir = window.promptSaveFile({
+    title: "Choose output folder (enter any filename — only the folder is used)",
+    filterExtensions: ["*.csv"],
+    fileName: view.name + ".csv"
+});
+
+if (!outputDir) {
+    throw new Error("Export cancelled");
+}
+
+// Extract directory from the full path
+var lastSlash = outputDir.lastIndexOf("/");
+if (lastSlash === -1) lastSlash = outputDir.lastIndexOf("\\");
+var dir = outputDir.substring(0, lastSlash);
+
+// Sanitise view name for use as a filename
+var safeName = view.name.replace(/[<>:\"\/\\|?*]/g, "_");
+
+var csvPath = dir + "/" + safeName + ".csv";
+var pngPath = dir + "/" + safeName + ".png";
+
+// ---------------------------------------------------------------------------
+// Helper: escape a value for CSV
+// ---------------------------------------------------------------------------
+function csvEscape(value) {
+    if (value === null || value === undefined) return "";
+    var s = String(value);
+    if (s.indexOf(CSV_SEPARATOR) > -1 || s.indexOf('"') > -1 || s.indexOf("\n") > -1) {
+        return '"' + s.replace(/"/g, '""') + '"';
+    }
+    return s;
+}
+
+// ---------------------------------------------------------------------------
+// Collect elements from the view
+// ---------------------------------------------------------------------------
+var csv = "Category" + CSV_SEPARATOR
+        + "Name" + CSV_SEPARATOR
+        + "ArchiMate Type" + CSV_SEPARATOR
+        + "Source" + CSV_SEPARATOR
+        + "Target" + CSV_SEPARATOR
+        + "Documentation" + CSV_SEPARATOR
+        + "ID\n";
+
+// Track IDs so we don't duplicate elements that appear more than once in a view
+var seenElements = {};
+var seenRelationships = {};
+
+// Elements
+$(view).find("element").each(function(visualObj) {
+    var concept = visualObj.concept;
+    if (!concept) return;  // skip non-concept visual objects (e.g. notes, groups)
+
+    // Deduplicate: same concept can appear in multiple visual instances
+    if (seenElements[concept.id]) return;
+    seenElements[concept.id] = true;
+
+    csv += csvEscape("Element") + CSV_SEPARATOR
+         + csvEscape(concept.name) + CSV_SEPARATOR
+         + csvEscape(concept.type) + CSV_SEPARATOR
+         + CSV_SEPARATOR   // Source (empty for elements)
+         + CSV_SEPARATOR   // Target (empty for elements)
+         + csvEscape(concept.documentation) + CSV_SEPARATOR
+         + csvEscape(concept.id) + "\n";
+});
+
+// Relationships
+$(view).find("relationship").each(function(visualObj) {
+    var concept = visualObj.concept;
+    if (!concept) return;
+
+    if (seenRelationships[concept.id]) return;
+    seenRelationships[concept.id] = true;
+
+    var sourceName = concept.source ? concept.source.name : "";
+    var targetName = concept.target ? concept.target.name : "";
+
+    csv += csvEscape("Relationship") + CSV_SEPARATOR
+         + csvEscape(concept.name) + CSV_SEPARATOR
+         + csvEscape(concept.type) + CSV_SEPARATOR
+         + csvEscape(sourceName) + CSV_SEPARATOR
+         + csvEscape(targetName) + CSV_SEPARATOR
+         + csvEscape(concept.documentation) + CSV_SEPARATOR
+         + csvEscape(concept.id) + "\n";
+});
+
+// ---------------------------------------------------------------------------
+// Write CSV
+// ---------------------------------------------------------------------------
+$.fs.writeFile(csvPath, csv);
+
+// ---------------------------------------------------------------------------
+// Export PNG
+// ---------------------------------------------------------------------------
+$.model.renderViewToFile(view, pngPath, "PNG", {
+    scale: IMAGE_SCALE,
+    margin: IMAGE_MARGIN
+});
+
+// ---------------------------------------------------------------------------
+// Summary
+// ---------------------------------------------------------------------------
+var elementCount = Object.keys(seenElements).length;
+var relationshipCount = Object.keys(seenRelationships).length;
+
+window.alert(
+    "Exported: " + view.name + "\n\n"
+    + "Elements: " + elementCount + "\n"
+    + "Relationships: " + relationshipCount + "\n\n"
+    + "CSV: " + csvPath + "\n"
+    + "PNG: " + pngPath
+);

@@ -1,0 +1,3 @@
+In dimensional modelling, dimensions are the descriptive attributes that provide context for facts - the who, what, where, when, and why. Customer name, product category, store location, transaction date. Dimensions live in dimension tables and let you slice and dice facts in meaningful ways.
+
+Without dimensions, facts are just numbers floating in space. "Revenue was $1M" is less useful than "Revenue was $1M for premium customers in the Pacific region during Q3." Dimensions provide the context that transforms data into insight.

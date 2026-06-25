@@ -1,0 +1,1 @@
+An application of record is where that data was originally captured.

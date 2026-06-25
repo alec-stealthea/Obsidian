@@ -1,0 +1,60 @@
+/* ============================================
+   Lightbox — full-screen image viewer
+   Adds magnifying-glass cursor on hover and
+   expands images into a dark overlay on click.
+   ============================================ */
+
+/* Magnifying-glass cursor on all content images */
+.markdown-rendered img {
+  cursor: zoom-in;
+  transition: opacity 0.15s ease;
+}
+
+.markdown-rendered img:hover {
+  opacity: 0.85;
+}
+
+/* Overlay backdrop */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.88);
+  cursor: zoom-out;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.lightbox-overlay.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Expanded image */
+.lightbox-overlay img {
+  max-width: 92vw;
+  max-height: 92vh;
+  border-radius: 4px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+  transform: scale(0.92);
+  transition: transform 0.25s ease;
+}
+
+.lightbox-overlay.is-visible img {
+  transform: scale(1);
+}
+
+/* Close hint (top-right) */
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+  font-family: system-ui, sans-serif;
+  pointer-events: none;
+}

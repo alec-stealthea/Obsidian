@@ -1,0 +1,76 @@
+---
+tags:
+  - claude-context
+type: Context File
+title: CLAUDE-OMRA
+scope: Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting Application (OMRA)
+parent: "[[CLAUDE-PCA]]"
+last-updated: 2026-06-17
+timestamp: 2026-06-17T00:00:00Z
+---
+# CLAUDE-OMRA.md — Outbreak Management Reporting Application Context
+
+> **Purpose**: Context for the design-and-build work on OMRA, the custom Outbreak Management Reporting Application for the Communicable Disease Solution. This folder holds the data model, the prototype wireframe deck, and the per-screen build specifications.
+
+---
+
+## What OMRA Is
+
+OMRA is a **custom-built application** that coordinates outbreak investigations, facility line lists, and aggregate/AORF reporting for Alberta's communicable disease program. It **replaces REDCap** (line list and aggregate reporting) and carries forward the data-stewardship functions of the legacy **CD/OM (CDOM)** application.
+
+**Naming caveat**: the application was renamed to *OMRA*, but the wireframe deck and screen titles still read **AOMS** (Alberta Outbreak Management System / Solution). Treat AOMS and OMRA as the same system; prefer OMRA in new authored content.
+
+**Lifecycle stage**: as of March 2026 the work is moving from **Design to Build** (deck slides 2 and 19). The wireframes are deliberately "just enough design" to start iterative build, not final UX.
+
+## Data Ownership Boundaries (from the ERD)
+
+These decisions are settled in [[OMRA Database ERD]] and govern any design discussion:
+
+- **Epic / Connect Care is the system of record for individual cases.** OMRA manages outbreak coordination, line lists, and reporting; the **Data Lakehouse** provides analytics and cluster detection (`ClusterAlert`).
+- One outbreak is recorded **per facility**, linked across sites via `clusterOutbreak` (the term *parentOutbreak* was retired).
+- **Client Registry (EMPI)** is used for PHN/ULI validation with full transaction tracking.
+- `OutbreakID` is expected to eventually serve as the **EI (Exposure Incident) number** (deferred decision).
+
+## Screen Specification Format
+
+Every screen spec in `OMRA Screen Specifications/` follows a common structure — match it when authoring new ones. The worked reference is [[Create Outbreak Investigation Screen Specifications]]:
+
+1. **Design Specification Context** — links to the source user stories and related screens.
+2. **Wireframe** — link to the deck slide plus a description of the layout.
+3. **Acceptance Criteria Specifications** — seven numbered sections: Scenario Conditions, Functional Behaviour, User Experience Considerations, Data Inputs and Outputs, Business Rules and Validation, Exception Handling, Business Semantics.
+4. **Field-mapping table** — columns: *Screen Field · Data Type · Database Field · Data Standard · Default Value · Mandatory? · Comments*. Map every field to an [[OMRA Database ERD]] table/column; flag gaps inline rather than inventing fields.
+5. **Technical Implementation Notes** — Access, Security, Performance.
+6. **Version History** — Last Update (author/date/comments), Jira link, Specifications Status, Linked SBARs, Linked Enabling Stories.
+
+## Access Model
+
+OMRA uses a **two-layer access model**: one **functional role** per user (RBAC — the verbs) plus **scoping attributes** (ABAC — team, zone, disease group, professional designation). The six functional roles and the attribute dimensions are fully specified in [[User Maintenance Screen Specifications]] — reference it rather than restating. Key rule for spec work: **dictionary/dimension maintenance** (Disease, Location/Facility, Organism, Vaccine, Diagnostic Test) is restricted to the **Business System Manager** role and is distinct from an investigator's in-case **provisional add**. `CDOM User Roles.pdf` is the current-state reference the model maps from.
+
+## Disease Reference Model (resolved in ERD v2.1)
+
+Four gaps surfaced while writing [[Communicable Disease Maintenance Screen Specifications]] are now closed in [[OMRA Database ERD]] v2.1 — use these tables/fields rather than re-proposing them:
+
+- **Associated Vaccine** → `Vaccine` + `DiseaseVaccine` (codes align to the Provincial Vaccine Depot / Connect Care Willow catalogue). `InfectiousDisease.vaccinePreventable` remains only as a quick flag.
+- **Lab Procedures** → `DiagnosticTest` + `DiseaseTest` (LOINC/provincial codes; `organismID` for organism-specific tests).
+- **Episode Conditions** (Confirmed/Probable) → `DiseaseCaseDefinitionRule`, tiered by `caseClassificationID`, with rule name, condition, AND/OR logic, sequence, effective dating, and comments. Supersedes free-text `OutbreakDefinition.caseDefinitionText`.
+- **Setting-specific thresholds** → `OutbreakDefinition` fields `minConfirmedCaseCount`, `minProbableCaseCount`, `absenteeismThresholdPct`, `closureCriteriaText` (school-absenteeism %, congregate-care counts, etc.), scoped per disease + setting + type.
+
+## Folder Structure
+
+```
+Outbreak Management Reporting Application (OMRA)/
+├── Alberta Outbreak Management Reporting Application (OMRA) Design.pptx  ← 21-slide prototype deck (wireframes + closing SBAR)
+├── OMRA Database ERD.md                ← v2.2 DBML-style ERD (the authoritative data model)
+├── CDOM User Roles.pdf                 ← current-state CD/OM role reference
+└── OMRA Screen Specifications/
+    ├── Create Outbreak Investigation Screen Specifications.md   ← format reference
+    ├── Communicable Disease Maintenance Screen Specifications.md
+    └── User Maintenance Screen Specifications.md               ← RBAC/ABAC access specification (canonical access-model reference)
+```
+
+The deck's wireframe slides each correspond (or will correspond) to a screen spec: User Maintenance (s6), Location/Facility Maintenance (s7), Disease Maintenance (s8), Create Outbreak (s11), Investigation Details (s12), Case Load (s13), Tasks (s14), Questionnaires (s15–17), Case Counts (s18).
+
+---
+
+_Last Updated_: 2026-06-17
+_Version_: 1.2

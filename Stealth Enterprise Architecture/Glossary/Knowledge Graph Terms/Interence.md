@@ -1,0 +1,6 @@
+---
+aliases:
+  - infer
+  - entail
+  - entailment
+---

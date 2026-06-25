@@ -1,0 +1,318 @@
+{
+  "requestId": "5c5b7464-f29e-54c6-8e28-47115c31d593",
+  "status": "completed",
+  "releaseId": "REL-2026-004403",
+  "disclosureLogRef": "HSS-DL-2026-004403",
+  "patient": {
+    "id": "Z32030",
+    "mrn": 1000360691,
+    "phn": 900360691,
+    "familyName": "Sharpie",
+    "firstName": "Kinder",
+    "birthDate": "1982-09-29"
+  },
+  "summaryPeriod": {
+    "startDate": "2023-01-14",
+    "endDate": "2026-01-14"
+  },
+  "encounterSummary": {
+    "totalEncounters": 15,
+    "ehsIncidents": [
+      {
+        "incidentId": "EHS-2025-118734",
+        "incidentDateTime": "2025-12-18T09:12:00",
+        "destinationFacility": "EDM WMC University of Alberta Hospital",
+        "emergencyCSN": "403020498845",
+        "complaint": "Decreased level of consciousness",
+        "complaintType": "Primary",
+        "mentalHealthSymptom": null,
+        "medicalSurgicalHistory": [
+          "Opioid use disorder",
+          "Hepatitis C"
+        ],
+        "carePlanImpressions": [
+          {
+            "item": "Opioid toxicity / overdose",
+            "details": "Pinpoint pupils, RR 6, GCS 8 on arrival; responsive to naloxone"
+          }
+        ],
+        "procedures": [
+          "Naloxone 4 mg intranasal",
+          "Bag-valve-mask ventilation",
+          "IV access — 18 ga left AC",
+          "Oxygen therapy 15 L NRB"
+        ],
+        "alerts": [
+          "Form 10"
+        ],
+        "currentMedications": [
+          "Methadone 80 mg daily (reported)"
+        ],
+        "causeOfInjury": "Poisoning by drug",
+        "intentOfInjury": "Undetermined",
+        "alcoholDrugUseIndicators": "Drug paraphernalia on scene; bystander reports suspected fentanyl use",
+        "barriersToPatientCare": "Patient combative on rousal post-naloxone",
+        "disposition": "Transported to ED"
+      },
+      {
+        "incidentId": "EHS-2025-118512",
+        "incidentDateTime": "2025-12-17T15:08:00",
+        "destinationFacility": "STA Sturgeon Community Hospital",
+        "emergencyCSN": "403020498778",
+        "complaint": "Suicidal ideation",
+        "complaintType": "Primary",
+        "mentalHealthSymptom": "Suicidal ideation with stated plan",
+        "medicalSurgicalHistory": [
+          "Major depressive disorder",
+          "Previous intentional overdose (2024)"
+        ],
+        "carePlanImpressions": [
+          {
+            "item": "Behavioural / psychiatric emergency",
+            "details": "Patient expresses active SI with plan; no injury identified on assessment"
+          }
+        ],
+        "procedures": [
+          "Patient assessment",
+          "Continuous observation during transport"
+        ],
+        "alerts": [
+          "Form 10"
+        ],
+        "currentMedications": [
+          "Sertraline 100 mg daily"
+        ],
+        "causeOfInjury": null,
+        "intentOfInjury": null,
+        "alcoholDrugUseIndicators": "Patient reports consuming 6-8 alcoholic drinks earlier today",
+        "barriersToPatientCare": "Patient initially refused transport; agreed after family intervention",
+        "disposition": "Transported to ED"
+      },
+      {
+        "incidentId": "EHS-2025-118390",
+        "incidentDateTime": "2025-12-16T12:38:00",
+        "destinationFacility": "BAN Mineral Springs Hospital",
+        "emergencyCSN": "403020498617",
+        "complaint": "Bizarre behaviour / acute agitation",
+        "complaintType": "Primary",
+        "mentalHealthSymptom": "Acute psychosis — disorganized thought, paranoia, reported 4 days without sleep",
+        "medicalSurgicalHistory": [
+          "Stimulant use disorder"
+        ],
+        "carePlanImpressions": [
+          {
+            "item": "Substance-induced psychosis",
+            "details": "Hypervigilant, tachycardic (HR 128), diaphoretic; reports methamphetamine use this morning"
+          }
+        ],
+        "procedures": [
+          "Patient assessment",
+          "Verbal de-escalation",
+          "IV access — 20 ga right hand"
+        ],
+        "alerts": [
+          "Form 1"
+        ],
+        "currentMedications": [],
+        "causeOfInjury": null,
+        "intentOfInjury": null,
+        "alcoholDrugUseIndicators": "Patient admits methamphetamine use; pipe located by RCMP on scene",
+        "barriersToPatientCare": "RCMP assistance required to approach patient safely",
+        "disposition": "Transported to ED"
+      },
+      {
+        "incidentId": "EHS-2025-118366",
+        "incidentDateTime": "2025-12-16T11:04:00",
+        "destinationFacility": "WET Wetaskiwin Hospital and Care Centre",
+        "emergencyCSN": "403020498591",
+        "complaint": "Abdominal pain",
+        "complaintType": "Primary",
+        "mentalHealthSymptom": "Anxiety",
+        "medicalSurgicalHistory": [
+          "Alcohol use disorder",
+          "Pancreatitis (2023)"
+        ],
+        "carePlanImpressions": [
+          {
+            "item": "Abdominal pain — suspected pancreatitis",
+            "details": "Epigastric pain 8/10 radiating to back; last alcohol intake reported this morning"
+          }
+        ],
+        "procedures": [
+          "IV access — 18 ga right AC",
+          "Normal saline 500 mL bolus",
+          "Pain assessment"
+        ],
+        "alerts": [],
+        "currentMedications": [
+          "Pantoprazole 40 mg daily"
+        ],
+        "causeOfInjury": null,
+        "intentOfInjury": null,
+        "alcoholDrugUseIndicators": "ETOH odour noted; patient reports daily alcohol use (~12 standard drinks/day)",
+        "barriersToPatientCare": null,
+        "disposition": "Transported to ED"
+      }
+    ],
+    "edVisits": [
+      {
+        "encounterId": "403020498983",
+        "encounterType": "ED",
+        "facility": "RED Red Deer Regional Hospital Centre",
+        "department": "RED RDHC EMERGENCY",
+        "arrivalDateTime": "2025-12-19T09:54:00",
+        "arrivalMethod": "No Ambulance",
+        "departureDateTime": null,
+        "chiefComplaint": "AHS ED ABDOMINAL PAIN 251",
+        "ctasLevel": 3,
+        "diagnoses": [],
+        "disposition": null,
+        "mentalHealthActOrder": false
+      },
+      {
+        "encounterId": "403020498957",
+        "encounterType": "ED",
+        "facility": "EDM Misericordia Community Hospital",
+        "department": "EDM MCH EMERGENCY",
+        "arrivalDateTime": "2025-12-18T15:21:00",
+        "arrivalMethod": null,
+        "departureDateTime": null,
+        "chiefComplaint": null,
+        "ctasLevel": null,
+        "diagnoses": [],
+        "disposition": null,
+        "mentalHealthActOrder": false
+      },
+      {
+        "encounterId": "403020498916",
+        "encounterType": "ED",
+        "facility": "STA Sturgeon Community Hospital",
+        "department": "STA SCH EMERGENCY",
+        "arrivalDateTime": "2025-12-18T13:29:00",
+        "arrivalMethod": null,
+        "departureDateTime": null,
+        "chiefComplaint": "AHS ED ABDOMINAL PAIN 251",
+        "ctasLevel": 4,
+        "diagnoses": [],
+        "disposition": null,
+        "mentalHealthActOrder": false
+      },
+      {
+        "encounterId": "403020498845",
+        "encounterType": "ED",
+        "facility": "EDM WMC University of Alberta Hospital",
+        "department": "EDM UAH WMC EMERGENCY",
+        "arrivalDateTime": "2025-12-18T09:53:51",
+        "arrivalMethod": "Ground Ambulance",
+        "departureDateTime": null,
+        "chiefComplaint": null,
+        "ctasLevel": null,
+        "diagnoses": [],
+        "disposition": null,
+        "mentalHealthActOrder": false
+      },
+      {
+        "encounterId": "403020498778",
+        "encounterType": "ED",
+        "facility": "STA Sturgeon Community Hospital",
+        "department": "STA SCH EMERGENCY",
+        "arrivalDateTime": "2025-12-17T15:57:00",
+        "arrivalMethod": null,
+        "departureDateTime": null,
+        "chiefComplaint": null,
+        "ctasLevel": null,
+        "diagnoses": [],
+        "disposition": null,
+        "mentalHealthActOrder": false
+      },
+      {
+        "encounterId": "403020498777",
+        "encounterType": "ED",
+        "facility": "WET Wetaskiwin Hospital and Care Centre",
+        "department": "WET WHCC EMERGENCY",
+        "arrivalDateTime": "2025-12-17T15:55:00",
+        "arrivalMethod": null,
+        "departureDateTime": null,
+        "chiefComplaint": null,
+        "ctasLevel": null,
+        "diagnoses": [],
+        "disposition": null,
+        "mentalHealthActOrder": false
+      },
+      {
+        "encounterId": "403020498741",
+        "encounterType": "ED",
+        "facility": "EDM WMC University of Alberta Hospital",
+        "department": "EDM UAH WMC EMERGENCY",
+        "arrivalDateTime": "2025-12-17T11:56:00",
+        "arrivalMethod": "No Ambulance",
+        "departureDateTime": null,
+        "chiefComplaint": null,
+        "ctasLevel": null,
+        "diagnoses": [],
+        "disposition": null,
+        "mentalHealthActOrder": false
+      },
+      {
+        "encounterId": "403020498729",
+        "encounterType": "ED",
+        "facility": "EDM WMC University of Alberta Hospital",
+        "department": "EDM UAH WMC EMERGENCY",
+        "arrivalDateTime": "2025-12-17T11:15:00",
+        "arrivalMethod": "No Ambulance",
+        "departureDateTime": null,
+        "chiefComplaint": null,
+        "ctasLevel": null,
+        "diagnoses": [],
+        "disposition": "Discharged",
+        "mentalHealthActOrder": false
+      },
+      {
+        "encounterId": "403020498617",
+        "encounterType": "ED",
+        "facility": "BAN Mineral Springs Hospital",
+        "department": "BAN MSH EMERGENCY",
+        "arrivalDateTime": "2025-12-16T13:25:00",
+        "arrivalMethod": null,
+        "departureDateTime": null,
+        "chiefComplaint": "AHS ED INSOMNIA 354",
+        "ctasLevel": 2,
+        "diagnoses": [],
+        "disposition": null,
+        "mentalHealthActOrder": false
+      },
+      {
+        "encounterId": "403020498609",
+        "encounterType": "ED",
+        "facility": "EDM WMC University of Alberta Hospital",
+        "department": "EDM UAH WMC EMERGENCY",
+        "arrivalDateTime": "2025-12-16T12:59:00",
+        "arrivalMethod": "No Ambulance",
+        "departureDateTime": null,
+        "chiefComplaint": "AHS ED ABDOMINAL PAIN 251",
+        "ctasLevel": null,
+        "diagnoses": [],
+        "disposition": null,
+        "mentalHealthActOrder": false
+      },
+      {
+        "encounterId": "403020498591",
+        "encounterType": "ED",
+        "facility": "WET Wetaskiwin Hospital and Care Centre",
+        "department": "WET WHCC EMERGENCY",
+        "arrivalDateTime": "2025-12-16T11:46:00",
+        "arrivalMethod": null,
+        "departureDateTime": null,
+        "chiefComplaint": "AHS ED ABDOMINAL PAIN 251",
+        "ctasLevel": null,
+        "diagnoses": [],
+        "disposition": null,
+        "mentalHealthActOrder": false
+      }
+    ],
+    "inpatientEpisodes": [],
+    "ambulatoryVisits": [],
+    "communityTreatmentOrders": [],
+    "currentDiagnoses": []
+  }
+}

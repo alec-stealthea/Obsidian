@@ -1,0 +1,31 @@
+
+- 2024
+	- Attributes
+		- Zachary moves out with friends
+		- End of AHS Connect Care Program
+	- Risks
+		- Possible engagement with Haley
+	- Goals
+		- Re-establish personal social network
+		- Have one short term consulting gig
+		- Get one additional non-profit opportunity
+- 2025
+	- Attributes
+		- All kids off the payroll
+		- I turn 60
+	- Risks
+		- Possible wedding
+	- Goals
+		- Establish more solid consulting side hustle
+		- One bucket list trip
+		- Have established a business architecture community of practice at AHS
+- 2026
+	- Attributes
+		- 35th wedding anniversary
+		- 5 years to retirement
+	- Risks
+		- Possible more family expansion with significant others
+	- Goals
+		- Another bucket list trip
+		- Establish a potential retirement part time business
+		- downsize house?

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Willow Inventory Provincial Vaccine - Application Context" id="model-willow-inv" version="5.0.0">
+  <purpose>Application Context Model for Willow Inventory (Epic) within the Provincial Vaccine Depot. Author: Alec - Stealth EA. Last edited: 2026-06-12.</purpose>
+  <folder name="Strategy" id="folder-strategy" type="strategy"/>
+  <folder name="Business" id="folder-business" type="business">
+    <element xsi:type="archimate:BusinessRole" name="Depot / Inventory Pharmacist" id="role_pharm" documentation="**Primary operator** of Willow Inventory at the Provincial Vaccine Depot. Works the full inventory lifecycle day-to-day — receiving shipments, put-away, stock control and cycle counts, allocation to sites, and recording wastage and adjustments. Modelled as a *role* rather than a named individual so the view stays stable as staff change."/>
+    <element xsi:type="archimate:BusinessRole" name="Inventory / Supply Analyst" id="role_analyst" documentation="**Analytic consumer** of inventory data. Uses Willow&#8217;s operational reports for day-to-day questions and the *Snowflake Analytics Repository* for self-serve analysis, demand forecasting and seasonal planning. Does not transact in Willow; depends on the ETL pipeline being current."/>
+    <element xsi:type="archimate:Stakeholder" name="Community &amp; Hospital Pharmacies" id="stk_pharmacies" documentation="External pharmacy organizations — community and hospital — that hold and dispense vaccine. They operate interface-capable **Pharmacy Information Systems** whose stock and dispense activity reaches Willow through IBM ACE. Directly affected by any change to the PIS interface."/>
+    <element xsi:type="archimate:Stakeholder" name="Vaccine Distributor / Supply Chain" id="stk_distributor" documentation="Distribution / supply-chain partner that fulfils depot purchase orders for products ordered **through distribution**. Receives X12 850 POs (transformed by ACE) and returns 855 acknowledgements, 856 ASNs and 810 invoices. Its EDI trading-partner configuration is distinct from the manufacturers&#8217;."/>
+    <element xsi:type="archimate:Stakeholder" name="Vaccine Manufacturer" id="stk_manufacturer" documentation="Manufacturer from which the depot orders **direct** rather than through distribution. Receives purchase orders via ACE in its required EDI/API format and returns 855/856/810 documents. Distinguished from the distributor because products, contracts and trading-partner setup differ."/>
+    <element xsi:type="archimate:Stakeholder" name="Physician &amp; Pharmacy Sites (no interface capability)" id="stk_sites" documentation="Sites whose information systems cannot support a true interface. They participate through the custom **Pharmacy &amp; Physician Inventory Portal**, submitting manual counts and orders and viewing depot stock. The portal is the governed alternative to swivel-chair transcription for this group."/>
+  </folder>
+  <folder name="Application" id="folder-application" type="application">
+    <element xsi:type="archimate:ApplicationComponent" name="Willow Inventory (Epic)" id="app_willow" documentation="**(G)** The governed application of record for Provincial Vaccine Depot inventory — the Application Catalogue entry this model contextualizes. Composed of six functions (procurement through reporting) over the *Vaccine Inventory Record*. Always the **buyer** in this model: per the Epic X12 interface specification it natively generates outbound 850 purchase orders and consumes inbound 855, 856, 810 and 832 documents."/>
+    <element xsi:type="archimate:ApplicationFunction" name="Procurement &amp; Purchase Ordering" id="fn_procure" documentation="Generates purchase orders (**X12 850**) to manufacturers and distributors, driven by par levels and reorder points, and processes inbound **855** PO acknowledgements, **856** ASNs, **810** invoices and **832** price/catalogue updates. The PO originates here — in Willow, not in ACE."/>
+    <element xsi:type="archimate:ApplicationFunction" name="Receiving &amp; Put-Away" id="fn_receive" documentation="Receives inbound vaccine shipments against expected POs and ASNs and puts stock away to locations, capturing **lot and expiry at the door**. The point where physical product becomes inventory record."/>
+    <element xsi:type="archimate:ApplicationFunction" name="Stock Management &amp; Cycle Counts" id="fn_stock" documentation="Maintains on-hand balances, **lot/expiry tracking** and **cold-chain status**, and supports cycle counting to keep the *Vaccine Inventory Record* true to what is actually on the shelf."/>
+    <element xsi:type="archimate:ApplicationFunction" name="Allocation &amp; Distribution" id="fn_alloc" documentation="Allocates available vaccine and records distribution from the depot out to depots, clinics and sites — the **outbound half** of the inventory lifecycle."/>
+    <element xsi:type="archimate:ApplicationFunction" name="Wastage &amp; Adjustments" id="fn_waste" documentation="Records wastage (expiry, cold-chain excursions, breakage), returns and inventory adjustments — preserving an **auditable account** of every dose that does not reach an arm."/>
+    <element xsi:type="archimate:ApplicationFunction" name="Inventory Reporting &amp; Dashboards" id="fn_report" documentation="Operational reporting and dashboards over **live inventory data** within Willow. Serves day-to-day operational questions; deeper analytics and forecasting belong downstream in Snowflake."/>
+    <element xsi:type="archimate:DataObject" name="Vaccine Inventory Record" id="do_inv" documentation="The Willow inventory data store: on-hand quantities, lot, expiry, location and transaction history. **Single source of truth** for depot inventory — read and written by the application functions and extracted to Snowflake for analytics."/>
+    <element xsi:type="archimate:ApplicationComponent" name="Pharmacy &amp; Physician Inventory Portal" id="app_portal" documentation="**Custom-developed** complement to Epic. Gives sites without interface-capable systems a governed entry point for manual counts and orders, returns depot stock visibility, and surfaces Snowflake reporting datasets. The deliberate replacement for uncontrolled screen-to-screen transcription."/>
+    <element xsi:type="archimate:ApplicationComponent" name="IBM App Connect Enterprise (ACE)" id="app_ace" documentation="The **integration engine** mediating all external interfaces. All translation and transformation logic (HL7, EDI, API) lives here, so external format changes are absorbed in one place rather than in Epic. Routes Willow&#8217;s 850 POs outbound; routes supplier 855/856/810 documents and PIS stock/dispense messages inbound."/>
+    <element xsi:type="archimate:ApplicationComponent" name="Snowflake Analytics Repository" id="app_snow" documentation="Cloud analytics repository fed by **ETL (Clarity/Caboodle)** from Willow. Separates analytic workloads from the operational Epic system; serves the curated *Inventory Analytics Dataset* to the portal and self-serve analytics to the Inventory / Supply Analyst."/>
+    <element xsi:type="archimate:DataObject" name="Inventory Analytics Dataset" id="do_analytics" documentation="Curated analytic **data product** served from Snowflake — inventory positions, consumption history and forecasts. Consumed by the portal&#8217;s reporting views and by analyst self-serve tools."/>
+    <element xsi:type="archimate:ApplicationComponent" name="Pharmacy Information System (PIS)" id="app_pis" documentation="External, interface-capable pharmacy information system operated by community and hospital pharmacies. Sends **stock/dispense messages (HL7/API)** into ACE, which transforms and delivers inventory updates and receipts to Willow. Represents a *class* of systems rather than a single product."/>
+    <element xsi:type="archimate:ApplicationComponent" name="Vaccine Distribution System" id="app_dist" documentation="The distributor&#8217;s order-management / warehouse system. Receives depot purchase orders (**EDI/API via ACE**) and returns 855 acknowledgements, 856 ASNs and 810 invoices through the same channel."/>
+    <element xsi:type="archimate:ApplicationComponent" name="Manufacturer Order Management System" id="app_mfr" documentation="The manufacturer&#8217;s order-management system for **direct orders**. Receives POs in the manufacturer&#8217;s required EDI/API format via ACE and returns 855/856/810 documents. Trading-partner configuration differs from the distributor&#8217;s."/>
+  </folder>
+  <folder name="Technology &amp; Physical" id="folder-technology" type="technology"/>
+  <folder name="Motivation" id="folder-motivation" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="folder-implementation_migration" type="implementation_migration"/>
+  <folder name="Other" id="folder-other" type="other"/>
+  <folder name="Relations" id="folder-relations" type="relations">
+    <element xsi:type="archimate:CompositionRelationship" id="comp_fn_procure" source="app_willow" target="fn_procure"/>
+    <element xsi:type="archimate:CompositionRelationship" id="comp_fn_receive" source="app_willow" target="fn_receive"/>
+    <element xsi:type="archimate:CompositionRelationship" id="comp_fn_stock" source="app_willow" target="fn_stock"/>
+    <element xsi:type="archimate:CompositionRelationship" id="comp_fn_alloc" source="app_willow" target="fn_alloc"/>
+    <element xsi:type="archimate:CompositionRelationship" id="comp_fn_waste" source="app_willow" target="fn_waste"/>
+    <element xsi:type="archimate:CompositionRelationship" id="comp_fn_report" source="app_willow" target="fn_report"/>
+    <element xsi:type="archimate:CompositionRelationship" id="comp_do_inv" source="app_willow" target="do_inv"/>
+    <element xsi:type="archimate:CompositionRelationship" id="comp_snow_do" source="app_snow" target="do_analytics"/>
+    <element xsi:type="archimate:AccessRelationship" id="acc_report" source="fn_report" target="do_inv"/>
+    <element xsi:type="archimate:AccessRelationship" id="acc_stock" source="fn_stock" target="do_inv"/>
+    <element xsi:type="archimate:AccessRelationship" id="acc_procure" source="fn_procure" target="do_inv"/>
+    <element xsi:type="archimate:ServingRelationship" id="srv_willow_pharm" name="Operates" source="app_willow" target="role_pharm"/>
+    <element xsi:type="archimate:ServingRelationship" id="srv_willow_analyst" name="Operational reports" source="app_willow" target="role_analyst"/>
+    <element xsi:type="archimate:ServingRelationship" id="srv_snow_analyst" name="Self-serve analytics" source="app_snow" target="role_analyst"/>
+    <element xsi:type="archimate:FlowRelationship" id="flw_pis_ace" name="Stock / dispense (HL7/API)" source="app_pis" target="app_ace"/>
+    <element xsi:type="archimate:FlowRelationship" id="flw_ace_willow" name="Transformed updates &amp; receipts" source="app_ace" target="app_willow"/>
+    <element xsi:type="archimate:FlowRelationship" id="flw_willow_ace" name="Purchase orders (X12 850)" source="app_willow" target="app_ace"/>
+    <element xsi:type="archimate:FlowRelationship" id="flw_ace_dist" name="Purchase orders (EDI/API)" source="app_ace" target="app_dist"/>
+    <element xsi:type="archimate:FlowRelationship" id="flw_dist_ace" name="855 ack / 856 ASN / 810 invoice" source="app_dist" target="app_ace"/>
+    <element xsi:type="archimate:FlowRelationship" id="flw_ace_mfr" name="Purchase orders (EDI/API)" source="app_ace" target="app_mfr"/>
+    <element xsi:type="archimate:FlowRelationship" id="flw_mfr_ace" name="855 ack / 856 ASN / 810 invoice" source="app_mfr" target="app_ace"/>
+    <element xsi:type="archimate:FlowRelationship" id="flw_portal_willow" name="Manual counts &amp; orders" source="app_portal" target="app_willow"/>
+    <element xsi:type="archimate:FlowRelationship" id="flw_willow_portal" name="Stock visibility" source="app_willow" target="app_portal"/>
+    <element xsi:type="archimate:FlowRelationship" id="flw_willow_snow" name="ETL extract (Clarity/Caboodle)" source="app_willow" target="app_snow"/>
+    <element xsi:type="archimate:FlowRelationship" id="flw_snow_portal" name="Reporting datasets" source="app_snow" target="app_portal"/>
+    <element xsi:type="archimate:AssociationRelationship" id="asc_pharm_pis" name="Operates" source="stk_pharmacies" target="app_pis"/>
+    <element xsi:type="archimate:AssociationRelationship" id="asc_dist_sys" name="Operates" source="stk_distributor" target="app_dist"/>
+    <element xsi:type="archimate:AssociationRelationship" id="asc_mfr_sys" name="Operates" source="stk_manufacturer" target="app_mfr"/>
+    <element xsi:type="archimate:ServingRelationship" id="srv_portal_sites" name="Portal access" source="app_portal" target="stk_sites"/>
+  </folder>
+  <folder name="Views" id="folder-views" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Willow Inventory - Application Context" id="view-001">
+      <child xsi:type="archimate:Note" id="note-001" textContent="Willow Inventory Provincial Vaccine - Application Context Model\nAuthor: Alec - Stealth EA   |   Last edited: 2026-06-12\nSource: Stealth EA Application Context Model guidance" fillColor="#ffffb5">
+        <bounds x="10" y="10" width="500" height="60"/>
+      </child>
+      <child xsi:type="archimate:Group" id="grp_users" name="End Users" fillColor="#f4f4f4" fontColor="#5a5a5a">
+        <bounds x="10" y="90" width="215" height="565"/>
+      </child>
+      <child xsi:type="archimate:Group" id="grp_funcs" name="Application Functional Decomposition" fillColor="#f4f4f4" fontColor="#5a5a5a">
+        <bounds x="240" y="90" width="300" height="565"/>
+      </child>
+      <child xsi:type="archimate:Group" id="grp_exch" name="Information Exchanges  (IBM ACE)" fillColor="#f4f4f4" fontColor="#5a5a5a">
+        <bounds x="555" y="90" width="235" height="565"/>
+      </child>
+      <child xsi:type="archimate:Group" id="grp_stk" name="Stakeholder Applications &amp; Stakeholders" fillColor="#f4f4f4" fontColor="#5a5a5a">
+        <bounds x="805" y="90" width="370" height="565"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="n_role_pharm" archimateElement="role_pharm" targetConnections="conn-001">
+        <bounds x="30" y="180" width="175" height="60"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="n_role_analyst" archimateElement="role_analyst" targetConnections="conn-002 conn-003">
+        <bounds x="30" y="330" width="175" height="60"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="n_willow" archimateElement="app_willow" targetConnections="conn-005 conn-009">
+        <bounds x="255" y="150" width="270" height="485"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-001" name="Operates" source="n_willow" target="n_role_pharm" archimateRelationship="srv_willow_pharm"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-002" name="Operational reports" source="n_willow" target="n_role_analyst" archimateRelationship="srv_willow_analyst"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-006" name="Purchase orders (X12 850)" source="n_willow" target="n_ace" archimateRelationship="flw_willow_ace"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-010" name="Stock visibility" source="n_willow" target="n_portal" archimateRelationship="flw_willow_portal"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-011" name="ETL extract (Clarity/Caboodle)" source="n_willow" target="n_snow" archimateRelationship="flw_willow_snow"/>
+        <child xsi:type="archimate:DiagramObject" id="n_fn_procure" archimateElement="fn_procure">
+          <bounds x="15" y="45" width="240" height="48"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="n_fn_receive" archimateElement="fn_receive">
+          <bounds x="15" y="100" width="240" height="48"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="n_fn_stock" archimateElement="fn_stock">
+          <bounds x="15" y="155" width="240" height="48"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="n_fn_alloc" archimateElement="fn_alloc">
+          <bounds x="15" y="210" width="240" height="48"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="n_fn_waste" archimateElement="fn_waste">
+          <bounds x="15" y="265" width="240" height="48"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="n_fn_report" archimateElement="fn_report">
+          <bounds x="15" y="320" width="240" height="48"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="n_do_inv" archimateElement="do_inv">
+          <bounds x="15" y="385" width="240" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="n_portal" archimateElement="app_portal" targetConnections="conn-010 conn-012">
+        <bounds x="590" y="110" width="180" height="80"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-009" name="Manual counts &amp; orders" source="n_portal" target="n_willow" archimateRelationship="flw_portal_willow"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-015" name="Portal access" source="n_portal" target="n_stk_sites" archimateRelationship="srv_portal_sites"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="n_ace" archimateElement="app_ace" targetConnections="conn-004 conn-006 conn-008 conn-017">
+        <bounds x="590" y="250" width="180" height="90"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-005" name="Transformed updates &amp; receipts" source="n_ace" target="n_willow" archimateRelationship="flw_ace_willow"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-007" name="Purchase orders (EDI/API)" source="n_ace" target="n_dist" archimateRelationship="flw_ace_dist"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-016" name="Purchase orders (EDI/API)" source="n_ace" target="n_mfr" archimateRelationship="flw_ace_mfr"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="n_snow" archimateElement="app_snow" targetConnections="conn-011">
+        <bounds x="590" y="460" width="180" height="110"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-003" name="Self-serve analytics" source="n_snow" target="n_role_analyst" archimateRelationship="srv_snow_analyst"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-012" name="Reporting datasets" source="n_snow" target="n_portal" archimateRelationship="flw_snow_portal"/>
+        <child xsi:type="archimate:DiagramObject" id="n_do_analytics" archimateElement="do_analytics">
+          <bounds x="12" y="50" width="156" height="45"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="n_pis" archimateElement="app_pis" targetConnections="conn-013">
+        <bounds x="830" y="130" width="150" height="60"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-004" name="Stock / dispense (HL7/API)" source="n_pis" target="n_ace" archimateRelationship="flw_pis_ace"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="n_stk_pharmacies" archimateElement="stk_pharmacies">
+        <bounds x="1000" y="130" width="160" height="60"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-013" name="Operates" source="n_stk_pharmacies" target="n_pis" archimateRelationship="asc_pharm_pis"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="n_dist" archimateElement="app_dist" targetConnections="conn-007 conn-014">
+        <bounds x="830" y="270" width="150" height="60"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-008" name="855 ack / 856 ASN / 810 invoice" source="n_dist" target="n_ace" archimateRelationship="flw_dist_ace"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="n_stk_distributor" archimateElement="stk_distributor">
+        <bounds x="1000" y="270" width="160" height="60"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-014" name="Operates" source="n_stk_distributor" target="n_dist" archimateRelationship="asc_dist_sys"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="n_mfr" archimateElement="app_mfr" targetConnections="conn-016 conn-018">
+        <bounds x="830" y="370" width="150" height="60"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-017" name="855 ack / 856 ASN / 810 invoice" source="n_mfr" target="n_ace" archimateRelationship="flw_mfr_ace"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="n_stk_manufacturer" archimateElement="stk_manufacturer">
+        <bounds x="1000" y="370" width="160" height="60"/>
+        <sourceConnection xsi:type="archimate:Connection" id="conn-018" name="Operates" source="n_stk_manufacturer" target="n_mfr" archimateRelationship="asc_mfr_sys"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="n_stk_sites" archimateElement="stk_sites" targetConnections="conn-015">
+        <bounds x="1000" y="470" width="160" height="80"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>

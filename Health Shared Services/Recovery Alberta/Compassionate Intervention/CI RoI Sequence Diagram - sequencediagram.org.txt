@@ -1,0 +1,67 @@
+title Compassionate Intervention — Release of Information
+
+participant CMI Application as CMI
+participant Webhook Endpoint as WH
+participant IBM Integration\nEngine as HSS
+participant Akana\nAPI Gateway as AKA
+participant Epic ROI\nWeb Service API as ROI
+participant HIM ROI\nModule as HIM
+participant Epic Bridges as BRG
+participant Snowflake\nAnalytics Repository as SF
+
+note over CMI,HSS: Precondition: Patient identity resolved\n(PHN → Epic Patient ID via Patient Lookup Web Service #5454)
+
+note over CMI,HIM: 1. ROI Request Submission
+
+CMI->HSS: POST /roi-request\n(Epic patient ID, demographics,\nrequest type, statutory authority ref,\ncallback URL)
+HSS-->CMI: 202 Accepted (Request ID)
+
+note over HSS,HIM: 2. Create ROI Release Record in Epic HIM
+
+HSS->AKA: CreateRelease2 SOAP request\n(PatientRequested, Purpose,\nReleaseType, Facility,\nInformationStartDate/EndDate,\nRequesterName, Comments)
+AKA->ROI: Forward request\n(authenticated, rate-limited)
+ROI->HIM: Create release record
+HIM-->ROI: Release record created
+ROI-->AKA: CreateRelease2Response\n(ReleaseID, ErrorCodes)
+AKA-->HSS: CreateRelease2Response\n(ReleaseID, ErrorCodes)
+
+alt Automated Response (Statutory Authority — No Clinician Review)
+
+note over HSS: CreateRelease2 succeeded\n(ReleaseID returned, no errors).\nRelease record serves as audit trail.
+
+note over HSS,SF: 3a. Automated Data Retrieval
+
+HSS->SF: Query encounter summary\n(Patient ID, cross-CIS view,\n3-year lookback)
+SF-->HSS: Encounter summary resultset
+
+note over CMI,HSS: 4a. Deliver Automated Response
+
+HSS->HSS: Format payload,\nlog disclosure for audit
+HSS->WH: POST /webhook\n(JSON: encounter summary,\nReleaseID, disclosure log ref)
+WH-->HSS: 200 OK
+
+note over HSS,ROI: 5a. Update Release Record in Epic
+
+HSS->AKA: UpdateRelease2 SOAP request\n(ReleaseToUpdate: ReleaseID,\nReleaseStatus: Complete,\nFulfilledDate, NumberOfPages)
+AKA->ROI: Forward update request
+ROI-->AKA: UpdateRelease2Response\n(UpdateSuccessful: true)
+AKA-->HSS: UpdateRelease2Response
+
+else Clinician-Prepared Response (Human Review)
+
+HIM->HIM: Clinician reviews request,\nprepares and attaches\nresponse document
+
+note over BRG,HSS: 4b. Epic Pushes Document Outbound
+
+BRG->HSS: Outbound message\n(clinician response document,\nReleaseID)
+HSS-->BRG: Acknowledgement
+
+note over CMI,HSS: 5b. Deliver Clinician Response
+
+HSS->HSS: Package document,\nlog disclosure for audit
+HSS->WH: POST /webhook\n(JSON: clinician document,\nReleaseID, disclosure log ref)
+WH-->HSS: 200 OK
+
+end
+
+note over CMI,WH: 6. CMI processes ROI response

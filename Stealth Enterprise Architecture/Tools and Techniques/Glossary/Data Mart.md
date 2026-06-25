@@ -1,0 +1,3 @@
+A subset of an Enteprise data warehouse focused on a specific business domain. While a data warehouse serves the entire organization, a data mart serves a particular community of users with their specific analytical needs.
+
+Data marts typically use dimensional modelling (facts and dimensions) to organize data for fast querying and reporting. Think of it as a boutique shop versus a department store - smaller, focused, and optimized for specific customers.

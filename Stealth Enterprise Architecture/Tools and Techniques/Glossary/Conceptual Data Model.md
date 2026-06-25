@@ -1,0 +1,3 @@
+A conceptual data model is a high-level data model that represents the key business entities and relationships within a [[Stealth Enterprise Architecture/Enterprise Architecture/Business Architecture/Domain Architecture/Business Domain]], expressed in business terms rather than technical database structures. Unlike physical data models (which describe how data is stored), conceptual data models describe what data means to the business.
+
+Domain conceptual data models provide the shared vocabulary that bridges business stakeholders and technical teams. They're essential for ensuring that application designs and data warehouse dimensions actually reflect how the business thinks about its information.

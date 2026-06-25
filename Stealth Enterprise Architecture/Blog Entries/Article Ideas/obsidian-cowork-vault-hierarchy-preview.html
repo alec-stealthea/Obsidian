@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Obsidian + Claude Cowork — Vault Hierarchy</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js"></script>
+<style>
+  body { background: #0d1117; display: flex; justify-content: center; padding: 2rem; font-family: system-ui; }
+  .container { max-width: 1200px; width: 100%; }
+  h1 { color: #e6edf3; text-align: center; margin-bottom: 0.25rem; font-size: 1.5rem; }
+  p.subtitle { color: #8b949e; text-align: center; margin-bottom: 2rem; font-size: 0.95rem; }
+  .mermaid { background: #0d1117; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Obsidian + Claude Cowork — Generic Vault Hierarchy</h1>
+<p class="subtitle">Solid lines = folder structure &amp; CLAUDE.md inheritance &nbsp;|&nbsp; Dashed lines = cross-domain knowledge flows</p>
+<div class="mermaid">
+graph TD
+    %% ── Root ──
+    ROOT["🗄️ Obsidian Vault Root\nCLAUDE.md — global context,\nconventions, vault map"]
+
+    %% ── Life-Domain Folders ──
+    DJ["💼 Day Job\nCLAUDE.md — role, org context,\ndeliverable standards"]
+    SH["🚀 Side Hustle / Consulting\nCLAUDE.md — brand voice,\nmethodology, IP boundaries"]
+    VOL["🤝 Volunteer / Community\nCLAUDE.md — org mission,\ntone, stakeholders"]
+    PERS["📓 Personal / Reflective\nPrivate — journals,\ndaily reflections"]
+
+    ROOT --> DJ
+    ROOT --> SH
+    ROOT --> VOL
+    ROOT --> PERS
+
+    %% ── Cross-Cutting Resources ──
+    RES["📚 Research Library\nClippings, reading notes,\norganised by topic"]
+    GLOSS["📖 Glossary\nDomain terminology\n+ Virtual Linker plugin"]
+    SKILLS["⚙️ Claude Skills\nReusable AI workflows\nmanaged in one place"]
+    TEMPL["📝 Templates\nStructured inputs —\nmeetings, daily plans"]
+
+    ROOT --> RES
+    ROOT --> GLOSS
+    ROOT --> SKILLS
+    ROOT --> TEMPL
+
+    %% ── Day Job Sub-Domains ──
+    DJ1["Programme / Portfolio A\nCLAUDE.md — programme-\nspecific context"]
+    DJ2["Programme / Portfolio B\nCLAUDE.md — agency or\nteam-level context"]
+
+    DJ --> DJ1
+    DJ --> DJ2
+
+    %% ── Side Hustle Sub-Domains ──
+    SH_IP["Methodology & IP\nArticles, case studies,\nframeworks, style guide"]
+    SH_BIZ["Business Operations\nCLAUDE.md — contracts,\nfinancials, clients"]
+    SH_BLOG["Content Pipeline\nCLAUDE.md — editorial\nworkflow & publishing"]
+
+    SH --> SH_IP
+    SH --> SH_BIZ
+    SH --> SH_BLOG
+
+    %% ── Volunteer Sub-Domains ──
+    VOL_GOV["Governance / Board\nStrategy, planning,\nmeeting notes"]
+    VOL_MKT["Marketing\nCLAUDE.md — campaigns,\nbrand toolkit, goals"]
+
+    VOL --> VOL_GOV
+    VOL --> VOL_MKT
+
+    %% ── Marketing Seasons / Projects ──
+    VOL_S1["Season / Project\nCLAUDE.md — dates,\nvenues, themes"]
+    VOL_EVT["Event / Show\nCLAUDE.md — event-\nspecific details"]
+
+    VOL_MKT --> VOL_S1
+    VOL_S1 --> VOL_EVT
+
+    %% ── Publication Pipeline ──
+    PUB_DRAFT["✍️ Draft in Obsidian"]
+    PUB_SKILL["⚙️ Publish Skill"]
+    PUB_SUB["📰 Substack Article"]
+    PUB_LI_P["👤 Personal LinkedIn"]
+    PUB_LI_C["🏢 Company LinkedIn"]
+
+    SH_BLOG --> PUB_DRAFT
+    PUB_DRAFT --> PUB_SKILL
+    PUB_SKILL --> PUB_SUB
+    PUB_SKILL --> PUB_LI_P
+    PUB_SKILL --> PUB_LI_C
+
+    %% ── Cross-Domain Feeds ──
+    RES -.->|"feeds ideas"| SH_BLOG
+    RES -.->|"informs work"| DJ
+    GLOSS -.->|"auto-links terms"| DJ
+    GLOSS -.->|"auto-links terms"| SH_IP
+    TEMPL -.->|"structured inputs"| DJ
+    TEMPL -.->|"structured inputs"| VOL
+
+    %% ── Styling ──
+    classDef root fill:#1a1a2e,stroke:#e94560,color:#fff,stroke-width:3px
+    classDef domain fill:#16213e,stroke:#0f3460,color:#fff,stroke-width:2px
+    classDef subdomain fill:#0f3460,stroke:#533483,color:#fff
+    classDef crosscut fill:#533483,stroke:#e94560,color:#fff,stroke-width:2px,stroke-dasharray:5
+    classDef pipeline fill:#2d4059,stroke:#e94560,color:#fff
+    classDef output fill:#e94560,stroke:#fff,color:#fff
+
+    class ROOT root
+    class DJ,SH,VOL,PERS domain
+    class DJ1,DJ2,SH_IP,SH_BIZ,SH_BLOG,VOL_GOV,VOL_MKT,VOL_S1,VOL_EVT subdomain
+    class RES,GLOSS,SKILLS,TEMPL crosscut
+    class PUB_DRAFT,PUB_SKILL pipeline
+    class PUB_SUB,PUB_LI_P,PUB_LI_C output
+</div>
+</div>
+<script>mermaid.initialize({theme:'dark',themeVariables:{primaryColor:'#16213e',primaryTextColor:'#fff',lineColor:'#533483'},securityLevel:'loose'});</script>
+</body>
+</html>

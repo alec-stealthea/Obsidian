@@ -1,0 +1,260 @@
+{
+  "main": {
+    "id": "d96edb912661c30d",
+    "type": "split",
+    "children": [
+      {
+        "id": "aef364be7880dce7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18f310dd4ab515c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Health Economics Evidence for CD Value Streams.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": false
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Health Economics Evidence for CD Value Streams"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "97d9e2304c4f50bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "eea7f842f284f9df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fae33ded107d90ae",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "dd6b9aa86ce2727c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d39d20a07259cc34",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 432.5026054382324
+  },
+  "right": {
+    "id": "5b6e0ba77496e078",
+    "type": "split",
+    "children": [
+      {
+        "id": "549329c7831b51b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d33fd37300f3dc1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Stealth Enterprise Architecture/Blog Entries/Article Ideas/Closed Loop Analytics/Model a Domain's Value Stream.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Model a Domain's Value Stream"
+            }
+          },
+          {
+            "id": "55aca1bb4dd903fa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "4f85ffdf39da7eeb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "602cac0f98e1e4a1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d8048b0b145779a5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "c229f7809a2ab819",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "publish:Publish changes...": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "18f310dd4ab515c0",
+  "lastOpenFiles": [
+    "Stealth Enterprise Architecture/Enterprise Architecture/Business Architecture/Value Streams/Value Streams At Scale.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Health Economics Evidence for CD Value Streams.md",
+    "Stealth Enterprise Architecture/Blog Entries/Article Ideas/Business Capability Planning and Financial Operations.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Connect Care Communicable Disease Episode/Build Specification - TB CD Episode Compass Rose (Tasks Targets Automation).md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Sexually Transmitted Infections/Sexually Transmitted Infections Epic Build Analysis/STI Encounter Value Stream.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Sexually Transmitted Infections/Sexually Transmitted Infections Epic Build Analysis/STI Flowsheet Logical Data Model.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Sexually Transmitted Infections/Sexually Transmitted Infections Epic Build Analysis/STI Workflow Overview.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Sexually Transmitted Infections/Sexual Contacts Flowsheet.md",
+    "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync/Epic to Logis Appointment Sync Solution Concept Model.md",
+    "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync/Logis TransferSchedulingBroker Interface Assessment.md",
+    "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync/Logis IDS TransferSchedulingBroker Interface.docx",
+    "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync",
+    "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync/Epic to Logis Appointment Sync — ArchiMate Update Checklist.md",
+    "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync/Epic to Logis Appointment Sync.md",
+    "Health Shared Services/Emergency Health Services/CLAUDE-EHS.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Data Lake House/Communicable Disease Glossary — Category Hierarchy & Design Rationale.md",
+    "Health Shared Services/Emergency Health Services/Logis IDS TransferSchedulingBroker Interface.docx",
+    "Health Shared Services/Emergency Health Services/Unconfirmed 569915.crdownload",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/CLAUDE-Communicable-Diseases.md",
+    "Clippings/Untying the Gordian Knot Reforming Canada’s Postal Market.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Data Lake House/Communicable Disease Glossary - Disease Terms Atlan Import.csv",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Data Lake House/Communicable Disease Glossary - Atlan Import.csv",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Data Lake House",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/TB User Stories/TB Contact List - TB Nurse User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Connect Care Communicable Disease Episode/Interface Specification - Create CD Episode and Draft Contact Abstract (OMRS to Connect Care).md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Connect Care Communicable Disease Episode/Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRS).md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Connect Care Communicable Disease Episode/Compass Rose Tasks Setup and Support Guide.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Connect Care Communicable Disease Episode",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/Connect Care Communicable Disease Episode/Compass Rose Tasks Setup and Support Guide.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/Contact Identification Screen Specifications.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/Create Outbreak Investigation Screen Specifications.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/User Maintenance Screen Specifications.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/SBAR - Contact CD Episode Creation and Outbreak-Cluster Association.md",
+    "Contact Identification Screen Specifications Draft Wireframe.png",
+    "Screenshot 2026-06-22 at 10.09.58 AM.png",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/Sexually Transmitted Infections (STI)/STI User Stories/STI Large Exposure User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/Sexually Transmitted Infections (STI)/STI User Stories/Community Physician STI Notification User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/Sexually Transmitted Infections (STI)/STI Value Stream.md",
+    "Sexual Contacts Flowsheet.png",
+    "Willow Inventory Provincial Vaccine - Application Context Model.png",
+    "Epic to Logis Appointment Sync Context model.png",
+    "Personal Information/Spark for Life Coaching/SpotOn_vertical_white.webp",
+    "Revv52/Marketing/2025-2026 Season/RMSO/RMSO Strings Attached Poster.png",
+    "Communicable Disease Conceptual Data Model.png",
+    "Stealth Enterprise Architecture/Stealth EA MAD ERD.png",
+    "Revv52/Marketing/2026-2027 Season/Revv52 2026-7 Season Graphic Prototype.png",
+    "Untitled.canvas"
+  ]
+}

@@ -1,0 +1,1 @@
+Thesis - Using your Enterprise Architecture to build your Semantic layer through Graph RAG.

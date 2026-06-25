@@ -1,0 +1,19 @@
+Ward,Councillor,Representative_Communities,Subscriber_Count,Pct_of_Calgary,FSAs_Included,Methodology_Note
+Ward 1,Kim Tyers,"Arbour Lake, Citadel, Evanston, Nolan Hill, Rocky Ridge",97,9.4%,T3G(55); T3L(37); T3P(5),T3L assigned here (Citadel/Arbour Lake); Hidden Valley portion is Ward 3
+Ward 2,Jennifer Wyness,"Bowness, Silver Springs, Valley Ridge",47,4.6%,T3B(47),FSA-to-ward is estimated; 4 FSAs span ward boundaries (see notes)
+Ward 3,Andrew Yule,"Carrington, Hawkwood, Kincora, Livingston, MacEwan Glen",59,5.7%,T3K(43); T3R(14); T3N(2),T3K assigned here (MacEwan Glen/Sandstone dominant); Hawkwood/Ranchlands overlap with Ward 2
+Ward 4,DJ Kelly,"Beddington, Cambrian Heights, Charleswood, Collingwood, Greenview",52,5.1%,T2K(24); T2L(15); T2M(13),FSA-to-ward is estimated; 4 FSAs span ward boundaries (see notes)
+Ward 5,Raj Dhaliwal,"Castleridge, Falconridge, Martindale, Pineridge, Rundle",4,0.4%,T3J(3); T2B(1),FSA-to-ward is estimated; 4 FSAs span ward boundaries (see notes)
+Ward 6,John Pantazopoulos,"Greenwood/Greenbriar, Montgomery, Rosscarrock, Shaganappi, Spruce Cliff",84,8.2%,T3A(57); T3C(27),FSA-to-ward is estimated; 4 FSAs span ward boundaries (see notes)
+Ward 7,Myke Atkinson,"St. Andrews Heights, Varsity",31,3.0%,T2N(31),FSA-to-ward is estimated; 4 FSAs span ward boundaries (see notes)
+Ward 8,Nathaniel Schmidt,"Beltline, Cliff Bungalow, Downtown Core, Elbow Park, Erlton",103,10.0%,T2T(56); T2P(17); T2R(16); T2G(14),FSA-to-ward is estimated; 4 FSAs span ward boundaries (see notes)
+Ward 9,Harrison Clark,"Applewood Park, Belvedere, Bridgeland-Riverside, Crescent Heights, Forest Lawn",46,4.5%,T2C(19); T2E(16); T2A(11),FSA-to-ward is estimated; 4 FSAs span ward boundaries (see notes)
+Ward 10,Andre Chabot,"Acadia, Canyon Meadows, Fairview, Haysboro, Kingsland",128,12.5%,T2J(69); T2V(53); T2H(6),T2J assigned here (Acadia/Willow Park dominant); Lake Bonavista portion is Ward 14
+Ward 11,Rob Ward,"Altadore, Britannia, Elbow Park, Elboya, Glamorgan",107,10.4%,T3E(74); T2S(33),FSA-to-ward is estimated; 4 FSAs span ward boundaries (see notes)
+Ward 12,Mike Jamieson,"Aspen Woods, Discovery Ridge, Signal Hill, West Springs",100,9.7%,T3H(100),FSA-to-ward is estimated; 4 FSAs span ward boundaries (see notes)
+Ward 13,Dan McLean,"Auburn Bay, Braeside, Bridlewood, Cedarbrae, Cranston",97,9.4%,T2W(38); T2Y(33); T3M(26),FSA-to-ward is estimated; 4 FSAs span ward boundaries (see notes)
+Ward 14,Landon Johnston,"Copperfield, McKenzie Lake, Millrise, New Brighton, Shawnessy",73,7.1%,T2Z(42); T2X(31),T2Z assigned here (McKenzie Lake dominant); McKenzie Towne/Copperfield may overlap Ward 12
+,,,,,,
+"Non-Calgary (AB, BC, ON, SK, invalid)",,"Rural AB, Edmonton, Lethbridge, Airdrie, BC, Ottawa, SK, X1X invalid",158,,,"Includes T0*, T1*, T4*-T8*, V*, K*, S*, X1X"
+Rural West of Calgary (T3Z),,Elbow Valley / Springbank (Rocky View County),24,,T3Z,Outside Calgary city limits
+TOTAL,,,1210,100%,,"Based on 1,210 postal codes from 3,534 subscribers"

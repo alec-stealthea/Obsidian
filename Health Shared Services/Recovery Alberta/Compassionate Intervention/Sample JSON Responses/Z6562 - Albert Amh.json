@@ -1,0 +1,552 @@
+{
+  "requestId": "ea757b3c-6be0-5ae7-839b-68b770a6352b",
+  "status": "completed",
+  "releaseId": "REL-2026-004402",
+  "disclosureLogRef": "HSS-DL-2026-004402",
+  "patient": {
+    "id": "Z6562",
+    "mrn": 1000013704,
+    "phn": 900013704,
+    "familyName": "Amh",
+    "firstName": "Albert",
+    "birthDate": "1980-08-08"
+  },
+  "summaryPeriod": {
+    "startDate": "2019-01-01",
+    "endDate": "2026-01-14"
+  },
+  "encounterSummary": {
+    "totalEncounters": 41,
+    "ehsIncidents": [],
+    "edVisits": [],
+    "inpatientEpisodes": [],
+    "ambulatoryVisits": [
+      {
+        "encounterId": "403020490742",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2025-10-06T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxiety"
+        ]
+      },
+      {
+        "encounterId": "403020487810",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2025-09-15T00:00:00",
+        "chiefComplaint": "ANXIETY",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxiety"
+        ]
+      },
+      {
+        "encounterId": "403020486318",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2025-09-08T00:00:00",
+        "chiefComplaint": "ANXIETY",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxiety"
+        ]
+      },
+      {
+        "encounterId": "403020485166",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2025-08-27T00:00:00",
+        "chiefComplaint": "DISCHARGE",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxiety"
+        ]
+      },
+      {
+        "encounterId": "403020479946",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2025-07-08T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": []
+      },
+      {
+        "encounterId": "403020470693",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2025-04-04T00:00:00",
+        "chiefComplaint": "EATING DISORDER",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Eating disorder"
+        ]
+      },
+      {
+        "encounterId": "403020468619",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2025-03-18T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxious (avoidant) personality disorder"
+        ]
+      },
+      {
+        "encounterId": "403020464625",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2025-02-03T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": []
+      },
+      {
+        "encounterId": "403020462995",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2025-01-20T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxious (avoidant) personality disorder"
+        ]
+      },
+      {
+        "encounterId": "403020461619",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2025-01-06T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxious (avoidant) personality disorder"
+        ]
+      },
+      {
+        "encounterId": "403020459908",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2024-12-09T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxious (avoidant) personality disorder"
+        ]
+      },
+      {
+        "encounterId": "403020455051",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2024-10-23T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxious (avoidant) personality disorder"
+        ]
+      },
+      {
+        "encounterId": "403020450508",
+        "encounterVisitType": "Collateral",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2024-09-18T00:00:00",
+        "chiefComplaint": "ANXIETY",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxious (avoidant) personality disorder"
+        ]
+      },
+      {
+        "encounterId": "403020437580",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2024-05-17T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxious (avoidant) personality disorder"
+        ]
+      },
+      {
+        "encounterId": "403020437307",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2024-05-14T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxious (avoidant) personality disorder"
+        ]
+      },
+      {
+        "encounterId": "403020382943",
+        "encounterVisitType": "Clinical Support",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2022-12-07T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxious (avoidant) personality disorder"
+        ]
+      },
+      {
+        "encounterId": "403020382950",
+        "encounterVisitType": "Clinical Support",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2022-12-07T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxious (avoidant) personality disorder"
+        ]
+      },
+      {
+        "encounterId": "403020383034",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2022-12-07T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Depression"
+        ]
+      },
+      {
+        "encounterId": "403020382670",
+        "encounterVisitType": "Clinical Support",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2022-12-05T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxious (avoidant) personality disorder"
+        ]
+      },
+      {
+        "encounterId": "403020377239",
+        "encounterVisitType": "Treatment",
+        "facility": "COC Cochrane Community Health Centre",
+        "department": "Cochrane Addiction & Mental Health Community Clinic",
+        "serviceDateTime": "2022-10-26T00:00:00",
+        "chiefComplaint": "AUTISM",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxious (avoidant) personality disorder"
+        ]
+      },
+      {
+        "encounterId": "403020248648",
+        "encounterVisitType": "Office Visit",
+        "facility": "EDM 108 Street Building",
+        "department": "DiverseCity Housing Program, Addiction and Mental Health",
+        "serviceDateTime": "2020-06-10T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxiety"
+        ]
+      },
+      {
+        "encounterId": "403020247510",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2020-06-03T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "ADHD (attention deficit hyperactivity disorder)"
+        ]
+      },
+      {
+        "encounterId": "403020228735",
+        "encounterVisitType": "Patient Outreach",
+        "facility": "EDM Lynnwood Family Medicine Clinic",
+        "department": "Lynnwood Family Practice Clinic",
+        "serviceDateTime": "2020-04-15T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": []
+      },
+      {
+        "encounterId": "403020224794",
+        "encounterVisitType": "Office Visit",
+        "facility": "EDM WMC University of Alberta Hospital",
+        "department": "Kaye Edmonton Clinic Family Medicine Clinic",
+        "serviceDateTime": "2020-03-19T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": []
+      },
+      {
+        "encounterId": "403020216634",
+        "encounterVisitType": "Clinical Support",
+        "facility": "EDM 108 Street Building",
+        "department": "DiverseCity Housing Program, Addiction and Mental Health",
+        "serviceDateTime": "2020-02-11T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Depression"
+        ]
+      },
+      {
+        "encounterId": "403020215264",
+        "encounterVisitType": "Office Visit",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2020-02-03T00:00:00",
+        "chiefComplaint": "BIPOLAR",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxiety",
+          "Depression"
+        ]
+      },
+      {
+        "encounterId": "403020207905",
+        "encounterVisitType": "Follow-Up",
+        "facility": "EDM 106 Street Building",
+        "department": "The Opioid Dependency and Enhanced Addiction Clinic",
+        "serviceDateTime": "2019-12-19T00:00:00",
+        "chiefComplaint": "ANXIETY",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxiety"
+        ]
+      },
+      {
+        "encounterId": "403020206335",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2019-12-15T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": []
+      },
+      {
+        "encounterId": "403020200875",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 108 Street Building",
+        "department": "DiverseCity Housing Program, Addiction and Mental Health",
+        "serviceDateTime": "2019-11-18T00:00:00",
+        "chiefComplaint": "DEPRESSION",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Depression"
+        ]
+      },
+      {
+        "encounterId": "403020193851",
+        "encounterVisitType": "Clinical Support",
+        "facility": "EDM 108 Street Building",
+        "department": "108 St Clinic Adult Community Services, Addiction and Mental Health",
+        "serviceDateTime": "2019-10-22T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": []
+      },
+      {
+        "encounterId": "403020180160",
+        "encounterVisitType": "Forensic Legal Encounter",
+        "facility": "EDM 105 Street Building",
+        "department": "105st Child, Youth and Families Clinic, Addiction and Mental Health",
+        "serviceDateTime": "2019-09-09T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "ADHD (attention deficit hyperactivity disorder)"
+        ]
+      },
+      {
+        "encounterId": "403020179911",
+        "encounterVisitType": "Follow-Up",
+        "facility": "EDM 108 Street Building",
+        "department": "DiverseCity Housing Program, Addiction and Mental Health",
+        "serviceDateTime": "2019-09-06T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": []
+      },
+      {
+        "encounterId": "403020177874",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 106 Street Building",
+        "department": "EDM 106ST AMH CGT CLINICAL",
+        "serviceDateTime": "2019-08-27T00:00:00",
+        "chiefComplaint": "ANXIETY; CRISIS",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxious (avoidant) personality disorder"
+        ]
+      },
+      {
+        "encounterId": "403020177350",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 106 Street Building",
+        "department": "EDM 106ST AMH CLINICAL",
+        "serviceDateTime": "2019-08-22T00:00:00",
+        "chiefComplaint": "ANXIETY",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Anxiousness"
+        ]
+      },
+      {
+        "encounterId": "403020175851",
+        "encounterVisitType": "Clinical Support",
+        "facility": "EDM 106 Street Building",
+        "department": "EDM 106ST AMH CLINICAL",
+        "serviceDateTime": "2019-08-14T00:00:00",
+        "chiefComplaint": "GROUP TREATMENT",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Depression"
+        ]
+      },
+      {
+        "encounterId": "403020175237",
+        "encounterVisitType": "Consult",
+        "facility": "EDM 106 Street Building",
+        "department": "EDM 106ST AMH CLINICAL",
+        "serviceDateTime": "2019-08-13T00:00:00",
+        "chiefComplaint": "GROUP EXERCISE",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Depression"
+        ]
+      },
+      {
+        "encounterId": "403020175201",
+        "encounterVisitType": "Office Visit",
+        "facility": "EDM 106 Street Building",
+        "department": "EDM 106ST AMH CLINICAL",
+        "serviceDateTime": "2019-08-09T00:00:00",
+        "chiefComplaint": "GROUP TREATMENT",
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Depression"
+        ]
+      },
+      {
+        "encounterId": "403020174669",
+        "encounterVisitType": "Clinical Support",
+        "facility": "EDM 106 Street Building",
+        "department": "EDM 106ST AMH CLINICAL",
+        "serviceDateTime": "2019-08-07T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Depression"
+        ]
+      },
+      {
+        "encounterId": "403020172505",
+        "encounterVisitType": "Office Visit",
+        "facility": "EDM 106 Street Building",
+        "department": "EDM 106ST AMH CLINICAL",
+        "serviceDateTime": "2019-07-25T00:00:00",
+        "chiefComplaint": null,
+        "presentingComplaint": null,
+        "diagnoses": [
+          "Depression"
+        ]
+      },
+      {
+        "encounterId": "403020162094",
+        "encounterVisitType": "Office Visit",
+        "facility": "EDM 106 Street Building",
+        "department": "EDM 106ST AMH CLINICAL",
+        "serviceDateTime": "2019-05-31T00:00:00",
+        "chiefComplaint": "ADDICTION PROBLEM",
+        "presentingComplaint": null,
+        "diagnoses": []
+      },
+      {
+        "encounterId": "403020141189",
+        "encounterVisitType": "Office Visit",
+        "facility": "EDM Royal Alexandra Hospital",
+        "department": "Royal Alexandra Hospital Outpatient Infectious Diseases",
+        "serviceDateTime": "2019-01-23T00:00:00",
+        "chiefComplaint": "IV MEDICATION",
+        "presentingComplaint": null,
+        "diagnoses": []
+      }
+    ],
+    "communityTreatmentOrders": [
+      {
+        "ctoFlag": true,
+        "ctoStartDate": "2025-12-16",
+        "ctoEndDate": null
+      }
+    ],
+    "currentDiagnoses": [
+      {
+        "code": "F99",
+        "description": "Mental health disorder",
+        "diagnosedDate": "2025-12-16",
+        "status": null
+      },
+      {
+        "code": "F19.999",
+        "description": "Substance use disorder",
+        "diagnosedDate": "2025-12-16",
+        "status": null
+      },
+      {
+        "code": "F41.9",
+        "description": "Anxiety",
+        "diagnosedDate": "2025-10-06",
+        "status": null
+      },
+      {
+        "code": "F50.9",
+        "description": "Eating disorder",
+        "diagnosedDate": "2025-04-04",
+        "status": null
+      },
+      {
+        "code": "F60.6",
+        "description": "Anxious (avoidant) personality disorder",
+        "diagnosedDate": "2025-03-18",
+        "status": null
+      },
+      {
+        "code": "F48.9",
+        "description": "Poor mental health",
+        "diagnosedDate": "2023-03-14",
+        "status": "Active"
+      },
+      {
+        "code": "F32.9",
+        "description": "Depression",
+        "diagnosedDate": "2022-12-07",
+        "status": null
+      }
+    ]
+  }
+}

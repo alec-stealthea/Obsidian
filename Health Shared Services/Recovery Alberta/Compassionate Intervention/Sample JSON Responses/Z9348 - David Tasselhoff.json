@@ -1,0 +1,81 @@
+{
+  "requestId": "fbb84dd4-d251-57a7-93fc-fe834dac125e",
+  "status": "completed",
+  "releaseId": "REL-2026-004401",
+  "disclosureLogRef": "HSS-DL-2026-004401",
+  "patient": {
+    "id": "Z9348",
+    "mrn": 1000039212,
+    "phn": 900039212,
+    "familyName": "Tasselhoff",
+    "firstName": "David",
+    "birthDate": "1968-10-23"
+  },
+  "summaryPeriod": {
+    "startDate": "2022-01-01",
+    "endDate": "2026-01-14"
+  },
+  "encounterSummary": {
+    "totalEncounters": 1,
+    "ehsIncidents": [],
+    "edVisits": [],
+    "inpatientEpisodes": [
+      {
+        "encounterId": "403020340316",
+        "encounterType": "Inpatient",
+        "facility": "EDM WMC University of Alberta Hospital",
+        "department": "EDM UAH WMC 4F3 AMH PSYCHIATRY",
+        "admitDateTime": "2022-01-28T10:49:00",
+        "dischargeDateTime": "2025-04-02T09:58:00",
+        "chiefComplaint": null,
+        "diagnoses": [
+          "AKI (acute kidney injury)",
+          "Asthma attack",
+          "COPD with acute exacerbation",
+          "Femur fracture",
+          "GERD (gastroesophageal reflux disease)",
+          "Gout attack",
+          "Pneumonia",
+          "Shoulder arthritis",
+          "Traumatic rhabdomyolysis"
+        ],
+        "principalProblem": "COPD with acute exacerbation",
+        "lengthOfStayDays": 1160,
+        "dischargeMedications": [
+          "HYDROmorphone liquid oral 2 mg",
+          "HYDROmorphone, short acting tablet 1 mg",
+          "acetaminophen tablet 650 mg",
+          "allopurinol 300 mg tablet",
+          "aluminum hydroxide-magnesium hydroxide 40 mg - 40 mg/mL oral liquid 30 mL",
+          "amoxicillin capsule",
+          "capTOPRIL tablet",
+          "carVEDilol tablet 3.125 mg",
+          "celecoxib 100 mg capsule",
+          "codeine, long acting tablet",
+          "furosemide 20 mg tablet",
+          "furosemide tablet",
+          "furosemide tablet 20 mg",
+          "gabapentin capsule 300 mg",
+          "melatonin 1 mg capsule",
+          "metFORMIN tablet 500 mg",
+          "morphine injection 2 mg",
+          "nitrofurantoin, long acting capsule 100 mg",
+          "omeprazole magnesium 20 mg tablet enteric-coated",
+          "oxyCODONE, long acting tablet 15 mg",
+          "pantoprazole magnesium tablet enteric-coated 40 mg",
+          "pantoprazole magnesium tablet enteric-coated 80 mg",
+          "ramipril 10 mg capsule",
+          "ramipril capsule 5 mg",
+          "tamsulosin, long acting 0.4 mg capsule",
+          "trihexyphenidyl tablet 2 mg",
+          "zopiclone 3.75 mg tablet"
+        ],
+        "disposition": "Home",
+        "mentalHealthActOrder": false
+      }
+    ],
+    "ambulatoryVisits": [],
+    "communityTreatmentOrders": [],
+    "currentDiagnoses": []
+  }
+}

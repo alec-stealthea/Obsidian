@@ -1,0 +1,3 @@
+A storage repository that holds vast amounts of raw data in its native format until needed. Data lakes accept structured, semi-structured, and unstructured data - basically anything you can throw at them.
+
+The advantage is flexibility and cost; the disadvantage is that without governance, your data lake becomes a data swamp where information goes to disappear. Hence the need for patterns like [[Closed Loop Analytics]] to maintain order.

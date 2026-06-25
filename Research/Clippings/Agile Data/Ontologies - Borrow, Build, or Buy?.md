@@ -1,0 +1,91 @@
+![The complexity of data modeling, and ontology creation, gives rise to whether it is better to... [+] borrow, buy or build your ontologies.](https://imageio.forbes.com/specials-images/dam/imageserve/2c45d306b75f4d7aa0c58fe14376c575/960x0.jpg?format=jpg&width=1440)
+
+Semantics provides a way of defining the languages that you use for describing your business or organizational processes, for describing domains of knowledge, and for managing processes and resources at a global level. Central to this is the concept of an ontology - a specific data model (or set of interconnected models) that serve to provide the metadata to accomplish those semantics.
+
+I'm not, in this article, going to talk about what exactly an ontology is (cf. link to ontology article). For now, it's worth saying simply that the ontology is the vocabulary and rules that make up the language that you're using for your business and leave it at that, primarily to avoid endless deep philosophical arguments about what the definition of any of those things are. Instead, I will be focusing on a considerably more practical and worthwhile problem: how exactly do you get a good ontology for your organization.
+
+Your options fall into the same domain as for any software: do you borrow from an open source domain, buy a license to a formal ontology set, or build your own. Each of these has advantages and disadvantages, and as such it's worth digging deeper into each option to explore what works best for you.
+
+![Adapting schemas, especially ones such as schema.org, may prove beneficial if such standards have... [+] staying power.](https://imageio.forbes.com/specials-images/dam/imageserve/1147175186/960x0.jpg?format=jpg&width=1440)
+
+**Borrowing an Ontology**
+
+One of the central tenets of the semantic web from its earliest days was the notion that if you have a common framework in common with others in your industry (or in general) it is generally easier to communicate information with those other people. This idea is frequently referred to as Linked Open Data or LOD.
+
+Until a few years ago, this idea was great in principle but in practice, there really was no one overarching ontology that you could build on to describe things, just ontologies that described domains of information. What made each of these worse was that ontology design has been more art than science for a long time and, beyond a fairly small number of primitive, and frequently abused, properties, there was a great deal of inconsistency between models.
+
+It actually turns out that it is really hard to avoid that inconsistency, and many people who come to Semantics thinking that it is plug and play are likely to be sorely disappointed. However, it turns out that greed (in the form of search engine optimization or SEO) may actually be doing the trick. In the mid-2010s, Microsoft, Google and Russian search engine giant Yandex met to discuss the creation of a centralized schema repository for ontologies and data models.
+
+[Schema.org](https://schema.org/) had actually been around for a few years before, but one thing that became evident was that there were still dozens of ways of describing certain things, and yet there were also whole domains that had absolutely nothing in place. Indeed, perhaps the only real schema that had managed to gain universal coverage was the Dublin Core specification for describing literature metadata, a specification that actually predated the web.
+
+This group then made a decision - they would use schema.org as the home of a new schema that would be built out organically, providing models for people, organizations, addresses, literary works, and similar concepts. At first, the ontology was almost a toy, and even as late as 2015, no organization would have seriously thought about using it as the foundation for something bigger. However, a funny thing happened. It turns out that when you get enough of a foundation together for an ontology, it begins to become attractive for other organizations that are wanting to have a consistent way of describing things on the web. Models for broader intellectual works began to get incorporated, including film and audio media.
+
+Google's announcement in 2017 that they would use schema.org as the basis for their SEO efforts moving forward attracted even more interest. Medical models, automobiles, consumer products and more were folded in, and the Internet's famous network effect began to kick in - the more that schema.org was used as a way of modeling, the more organizations became interested in becoming a part of that schema effort. Additionally, a number of existing efforts to build out individual industry schemas are now being re-examined in light of this snow-balling effort.
+
+If your organization is thinking about using schema.org, it's worth understanding that there are downsides. Your models will essentially have to align with schema.org's model, and it may turn out that your organization has needs that cannot be modeled in a one to one fashion. There are also still holes that exist in schema.org, as well as design decisions that may run counter to how your company feels comfortable modeling things.
+
+One strategy that you can use in that case is to build out to schemas, one using (or shadowing) schema.org, the second providing extensions for classes of objects which do not have equivalent entries in the schema.org ontology using assertions that indicate that the classes and properties involved are not within schema.org (yet). Should they be added in the future, then a SPARQL UPDATE statement can be written that will perform a global mapping of your dataset to incorporate the new schema.org terminology rather than what is currently in use.
+
+An alternative approach is to develop an internal ontology, but build it out so that there are schema.org terms that are identified either as subclasses/sub-properties, or that have some other mechanism for mapping from your internal schema to schema.org. One approach that I've found works well there is to bind the location of SPARQL queries that will use CONSTRUCT statements to create the triples involved in the actual mapping to schema.org.  This has the advantage of dealing with pesky one to many mappings and dimensional analysis problems, both of which make mapping software so problematic to create well.
+
+Schema.org is not the only publicly available ontology, of course, but my suspicion is that it is probably the future of public ontologies, as it is not so slowly absorbing not only other available ontologies (or at least creating mostly overlapping classes) but is also beginning to absorb a number of what had been privately available ontologies, including more than a few in sectors such as finance and insurance, which have generally been chary about making their ontologies public.
+
+![Buying an ontology works best when dealing with frequently updating categorizations or complex... [+] technical or medical content.](https://imageio.forbes.com/specials-images/dam/imageserve/1145052524/960x0.jpg?format=jpg&width=144)
+
+**Buying an Ontology**
+
+It is worth making a critical observation about schema.org, however. It does not contain instance data. This is a really important point because there are really two different consumers of ontologies - those who are needing data models and those that are needing categorizational information within those models, i.e., data. A data model of diseases will tell you the different classes used to specify and categorize diseases, but it likely will have neither the categories nor the diseases themselves in the model. This is taxonomic and data-centric information, and it is very different from schematic information (in most cases).
+
+Typically, this information is supplied by an authority, whether corporate, research or governmental. For instance, schema.org has an ontology for describing countries. However, the official list of countries (and country codes) is maintained by the ISO, as part of the ISO-3166 specification. A car manufacturer will generally be the authority for all of the car models that it produces. However, each car has, as part of its production process, an etched number called the Vehicle Identification Number, or VIN, issued by the US National Highway Traffic Safety Administration, part of the US Department of Transportation. Companies such as Dun & Bradstreet spend millions of dollars each year gathering up to date information about companies globally.
+
+I suspect that over time what you may end up seeing is that companies and organizations that are in the information brokering space will tend to gravitate to the use of a single schema such as schema.org, and will (either for free or for a price) start putting their information into that same format.
+
+In many respects, this is a highly valuable service because it provides a way for organizations to standardize on a particular way of describing things but still provide the transient data - how things are identified and how they change over time. This cuts down on the ETL process dramatically, which also means that there is less incentive to spend significant amounts of money on integration. This also has obvious implications for natural language processing, entity extraction of transcripts and recordings and markup of media processing systems.
+
+For now, it is likely that you will be buying a custom model along with your data, but expect to see the models themselves coalesce even if the data (properly) does not. Online data exchanges are really just beginning to get off the ground, where customers buy and sell specific datasets, though it's worth noting that such information brokers have been around in various forms for a long time, and are not always completely on the up-and-up.
+
+To the extent possible, it is usually worth seeking data at its source (with government data often leading the pack in terms of the value of that data simply because it typically represents most things that businesses need to know. On the other hand, such data is also in need of the greatest amount of processing.
+
+As ontologies and smart data become an increasingly relevant part of the business environment, expect that data acquisition, cleansing and mastering services will become a significant part of the overall information ecosystem and an industry that will reach $50-100 billion in revenues within the next five years.
+
+![Because businesses are different, building will likely be a part of any ontology process. Because... [+] businesses are similar, you don't have to build everything.](https://imageio.forbes.com/specials-images/dam/imageserve/1145835200/960x0.jpg?format=jpg&width=144)
+
+**Building an Ontology**
+
+Given all that, the idea that schema.org, or something like it, should be the foundation for an internal ontology (whether model or data) might seem a no brainer. However, the reality isn't quite as cut and dried. Schema.org is attractive primarily for its value as an interchange language. That is to say, you probably want to consider it when you are receiving data from external systems or transmitting data to external systems.
+
+However, within an organization, it is very likely that there are areas where you have very specific sets of information which will never end up in schema.org, and it's also possible where the information that you do have is structured in a different way because of that.
+
+Ontologies basically reflect the language that a given organization uses, and it also tends to reflect the data sources that are used to populate it, the latter often too much so. You can arbitrarily use an external model, but that model is not going to do you much good if the data you have doesn't correspond to the model you're using.
+
+Moreover, there is a bad tendency when setting up enterprise knowledge bases and the like to see it as simply another form of data-lake, dumping in arbitrary data from Excel spreadsheets or relational databases and expecting that you'll actually get much out of it that you couldn't do by keeping the data in the original database.
+
+For this reason, the question of whether it makes sense to build an ontology comes down to its use. If your goal is to build a [[Data Hub]] (a data lake rendered using triples) then attempting to force fit an ontology is probably just a waste of time. In that case, the best that you can do is something that gives you preferred and alternate labels, associations with tables as types or classes, and the use of domain and range information to help map column names to predicates.
+
+This is an operational ontology, describing references more or less as they came from their data source. Note that while this isn't necessarily a bad approach, should you have two different systems that define countries in different ways, then your triple store is still not going to recognize that these things are in fact just different representations of the same concept.
+
+On the other hand, one benefit that emerges from the "dump everything into a triple store and see what sticks" method is that it can often help in developing a natural ontology, i.e., one that actually describes the data in its most natural form. For instance, you can query the labels of instances of classes and when two different classes happen to share several labels, it increases the likelihood the two classes refer to the same concept.
+
+This is actually part of the toolbox of techniques that ontologists use to do an analysis of multiple ontologies imported from different sources. This process (called harmonization) attempts to find the commonalities between different databases to see if such a natural ontology will emerge natively or not.
+
+One point that's worth emphasizing - when you have a large project where a number of people (looking at my fellow data modelers here) are involved in shaping that data, arbitrarily creating data models to serve as the foundation of an ontology is one of the first things that happens, and it almost invariably ends in failure. There are many reasons, mostly political, for that failure, but a key issue as well is that most people think about data wrong.  ==*An ontology, at its core, consists of lists of things. The attribute (or atomic) properties that are attached to these things add texture, but from an ontological standpoint, such properties are essentially decoration.*==
+
+A good ontologist understands that most physical things generally have few outgoing relationships, with the bulk of those being categorizations (such as the genre of a film). Modeling languages often call the latter enumerations, because there are a relatively small number of these "terms" that serve to describe the entities in question. Categorizations are also very similar to constraints. For instance, is the _make_ of a car a brand (which is a categorization) or the producer of the car (which would make it an organization)?
+
+These are the kind of questions that an ontologist wrestles with daily because they have implications about how you represent this information. _And for the record, the author would say that a make is a brand, and as such, it is a form of contract between a particular model and a producing organization._ 
+
+_Contracts_, on the other hand, are one class of what ultimately fall into the category of bindings. A binding creates an association between two things and represents the same thing as a second normal form in database theory. Events are bindings, as they typically create associations between an agent (such as a person) and a venue (such as a conference) over a specific time. Insurance policies, habitations (a particular person living at a given location), jobs, marriages, sales transactions and so forth all are bindings, most are events, and most of those events are contracts.
+
+It is these underlying super-classes that make ontology design so powerful, but also so complex, and one reason why we're still a ways out from fully-automated ontological design. Inferencing becomes possible when these patterns are fully explicated. If you know that a given class represents a contract, for instance, then you can use this more efficiently query the triple stores _when you don't necessarily know the structure of the data_. When a model may consist of hundreds or even thousands of classes, the ability to exploit patterns of classes goes from being a nice to have to be a critical requirement.
+
+![Any strategy for building an enterprise ontology will require all three aspects.](https://imageio.forbes.com/specials-images/dam/imageserve/1145790935/960x0.jpg?format=jpg&width=144)
+
+**Do All Three**
+
+Realistically, if you are a large enough organization, the answer to the borrow, buy or build question will be that you'll end up doing all three. An enterprise ontology is, at its core, a representation of your business, and that means that there will be facets of your business that are going to be fundamentally different from any other business. At the same time, there are also common aspects to all businesses, and even more to all businesses in the same industry, and this means that common ontologies are emerging that are applicable to health care, or entertainment, or manufacturing.
+
+In many cases, it's advantageous to align your ontology with that of other businesses when you're dealing with information that is time sensitive and otherwise outside of your immediate control - approved drug lists, external business information, VIN numbers and so forth - but resist the temptation to want to build THE ontology that will effectively dominate the industry. History is littered with the wreckage of previous attempts.
+
+At the same time, take a close, hard look at schema.org. If your industry or area of focus isn't represented in it yet, talk with them about potentially helping to develop part of the schema appropriate to what you do. It has its issues (though that's true of any ontology, ask any ontologist who didn't develop a given ontology whether that ontology doesn't have problems) but it also has something that has been sorely lacking elsewhere: momentum.
+
+#semantics #ontology #dataModeling #artificialIntelligence #enterpriseData #theCagleReport
