@@ -86,11 +86,5 @@ Version History 
         - Added field for Region 
             
         - Updated the field names with some questions that need to be answered when we need to prep for presenting 
-            
-    - June 25, 2026 (Claude — handoff round-trip test) - Test marker to verify the GitHub sync loop end to end. Safe to delete after confirming.
         
 - Specifications Status - Draft 
-    
-- Linked SBARs -  
-    
-- Linked Enabling Stories -
