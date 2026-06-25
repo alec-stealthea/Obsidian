@@ -1,35 +1,11 @@
-Design Specification Context 
+## Design Specification Context 
 
-- [Create/Update Outbreak Investigation - Investigator User Story (](onenote:User%20Stories\CDC%20Outbreak%20and%20CD%20Episode.one#Create/Update%20Outbreak%20Investigation%20-%20Investigator%20User%20Story%20\(&section-id={4542a4c4-3164-4bba-9f76-ec9016ccf1c6}&page-id={d884f8d7-b7fe-4155-baaa-c873b1ff4de0}&end)  ([Web view](https://albertahealthservices.sharepoint.com/teams/M365TCCNotifiableDiseaseProjects/_layouts/15/Doc.aspx?sourcedoc=%7B49042283-743a-4bca-ba5d-02b10ecbaa82%7D&action=edit&wd=target%28User%20Stories%2FCDC%20Outbreak%20and%20CD%20Episode.one%7C4542a4c4-3164-4bba-9f76-ec9016ccf1c6%2FCreate%5C%2FUpdate%20Outbreak%20Investigation%20-%20Investigator%20User%20Story%20%28%7Cd884f8d7-b7fe-4155-baaa-c873b1ff4de0%2F%29&wdorigin=703&wdpartid=%7B691ea035-34dd-45b5-a14f-a329994bbc71%7D%7B1%7D&wdsectionfileid=%7Be9fbd643-0b96-4620-95f9-9f9d1ad4904e%7D&wdpreservelink=1)) 
-    
-- [Create Exposure Incident (EI) - Investigator User Story](onenote:User%20Stories\SHE%20Outbreak%20and%20CD%20Episode.one#Create%20Exposure%20Incident%20\(EI\)%20-%20Investigator%20User%20Story&section-id={cfd51485-9503-4b71-92ca-7e6fdbc7263a}&page-id={d5ac9fc8-55c4-4769-b750-dd14269a9d7c}&end)  ([Web view](https://albertahealthservices.sharepoint.com/teams/M365TCCNotifiableDiseaseProjects/_layouts/15/Doc.aspx?sourcedoc=%7B49042283-743a-4bca-ba5d-02b10ecbaa82%7D&action=edit&wd=target%28User%20Stories%2FSHE%20Outbreak%20and%20CD%20Episode.one%7Ccfd51485-9503-4b71-92ca-7e6fdbc7263a%2FCreate%20Exposure%20Incident%20%28EI%5C%29%20-%20Investigator%20User%20Story%7Cd5ac9fc8-55c4-4769-b750-dd14269a9d7c%2F%29&wdorigin=703&wdpartid=%7B4cc6164d-fc30-402a-b6c6-00e68e1a3e62%7D%7B1%7D&wdsectionfileid=%7B91401ac1-8732-47c8-84dc-5ba8e7da2580%7D&wdpreservelink=1)) 
-    
 
-Wireframe 
+## Wireframe 
 
-The PowerPoint version of this image can be found at [Alberta Outbreak Management System Design.pptx](https://albertahealthservices.sharepoint.com/:p:/r/teams/M365TCCNotifiableDiseaseProjects/Shared%20Documents/General/Solution%20Design%20Documents/Outbreak%20Management%20Application/Alberta%20Outbreak%20Management%20System%20Design.pptx?d=w7ad4dd5d3cf943a1aefe356d4b55ada0&csf=1&web=1&e=y6X9f1&nav=eyJzSWQiOjI3MCwiY0lkIjozNDc2MzM2NDc4fQ) 
+Note - this will be a screen shot of the most recent wireframe.
 
-![Outbreak Management Reporting System (OMRS) 
-Create Outbreak Investigation 
-Onset Date 
-Lead Investigator 
-Description 
-* 
-Investigation 'Zone' 
-Suspected Organism 
-* 
-Outbreak Type 
-* 
-Outbreak Setting 
-Outbreak Region 
-+ 
-Outbreak Location 
-Outbreak Department 
-* 
-Outbreak Name 
-Create](https://cac-onenote.officeapps.live.com/o/GetImage.ashx?&WOPIsrc=https%3A%2F%2Falbertahealthservices%2Esharepoint%2Ecom%2Fteams%2FM365TCCNotifiableDiseaseProjects%2F%5Fvti%5Fbin%2Fwopi%2Eashx%2Ffiles%2Fa432f08557984d2aadbf0750a9f49d81&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjY5RTQ4NkNFODBGNzRFM0MyMUVCRTFGN0JGNkY0OUI0RjFFNTg5NDAiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJhZVNHem9EM1Rqd2g2LUgzdjI5SnRQSGxpVUEifQ%2EeyJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8YWxlYy5ibGFpckBoZWFsdGhzaGFyZWRzZXJ2aWNlcy5jYSIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDNiZmZkYTFmM2Q0MGJAbGl2ZS5jb20iLCJzaGFyaW5naWQiOiIwMDVkZGY1YS1kMjhmLWJiODAtYjc5MS0xMzYxNjExYTI2MDkiLCJ1dGkiOiI3dnA1WHJwMWdFR3BzMndHNS1NYkFBIiwieG1zX2NjIjoiW1wiQ1AxXCJdIiwieG1zX3NzbSI6IjEiLCJvaWQiOiJkNjk1MDgxYy02ZTU0LTQxMjYtOWI5Yy1lNDljNWRhZTYzNTAiLCJpc2xvb3BiYWNrIjoiVHJ1ZSIsImFwcGN0eCI6ImE0MzJmMDg1NTc5ODRkMmFhZGJmMDc1MGE5ZjQ5ZDgxO2dGUFZXR3JZZG5lN3JrTmJaUDJoVVYvWWUyQT07RGVmYXVsdDs7MUIwM0M0MzFBRUY7VHJ1ZTs7OzEzMjc2ODQ7OWE4NjFlYTItYjA5NS1kMDAwLWZhNGEtOWE4N2U1MzMyOThkIiwiZmlkIjoiMTkxOTgzIiwiaXNzIjoiMDAwMDAwMDMtMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQDkwMTQwMTIyLTg1MTYtMTFlMS04ZWZmLTQ5MzA0OTI0MDE5YiIsImF1ZCI6IndvcGkvYWxiZXJ0YWhlYWx0aHNlcnZpY2VzLnNoYXJlcG9pbnQuY29tQDExOTMwNDg2LWI0NzAtNDhmMi05MTY2LTNmMGNjMzA4NzcyNyIsIm5iZiI6IjE3ODE3MTA3NzAiLCJleHAiOiIxNzgxNzQ2NzcwIn0%2EWz2cxCKbkvzgMLGxUpEUfO2%2D8iWkbtfuSikn853dBRFjKBPra%2DeKIiHpnTmuRDpvwgTUlR8sSB4f408yjOc6tMH4wg6C%2Dmi14kuSCgFPb%2Df4qG4imd95H5UZiNuP1aXKe3RSf1qQh1YRLM3DqA1LDvgSrDLqanmfgSsrTN57jbCEjBoyLDV17o0CHkDJID9M0MrqSocb5UnQcKIFbcNBcQXTLjrnl%2DeOexLJLXlp5TyUt%2DlZodswmQXHKtBSTqjwv2FK8BFtL5ylDV2tf2tonJGI5TJ1MwYuvZXhC4Jp31%5Fcid9I0pBp9sO%5FJzHhcNJBR79FyUSVRg92Ro6Xluo%5FcQ&access_token_ttl=1781746770614&ObjectDataBlobId=%7Bfa8d14f1-0747-479e-8ad5-1f3f9300dfa3%7D%7B1%7D&usid=457a1afc-9c2f-53c9-cec8-2e9fc51b2122&build=16.0.20216.41002&waccluster=CA3&wdwacuseragent=MSWACONSync)
-
-Acceptance Criteria Specifications 
+## Acceptance Specifications 
 
 1. Scenario Conditions – What scenarios have been defined that may affect the specifications 
     
@@ -111,6 +87,8 @@ Version History 
             
         - Updated the field names with some questions that need to be answered when we need to prep for presenting 
             
+    - June 25, 2026 (Claude — handoff round-trip test) - Test marker to verify the GitHub sync loop end to end. Safe to delete after confirming.
+        
 - Specifications Status - Draft 
     
 - Linked SBARs -  

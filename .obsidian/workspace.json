@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Health Economics Evidence for CD Value Streams.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/Create Outbreak Investigation Screen Specifications.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Health Economics Evidence for CD Value Streams"
+              "title": "Create Outbreak Investigation Screen Specifications"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 432.5026054382324
+    "width": 642.5026054382324
   },
   "right": {
     "id": "5b6e0ba77496e078",
@@ -188,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,8 +208,10 @@
   },
   "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
-    "Stealth Enterprise Architecture/Enterprise Architecture/Business Architecture/Value Streams/Value Streams At Scale.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/User Maintenance Screen Specifications.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/Create Outbreak Investigation Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Health Economics Evidence for CD Value Streams.md",
+    "Stealth Enterprise Architecture/Enterprise Architecture/Business Architecture/Value Streams/Value Streams At Scale.md",
     "Stealth Enterprise Architecture/Blog Entries/Article Ideas/Business Capability Planning and Financial Operations.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Connect Care Communicable Disease Episode/Build Specification - TB CD Episode Compass Rose (Tasks Targets Automation).md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Sexually Transmitted Infections/Sexually Transmitted Infections Epic Build Analysis/STI Encounter Value Stream.md",
@@ -239,8 +240,6 @@
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Connect Care Communicable Disease Episode",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/Connect Care Communicable Disease Episode/Compass Rose Tasks Setup and Support Guide.pdf",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/Contact Identification Screen Specifications.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/Create Outbreak Investigation Screen Specifications.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/User Maintenance Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/SBAR - Contact CD Episode Creation and Outbreak-Cluster Association.md",
     "Contact Identification Screen Specifications Draft Wireframe.png",
     "Screenshot 2026-06-22 at 10.09.58 AM.png",
