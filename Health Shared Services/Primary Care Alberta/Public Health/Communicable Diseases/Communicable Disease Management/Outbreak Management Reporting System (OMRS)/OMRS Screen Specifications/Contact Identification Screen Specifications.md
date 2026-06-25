@@ -8,7 +8,7 @@ tags:
   - communicable-disease
   - contact-tracing
   - outbreak-management
-timestamp: 2026-06-22T00:00:00Z
+timestamp: 2026-06-25T00:00:00Z
 ---
 
 ## Design Specification Context
@@ -57,6 +57,8 @@ The screen is titled **Create Contact Identification Investigation List** and ha
    5. Confirm whether contacts seeded by the STI Blue Prism automation arrive through the same write path as manual entry so they can be edited, confirmed, promoted, or closed identically.
    6. **Outbreak lineage** — When a contact escalates into its own outbreak, the new outbreak records its origin (`Outbreak.originatingContactID`) and the contact records the escalation (`ContactIdentification.escalatedToOutbreakID`). A contact's associations to multiple outbreaks and to a cluster head are held in `ContactOutbreakLink`, which **preserves the original outbreak identifiers** (`preservedOutbreakIdentifier`) across merges and cluster reorganization; cluster grouping continues to use `Outbreak.clusterOutbreak`.
    7. **Investigation lifecycle to the CD Abstract** — Each status transition is recorded in `ContactInvestigationLifecycle`; on promotion (status *CD Episode Created*) the transition carries the **Communicable Disease Abstract** link (`EpicAbstract`), tying the contact's investigation lifecycle to the case record created in Connect Care.
+   8. **Export List.** The current contact list can be exported (CSV / Excel) for offline work, PHAC and Ministry reporting, and sharing with program partners. The export reflects the active filter and sort, and honours the user’s access scope — the HIV/STI privacy boundary still applies, so an unauthorized user’s export omits rows in a privacy-bounded disease group.
+
 
 3. **User Experience Considerations** — What (if any) UX options might we have to consider as part of the build.
 
@@ -153,6 +155,7 @@ The screen is titled **Create Contact Identification Investigation List** and ha
   - **June 22, 2026 (Alec Blair)** — Reworked the initial draft to the OMRS screen-specification format. Added OKF frontmatter; rewrote the context as prose with linked source material; described the *Create Contact Identification Investigation List* wireframe (header context + contact grid); populated all seven Acceptance Criteria sections drawing scenarios from the [[TB Contact List - TB Nurse User Story]] and [[STI Large Exposure User Story]]; rebuilt the field table with best-fit ERD mapping, splitting list-header from per-contact fields and adding audit/version rows. **Flagged the headline ERD gap: no `ContactIdentification` entity exists in [[OMRS Database ERD]] v2.2** — recommended a new `ContactIdentification` table (with `ContactGuardian` and `DiseaseContactQuestion`) to hold the contact record, Investigation/Record status, Registry-validated flag, returned Episode ID, guardian, facility/room/flight context, and break-in-contact date, plus minor field gaps (middle name, municipality, legal-sex/gender split, e-mail, social media, ethnicity).
   - **June 22, 2026 (Alec Blair)** — Updated the field mapping to the resolved [[OMRS Database ERD]] v2.3 (Section 15): the new `ContactIdentification` entity and its `ContactGuardian`, `Ethnicity`, `DiseaseContactQuestion` and `ContactDiseaseQuestionResponse` companions, plus an optional `ContactAttempt.contactIdentificationID`. All previously flagged gaps are now mapped; no remaining ERD gaps.
   - **June 22, 2026 (Alec Blair)** — Added contact–outbreak lineage and lifecycle ([[OMRS Database ERD]] v2.4): `ContactIdentification.escalatedToOutbreakID` and `Outbreak.originatingContactID` (a contact may become its own outbreak); `ContactOutbreakLink` to preserve the contact's association to multiple outbreaks and clusters and the original outbreak identifiers; and `ContactInvestigationLifecycle` to record status transitions and carry the Communicable Disease Abstract (`EpicAbstract`) link on promotion. Added Scenario Condition 8, Functional Behaviour 6–7, Business Rule 7, and three field rows.
+  - **June 25, 2026 (Alec Blair)** — Documented the **Export List** action on the contact grid (CSV/Excel export of the current list for offline work and PHAC/Ministry reporting, honouring access scope and the HIV/STI privacy boundary) to align the specification with the OMRS prototype. Added Functional Behaviour 8.
 - **Link to Jira Task** — _to be added_
 - **Specifications Status** — Draft for working-group review (TB Working Group, June 2026)
 - **Linked SBARs** — [[SBAR - Contact CD Episode Creation and Outbreak-Cluster Association]] (decision request: create a CD Episode per identified contact for rule-out traceability; episode-to-outbreak/cluster association rule)

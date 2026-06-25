@@ -7,7 +7,7 @@ tags:
   - omrs
   - communicable-disease
   - dictionary-maintenance
-timestamp: 2026-06-17T00:00:00Z
+timestamp: 2026-06-25T00:00:00Z
 ---
 ## Design Specification Context
 
@@ -47,6 +47,8 @@ The screen is titled **Communicable Disease Maintenance** with a **Save** action
    2. The **Episode Conditions** rule builders let a steward compose Confirmed- and Probable-tier case definitions from rows of *Rule Name + Condition*, joined by **And/Or** logic, with an effective **Date** and **Comments**. These persist as `DiseaseCaseDefinitionRule` rows (one per rule, tiered by `caseClassificationID`), added to [[OMRS Database ERD]] in v2.1.
    3. The **Minimum Case Definition Rule** (Probable / Confirmed counts), the **with epi-link** toggle, and the setting thresholds feed **automated outbreak assessment** — the values that move an investigation into the "Assess" lifecycle state.
    4. Need a way to add a **Symptom, Lab Procedure, Vaccine, or Organism** that is not yet in its dictionary. Confirm whether these are inline "+" adds on this screen or launches to separate maintenance screens (the wireframe shows "+" affordances on related Foundation screens).
+   5. **Add Disease — minimum-viable quick-add.** A steward can add a new condition to the dictionary from an **Add Disease** action on the Disease list without completing the full record: only **Disease Name** (unique within the active dictionary) and **Reporting Timeline** are mandatory, and on **Add to Dictionary** a new Active version is written. The remaining attributes (ICD-10-CA, lab procedures, associated symptoms/vaccine, outbreak definitions and the Confirmed/Probable episode conditions) are completed afterward in the full editor. Inline validation blocks a duplicate name or a missing mandatory field. This is the dictionary-steward equivalent of the investigator’s provisional add — fast creation now, full curation later.
+
 
 3. **User Experience Considerations** — What (if any) UX options might we have to consider as part of the build.
 
@@ -114,6 +116,7 @@ The screen is titled **Communicable Disease Maintenance** with a **Save** action
 - **Last Update**
   - **June 17, 2026 (Alec Blair)** — Initial draft. Populated the specification from the *OMRS Disease Maintenance* wireframe (slide 8 of the OMRS Design deck), mapped each field to the [[OMRS Database ERD]], and aligned the access model to [[User Maintenance Screen Specifications]]. Flagged four ERD gaps for resolution before build: Associated Vaccine dimension, Lab Procedure / Diagnostic Test dimension, structured Episode-Condition rule table (replacing free-text case definitions), and setting-specific closure thresholds (e.g., school-absenteeism %).
   - **June 17, 2026 (Alec Blair)** — Updated the field mapping to the resolved [[OMRS Database ERD]] v2.1: Lab Procedures → `DiagnosticTest`/`DiseaseTest`; Associated Vaccine → `Vaccine`/`DiseaseVaccine`; Confirmed/Probable Episode Conditions → `DiseaseCaseDefinitionRule`; Minimum Case Definition Rule and Closure Criteria → new `OutbreakDefinition` fields (`minConfirmedCaseCount`, `minProbableCaseCount`, `absenteeismThresholdPct`, `closureCriteriaText`). No remaining ERD gaps.
+  - **June 25, 2026 (Alec Blair)** — Documented the **Add Disease** minimum-viable quick-add (Disease Name + Reporting Timeline mandatory; “Add to Dictionary” writes a new Active version; remaining attributes completed in the editor) to align the specification with the OMRS prototype. Added Functional Behaviour 2.5.
 - **Link to Jira Task** — _to be added_
 - **Specifications Status** — Draft for working-group review
 - **Linked SBARs** — _to be added_
