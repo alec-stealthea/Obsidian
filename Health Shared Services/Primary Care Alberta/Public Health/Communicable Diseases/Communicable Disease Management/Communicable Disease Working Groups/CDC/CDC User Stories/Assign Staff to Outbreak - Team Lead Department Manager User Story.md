@@ -12,7 +12,6 @@ tags:
   - outbreak-team
 timestamp: 2026-06-26T00:00:00Z
 ---
-
 ## Background
 
 Once an outbreak investigation is created and marked Active (see [[Create Outbreak Investigation - CDC Investigator User Story]], O-A-4), the outbreak team has to be **stood up** — the right people attached to the right roles so the investigation work actually gets done. That staffing decision belongs to the person who oversees the program team: a **Team Lead** or **Department Manager**. They decide which roles an outbreak needs, then assign people drawn from the existing Outbreak Management Reporting Application (OMRA) user base to those roles, and they remain accountable for seeing the necessary tasks completed.
