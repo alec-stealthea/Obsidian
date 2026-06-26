@@ -21,13 +21,14 @@ Governs `Communicable Disease Working Groups/CDC/`, including `CDC User Stories/
 ## What's Unique to CDC
 
 - **CDC is the outbreak working group.** Its user stories describe generic outbreak-investigation capabilities (search, create, summarise, manage) that apply across diseases and settings, not a single-disease pathway.
-- **Value Stream and ID scheme.** CDC stories sit on the **Outbreak (O)** value stream, whose stages are *Exposure Trace → Confirm → Open → Manage → Close*. Story IDs follow `O-[Stage]-[seq]` — e.g., `O-C-3` is the third story at the **Confirm (C)** stage.
+- **Value Stream and ID scheme.** CDC stories sit on the **Outbreak (O)** value stream, whose stages are *Exposure Trace → Confirm → Assess → Open → Manage → Close*. Story IDs follow `O-[Stage]-[seq]` — e.g., `O-C-3` is the third story at the **Confirm (C)** stage, and `O-A-4` is the fourth at the **Assess (A)** stage. (The **Assess** stage aligns with the `OutbreakLifecycleStatus` enum value of the same name — New → **Assess** → Active → … — where the investigator creates the investigation record and marks it Active.)
 - **Build team.** CDC stories are built by the **Outbreak Application Team**.
 - **Design specs are in OMRS, not here.** CDC stories reference the OMRS screen specifications — [[Communicable Disease Search Screen Specifications]] (the build realisation of the O-C-3 search story), [[Create Outbreak Investigation Screen Specifications]], [[Contact Identification Screen Specifications]], [[User Maintenance Screen Specifications]] — and the [[OMRS Database ERD]]. Keep the requirement (the story) here; keep the build spec in the OMRS folder.
 
 ## CDC User Stories
 
 - [[Outbreak Search - Outbreak Investigator User Story]] (**O-C-3**) — Outbreak Investigator searches/sorts/filters active and historical outbreaks to confirm whether to declare a new outbreak or update an existing one; launches Create Outbreak and exports filtered results.
+- [[Create Outbreak Investigation - CDC Investigator User Story]] (**O-A-4**) — Outbreak Investigator creates the outbreak investigation record and marks it Active so the outbreak can be reported to stakeholders, the Initial AORF sent, and the outbreak team stood up; supports cluster/parent and PHAC links, multiple organisms with case definitions, and Open/Closed + Tracking/Outbreak/Not-an-Outbreak status. Successor to the O-C-3 search story; build spec is [[Create Outbreak Investigation Screen Specifications]].
 
 ## Open Decisions / Pending Dependencies
 
@@ -46,4 +47,4 @@ Track these so they are not silently re-decided in individual stories:
 ---
 
 _Last Updated_: 2026-06-26
-_Version_: 1.1 (linked the O-C-3 search story to its build spec, [[Communicable Disease Search Screen Specifications]])
+_Version_: 1.2 (added the O-A-4 Create Outbreak Investigation story; inserted the **Assess (A)** stage into the value-stream/ID scheme)
