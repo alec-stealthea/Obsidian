@@ -32,10 +32,10 @@ Key facts that govern any assessment work here:
 ```
 Technology and Innovation/
 ├── Pronghorn AI Assisted Development.md                          ← Overview / capability summary of Pronghorn
-└── Pronghorn Ingestion Plan - Outbreak Management Application.md  ← Worked mapping of OMRS artifacts onto the Pronghorn pipeline
+└── Pronghorn Ingestion Plan - Outbreak Management Application.md  ← Worked mapping of OMRA artifacts onto the Pronghorn pipeline
 ```
 
-The [[Pronghorn Ingestion Plan - Outbreak Management Application|Ingestion Plan]] is the worked example: it maps existing Outbreak Management artifacts (design, governance, user stories, value streams) onto the Pronghorn Epics → Features → Stories → AC structure, starting from the Outbreak value stream as the Epic-level skeleton. It draws on the OMRS design deck, ERD, and screen specs — see [[CLAUDE-OMRS]] for that source material. (The note's filename retains the legacy "Outbreak Management Application" wording; the system is now OMRS.)
+The [[Pronghorn Ingestion Plan - Outbreak Management Application|Ingestion Plan]] is the worked example: it maps existing Outbreak Management artifacts (design, governance, user stories, value streams) onto the Pronghorn Epics → Features → Stories → AC structure, starting from the Outbreak value stream as the Epic-level skeleton. It draws on the OMRA design deck, ERD, and screen specs — see [[CLAUDE-OMRA]] for that source material. (The note's filename retains the legacy "Outbreak Management Application" wording; the system is now OMRA.)
 
 ## Working Conventions
 

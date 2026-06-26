@@ -1,0 +1,1 @@
+GraphRAG is where a Large Language Model uses a Knowledge Graph to perform the 'retrieval' portion of the Retrieval Augmented Generation of the response that is being requested.

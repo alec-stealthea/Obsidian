@@ -1,0 +1,56 @@
+This is a follow-up plan from the [[2024-2026 Three Year Plan]].  My risks of my daughter getting engaged and married has not come true.  It also took me until 2025 to get my first paid consulting gig. Finally, my youngest did not move out and has now decided to take a two year aviation mechanics certificate. Finally, my wife is not even close to discussing down sizing let alone planning for it.
+
+- **2026**
+	- **Attributes**
+		- Personal
+			- Turn 61
+			- 35th wedding anniversary
+			- 5 years to retirement
+			- Andrea's car loan paid off in the fall resulting in $350 bi-weekly added to cash flow
+		- Family
+		- Professional
+			- Successful deployment of Continuing Care Home Vacancy and Waitlist Management Solution
+		- Avocational
+			- Become Revv52 President?
+			- Probability - Medium
+			- Impact - More time spent working with Revv52 vs. possible side-hustles
+	- **Risks**
+		- Maybe Haley gets engaged?
+			- Probability - Medium
+			- Impact - mostly getting finances in order to support a wedding donation
+		- Zachary starts school in airplane mechanic
+			- Probability medium
+			- Impact - Still living at home
+	- **Goals**
+		- Generate some revenue for Stealth EA
+		- Set Revv52 on a clearer path to sustainability by adding interns and a business manager
+- 2027
+	- **Attributes**
+		- **Personal**
+			- Turn 62
+			- 4 years to retirement
+		- **Family**
+			- My brother retires?
+		- **Work**
+			- Outbreak application and CDS solution released for TB and STI
+		- **Avocational**
+			-  Second and last year of being Revv52 President
+			- Probability - Medium
+			- Impact - Start the transition process to the vice president
+	- **Risks**
+		- Zachary in second year airplane mechanic school
+			- Probability - Medium
+			- Impact - Still living at home
+	- **Goals**
+		- Pay off the Chevy Bolt loan
+- 2028
+	- **Attributes**
+		- **Personal**
+			- Turn 63
+		- **Family**
+			- 
+		- **Professional**
+			- Full deployment of the CDS Solution
+		- **Avocational**
+			- Past president for Revv52
+	- **Risks**

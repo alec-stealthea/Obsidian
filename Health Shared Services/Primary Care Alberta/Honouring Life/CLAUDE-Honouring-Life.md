@@ -49,7 +49,7 @@ Tracked in full in the assessment note; the load-bearing ones:
 ## Working conventions
 
 - Treat the four `HL_*` spec documents as program-owned source material — assess and reference them; don't edit them.
-- This is a **citizen-developer / low-code** effort owned by the program team — a different governance posture from HSS-built custom apps like OMRS. Keep that distinction when advising.
+- This is a **citizen-developer / low-code** effort owned by the program team — a different governance posture from HSS-built custom apps like OMRA. Keep that distinction when advising.
 - Status: pre-Power-Platform-access. Alec had not used Power Platform at first review; assessment content is preliminary and to be revised after hands-on use.
 
 ---

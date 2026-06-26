@@ -25,8 +25,8 @@ The largest content area in this folder. Located at `Public Health/Communicable 
 - **Outbreak Prevention and Control/** — Guides for outbreak management across facility types (acute care, child care, continuing care, correctional centres, schools, shelters, supportive living). Includes checklists and antiviral worksheets.
 - **Reference Documents/** — Regulatory and procedural references: Public Health Act, reportable disease lists, NDR manual, TB policy, risk assessment tools, surveillance tracking.
 - **Research Papers/** — Data warehouse design research (star schema, snowflake schema) relevant to the CD data architecture.
-- **Communicable Disease Working Groups/** — Per-disease working-group artifacts. The **STI** subfolder holds the [[STI Intake Form Design Specification]] (digital redesign of the paper Notification of STI form AH0332), the STI Value Stream, and STI User Stories; the **TB** subfolder holds TB User Stories. These feed the shared contact-identification work in OMRS.
-- **Outbreak Management Reporting System (OMRS)/** — Custom application coordinating outbreak investigations, facility line lists, and aggregate/AORF reporting; replaces REDCap and carries forward the legacy CD/OM (CDOM) data-stewardship functions. Holds the data model, the prototype wireframe deck, and the per-screen build specifications. **Naming caveat**: earlier artifacts carry older names (AOMS, OMRA) — treat AOMS, OMRA and OMRS as the same system and use **OMRS** in new content. See [[CLAUDE-OMRS]].
+- **Communicable Disease Working Groups/** — Per-disease working-group artifacts. The **STI** subfolder holds the [[STI Intake Form Design Specification]] (digital redesign of the paper Notification of STI form AH0332), the STI Value Stream, and STI User Stories; the **TB** subfolder holds TB User Stories. These feed the shared contact-identification work in OMRA.
+- **Outbreak Management Reporting Application (OMRA)/** — Custom application coordinating outbreak investigations, facility line lists, and aggregate/AORF reporting; replaces REDCap and carries forward the legacy CD/OM (CDOM) data-stewardship functions. Holds the data model, the prototype wireframe deck, and the per-screen build specifications. **Naming caveat**: earlier artifacts carry older names (AOMS, OMRA) — treat AOMS, OMRA and OMRA as the same system and use **OMRA** in new content. See [[CLAUDE-OMRA]].
 
 A sibling folder, **Connect Care Build Specifications/**, sits alongside Communicable Disease Management under `Communicable Diseases/`. Its **Sexually Transmitted Infections/** subfolder holds the Epic (Connect Care) STI flowsheet build analysis — the [[STI Flowsheet Logical Data Model]] (6 exported flowsheets, 1,744 fields), Sexual Contacts flowsheet, STI Workflow Overview, and the supporting Epic exports.
 
@@ -52,7 +52,7 @@ Located at `Honouring Life/`. EA review of the **Honouring Life Grant** program'
 
 ## Child Context Files
 
-- [[CLAUDE-Communicable-Diseases]] — Communicable Disease area (cross-cutting program facts, CD tree structure); parent of [[CLAUDE-OMRS]].
+- [[CLAUDE-Communicable-Diseases]] — Communicable Disease area (cross-cutting program facts, CD tree structure); parent of [[CLAUDE-OMRA]].
 - [[CLAUDE-Breast-Cancer-Screening]] — Breast Cancer Screening AI Initiative (mammography key fields, UAT, AI discrete results, LLM scripts, HL7 samples).
 - [[CLAUDE-PCA-PH-Vaccine-Depot]] — Provincial Vaccine Depot Epic Willow inventory/VIMS assessment.
 - [[CLAUDE-Honouring-Life]] — Honouring Life Grant program Power Platform (Dataverse) solution assessment.

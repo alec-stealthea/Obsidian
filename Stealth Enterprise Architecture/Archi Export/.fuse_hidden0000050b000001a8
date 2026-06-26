@@ -1,0 +1,33 @@
+---
+feature: Archi Embedding Architecture.png
+---
+# Archi Embedding Architecture
+
+![Archi Embedding Architecture](Archi%20Embedding%20Architecture.png)
+
+## Archi
+
+### JArchi Chunking Scripts
+
+#### Domain
+
+#### Value Stream
+
+#### Application
+
+#### Information Exchange
+
+#### Technology
+
+## Stealth EA AI
+
+### Embedding Scripts
+
+### Stealth EA Chroma Vector DB
+
+### Stealth EA MCP Server
+
+## Claude Client
+
+### Stealth EA MCP Client
+

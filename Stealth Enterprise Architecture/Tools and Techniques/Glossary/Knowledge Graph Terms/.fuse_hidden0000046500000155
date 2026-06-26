@@ -1,0 +1,1 @@
+TinkerPop is an Apache-based framework for performing graph-based processing, while Gremlin is the language that TinkerPop uses to express the actual traversals. G/TP. Gremlin is available in BlazeGraph, Amazon Neptune and OrientDB

@@ -1,0 +1,1 @@
+Looking to start the alignment to an overall data lake house by building out fact tables that are needed to join bronze data assets across two or more application databases.  This could become the basis for an eventual ontology.

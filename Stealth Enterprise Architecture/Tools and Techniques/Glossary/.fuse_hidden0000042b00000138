@@ -1,0 +1,1 @@
+A business application is software specifically designed to support, automate, or enable specific business capabilities that directly contribute to an organization's value creation and operational objectives.

@@ -1,0 +1,71 @@
+- **Purpose** - I am a person who creates meaningful, individual relationships with people that contributes successfully to achieving amazing group outcomes that benefit my community.
+	- **Open Pandora's Box** - A person who provides opportunities to have people see the art of the possible within their personal skills journey.
+		- **Be** - 
+			- Available
+			- Aware
+			- Supportive
+			- Organized
+			- Intentional
+		- **Do** - 
+			- Demonstrate by example
+				- Don't just show the finished product, show how you got there
+				- Be inclusive for everyone to see
+			- Provide safe skill development opportunities
+				- Look for a partner for a deliverable
+				- Find real opportunities to develop skills
+			- Provide constructive feedback
+				- Make feedback - even of yourself - a regular routine
+				- Positive, negative, positive
+			- Create Learning Material
+				- While Papers
+				- Journal Articles
+				- Demonstration Videos
+				- Communities of Practice
+				- Social Media
+	- Get it done with Enthusiasm - Meet your commitments with energy and enthusiasm
+		- **Be** 
+			- Enthusiastic
+			- Energetic
+			- Efficient
+			- Effective
+		- **Do**
+			- Set, renegotiate, and meet commitments
+				- Make commitments to an individual person - even myself
+				- Plan ahead to re-negotiate early
+			- Apply good practices to create a quality product
+				- Bring everyone's skills to the table
+				- Develop the team's skills to create depth
+			- Accept what's good enough
+				- Create the Minimum Valuable Product, then iterate
+				- Fail early
+				- Prune what isn't working
+			- Create an environment of excitement
+				- Recognise small wins
+				- Celebrate Epic failure
+	- Game Changing Teams - Contribute to diverse teams that creat egreat things
+		- Be - 
+			- Positive
+			- Creative
+			- Empowering
+			- Collaboration
+		- Do - 
+			- Work to make others more successful
+				- What is everyone on your team's measure of success?
+					- Personal
+					- Professional
+				- What are external measures of success?
+				- What things within our control need to be brought to bear
+			- Listen more
+				- Try to be the last one to speak
+				- Raise your hand at virtual meetings and wait to be called
+				- Ask clarifying questions
+			- Create a realistic version for the future
+				- We know we have been successful when...
+				- What's our team's real capacity to get things done
+				- What risks can we mitigate
+			- Create collaboration norms
+				- Create shared group spaces
+				- Start meetings with successes/failures
+				- Always have a meeting agenda and minutes
+				- Create and maintain the team charter
+

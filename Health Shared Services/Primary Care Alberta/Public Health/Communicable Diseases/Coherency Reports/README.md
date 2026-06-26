@@ -21,9 +21,9 @@ The Communicable Disease (CD) body of work spans User Stories, Screen and Interf
 
 For the CD deliverables (see `deliverable_globs` in `.state/coherency-state.json`), each run looks for:
 
-- **Terminology drift** — e.g. legacy `CD/OM`, `AOMS`, or `OMRA` where new content should say `OMRS`; inconsistent disease or entity naming.
+- **Terminology drift** — e.g. legacy `CD/OM`, `AOMS`, or `OMRA` where new content should say `OMRA`; inconsistent disease or entity naming.
 - **Field-name misalignment** — a field named one way in a Screen Specification and differently in the User Story or Interface Specification that drives it.
-- **Architecture-to-spec gaps** — entities/relationships in the Architecture Models or OMRS ERD not reflected in the specs, or vice versa.
+- **Architecture-to-spec gaps** — entities/relationships in the Architecture Models or OMRA ERD not reflected in the specs, or vice versa.
 - **Traceability gaps** — User Stories or specs missing the expected regulatory anchors (HIA, *Public Health Act*, *Communicable Diseases Regulation*).
 - **System-of-record contradictions** — statements that conflict with the settled program facts in `CLAUDE-Communicable-Diseases.md` (e.g. who owns CD episodes vs. outbreak coordination).
 - **Cross-reference integrity** — broken or dangling WikiLinks between deliverables.

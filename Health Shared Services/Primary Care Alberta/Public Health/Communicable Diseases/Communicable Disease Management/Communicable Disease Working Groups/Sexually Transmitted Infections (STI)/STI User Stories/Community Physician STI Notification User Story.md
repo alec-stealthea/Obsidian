@@ -18,7 +18,7 @@ This is a **future-state** story describing the intake pathway that feeds STI co
 In the future state, the completed form is processed by a Blue Prism automation that, from a single submission:
 
 1. creates the notified patient as an STI Communicable Disease Episode in Epic Connect Care (from the form's Personal Identifiers and Clinical Findings);
-2. creates the named partners/contacts as Contact Identifications in the Outbreak application ([[Contact Identification Screen Specifications|Contact Identification Screen]] in OMRS); and
+2. creates the named partners/contacts as Contact Identifications in the Outbreak application ([[Contact Identification Screen Specifications|Contact Identification Screen]] in OMRA); and
 3. raises a purchase order for any requested special or replacement medications in the STI pharmacy inventory management application.
 
 This story owns the physician's notification capability and the end-to-end intake outcome. The downstream investigation — working the seeded contact list, confirming identities, and promoting contacts to episodes — is covered by the [[STI Large Exposure User Story]].
@@ -68,7 +68,7 @@ How will the user be able to say we built what they needed?
 | Role                         | Community Physician / Authorized Health Practitioner                                                 |
 | Status                       | Analysis                                                                                             |
 | Automation Platform          | Blue Prism (RPA)                                                                                     |
-| Target Systems               | Connect Care (episode); Outbreak application / OMRS (Contact Identifications); STI pharmacy inventory management (medication PO) |
+| Target Systems               | Connect Care (episode); Outbreak application / OMRA (Contact Identifications); STI pharmacy inventory management (medication PO) |
 | Connect Care Build Team Link | Connect Care PPH Build Team                                                                          |
 | Source Form                  | [[STI Notification Form.pdf]] (AHS AH0332, Rev. 2022-12)                                            |
 | Related Design Spec          | [[Contact Identification Screen Specifications]]                                                     |

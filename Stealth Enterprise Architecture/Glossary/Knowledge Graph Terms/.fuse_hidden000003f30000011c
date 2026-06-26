@@ -1,0 +1,1 @@
+A Term (t) is a word, compound word, or multi-word expression that in specific contexts is given specific meanings.

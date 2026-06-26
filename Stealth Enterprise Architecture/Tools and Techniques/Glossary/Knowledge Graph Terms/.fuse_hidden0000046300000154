@@ -1,0 +1,1 @@
+Smart contracts bridge the middle ground between exchanges and compliance systems, in effect, both providing the relevant legal framework as reference to enable the contract compliant in a given system, along with the ability to manage, through a set of rules (possibly enabled in SHACL) that initiate actions when the relevant conditions are reached.

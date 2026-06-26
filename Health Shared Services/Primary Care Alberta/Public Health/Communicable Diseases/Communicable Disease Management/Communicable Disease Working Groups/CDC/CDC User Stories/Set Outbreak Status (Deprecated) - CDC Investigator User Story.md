@@ -8,7 +8,7 @@ tags:
   - cdc
   - communicable-disease
   - outbreak-management
-  - omrs
+  - omra
   - deprecated
 timestamp: 2026-06-26T00:00:00Z
 ---

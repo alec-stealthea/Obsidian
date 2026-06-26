@@ -1,0 +1,208 @@
+---
+type: Screen Specification
+title: User Maintenance Screen Specifications
+description: Build specification for the OMRA User Maintenance screen, mapping the OMRA User Maintenance wireframe to the OMRA data model and defining the two-layer (RBAC + ABAC) access model that governs every other screen.
+tags:
+  - screen-specification
+  - omra
+  - user-maintenance
+  - access-control
+  - rbac
+  - abac
+timestamp: 2026-06-17T00:00:00Z
+---
+## User Maintenance Design Specification Context
+
+This screen provisions and maintains the **application users** of the Outbreak Management Reporting Application (OMRA) and assigns the access each user holds. It is the operational front end for the role-based access scheme described in the [[Communicable Disease Solution Architecture]]: a **Team Lead or Department Manager** looks up a person, assigns them a single **functional role** (what they may do), and attaches the **department** scoping attribute (which outbreaks they may edit) plus a professional designation (how they are identified). Because every other OMRA screen reads its permissions from what is set here, User Maintenance is the linchpin of the application's security model — it is referenced as the "access model" source by [[Communicable Disease Maintenance Screen Specifications]] and [[Create Outbreak Investigation Screen Specifications]].
+
+It is one of the three "Foundation" maintenance functions in the design deck (slides 6–8): this **User Maintenance** screen, Location / Facility Maintenance, and [[Communicable Disease Maintenance Screen Specifications|Communicable Disease Maintenance]]. The **design guideline** is to align the OMRA access model with the Connect Care (Epic) communicable-disease roles to the degree practical, so that a user's outbreak responsibilities mirror their clinical responsibilities and provisioning stays consistent across the two applications. `CDOM User Roles.pdf` is the current-state reference the model maps from.
+
+The detailed access model — the functional roles, the department scoping attribute, the Connect Care alignment, and the resolutions to working-group feedback — is retained in the [Access Model Reference](#access-model-reference-rbac--abac) appendix below so this file can continue to serve as the canonical access-control reference the rest of the suite cites.
+
+Source material for this specification:
+
+- **Wireframe** — *User Maintenance* wireframe, slide 6 of [Alberta Outbreak Management Reporting Application (OMRA) Design.pptx](https://albertahealthservices.sharepoint.com/teams/M365TCCNotifiableDiseaseProjects/Shared%20Documents/General/Solution%20Design%20Documents/Outbreak%20Management%20Application/Alberta%20Outbreak%20Management%20System%20Design.pptx).
+- **Data model** — [[OMRA Database ERD]] (v2.2, January 12, 2026), principally the new **Section 14 Application User & Access Model** tables (`AppUser`, `FunctionalRole`, `Team`/`UserTeam`, `ProfessionalDesignation`, `UserMaintenanceActivity`, `AppUserHistory`), plus `Person`, `Organization` and `OrganizationType`. The application user and RBAC/ABAC attributes flagged as gaps in the initial draft are now modelled in v2.2; the field table maps to those tables. Zone and disease-group scoping have been retired from the access model (see Version History), so the `UserZone` and `UserDiseaseGroup` junctions remain in the ERD but are no longer used by this screen.
+- **Access model** — this document (the OMRA Role-Based Access Specification); current-state reference `CDOM User Roles.pdf`.
+- **Reference data / source material** — [[Communicable Disease Solution Architecture]] (personas and interface points); Connect Care (Epic) login-template and security-point model; AHS Health Professions Strategy designation list.
+
+## Wireframe
+
+The PowerPoint version of this wireframe is *OMRA User Maintenance* (slide 6) in [Alberta Outbreak Management Reporting Application (OMRA) Design.pptx](https://albertahealthservices.sharepoint.com/teams/M365TCCNotifiableDiseaseProjects/Shared%20Documents/General/Solution%20Design%20Documents/Outbreak%20Management%20Application/Alberta%20Outbreak%20Management%20System%20Design.pptx).
+
+The screen is titled **User Maintenance** with a **Lookup Person** action (top right) and a **Save** action (bottom right). Its layout has three zones:
+
+- **Person lookup / identity (top)** — a **Lookup Person** control to retrieve an existing person, populating **Last Name**. A "+" affordance beside Last Name supports adding a person not returned by the lookup.
+- **Assignment fields (left column)** — **Role** (dropdown ▼), **Organization** (dropdown ▼), **Department** (dropdown ▼), **Professional Designation** (dropdown ▼), **Address** (with "+"), and **Postal Code** (with "+"). The "+" affordances indicate inline adds to the underlying dictionaries (e.g. a new Organization). **Professional Designation** is a display/identity attribute (e.g. Nurse/RN, Medical Officer of Health) shown on the screen for attribution; it is optional and grants no function.
+- **Existing Users grid (lower section)** — a list of already-provisioned users with columns **Name · Role · Phone · E-mail**, for selecting and editing an existing user.
+
+Two layout notes carried forward as build questions: the wireframe's flat **Role** dropdown does not by itself express the two-layer model (one functional role plus the department scoping attribute), and **Department** is ambiguous between a user's *program team* (the department attribute, e.g. CDC/SHE) and a facility location. Both are resolved in the Acceptance Criteria and flagged in the field table.
+
+## Acceptance Criteria Specifications
+
+1. **Scenario Conditions** — What scenarios have been defined that may affect the specifications.
+
+   1. *Provisioning a new user* — A **Team Lead or Department Manager** looks up a person, assigns exactly **one functional role**, and attaches the **department** scoping attribute, a professional designation, and any maintenance flags. The current CD/OM application bundled "what a user can do", "what data a user can see" and "who the user is" under the single word *role*; OMRA separates these so the same person no longer needs several "roles" at once.
+   2. *Surge reassignment* — Responsibilities shift between departments during surges (e.g. IPD, varicella). The screen must let a **Team Lead or Department Manager** change a user's **department** attribute **without** re-running role approval (see Jessica Nooy's working-group note, resolved in the appendix).
+   3. *Migration from CD/OM* — Existing CD/OM users (whose "role" mixed user group, name prefixes and suffixes) are migrated to one functional role plus a department. A CD/OM user mapping to more than one user group defaults to the higher-privileged single role and is flagged for **Team Lead or Department Manager** review.
+   4. *Cross-department visibility* — A user **edits** outbreaks within their own department(s) and has **read-only** access to every other department's outbreaks. Granting edit rights in an additional department is a department-attribute change made by a Team Lead or Department Manager; read access to other departments is automatic and does not require provisioning.
+   5. *User maintenance vs. provisional add* — Provisioning users is performed by a **Team Lead or Department Manager**, distinct from an investigator's in-case "provisional add" of a missing reference value (see §3.3 in the appendix).
+
+2. **Functional Behaviour** — What (if any) business logic needs to be created for this.
+
+   1. **Lookup Person** retrieves an existing person record (and, where available, validates against the source person directory) so user provisioning reuses identity data rather than re-keying it. A "+" creates a new person where the lookup returns nothing.
+   2. **Save** enforces **exactly one functional role per user** (AC-1, appendix) and persists the role plus its department attribute. A user's effective permission is the **intersection** of the functional role (the verbs) and the department (the nouns): **edit** within their own department, **read-only** for every other department.
+   3. Department edits take effect immediately on the records in scope and do **not** change the functional role or require role re-approval.
+   4. The **Role** control must surface the **functional role** as a single value; **department and professional designation** are separate, independently editable fields rather than additional "roles."
+   5. User and access changes are **versioned, not overwritten** — the prior version is retired and a new active version is written, preserving history (mirrors the reference-data versioning used on the other Foundation screens). The ERD comment on `Person` explicitly anticipates "a history of changes" and a parallel users table.
+   6. Privileged data-integrity actions (delete / access-deleted, merge / unmerge, split, duplicate-client checks) are available only to the **Business System Manager** role and are hidden for other roles (AC-4, appendix).
+
+3. **User Experience Considerations** — What (if any) UX options might we have to consider as part of the build.
+
+   1. This function is part of the OMRA **Foundation** maintenance set; reuse CDOM UX where appropriate (deck slide 5) and keep it visually consistent with [[Communicable Disease Maintenance Screen Specifications|Communicable Disease Maintenance]] and Location / Facility Maintenance.
+   2. The flat wireframe **Role** dropdown is insufficient for the two-layer model — the build should present **Functional Role** as a single-select, then **Department** as a multi-select picker (with type-ahead and "+" to add a missing value), and **Professional Designation** as a single-select display attribute.
+   3. **Department** is the user's *program team* (CDC / SHE / TB / STI / HIV / IPC / PPHST) and is the sole data-scoping attribute. It maps to the `Team`/`UserTeam` tables in the ERD (named "Team" historically); the screen and business term is **Department**. A facility location is a separate concept and does not belong on the user record.
+   4. The **Existing Users** grid (Name · Role · Phone · E-mail) should support search, sort and filter by role/department, and open a selected user for edit.
+   5. Show the role as a single value on the user profile, with department and designation shown as separate fields, so the "one role" rule is visible to the Team Lead or Department Manager.
+
+4. **Data Inputs and Outputs** — What are the data elements involved for the build object. What test data is needed to support functional testing.
+
+   1. *Inputs* — User provisioning entered by a Team Lead or Department Manager; person identity retrieved via **Lookup Person**; a one-time migration/import from the CD/OM user groups (and AD groups) to seed users, roles and departments.
+   2. *Outputs* — The user / access record `{ role, department[], designation, maintenanceFlags[] }` consumed by every OMRA screen for department-level data scoping (edit own department, read all others) and action authorization; attribute-change and privileged-action entries written to `AuditLog`.
+   3. *Test data* — (a) an **Investigator** who is an **RN in the CDC department**, with *Provisional add* — verifies one role + department + read-only visibility of other departments; (b) a **Business System Manager** with cross-department scope and *Dictionary maintenance* flag — verifies privileged actions appear; (c) a surge case: move an Investigator from the **CDC** department to the **Outbreak** department mid-surge with no role change (AC-2); (d) a migrated CD/OM user mapping to two user groups — verifies default-to-higher-privilege + review flag; (e) a **Read-Only User** (ministry oversight) — verifies no create/edit controls render.
+   4. **ERD support (resolved in v2.2)** — the application user, single functional role, and the department attribute are now modelled in [[OMRA Database ERD]] Section 14: `AppUser` (single `functionalRoleID`, plus `userAddress`/`userPostalCode`/`versionStatus`), `FunctionalRole`, the `Team`/`UserTeam` department junction, `ProfessionalDesignation`, `UserMaintenanceActivity`, and `AppUserHistory` for change history. The `UserZone` and `UserDiseaseGroup` junctions remain in the ERD but are no longer used by this screen following the move to department-only scoping. The field table maps to these. They are kept distinct from the Section 3 `Person`/`Role`/`PersonRole` stakeholder-and-clinical-role tables.
+
+5. **Business Rules and Validation** — What (if any) business logic governs this application function and what can be done to build in quality checks for data validation?
+
+   1. **Exactly one functional role per user.** Reject any provisioning that assigns two functional roles. Enforced in the data model by `AppUser.functionalRoleID` being a **single FK** (ERD v2.2), not a junction — distinct from the Section 3 `PersonRole` table, which permits multiple dated *clinical* roles per stakeholder and is not the functional-role store.
+   2. **Read access spans all departments.** Every provisioned user may **read** other departments' outbreaks; **edit** rights are confined to the user's own department(s). This is a deliberate working-group decision favouring cross-department situational awareness.
+   3. **Department changes do not require role re-approval.**
+   4. **Last Name / Name** is mandatory; a user must be tied to a valid person record (via Lookup Person or a new "+" add).
+   5. **Functional role** is mandatory; **at least one department** is required for any role that edits data (a Read-Only oversight user may be scoped read-all).
+   6. **Removing the last department attribute** leaves the user with **no editable data** — they retain read-only visibility of all departments' outbreaks but can edit nothing (effectively edit-suspended) rather than defaulting to all-data edit.
+   7. **Privileged actions** (delete, merge, split, dictionary maintenance) are restricted to the Business System Manager and are fully audited with actor, timestamp and before/after values.
+   8. **Professional designation does not grant function** — it is display/attribution only and must never widen access.
+
+6. **Exception Handling** — How will the application handle edge cases, missing data, time outs, etc.?
+
+   1. **Lookup Person returns no match** → offer the "+" new-person add rather than blocking provisioning; flag the new person for identity reconciliation.
+   2. **Lookup Person returns multiple matches** → present a disambiguation list (name, organization, email) before binding the user to a person.
+   3. **Migrated user maps to >1 CD/OM group** → default to the higher-privileged single functional role and queue for Team Lead or Department Manager review rather than assigning two roles.
+   4. **Removing the last department** → warn the Team Lead or Department Manager that the user will have no editable data (read-only only), and require explicit confirmation.
+   5. **Lookup Person directory timeout** → allow the Team Lead or Department Manager to proceed with manual entry flagged "pending identity validation," consistent with the Client Registry timeout handling pattern.
+   6. **Concurrent edits to the same user** → optimistic locking on the version date; the second writer is warned and re-prompted.
+
+7. **Business Semantics** — What terminology resonates with the business for this application function.
+
+   - "User Maintenance" / "user provisioning"; **Functional Role** = *what you can do*; **Department** = *what you can do it to* (edit your own department, read the rest); **Professional Designation** = *who you are* (e.g. "an Investigator who is an RN in the CDC department," not an "RN CDC role"). **Provisional add** (investigation) vs. **Dictionary maintenance** (Business System Manager). **Department change ≠ promotion.** "Business System Manager" carries forward from CD/OM for privileged data-integrity actions; **Team Lead** and **Department Manager** perform user maintenance. "Lookup Person," "Existing Users."
+
+| Screen Field | Data Type | Database Field | Data Standard | Default Value | Mandatory? | Comments |
+|---|---|---|---|---|---|---|
+| Lookup Person (action) | — (control) | `AppUser.personID` → `Person.personID` | — | None | N/A | Retrieves an existing person to provision; binds the `AppUser` record to a `Person`. Source person directory / Connect Care provider lookup TBC. |
+| Last Name | Alpha Numeric | `Person.personLastName` | — | None | Yes | First name (`Person.personFirstName`) and alias (`personAlias`) also exist on `Person` though only Last Name shows on the wireframe — confirm whether First Name should display. |
+| Name (Existing Users grid) | Alpha Numeric | `Person.personFirstName` + `Person.personLastName` | — | None | Yes | Display concatenation in the grid. |
+| Role | Lookup (single) | `AppUser.functionalRoleID` → `FunctionalRole.functionalRoleName` | OMRA functional-role set (6 roles + Facility Operator) | None | Yes | Resolved in ERD v2.2: `AppUser` carries a **single** `functionalRoleID` (not a junction), enforcing AC-1's one-role rule. Distinct from the Section 3 `Role`/`PersonRole` tables, which model clinical roles (MOH, CDC Nurse) on the outbreak team. |
+| Organization | Lookup | `AppUser.organizationID` → `Organization.organizationName` | `OrganizationType` (AHS, PCA, Covenant, Facility Operator…) | None | Yes | Maps to `Organization`. "+" inline-adds a new Organization. |
+| Department | Lookup (multi) | `UserTeam.teamID` → `Team.teamName` | OMRA Department list (CDC, SHE, TB, STI, HIV, IPC, PPHST) | None | Yes (editing roles) | **The sole data-scoping attribute.** Determines which outbreaks the user may **edit** (own department) vs. **read** (all other departments). Maps to the `Team`/`UserTeam` tables (named "Team" in the ERD for historical reasons) — *not* the facility `Department` table (Building→Department→Room). Multi-valued where work legitimately spans departments. |
+| Address | Alpha Numeric | `AppUser.userAddress` | — | None | No | Resolved in ERD v2.2: added `AppUser.userAddress` (`Person` had no address column). Confirm a user address is actually required. |
+| Postal Code | Alpha Numeric | `AppUser.userPostalCode` | Canada Post format | None | No | Resolved in ERD v2.2: added `AppUser.userPostalCode`. Same confirm-need question as Address. |
+| Phone (Existing Users grid) | Alpha Numeric | `Person.personPhone` | — | None | No | Maps to `Person`. |
+| E-mail (Existing Users grid) | Alpha Numeric | `Person.personEmail` | — | None | No | Maps to `Person`; used for notification/identity. |
+| Professional Designation (display attribute) | Lookup | `AppUser.professionalDesignationID` → `ProfessionalDesignation.designationName` | AHS Health Professions Strategy list (RN, LPN, NP, MD, MOH, EO, EPI, CHR…) | None | No | Resolved in ERD v2.2: `ProfessionalDesignation` reference. Identity/display only — never grants function (3.2). Carried forward from the CD/OM First Name Suffix. **Now surfaced as a visible dropdown on the wireframe (slide 6).** |
+| Maintenance Activities (capability flag) | Boolean / Lookup | `UserMaintenanceActivity.maintenanceActivityType` | Provisional add / Dictionary maintenance | None (off) | No | Resolved in ERD v2.2 (`UserMaintenanceActivity`). Privileged capability flag (3.3); "Dictionary / dimension maintenance" gates BSM stewardship. |
+| Created by / Create Date (audit) | Lookup / Date-Time | `AuditLog.actionBy` / `AuditLog.actionDateTime` | — | Logged on save | Yes | Not visible on screen; part of the maintenance audit record. User-specific changes also captured in `AppUserHistory`. |
+| Version Status / Version Date | Lookup / Date | `AppUser.versionStatus` → `VersionStatus` (Active, Retired, Merged, Draft) | — | Active on save | Yes | Not visible on screen; supports versioning rather than overwrite. Resolved in ERD v2.2: `AppUser.versionStatus`/`versionDate` plus the `AppUserHistory` change-history table. |
+
+## Technical Implementation Notes
+
+- **Access Specifications** — User provisioning is performed by a **Team Lead or Department Manager**; investigators do not provision users, and platform/account operations (AD, ETL) remain with the **IT System Administrator**. The screen writes the two-layer model — a single **functional role** (RBAC verbs) plus the **department** attribute (ABAC noun) and a display-only professional designation. A user may **edit** outbreaks in their own department(s) and **read** every other department's outbreaks. Provision via Active Directory groups where practical, mirroring the current CD/OM AD-group model and the Connect Care security model (`AppUser.adAccountName` carries the AD link; non-selectable entitlements ride on AD groups). The application-user, functional-role, and department tables are modelled in [[OMRA Database ERD]] Section 14 (v2.2).
+- **Security Specifications** — The user record itself is administrative data, but it is the **control point for all PHI access** in OMRA, so its integrity is high-stakes. Access is scoped at the **department** level: edit rights are confined to a user's own department(s), and **read access spans all departments** — a deliberate working-group decision to favour cross-department situational awareness over disease-group segregation. The earlier HIV/STI disease-group privacy boundary has been retired together with the disease-group attribute; if a future privacy boundary is required under the *Health Information Act* it would be reintroduced as a department-level restriction and should be flagged for privacy review. All privileged actions (delete, merge, split, role change) are audited through `AuditLog` with actor, timestamp and before/after values; history is preserved through versioning rather than destructive update. Least-privilege still applies to *editing*: professional designation never widens access, and removing all department attributes suspends edit ability rather than granting all-data edit. Isolation/exclusion authorities tie to the *Public Health Act* and should map only to MOH-designated roles.
+- **Performance Expectations** — User maintenance is low-frequency, but the user/access record is read on **every** screen load to compute department-level scope, so the resolved permission set must be cached and index-backed to return within interactive response targets even during surge volumes. Department-scoped queries must not degrade as departments are added. No response-time expectation beyond the application SLA for the maintenance actions themselves.
+
+---
+
+## Access Model Reference (RBAC + ABAC)
+
+> Retained from the original Role-Based Access Specification so this screen spec remains the canonical access-model reference cited by the other OMRA specs. The screen sections above implement this model; the sections below define it.
+
+### Access Model Overview
+
+The current CD/OM application bundles three different ideas under the single word "role": *what a user can do* (Basic User, Manager, Business System Manager), *what data a user can see* (Disease Groups, Last Name Prefix / program and zone), and *who the user is professionally* (First Name Suffix, e.g. RN, MOH). Bundling these together is why the same person can appear to need several "roles" at once.
+
+OMRA separates these concerns into two layers:
+
+- **Functional Role (RBAC)** — a single role per user that governs which *actions* the user may perform (read, create, edit, reassign, merge, delete, administer). This satisfies the "one and only one role" rule.
+- **Access-Control Attributes (ABAC)** — the department assigned alongside the role governs which *data* the user may act on, and the professional designation governs how the user is *identified*. Attributes do not grant new actions; they scope the actions the role already permits.
+
+A user's effective permission is the **intersection** of their functional role (the verbs) and their department (the nouns). For example, an *Investigator* scoped to the *CDC department* can edit outbreak investigations — but only CDC outbreaks — while retaining read-only visibility of every other department's outbreaks. This mirrors Connect Care: an Epic user has one login template (their role) plus security points and context records (their scope).
+
+### Functional Roles (RBAC)
+
+Each user is assigned **one** functional role. Each maps to a current CD/OM user group and a persona in the [[Communicable Disease Solution Architecture]].
+
+| # | Functional Role | Maps to current CD/OM group | Architecture persona | Core capabilities |
+|---|---|---|---|---|
+| 1 | **Read-Only User** | CDOM Basic User (Read-only) | Oversight, students, Alberta Health / ministry viewers | View outbreak investigations, line lists, daily reporting and reports. No create, edit, merge or delete. |
+| 2 | **Intake User** | *(new — no direct equivalent)* | Population & Public Health Support Team (PPHST) | Create and triage a new outbreak report; record the initial facility phone encounter; route to the appropriate CDC or SHE department. Cannot continue the investigation or edit line-list clinical detail. |
+| 3 | **Investigator** *(Basic User)* | CDOM Basic User | CDC / SHE / TB / STI / HIV / IPC investigators | Full case work: outbreak investigations, facility daily reporting and line lists, correspondence, phone encounters; trigger ULI / CD Episode interfaces; add a *provisional* reference entry during an investigation. Edit own-department records and read all departments; cannot delete, merge or perform authoritative dictionary maintenance. |
+| 4 | **Team Lead / Department Manager** | CDOM Manager | Team / program / department managers (incl. STI Program Manager) | Investigator capabilities plus investigator reassignment, record review (write), team/department oversight reports, **and user maintenance — provisioning and maintaining users for their department**. |
+| 5 | **Business System Manager** | CDOM Business System Manager | Data stewardship lead | Manager capabilities plus delete and access-deleted records, duplicate-client checks, merge / unmerge and split, authoritative dictionary and dimension maintenance, and privacy reports. |
+| 6 | **IT System Administrator** | CDOM IT System Administrator | Technical administration | Non-clinical: report content management, ETL and interface operations, audit configuration, and technical AD/account administration. Business user maintenance is performed by Team Leads / Department Managers. No create or edit of clinical / outbreak records. |
+| 7 | **Facility Operator** | Not applicable | Facility staff | A login for facility operators to upload the Excel-based questionnaire or fill in the web form for that day's content. |
+
+**Notes on the role set.** "Admin" is split into the business-facing **Business System Manager** and the technical **IT System Administrator** so data-stewardship privileges (delete / merge / dictionary) are separated from platform administration. Routine **user maintenance** is delegated to the **Team Lead / Department Manager** role, closest to the people being provisioned. **Intake User** represents the PPHST first-point-of-contact function; **Read-Only User** is named explicitly. Operational AD constructs that are *not* business roles — Surveillance Publisher, Report Publisher, MyApps User, User Access Provisioner, Domain Users — become provisioning/reporting entitlements granted automatically or by request, not selectable roles (see Technical Implementation Notes).
+
+### Access-Control Attributes (ABAC)
+
+Attributes are assigned alongside the single functional role. They are **reassignable without changing the role**, which is essential during surges.
+
+- **3.1 Department** — the program team / department the user works in; determines which outbreaks the user may **edit** (their own department) and which they may only **read** (all others). Values: **CDC, SHE, TB, STI, HIV, IPC, PPHST**. Replaces the CD/OM Last Name Prefix routing. Multiple values allowed where work legitimately spans departments. *(Zone and disease-group scoping, present in earlier drafts, have been retired — see Version History.)*
+- **3.2 Professional Designation** *(identity / display attribute)* — from the CD/OM First Name Suffix. Displayed for attribution and charting; **grants no function**. Values: **RN, LPN, NP, MD, MOH, EO, EPI, CHR, Admin Support, Supervisor, Manager, Director, Student, Other** (AHS Health Professions Strategy list).
+- **3.3 Maintenance Activities** *(privileged capability flag)* — **Provisional add** (Investigator and above): during an active investigation a user may add a reference entry not yet in the dictionary, flagged provisional and validated against the authoritative dimension. **Dictionary / dimension maintenance** (Business System Manager, or a user explicitly granted the flag): formal creation, cleanup, de-duplication and merge of dictionary and dimension entries (Organism, Location, Vaccine, Diagnostic Test, Disease). An investigator adding a missing site is *provisional data entry*; it is not dictionary maintenance.
+
+### Role × Attribute Summary
+
+| Functional Role | Typical Department(s) | Edit / Read scope | Maintenance Activities |
+|---|---|---|---|
+| Read-Only User | Any / oversight | Read-all, no edit | None |
+| Intake User | PPHST | Edit own (triage), read all | None |
+| Investigator | CDC / SHE / TB / STI / HIV / IPC | Edit own department, read all | Provisional add |
+| Team Lead / Department Manager | As department | Edit own department, read all | Provisional add |
+| Business System Manager | As department / cross-department | Edit broad / as required, read all | Provisional add + Dictionary maintenance |
+| IT System Administrator | N/A (technical) | N/A | Platform / dimension administration |
+
+### Connect Care (Epic) Alignment
+
+| OMRA role | Connect Care alignment |
+|---|---|
+| Read-Only User | Read-only / view-only template (reporting or oversight access). |
+| Intake User | Cheers Call Center / PPHST workflow user — triage and first contact. |
+| Investigator | CD episode and abstract documentation user (CDC / SHE / TB / STI templates). |
+| Team Lead / Department Manager | Team lead / supervisor template with reassignment, review and user-maintenance rights. |
+| Business System Manager | Privileged data-integrity / registry steward. |
+| IT System Administrator | Application / security administration (non-clinical). |
+
+The architecture's interface points (Outbound ULI API, Outbound CD Episode information exchange, Update Abstract with Outbreak ID) are actions available to the **Investigator** role and above, scoped by the user's department.
+
+### Working Group Feedback — Resolutions
+
+**Working-group decision (June 17, 2026)** — The group agreed to scope access at the **department** level only: a user **edits** their own department's outbreaks and has **read-only** access to all other departments' outbreaks. The **Zone** and **Disease Group** attributes (and the HIV/STI privacy boundary tied to disease group) are retired. **User maintenance** is performed by **Team Leads** and **Department Managers** rather than the Business System Manager / IT System Administrator (who retain privileged data-integrity actions and platform/AD administration respectively).
+
+**Jessica Nooy** — *Role for PPHS?* → dedicated **Intake User** role. *BSM possible (delete / merge / update)?* → Yes, **Business System Manager** retained. *Team differences (R1 / R2)?* → handled by the **Department** attribute. *Surge shifts (CDC ↔ Outbreak for IPD, varicella)?* → Department is a reassignable attribute (AC-2), not re-provisioning. *Adding a missing site vs. dictionary maintenance?* → **Provisional add** vs. **Dictionary maintenance** (3.3, AC-3).
+
+**Carolyn Hayes** — *Labelled "basic user", "RN CDC", or "Admin"?* → the *role* is the functional role (e.g. **Investigator**); **RN** is a designation attribute and **CDC** is a department attribute (3.1–3.2). *What is access control?* → two layers: functional role (actions) + department (data scope: edit own, read all). *Disease vs. Disease Classification?* → with the move to department-only scoping the disease-group access attribute has been retired; disease-handling urgency (e.g. "Fastest Means Possible") remains a property of the disease, not the user.
+
+**Marilyn Massey** — *Epic users have multiple roles, but this says one role only.* → reconciled by the two-layer model: one functional role + the department attribute is functionally equivalent to Epic's login-template-plus-security-points model. *What is "department"?* → the program teams **SHE / TB / CDC** (and STI / HIV / IPC / PPHST), now the single data-scoping attribute — edit your own department, read the others.
+
+## Version History
+
+- **Last Update**
+  - **June 17, 2026 (Alec Blair)** — Surfaced the existing **Professional Designation** attribute (Nurse/RN, Medical Officer of Health, NP, MD…) as a **visible dropdown field** on the wireframe (slide 6) and in the Wireframe section / field table. No new field or data-model change was required — the `ProfessionalDesignation` table and the nullable `AppUser.professionalDesignationID` in [[OMRA Database ERD]] v2.2 already support it as a display-only, optional attribute that grants no function. The PowerPoint deck slide 6 was updated to match.
+  - **June 17, 2026 (Alec Blair)** — Applied two working-group decisions. (1) **User maintenance is now performed by Team Leads and Department Managers**, replacing the generic "steward" / Business System Manager + IT System Administrator provisioning model (the BSM retains privileged data-integrity actions; the IT System Administrator retains platform/AD administration). (2) **Access is scoped at the department level only** — a user edits their own department's outbreaks and has read-only access to all other departments. The **Zone** and **Disease Group** attributes and the HIV/STI disease-group privacy boundary are retired. Updated the field table (removed the Zone, Disease Group and duplicate Team rows; Department is now the sole scoping attribute), the Access Model Reference appendix (renumbered attributes to 3.1 Department, 3.2 Professional Designation, 3.3 Maintenance Activities; rebuilt the Role × Attribute summary), and the Acceptance Criteria, Business Rules, Exception Handling and Technical Implementation Notes accordingly. `UserZone` and `UserDiseaseGroup` remain in [[OMRA Database ERD]] v2.2 but are no longer used by this screen.
+  - **June 17, 2026 (Alec Blair)** — Resolved the flagged ERD gaps in [[OMRA Database ERD]] v2.2 (new Section 14, Application User & Access Model): `AppUser` with a single `functionalRoleID` (enforcing the one-role rule), `FunctionalRole`, the `Team`/`UserTeam`, `UserZone` and `DiseaseGroup`/`UserDiseaseGroup` ABAC junctions, `ProfessionalDesignation`, `UserMaintenanceActivity`, `AppUserHistory`, and `userAddress`/`userPostalCode`/`versionStatus` on the user. Updated the field table to map to these tables. Kept distinct from the Section 3 `Person`/`Role`/`PersonRole` stakeholder tables.
+  - **June 17, 2026 (Alec Blair)** — Reformatted the original Role-Based Access Specification into the standard OMRA screen-spec structure: added OKF frontmatter, Design Specification Context with source-material links, a **Wireframe** section from *OMRA User Maintenance* (slide 6 of the OMRA Design deck), the seven standard Acceptance Criteria sections, a field-mapping table, and Technical Implementation Notes. Retained the full RBAC/ABAC model (functional roles, attributes, Connect Care alignment, working-group resolutions) as the **Access Model Reference** appendix so the file remains the canonical access reference.
+  - **2026-06-16 (Alec Blair)** — Rewrote the working-group questionnaire into a completed Role-Based Access Specification: two-layer RBAC + ABAC model, functional roles aligned to the [[Communicable Disease Solution Architecture]] and Connect Care, attribute dimensions, acceptance criteria, technical/security notes, and resolutions to working-group feedback.
+- **Link to Jira Task** — _to be added_
+- **Specifications Status** — Draft for working-group review
+- **Linked SBARs** — _to be added_
+- **Linked Enabling Stories** — _to be added_

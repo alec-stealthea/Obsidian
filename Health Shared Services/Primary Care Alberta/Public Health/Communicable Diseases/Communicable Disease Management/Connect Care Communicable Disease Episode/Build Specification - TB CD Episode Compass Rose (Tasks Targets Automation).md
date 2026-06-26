@@ -19,7 +19,7 @@ timestamp: 2026-06-24T00:00:00Z
 
 > **System:** Connect Care (Epic) — Compass Rose &nbsp;|&nbsp; **Scope:** One episode type spanning Active TB and Latent TB infection &nbsp;|&nbsp; **Status:** Draft for build-team review
 >
-> Companion artefacts: the visual logic model [[TB CD Episode - Compass Rose Logic Model]] (decision tree and stage tasks) and the source product reference [[Compass Rose Tasks Setup and Support Guide]] (Epic, Last Updated 21 May 2026). Contact-episode creation is realized by the interface specs [[Interface Specification - Create CD Episode and Draft Contact Abstract (OMRS to Connect Care)]] and [[Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRS)]]. Program context: [[CLAUDE-Communicable-Diseases]].
+> Companion artefacts: the visual logic model [[TB CD Episode - Compass Rose Logic Model]] (decision tree and stage tasks) and the source product reference [[Compass Rose Tasks Setup and Support Guide]] (Epic, Last Updated 21 May 2026). Contact-episode creation is realized by the interface specs [[Interface Specification - Create CD Episode and Draft Contact Abstract (OMRA to Connect Care)]] and [[Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRA)]]. Program context: [[CLAUDE-Communicable-Diseases]].
 
 
 ## 1. Purpose and Context
@@ -50,7 +50,7 @@ The key architectural move: **the workflow stage IS the tracking status, and adv
 
 **In scope:** episode type configuration; tracking-status model; checklist tasks and targets for intake/determination, the Active path, and the Latent path; the automation that adds, branches, completes, and resolves them; security/licensing prerequisites; build sequence.
 
-**Out of scope (referenced, built per companion guides):** the Episode Type record's full clinical configuration (statuses framework, case teams) — see *Create an Episode Type for Care Management*; the *Automatically Resolve Care Plans, Tasks, and Targets* detail; Decisions setup (optional); Care Plans/Goals (optional); and contact-episode spawning, which is realized by the OMRS↔Connect Care interface specs above.
+**Out of scope (referenced, built per companion guides):** the Episode Type record's full clinical configuration (statuses framework, case teams) — see *Create an Episode Type for Care Management*; the *Automatically Resolve Care Plans, Tasks, and Targets* detail; Decisions setup (optional); Care Plans/Goals (optional); and contact-episode spawning, which is realized by the OMRA↔Connect Care interface specs above.
 
 ---
 
@@ -174,7 +174,7 @@ All tasks: Task Context `I LTR 29 = Checklist`; Episode Class `I LTR 53100` = th
 |---|---|---|---|---|
 | C1 | Confirm dx — smear/culture, NAAT, DST; imaging; case classification | → C2 | culture/NAAT/DST final | — |
 | C2 | **Notify public health (Public Health Act)** | → C3 | — | mandatory notifiable-disease step |
-| C3 | Spawn **Contact Episodes** — link via Abstract ID | → C4 | — | realized by [[Interface Specification - Create CD Episode and Draft Contact Abstract (OMRS to Connect Care)]] |
+| C3 | Spawn **Contact Episodes** — link via Abstract ID | → C4 | — | realized by [[Interface Specification - Create CD Episode and Draft Contact Abstract (OMRA to Connect Care)]] |
 | C4 | Initiate treatment — intensive phase (RIPE) under DOT | → C5 | — | baseline labs & vision (ethambutol) |
 | C5 | DOT dose administration & monitoring | re-adds **C5** (recurring) | MAR / flowsheet | — |
 | C6 | Intensive-phase review & tolerance | Tolerated → C7 | — | Issues → C‑AE (manage AEs / DST-guided change), then back to C6 |
@@ -262,7 +262,7 @@ Licence parent SLG: **3550868**.
 1. **Episode class** — confirm 33‑Compass Rose Program vs. a custom CD class consistent with the Communicable Disease Abstract referenced in the interface specs.
 2. **Determination advance** — does the A4 outcome **auto-advance** the tracking status (rule-driven) or require the TB nurse to set it? This decides whether §10.2 is a Task Rule or a manual step.
 3. **Reportable classification** — do you want a discrete SmartData `TB Classification` attribute for analytics in addition to the tracking-status branch? (Specified separately; outside the tasks guide.)
-4. **Contact-episode spawning (C3)** — reconcile with the OMRS interface specs: are contact episodes created from Connect Care or from OMRS, and how is the **Source Care Abstract ID** stamped on each contact's abstract?
+4. **Contact-episode spawning (C3)** — reconcile with the OMRA interface specs: are contact episodes created from Connect Care or from OMRA, and how is the **Source Care Abstract ID** stamped on each contact's abstract?
 5. **Companion guides needed** to fully specify referenced steps: *Create an Episode Type for Care Management*; *Automatically Resolve Care Plans, Tasks, and Targets*; *Decisions* (if used).
 
 ---
@@ -271,8 +271,8 @@ Licence parent SLG: **3550868**.
 
 - Product reference: [[Compass Rose Tasks Setup and Support Guide]] (Epic; Last Updated 21 May 2026) — Target Setup, Checklist Task Setup, Optional Task-Related Features.
 - Visual logic model: [[TB CD Episode - Compass Rose Logic Model]].
-- Interface specs: [[Interface Specification - Create CD Episode and Draft Contact Abstract (OMRS to Connect Care)]]; [[Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRS)]].
-- Program context: [[CLAUDE-Communicable-Diseases]]; [[CLAUDE-OMRS]].
+- Interface specs: [[Interface Specification - Create CD Episode and Draft Contact Abstract (OMRA to Connect Care)]]; [[Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRA)]].
+- Program context: [[CLAUDE-Communicable-Diseases]]; [[CLAUDE-OMRA]].
 - Clinical content (regimens, RIPE, DST, notification): Canadian Tuberculosis Standards, 8th ed. — verify thresholds (e.g. 8-week window-period retest) against Alberta TB protocols.
 
 ---

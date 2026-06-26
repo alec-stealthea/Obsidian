@@ -1,0 +1,1 @@
+A data definition language for SPARQL that makes it possible to use rule-based queries to add, modify or delete tuples from the application graph. It is seeing increasing use after its release in 2013 and is beginning to replace proprietary update solutions.

@@ -1,0 +1,1 @@
+Physical machines, tools, or instruments that can create, use, store, move, or transform materials.
