@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal Information/Financial Plans/CLAUDE-Personal-Finance.md",
+                "file": "Personal Information/Financial Plans/Current Monthly Budget.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CLAUDE-Personal-Finance"
+              "title": "Current Monthly Budget"
             }
           }
         ]
@@ -188,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,6 +209,7 @@
   },
   "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Personal Information/Financial Plans/CLAUDE-Personal-Finance.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/Communicable Disease Search Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Honouring Life/Honouring Life Initial Assessment Preliminary Analysis.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CLAUDE-CDC.md",
@@ -243,7 +245,6 @@
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/CLAUDE-Communicable-Diseases.md",
     "Clippings/Untying the Gordian Knot Reforming Canada’s Postal Market.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/TB User Stories/TB Contact List - TB Nurse User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Connect Care Communicable Disease Episode/Interface Specification - Create CD Episode and Draft Contact Abstract (OMRS to Connect Care).md",
     "Contact Identification Screen Specifications Draft Wireframe.png",
     "Screenshot 2026-06-22 at 10.09.58 AM.png",
     "Sexual Contacts Flowsheet.png",
