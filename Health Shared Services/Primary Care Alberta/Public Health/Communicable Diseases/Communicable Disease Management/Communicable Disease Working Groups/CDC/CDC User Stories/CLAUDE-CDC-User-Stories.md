@@ -40,6 +40,7 @@ The stories are *requirements*; their build realisations are the OMRS screen spe
 ### Manage (M)
 
 - [[Submit Aggregate Outbreak Report - Facility Operator User Story]] (**O-M-1**) — Facility Operator submits **summary-level** symptom/absentee counts (split staff/HCW vs. clients/students), severity outcomes, population at risk, and predominant symptom category for settings that report in aggregate rather than by line list (child care facilities, schools). The aggregate counterpart to the O-ET-1 line-list story; maps to `FacilityOutbreakAggregateReport` ([[OMRS Database ERD]] Section 8) with `isManualEntry` distinguishing operator-keyed from line-list-derived snapshots. Flags ERD gaps (time-varying population-at-risk, predominant-category + onset date, facility contact/affected-unit, adjustment comment); aggregate-report screen spec still to be created.
+- [[Assign Staff to Outbreak - Team Lead Department Manager User Story]] (**O-M-5**) — **Team Lead / Department Manager** assigns people to the roles an outbreak requires (Lead Investigator, MoH, Investigator, Outbreak Manager / OMT Lead) so the necessary investigation tasks are staffed and completed; supports reassignment during surges without re-provisioning, and OMT lead/member designation. The first CDC **Team Lead / Department Manager** story — persona aligned to the OMRS functional-role convention in [[User Maintenance Screen Specifications]]. Maps to `OutbreakTeamMember` + `Role` ([[OMRS Database ERD]] Section 3); clarifies that **outbreak team roles** (the `Role` list) are distinct from the six OMRS **functional** roles. Resolves the working-group ask for role definitions (they live in `Role`); manager outbreak-reporting is held out of scope for a dedicated story (partially covered by the O-C-3 export and O-M-1 aggregate). Team/staffing screen spec still to be created.
 
 ### Deprecated / superseded
 
@@ -55,4 +56,4 @@ The stories are *requirements*; their build realisations are the OMRS screen spe
 ---
 
 _Last Updated_: 2026-06-26
-_Version_: 1.0 (catalogue migrated out of [[CLAUDE-CDC]] into a dedicated child context file)
+_Version_: 1.1 (added the Manage (M) story O-M-5 — Assign Staff to Outbreak — the first Team Lead / Department Manager story)
