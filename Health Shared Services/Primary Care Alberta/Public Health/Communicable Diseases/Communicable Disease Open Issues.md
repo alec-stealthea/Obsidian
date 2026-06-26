@@ -32,6 +32,7 @@ timestamp: 2026-06-26T00:00:00Z
 | CD-OI-6 | OMRS | **Search surface staging.** Contact Identification search (over `ContactIdentification`) and CD-episode search are in scope for the *design* of the Communicable Disease Search screen but staged behind outbreak search for build; the consolidation approach is an open question. | Open | [[Communicable Disease Search Screen Specifications]] |
 | CD-OI-7 | OMRS / Connect Care CD Episode | **Episode-per-contact & episode↔cluster association.** Decision request on creating a CD episode per contact and how episodes associate to outbreaks/clusters. | Open | [[SBAR - Contact CD Episode Creation and Outbreak-Cluster Association]] |
 | CD-OI-8 | CDC / Connect Care CD Episode | **CD episodes must meet outbreak case definitions.** Ensuring linked CD episodes in Connect Care (Epic) satisfy the outbreak case definitions (`OutbreakDefinition` / `DiseaseCaseDefinitionRule`), and confirming which organism/definition candidates remain valid after a change. Revisit when CD Episode user stories are explored. | Open | [[Create Outbreak Investigation - CDC Investigator User Story]] (AC5) |
+| CD-OI-14 | CDC / OMRS / Call Centre | **Referral mechanism from Genesys / Epic Cheers.** How a PPHST call encounter and any attached line list transition from the call-centre tooling (Genesys telephony + Epic Cheers CRM) into OMRS and on to the **SHE (Safe and Healthy Environments)** or **CDC** investigator teams — manual hand-off, interface, or shared record — and where the structured referral, teaching status, and disposition are persisted. Determines whether the PPHST encounter's acceptance criteria (call log, document investigation, assessment/teaching, refer-vs-close, share, attach line list, advise response time) are built in the CRM, in OMRS, or split. May require a PPHST encounter / referral entity in the ERD. | Open | [[Document Facility Outbreak Phone Encounter - PPHST Call Analyst User Story]] (AC1, AC5, AC6); [[OMRS Database ERD]] |
 
 ## Pending story / note dependencies (create, then link)
 
@@ -47,5 +48,5 @@ These notes do not exist yet; they are referenced in plain text elsewhere to res
 
 ---
 
-_Last Updated_: 2026-06-26
+_Last Updated_: 2026-06-26 (added CD-OI-14 — referral mechanism from Genesys / Epic Cheers into OMRS / SHE / CDC)
 _Maintained By_: Alec Blair
