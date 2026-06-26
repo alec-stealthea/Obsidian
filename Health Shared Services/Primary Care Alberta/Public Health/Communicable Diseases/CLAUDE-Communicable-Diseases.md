@@ -24,7 +24,8 @@ The CD area is the Communicable Disease Solution (CDS) — the program redesigni
 
 These hold across the STI, TB, OMRS, and outbreak work — capture decisions here rather than restating them in each note:
 
-- **CD/OM (CDOM) is being retired.** The legacy CD/OM application's data-stewardship functions are carried forward by [[CLAUDE-OMRS|OMRS]]; its case-management role moves to Epic Connect Care.
+- **CD/OM (CDOM) is being retired.** The legacy Communicable Disease and Outbreak Management (CDOM) application — a Visual Basic application — has its data-stewardship functions carried forward by [[CLAUDE-OMRS|OMRS]]; its case-management role moves to Epic Connect Care.
+- **The Outbreak Application Team is the build team for the outbreak work.** They currently manage the legacy Communicable Disease and Outbreak Management (CDOM) Visual Basic application and are responsible for building its successor capabilities — OMRS and the CDC outbreak user stories (Outbreak value stream). New CD outbreak stories carry "Outbreak Application Team" as the Build Team.
 - **Epic Connect Care is the system of record for individual CD cases / episodes.** STI Communicable Disease Episodes are now managed in Connect Care, not CD/OM. OMRS owns outbreak coordination, line lists, contact identification, and reporting; the Data Lakehouse provides analytics and cluster detection.
 - **STICS (STI Centralized Services)** is the program owner for the STI pathway, and the destination for the provincial Notification of STI form (AH0332).
 - **Future-state intake is automated via Blue Prism.** The community physician's Notification of STI form is processed by a Blue Prism automation that, from a single submission, creates the notified patient as a CD Episode in Connect Care, seeds the named partners as Contact Identifications in OMRS, and raises a purchase order for any requested medications in the STI pharmacy inventory application. See [[Community Physician STI Notification User Story]] and [[STI Large Exposure User Story]].
@@ -85,4 +86,4 @@ Open design decisions, data-model gaps, and pending story/note dependencies acro
 ---
 
 _Last Updated_: 2026-06-26
-_Version_: 1.3 (added the cross-folder [[Communicable Disease Open Issues]] register)
+_Version_: 1.4 (added the Outbreak Application Team as the build team for the outbreak work; noted CDOM is a Visual Basic application)
