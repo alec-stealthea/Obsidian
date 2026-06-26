@@ -5,8 +5,8 @@ type: Context File
 title: CLAUDE-Communicable-Diseases
 scope: Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases
 parent: "[[CLAUDE-PCA]]"
-last-updated: 2026-06-25
-timestamp: 2026-06-25T00:00:00Z
+last-updated: 2026-06-26
+timestamp: 2026-06-26T00:00:00Z
 ---
 # CLAUDE-Communicable-Diseases.md — Communicable Diseases Context
 
@@ -73,12 +73,16 @@ Note that `Connect Care Build Specifications/` is a **sibling** of `Communicable
 - Use **OMRS** (not the legacy AOMS/OMRA names) in new authored content. See [[CLAUDE-OMRS]] for the naming caveat.
 - Format CD markdown so it copies into OneNote with no loss of formatting (per [[CLAUDE-HSS]]).
 
+## Open Issues
+
+Open design decisions, data-model gaps, and pending story/note dependencies across the CD sub-folders are tracked in one cross-folder register: [[Communicable Disease Open Issues]]. Context files capture *settled* context; open items belong in the register, not in individual stories, specs, or `CLAUDE-*.md` files.
+
 ## Child Context Files
 
 - [[CLAUDE-OMRS]] — Outbreak Management Reporting System build (data model, screen specifications, RBAC/ABAC access model).
-- [[CLAUDE-CDC]] — Communicable Disease Control working group (outbreak-management user stories on the Outbreak value stream; e.g., [[Outbreak Search - Outbreak Investigator User Story]]).
+- [[CLAUDE-CDC]] — Communicable Disease Control working group (outbreak-management user stories on the Outbreak value stream; e.g., [[Outbreak Search - Outbreak Investigator User Story]], [[Create Outbreak Investigation - CDC Investigator User Story]]).
 
 ---
 
-_Last Updated_: 2026-06-25
-_Version_: 1.2
+_Last Updated_: 2026-06-26
+_Version_: 1.3 (added the cross-folder [[Communicable Disease Open Issues]] register)

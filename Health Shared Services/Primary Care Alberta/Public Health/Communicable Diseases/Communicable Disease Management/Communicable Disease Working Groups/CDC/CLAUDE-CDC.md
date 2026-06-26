@@ -30,14 +30,11 @@ Governs `Communicable Disease Working Groups/CDC/`, including `CDC User Stories/
 - [[Outbreak Search - Outbreak Investigator User Story]] (**O-C-3**) — Outbreak Investigator searches/sorts/filters active and historical outbreaks to confirm whether to declare a new outbreak or update an existing one; launches Create Outbreak and exports filtered results.
 - [[Create Outbreak Investigation - CDC Investigator User Story]] (**O-A-4**) — Outbreak Investigator creates the outbreak investigation record and marks it Active so the outbreak can be reported to stakeholders, the Initial AORF sent, and the outbreak team stood up; supports cluster/parent and PHAC links, multiple organisms with case definitions, and Open/Closed + Tracking/Outbreak/Not-an-Outbreak status. Successor to the O-C-3 search story; build spec is [[Create Outbreak Investigation Screen Specifications]].
 
-## Open Decisions / Pending Dependencies
+## Open Issues & Pending Dependencies
 
-Track these so they are not silently re-decided in individual stories:
+Open design decisions, ERD gaps, and pending story/note dependencies are **not** tracked here — they live in the cross-folder [[Communicable Disease Open Issues]] register (issues CD-OI-1, CD-OI-2, CD-OI-4, and the CDC story dependencies CD-OI-9 through CD-OI-13). Record new open items there, not in this context file.
 
-- **Outbreak `Outbreak` ERD gaps.** Searching/filtering by Disease, Setting and Region depends on `Outbreak` columns not yet modelled (`infectiousDiseaseID`, `outbreakSettingID`, `zoneID`/region) — flagged in [[Create Outbreak Investigation Screen Specifications]] and [[OMRS Database ERD]], to be resolved in a later Create Outbreak / ERD analysis round.
-- **Region definitions are an outstanding design decision.** Candidate levels (Zone, Sub-Zone, Corridor, Municipality, Neighbourhood) are carried as placeholders pending the authoritative source and final set.
-- **Resolution status.** "Pending (untriaged)" is treated as the same state as **Tracking** in `Outbreak.outbreakProgress` (Tracking / Outbreak / Not an Outbreak) — no separate Pending value.
-- **Outbreak Summary user story (to be created).** Re-opening a closed outbreak belongs to the Outbreak Summary story, not the search story; link the two once it exists.
+One **settled** decision worth keeping in context (so it is not re-litigated): "Pending (untriaged)" is treated as the same state as **Tracking** in `Outbreak.outbreakProgress` (Tracking / Outbreak / Not an Outbreak) — there is no separate Pending value.
 
 ## Working Conventions
 
@@ -47,4 +44,4 @@ Track these so they are not silently re-decided in individual stories:
 ---
 
 _Last Updated_: 2026-06-26
-_Version_: 1.2 (added the O-A-4 Create Outbreak Investigation story; inserted the **Assess (A)** stage into the value-stream/ID scheme)
+_Version_: 1.3 (added the O-A-4 story and the Assess stage; moved open issues to the cross-folder [[Communicable Disease Open Issues]] register)

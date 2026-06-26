@@ -73,7 +73,7 @@ Two prototype design modifications were imported back into the screen specs on J
 - **Disease "Add Disease" quick-add** → `InfectiousDisease.isProvisional`. The [[Communicable Disease Maintenance Screen Specifications]] quick-add (Disease Name + Reporting Timeline only) writes an **Active** record so it is immediately selectable in lookups, flagged `isProvisional = true` until a steward completes it. The dictionary-steward equivalent of an investigator's provisional add.
 - **Contact "Export List"** → `DisclosureExportLog` (Section 12). The [[Contact Identification Screen Specifications]] CSV/Excel export discloses PHI, so each export is audited (who/when/scope/row count/disease group/format/purpose, plus `privacyBoundaryCrossed` for HIV/STI). `AuditLog` was left mutation-only (INSERT/UPDATE/DELETE); disclosure/read events live in `DisclosureExportLog`.
 
-The [[Create Outbreak Investigation Screen Specifications]] was also brought up to the standard screen-spec format (June 25). Its field remap surfaced **open `Outbreak` ERD gaps not yet resolved** — no direct `infectiousDiseaseID` (Disease), `outbreakSettingID` (Setting), `zoneID`/region columns, or department linkage on `Outbreak` — flagged inline in that spec for a future ERD revision rather than auto-added.
+The [[Create Outbreak Investigation Screen Specifications]] was also brought up to the standard screen-spec format (June 25). Its field remap surfaced **open `Outbreak` ERD gaps not yet resolved** — no direct `infectiousDiseaseID` (Disease), `outbreakSettingID` (Setting), `zoneID`/region columns, or department linkage on `Outbreak` — flagged inline in that spec for a future ERD revision rather than auto-added. These and the other open OMRS items (Outbreak ID → EI number, lifecycle-vs-status vocabulary, search-surface staging, the episode-per-contact SBAR) are tracked centrally in the [[Communicable Disease Open Issues]] register (CD-OI-1, CD-OI-3, CD-OI-4, CD-OI-6, CD-OI-7).
 
 ## Folder Structure
 
@@ -100,4 +100,4 @@ The [[Communicable Disease Search Screen Specifications]] is the program's **sea
 ---
 
 _Last Updated_: 2026-06-26
-_Version_: 1.8 (added the Communicable Disease Search screen — search-and-triage Confirm-stage entry point, outbreak-search first build per O-C-3 — to the folder map and a new Search Screen section)
+_Version_: 1.9 (pointed the open OMRS items to the cross-folder [[Communicable Disease Open Issues]] register)
