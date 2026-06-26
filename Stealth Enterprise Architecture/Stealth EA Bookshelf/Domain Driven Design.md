@@ -1,1 +1,1 @@
-[[Research/Clippings/Domain Driven Design|Domain Driven Design]]
+[[Clippings/Domain Driven Design|Domain Driven Design]]

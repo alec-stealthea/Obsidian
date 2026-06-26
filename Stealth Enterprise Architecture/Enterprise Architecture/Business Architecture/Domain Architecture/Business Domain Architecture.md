@@ -2,7 +2,7 @@ So you now have your [[Enterprise Domain Model]], what’s next?
 
 Now is the time to better understand a particular business domain more fully. Every organization is complicated and interconnected.  Smaller organizations have complexity based on the relatively fewer staff that need to execute all the domains for that industry.  Larger organizations have the size for specialization that can be made complicated due to the financial model they choose to operate in.
 
-[[Research/Clippings/Domain Driven Design|Domain Driven Design]] (DDD) is fundamentally an application development approach. What I think is needed is more of the [[Business Architecture]] to provide the business context for a given domain. So what are the ingredients that go into a Domain Architecture? 
+[[Clippings/Domain Driven Design|Domain Driven Design]] (DDD) is fundamentally an application development approach. What I think is needed is more of the [[Business Architecture]] to provide the business context for a given domain. So what are the ingredients that go into a Domain Architecture? 
 ## Business Objects and Value
 
 First off, no matter how tempting, start with the customer-facing [[Value Streams]]. Without defining the customer-facing value streams there is no context for how the back office value streams can be effective.

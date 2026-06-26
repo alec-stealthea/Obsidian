@@ -1,1 +1,0 @@
-The Clippings folder is intended to be used to store notes about reading, listening, or watching content created by other people.  This folder structure is still in the process of being fleshed out, but the goal is to store any insights that I may have from a given article or series of articles from a given set up publications.

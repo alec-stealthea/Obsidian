@@ -135,8 +135,8 @@ Child context files: `CLAUDE-2025-2026-Season.md`, `CLAUDE-Strings-Attached.md`,
 
 | Folder | Purpose | Context File |
 |---|---|---|
-| `Research/` | Curated research across multiple domains — architecture industry (IASA, Open Group), healthcare, policy (CD Howe, Canada West Foundation), AI, ontologies, agile methods, productivity. Includes web clippings. | — |
-| `Research/Clippings/` | Web clippings organised by topic: Agile Data, Agile Waterfall, AI, Enterprise Architecture, Personal Productivity, Podcast Reviews, The Ontologist. | — |
+| `Research/` | Curated research across multiple domains — architecture industry (IASA, Open Group), healthcare, policy (CD Howe, Canada West Foundation), AI, ontologies, agile methods, productivity. | — |
+| `Clippings/` | Top-level home for web clippings, organised by topic (Agile Data, Agile Waterfall, AI, Enterprise Architecture, Personal Productivity, Podcast Review, The Ontologist). This is where the Obsidian Web Clipper saves; all clippings were consolidated here from the former `Research/Clippings/`. | `CLAUDE-Clippings.md` |
 
 ### Vault Infrastructure
 
@@ -273,6 +273,6 @@ This vault deliberately spans separate professional and personal domains. When w
 
 ---
 
-_Last Updated_: 2026-06-24
+_Last Updated_: 2026-06-26
 _Maintained By_: Alec Blair
-_Version_: 2.3
+_Version_: 2.4
