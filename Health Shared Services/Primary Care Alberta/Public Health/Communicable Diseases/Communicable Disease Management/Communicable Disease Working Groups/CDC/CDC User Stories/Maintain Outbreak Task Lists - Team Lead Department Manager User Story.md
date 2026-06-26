@@ -67,7 +67,7 @@ How will the user be able to say we built what they needed?
 
 ### Moved out of scope (tracked elsewhere)
 
-- **Manager metrics across groups of outbreaks (Jessica's comment).** Checking the timeline of lifecycle transitions across many outbreaks (e.g., "pending"/New → "under investigation"/Assess elapsed time) and the **status and timing of AORF submissions against a KPI** is cross-outbreak reporting/analytics, not single-outbreak task maintenance. It is **recommended as a dedicated story — proposed O-M-7, Manager Outbreak Metrics & Reporting** — and would draw on `OutbreakLifecycleStatus` transition history (Section 1 / Section 12 audit) and `AORFSubmission.dueDate` / `submittedDate` / `acknowledgedDate` / `submissionStatus` (Section 9). This is the same manager-reporting story already flagged as to-be-created in [[Assign Staff to Outbreak - Team Lead Department Manager User Story]] (O-M-5). *(Plain-text reference only — no WikiLink, as the note does not yet exist.)*
+- **Manager metrics across groups of outbreaks (Jessica's comment).** Checking the timeline of lifecycle transitions across many outbreaks (e.g., "pending"/New → "under investigation"/Assess elapsed time) and the **status and timing of AORF submissions against a KPI** is cross-outbreak reporting/analytics, not single-outbreak task maintenance. It is built as a dedicated story — [[Manager Outbreak Metrics and Reporting - Team Lead Department Manager User Story]] (**O-M-7**) — which draws on `OutbreakLifecycleStatus` transition history (Section 1 / Section 12 audit) and `AORFSubmission.dueDate` / `submittedDate` / `acknowledgedDate` / `submissionStatus` (Section 9). This is the same manager-reporting story flagged as to-be-created in [[Assign Staff to Outbreak - Team Lead Department Manager User Story]] (O-M-5).
 - **Line-list data capture and validation.** The structure and validation of the line list itself is owned by [[Submit Facility Outbreak Line List - Facility Operator User Story]] (O-ET-1); this story consumes that feed into a work queue (AC6), it does not redefine the line list.
 - **Outbreak-team role assignment.** Assigning people to outbreak roles is O-M-5; this story assigns *tasks*, which may be owned by already-assigned team members.
 
@@ -78,7 +78,7 @@ How will the user be able to say we built what they needed?
 - **Line-list intake (O-ET-1).** The work queue in AC6 depends on the `FacilityLineList` feed from [[Submit Facility Outbreak Line List - Facility Operator User Story]].
 - **Team stand-up (O-M-5).** Task ownership depends on team members already assigned via [[Assign Staff to Outbreak - Team Lead Department Manager User Story]].
 - **User Maintenance / access model.** The "Team Lead / Department Manager performs maintenance" rule (AC5) depends on the access model in [[User Maintenance Screen Specifications]].
-- **Manager Outbreak Metrics & Reporting story (proposed O-M-7, to be created).** See *Moved out of scope*. When authored, link it here and from O-M-5.
+- **Manager Outbreak Metrics & Reporting story ([[Manager Outbreak Metrics and Reporting - Team Lead Department Manager User Story|O-M-7]]).** See *Moved out of scope*. The cross-outbreak metrics/KPI capability lives there, not here.
 - **Task-list / template screen specification (to be created).** The build realisation (a task-list maintenance screen and a template-maintenance screen) is not yet specified in the OMRA folder; cross-link once authored.
 
 ## User Story Metadata

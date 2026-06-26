@@ -63,7 +63,7 @@ How will the user be able to say we built what they needed?
 
 ### Moved out of scope (tracked elsewhere)
 
-- **Manager reporting on individual and groups of outbreaks.** Pulling reports across individual and grouped outbreaks is a distinct manager capability and is **not** built by this staffing story. It is partially served today by the filtered export on [[Outbreak Search - Outbreak Investigator User Story]] (O-C-3) and the aggregate reporting in [[Submit Aggregate Outbreak Report - Facility Operator User Story]] (O-M-1), but a dedicated **manager outbreak-reporting** user story does not yet exist. Flagged in Dependencies; when that story is created, link it here. *(Plain-text reference only — no WikiLink, as the note does not yet exist.)*
+- **Manager reporting on individual and groups of outbreaks.** Pulling reports across individual and grouped outbreaks is a distinct manager capability and is **not** built by this staffing story. It is now its own story — [[Manager Outbreak Metrics and Reporting - Team Lead Department Manager User Story]] (O-M-7) — partially served today by the filtered export on [[Outbreak Search - Outbreak Investigator User Story]] (O-C-3) and the aggregate reporting in [[Submit Aggregate Outbreak Report - Facility Operator User Story]] (O-M-1).
 - **Provisioning OMRA users / functional roles.** Creating users and assigning the *functional* role + department is the separate User Maintenance capability ([[User Maintenance Screen Specifications]]), not this outbreak-team assignment.
 
 ## Dependencies
@@ -71,7 +71,7 @@ How will the user be able to say we built what they needed?
 - **Outbreak team role definitions (`Role` reference list).** AC1 and AC3 depend on a maintained `Role` reference list with agreed definitions and capability flags for the outbreak team roles (Lead Investigator, MoH, Investigator, Outbreak Manager / OMT Lead, IPC, Site Manager, etc.). This is the answer to the working-group question "Can we have definitions for these roles somewhere?" — definitions live in `Role` ([[OMRA Database ERD]] Section 3), distinct from the six OMRA **functional** roles in [[User Maintenance Screen Specifications]]. Confirming the canonical role list and any program-specific (NDOB vs. other program) distinctions is an open analysis item.
 - **Create Outbreak Investigation (O-A-4).** Team stand-up follows outbreak creation; the assignable team view depends on an Active outbreak record from [[Create Outbreak Investigation - CDC Investigator User Story]].
 - **User Maintenance / access model.** Reassignment-without-re-provisioning and the "Team Lead / Department Manager performs assignment" rule depend on the access model in [[User Maintenance Screen Specifications]].
-- **Manager outbreak-reporting user story (to be created).** See *Moved out of scope*. When the dedicated reporting story exists, link it here.
+- **Manager outbreak-reporting user story.** Now authored as [[Manager Outbreak Metrics and Reporting - Team Lead Department Manager User Story]] (O-M-7). See *Moved out of scope*.
 - **Team/staffing screen specification (to be created).** This requirement's build realisation (an outbreak team/staffing screen) is not yet specified in the OMRA folder; cross-link it here once authored.
 
 ## User Story Metadata
