@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/Create Outbreak Investigation Screen Specifications.md",
+                "file": "Personal Information/Financial Plans/CLAUDE-Personal-Finance.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Create Outbreak Investigation Screen Specifications"
+              "title": "CLAUDE-Personal-Finance"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 642.5026054382324
+    "width": 358.5026054382324
   },
   "right": {
     "id": "5b6e0ba77496e078",
@@ -188,7 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 264.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,8 +206,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c229f7809a2ab819",
+  "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/Communicable Disease Search Screen Specifications.md",
+    "Health Shared Services/Primary Care Alberta/Honouring Life/Honouring Life Initial Assessment Preliminary Analysis.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CLAUDE-CDC.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Outbreak Search - Outbreak Investigator User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Story/Outbreak Search - Outbreak Investigator User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Story",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC",
+    "Health Shared Services/Primary Care Alberta/Honouring Life/CLAUDE-Honouring-Life.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/Create Outbreak Investigation Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Honouring Life/HL_ITRequest_PowerPlatform_v5.docx",
     "Health Shared Services/Primary Care Alberta/Honouring Life/HL Brief Architecture Summary.docx",
     "Health Shared Services/Primary Care Alberta/Honouring Life/HL_Schema_Reference_v1.4.docx",
@@ -215,7 +225,6 @@
     "Health Shared Services/Primary Care Alberta/Honouring Life/HL Data Model ERD.pdf.crdownload",
     "Health Shared Services/Primary Care Alberta/Honouring Life",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/User Maintenance Screen Specifications.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/Create Outbreak Investigation Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Health Economics Evidence for CD Value Streams.md",
     "Stealth Enterprise Architecture/Enterprise Architecture/Business Architecture/Value Streams/Value Streams At Scale.md",
     "Stealth Enterprise Architecture/Blog Entries/Article Ideas/Business Capability Planning and Financial Operations.md",
@@ -227,25 +236,16 @@
     "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync/Epic to Logis Appointment Sync Solution Concept Model.md",
     "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync/Logis TransferSchedulingBroker Interface Assessment.md",
     "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync/Logis IDS TransferSchedulingBroker Interface.docx",
-    "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync",
     "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync/Epic to Logis Appointment Sync — ArchiMate Update Checklist.md",
     "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync/Epic to Logis Appointment Sync.md",
     "Health Shared Services/Emergency Health Services/CLAUDE-EHS.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Data Lake House/Communicable Disease Glossary — Category Hierarchy & Design Rationale.md",
-    "Health Shared Services/Emergency Health Services/Logis IDS TransferSchedulingBroker Interface.docx",
-    "Health Shared Services/Emergency Health Services/Unconfirmed 569915.crdownload",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/CLAUDE-Communicable-Diseases.md",
     "Clippings/Untying the Gordian Knot Reforming Canada’s Postal Market.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Data Lake House/Communicable Disease Glossary - Disease Terms Atlan Import.csv",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/TB User Stories/TB Contact List - TB Nurse User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Connect Care Communicable Disease Episode/Interface Specification - Create CD Episode and Draft Contact Abstract (OMRS to Connect Care).md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Connect Care Communicable Disease Episode/Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRS).md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/OMRS Screen Specifications/Contact Identification Screen Specifications.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)/SBAR - Contact CD Episode Creation and Outbreak-Cluster Association.md",
     "Contact Identification Screen Specifications Draft Wireframe.png",
     "Screenshot 2026-06-22 at 10.09.58 AM.png",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/Sexually Transmitted Infections (STI)/STI User Stories/STI Large Exposure User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/Sexually Transmitted Infections (STI)/STI User Stories/Community Physician STI Notification User Story.md",
     "Sexual Contacts Flowsheet.png",
     "Willow Inventory Provincial Vaccine - Application Context Model.png",
     "Epic to Logis Appointment Sync Context model.png",

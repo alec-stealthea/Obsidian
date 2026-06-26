@@ -4,7 +4,7 @@ tags:
 type: Context File
 scope: Health Shared Services/Primary Care Alberta
 parent: "[[CLAUDE-HSS]]"
-last-updated: 2026-06-23
+last-updated: 2026-06-25
 ---
 # CLAUDE-PCA.md — Primary Care Alberta Context
 
@@ -40,6 +40,10 @@ Located at `Public Health/Screening/Breast Cancer Screening AI Initiative/`. Arc
 
 Located at `Public Health/Provincial Vaccine Depot/`. Enterprise architecture assessment of **Epic Willow Inventory** as the provincial vaccine depot inventory/VIMS solution — gap analysis against the Alberta instance, RFP requirements, vendor market scan, SBAR, and an application context narrative with supporting ArchiMate model. See [[CLAUDE-PCA-PH-Vaccine-Depot]].
 
+### Honouring Life
+
+Located at `Honouring Life/`. EA review of the **Honouring Life Grant** program's proposed Microsoft Power Platform (Dataverse / Power Apps / Power BI) solution, replacing an Excel tracker for 40+ Indigenous community grant contracts. A program-team / citizen-developer effort under Alec's assessment. See [[CLAUDE-Honouring-Life]].
+
 ## Working Conventions
 
 - Disease Guidelines are reference material imported from Alberta Health sources — do not modify without explicit instruction.
@@ -51,8 +55,9 @@ Located at `Public Health/Provincial Vaccine Depot/`. Enterprise architecture as
 - [[CLAUDE-Communicable-Diseases]] — Communicable Disease area (cross-cutting program facts, CD tree structure); parent of [[CLAUDE-OMRS]].
 - [[CLAUDE-Breast-Cancer-Screening]] — Breast Cancer Screening AI Initiative (mammography key fields, UAT, AI discrete results, LLM scripts, HL7 samples).
 - [[CLAUDE-PCA-PH-Vaccine-Depot]] — Provincial Vaccine Depot Epic Willow inventory/VIMS assessment.
+- [[CLAUDE-Honouring-Life]] — Honouring Life Grant program Power Platform (Dataverse) solution assessment.
 
 ---
 
-_Last Updated_: 2026-06-23
-_Version_: 2.3
+_Last Updated_: 2026-06-25
+_Version_: 2.4

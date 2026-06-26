@@ -46,7 +46,8 @@ Communicable Diseases/
 │   ├── Communicable Disease Working Groups/  ← Per-disease working-group artifacts
 │   │   ├── Sexually Transmitted Infections (STI)/  ← STI Intake Form Design Spec, STI Value Stream,
 │   │   │                                              Notification Form (AH0332), STI User Stories/
-│   │   └── TB/                                       ← TB User Stories/ (TB Contact List)
+│   │   ├── TB/                                       ← TB User Stories/ (TB Contact List)
+│   │   └── CDC/                                      ← Outbreak-management working group. See [[CLAUDE-CDC]]
 │   └── Outbreak Management Reporting System (OMRS)/  ← Custom outbreak app. See [[CLAUDE-OMRS]]
 └── Connect Care Build Specifications/
     └── Sexually Transmitted Infections/  ← Epic flowsheet build analysis feeding the CC build
@@ -75,8 +76,9 @@ Note that `Connect Care Build Specifications/` is a **sibling** of `Communicable
 ## Child Context Files
 
 - [[CLAUDE-OMRS]] — Outbreak Management Reporting System build (data model, screen specifications, RBAC/ABAC access model).
+- [[CLAUDE-CDC]] — Communicable Disease Control working group (outbreak-management user stories on the Outbreak value stream; e.g., [[Outbreak Search - Outbreak Investigator User Story]]).
 
 ---
 
 _Last Updated_: 2026-06-25
-_Version_: 1.1
+_Version_: 1.2

@@ -5,8 +5,8 @@ type: Context File
 title: CLAUDE-OMRS
 scope: Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting System (OMRS)
 parent: "[[CLAUDE-Communicable-Diseases]]"
-last-updated: 2026-06-23
-timestamp: 2026-06-23T00:00:00Z
+last-updated: 2026-06-26
+timestamp: 2026-06-26T00:00:00Z
 ---
 # CLAUDE-OMRS.md — Outbreak Management Reporting System Context
 
@@ -66,24 +66,38 @@ The gap surfaced while writing [[Contact Identification Screen Specifications]] 
 - `ContactAttempt` gains an optional `contactIdentificationID` so attempt history can attach to a contact. The screen is source-case-driven for TB ([[TB Contact List - TB Nurse User Story]]) and region/outbreak-driven for STI ([[STI Large Exposure User Story]]).
 - **Lineage & lifecycle (v2.4)** → a contact may become its own outbreak (`ContactIdentification.escalatedToOutbreakID`; `Outbreak.originatingContactID` for the reverse) or link into a cluster (`Outbreak.clusterOutbreak`). `ContactOutbreakLink` is the many-to-many that **preserves the original outbreak identifiers** across contacts, outbreaks, merges and clusters. `ContactInvestigationLifecycle` records the contact's status transitions and carries the `EpicAbstract` (Communicable Disease Abstract) link once a CD episode is created.
 
+## Prototype Design Changes (resolved in ERD v2.5)
+
+Two prototype design modifications were imported back into the screen specs on June 25, 2026 and are now reflected in [[OMRS Database ERD]] v2.5 — use these rather than re-proposing them:
+
+- **Disease "Add Disease" quick-add** → `InfectiousDisease.isProvisional`. The [[Communicable Disease Maintenance Screen Specifications]] quick-add (Disease Name + Reporting Timeline only) writes an **Active** record so it is immediately selectable in lookups, flagged `isProvisional = true` until a steward completes it. The dictionary-steward equivalent of an investigator's provisional add.
+- **Contact "Export List"** → `DisclosureExportLog` (Section 12). The [[Contact Identification Screen Specifications]] CSV/Excel export discloses PHI, so each export is audited (who/when/scope/row count/disease group/format/purpose, plus `privacyBoundaryCrossed` for HIV/STI). `AuditLog` was left mutation-only (INSERT/UPDATE/DELETE); disclosure/read events live in `DisclosureExportLog`.
+
+The [[Create Outbreak Investigation Screen Specifications]] was also brought up to the standard screen-spec format (June 25). Its field remap surfaced **open `Outbreak` ERD gaps not yet resolved** — no direct `infectiousDiseaseID` (Disease), `outbreakSettingID` (Setting), `zoneID`/region columns, or department linkage on `Outbreak` — flagged inline in that spec for a future ERD revision rather than auto-added.
+
 ## Folder Structure
 
 ```
 Outbreak Management Reporting System (OMRS)/
 ├── Alberta Outbreak Management Reporting Application (OMRA) Design.pptx  ← 21-slide prototype deck (wireframes + closing SBAR)
-├── OMRS Database ERD.md                ← v2.4 DBML-style ERD (the authoritative data model)
+├── OMRS Database ERD.md                ← v2.5 DBML-style ERD (the authoritative data model)
 ├── SBAR - Contact CD Episode Creation and Outbreak-Cluster Association.md  ← decision request (episode-per-contact; episode↔cluster association)
 ├── CDOM User Roles.pdf                 ← current-state CD/OM role reference
 └── OMRS Screen Specifications/
     ├── Create Outbreak Investigation Screen Specifications.md   ← format reference
     ├── Communicable Disease Maintenance Screen Specifications.md
+    ├── Communicable Disease Search Screen Specifications.md     ← search-and-triage entry point (outbreak search first build)
     ├── Contact Identification Screen Specifications.md          ← TB/STI/CDC/SHE contact list (ERD Section 15)
     └── User Maintenance Screen Specifications.md               ← RBAC/ABAC access specification (canonical access-model reference)
 ```
 
 The deck's wireframe slides each correspond (or will correspond) to a screen spec: User Maintenance (s6), Location/Facility Maintenance (s7), Disease Maintenance (s8), Create Outbreak (s11), Investigation Details (s12), Case Load (s13), Tasks (s14), Questionnaires (s15–17), Case Counts (s18).
 
+## Search Screen (Confirm stage)
+
+The [[Communicable Disease Search Screen Specifications]] is the program's **search-and-triage entry point**, sitting at the **Confirm** stage of the Outbreak Value Stream (*Exposure Trace → Confirm → Open → Manage → Close*) and acting as the natural predecessor to [[Create Outbreak Investigation Screen Specifications|Create Outbreak Investigation]]. It is deliberately named the *Communicable Disease Search* screen so it can grow into a single search surface, but its **first build is outbreak search**, driven by the [[Outbreak Search - Outbreak Investigator User Story]] (O-C-3, governed by [[CLAUDE-CDC]]). Contact Identification search (over `ContactIdentification`, ERD Section 15) and CD-episode search are in scope for the screen's *design* but staged behind outbreak search for build, and carried as open questions in that spec. Search/filter by Disease, Setting and Region depends on the still-open `Outbreak` ERD gaps (`infectiousDiseaseID`, `outbreakSettingID`, `zoneID`/region) flagged above.
+
 ---
 
-_Last Updated_: 2026-06-23
-_Version_: 1.6 (re-parented under [[CLAUDE-Communicable-Diseases]])
+_Last Updated_: 2026-06-26
+_Version_: 1.8 (added the Communicable Disease Search screen — search-and-triage Confirm-stage entry point, outbreak-search first build per O-C-3 — to the folder map and a new Search Screen section)

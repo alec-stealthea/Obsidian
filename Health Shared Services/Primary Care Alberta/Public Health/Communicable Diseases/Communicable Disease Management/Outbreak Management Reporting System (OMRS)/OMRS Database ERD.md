@@ -1,7 +1,33 @@
+---
+type: Data Model
+title: OMRS Database ERD
+description: Authoritative DBML-style entity-relationship data model for the Outbreak Management Reporting System (OMRS), spanning core outbreak entities, line lists, contact identification, reporting, the application user / access model, and disclosure auditing.
+tags:
+  - data-model
+  - erd
+  - dbml
+  - omrs
+  - communicable-disease
+  - outbreak-management
+timestamp: 2026-06-25T00:00:00Z
+---
+
 // ============================================================================
 // OUTBREAK MANAGEMENT REPORTING SYSTEM (OMRS) - DATABASE ERD
-// Version: 2.4
+// Version: 2.5
 // Date: January 12, 2026
+//   v2.5 update June 25, 2026 - prototype design changes imported from the OMRS
+//     screen specifications:
+//     (a) Disease Maintenance "Add Disease" minimum-viable quick-add - adds
+//         InfectiousDisease.isProvisional so a quick-added dictionary entry (Disease
+//         Name + Reporting Timeline only) is selectable immediately but flagged as
+//         incomplete/pending curation; the steward equivalent of an investigator's
+//         provisional add.
+//     (b) Contact Identification "Export List" action - adds DisclosureExportLog
+//         (Section 12) to audit PHI export/disclosure events (who, when, scope/filter,
+//         row count, disease group, format, purpose) since AuditLog models only
+//         INSERT/UPDATE/DELETE mutations, not read/export/disclosure. AuditLog.actionType
+//         note extended to reference EXPORT/DISCLOSE for completeness.
 //   v2.1 update June 17, 2026 - added Vaccine, DiagnosticTest, DiseaseCaseDefinitionRule; setting thresholds
 //   v2.2 update June 17, 2026 - added Application User & Access Model (Section 14):
 //     AppUser, FunctionalRole, Team/UserTeam, UserZone, DiseaseGroup/UserDiseaseGroup,
@@ -481,6 +507,7 @@ Table InfectiousDisease {
   periodOfCommunicabilityDays int
   transmissionVector varchar(255) [note: 'Airborne, Droplet, Contact, Fecal-Oral, etc.']
   vaccinePreventable bool
+  isProvisional bool [default: false, note: 'v2.5 - true when created via the Disease Maintenance "Add Disease" quick-add (Disease Name + Reporting Timeline only). Record is written Active so it is immediately selectable in lookups, but is flagged as incomplete/pending steward curation. Cleared when the full record is completed. Steward equivalent of the investigator provisional add (UserMaintenanceActivity).']
   versionDate date
   versionStatus int [ref: > VersionStatus.versionStatusID]
 }
@@ -612,11 +639,32 @@ Table AuditLog {
   auditLogID int [primary key]
   tableName varchar(100)
   recordID int
-  actionType varchar(20) [note: 'INSERT, UPDATE, DELETE']
+  actionType varchar(20) [note: 'INSERT, UPDATE, DELETE. Read/export/disclosure events (e.g., Contact Identification Export List) are recorded in DisclosureExportLog rather than here, since they have no before/after value pair.']
   actionDateTime datetime
   actionBy int [ref: > Person.personID]
   oldValues text [note: 'JSON of previous values']
   newValues text [note: 'JSON of new values']
+  ipAddress varchar(50)
+  userAgent varchar(500)
+}
+
+// --- v2.5: PHI export / disclosure audit (HIA) -----------------------------
+// Records read/export/disclosure events that AuditLog (mutation-only) does not
+// capture. Driven by the Contact Identification "Export List" action, but reusable
+// for any screen that exports personal health information. Especially important for
+// privacy-bounded disease groups (HIV/STI) where disclosure must be auditable.
+Table DisclosureExportLog {
+  disclosureExportLogID int [primary key]
+  exportedBy int [ref: > Person.personID]
+  exportDateTime datetime
+  sourceScreen varchar(100) [note: 'e.g., Contact Identification Investigation List']
+  outbreakID int [ref: > Outbreak.outbreakID, note: 'Source outbreak/source-case context where applicable; null for cross-outbreak exports']
+  diseaseGroupID int [ref: > DiseaseGroup.diseaseGroupID, note: 'Disease group of the exported data; flags privacy-bounded (HIV/STI) disclosures']
+  exportFormat varchar(20) [note: 'CSV, Excel']
+  exportScope varchar(1000) [note: 'Active filter + sort applied at export time, so the disclosed set is reproducible']
+  rowCount int [note: 'Number of records disclosed']
+  purpose varchar(500) [note: 'Stated purpose, e.g., PHAC reporting, Ministry reporting, partner sharing, offline work']
+  privacyBoundaryCrossed bool [default: false, note: 'True when the export includes privacy-bounded (HIV/STI) rows; requires steward authorization per Section 14']
   ipAddress varchar(50)
   userAgent varchar(500)
 }
@@ -975,5 +1023,23 @@ Table ContactInvestigationLifecycle {
 //     records the contact's status transitions and carries the EpicAbstract (Communicable
 //     Disease Abstract) link once a CD episode is created, tying the contact's investigation
 //     lifecycle to the case record.
+//
+// 18. DISEASE QUICK-ADD (v2.5): InfectiousDisease.isProvisional supports the Disease
+//     Maintenance "Add Disease" minimum-viable quick-add (Disease Name + Reporting
+//     Timeline only). The record is written Active so it is immediately usable in the
+//     Disease lookup on Create Outbreak Investigation, but isProvisional = true flags it
+//     as incomplete until a steward completes ICD-10-CA, lab procedures, symptoms,
+//     vaccines, outbreak definitions and the Confirmed/Probable episode conditions. This
+//     is the dictionary-steward equivalent of the investigator provisional add tracked in
+//     UserMaintenanceActivity. Status remains versioned (no destructive overwrite).
+//
+// 19. PHI EXPORT / DISCLOSURE AUDIT (v2.5): DisclosureExportLog (Section 12) records
+//     read/export/disclosure events that AuditLog does not - it captures only
+//     INSERT/UPDATE/DELETE mutations with a before/after value pair. Driven by the
+//     Contact Identification "Export List" action (CSV/Excel export of contact PHI), it
+//     logs who exported, when, the source screen/outbreak, disease group, format, the
+//     active filter/sort scope, the row count and the stated purpose. privacyBoundaryCrossed
+//     marks exports that include HIV/STI rows, which require steward authorization under the
+//     Section 14 DiseaseGroup privacy boundary. Reusable by any future PHI-exporting screen.
 //
 // ============================================================================
