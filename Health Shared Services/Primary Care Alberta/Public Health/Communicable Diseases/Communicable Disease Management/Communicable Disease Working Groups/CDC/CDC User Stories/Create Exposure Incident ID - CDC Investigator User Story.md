@@ -25,8 +25,8 @@ The standing **agreement with the lab** is that the lab will accept the **Outbre
 
 This story sits at the **Confirm (C)** stage of the Outbreak Value Stream: the EI ID is generated both to **confirm** that there is an outbreak situation (raising lab work before a declaration) and to **monitor** an existing one. Connect Care (Epic) remains the **system of record for individual cases** and for patient-specific lab orders — the EI ID exists precisely for the **non-patient-specific** requests that those orders do not cover (see [[CLAUDE-OMRS]] data-ownership boundaries).
 
-> [!note] Note on the Story ID
-> The source working draft carried this as **O-A-4** at the **Assess (A)** stage. That ID is now held by the [[Create Outbreak Investigation - CDC Investigator User Story|Create Outbreak Investigation story]]. To remove the collision, this story is reassigned to **O-C-5** at the **Confirm (C)** stage (the "so that" — confirm/monitor an outbreak — and the *Confirm Outbreak* scenario align to that stage). The exact sequence number should be confirmed against the master Outbreak backlog. The O-A-4 lineage is recorded in Update Comments.
+> [!note] Note on the Story ID — numbering deferred
+> The source working draft carried this as **O-A-4** at the **Assess (A)** stage, which now collides with the [[Create Outbreak Investigation - CDC Investigator User Story|Create Outbreak Investigation story]]. **Final numbering is deferred** until the full set of Outbreak stories is added and the value-stream stages are confirmed. The provisional placement is the **Confirm (C)** stage (the "so that" — confirm/monitor an outbreak — and the *Confirm Outbreak* scenario align there); the ID is carried as `O-C-[TBD]` pending that pass. The O-A-4 lineage is recorded in Update Comments.
 
 ## User Story
 
@@ -79,7 +79,7 @@ How will the user be able to say we built what they needed?
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | Value Stream                 | Outbreak (O)                                                                                                                                    |
 | Value Stream Stage Workflow  | Confirm (C)                                                                                                                                     |
-| User Story ID                | O-C-5 (reassigned from source O-A-4 — confirm sequence against the master backlog)                                                              |
+| User Story ID                | O-C-[TBD] — numbering deferred; provisionally Confirm (C). Source draft was O-A-4 (now held by Create Outbreak)                                  |
 | Design Status                | **Current State** — pending Epic-migration review of Outbreak Identifier creation                                                               |
 | Role                         | CDC Investigator (Communicable Disease Control / CDC)                                                                                           |
 | Status                       | Analysis                                                                                                                                        |
