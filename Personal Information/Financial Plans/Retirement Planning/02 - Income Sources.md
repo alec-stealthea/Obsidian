@@ -8,15 +8,15 @@
 
 Request an official estimate from your plan administrator for **both** retirement dates. Most Alberta public-sector plans (e.g. LAPP, PSPP) provide an online estimator and will run custom estimates on request.
 
-| Field | If you retire 2030 | If you retire 2032 |
-|---|---|---|
-| Plan name |  |  |
-| Annual pension (gross) |  |  |
-| Is it reduced? (early-retirement reduction %) |  |  |
-| Pensionable service years at this date |  |  |
-| Highest-average-salary used |  |  |
-| Bridge benefit to 65 (if any) |  |  |
-| Survivor option chosen (e.g. 60% J&S) |  |  |
+| Field                                                  | Sept 2026 | Feb 2030 | Feb 2032 |
+| ------------------------------------------------------ | --------- | -------- | -------- |
+| Plan name                                              | LAPP      | LAPP     | LAPP     |
+| Annual pension (gross)                                 | 45,750    | 67,700   | 77,600   |
+| Is it reduced? (early-retirement reduction %)          | Yes       | No       | No       |
+| Pensionable service years as of Dec 31, 2025 = 14.6538 |           |          |          |
+| Highest-average-salary used                            | 200,000   |          |          |
+| Bridge benefit to 65 (if any)                          |           |          |          |
+| Survivor option chosen (e.g. 60% J&S)                  |           |          |          |
 
 **Indexing / inflation protection** (critical):
 - Is the pension indexed to CPI? Fully / partially (e.g. 60% of CPI) / not at all: `??`
@@ -26,8 +26,8 @@ Request an official estimate from your plan administrator for **both** retiremen
 
 ## 2. CPP (Canada Pension Plan)
 
-- Estimated CPP at 65 (from My Service Canada Account): `$____/yr`
-- Estimate at 60 (reduced) / at 70 (enhanced), if shown:
+- Estimated CPP at 65 (from My Service Canada Account): `$1,507.65/yr`
+- Estimate as of Jun 27, 2026 (reduced) $1,109.63 / at 70 (enhanced), $2,140.86:
 - Statement of Contributions reviewed? ☐  — [My Service Canada Account](https://www.canada.ca/en/employment-social-development/services/my-account.html)
 
 ## 3. OAS (Old Age Security)
