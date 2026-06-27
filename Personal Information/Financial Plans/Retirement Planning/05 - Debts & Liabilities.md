@@ -4,16 +4,16 @@
 
 ---
 
-| Debt                         | Balance                        | Rate | Monthly payment           | Payoff date | Notes                                                                         |
-| ---------------------------- | ------------------------------ | ---- | ------------------------- | ----------- | ----------------------------------------------------------------------------- |
-| Mortgage                     | 518,519.43 as of June 27, 2026 | ??   | ?? (bi-weekly per budget) | ??          | Is it retired before 2030? Before 2032? Rate/payment/payoff date still needed |
-| HELOC / line of credit       |                                |      |                           |             |                                                                               |
-| Car loan — Chevy Bolt (Alec) |                                |      | ?? (bi-weekly per budget) |             | 3-yr-old Bolt; ~7 yrs life before possible battery replacement                |
-| Car loan — Volvo (Andrea)    |                                | 0%   | ?? (bi-weekly per budget) |             | 5-yr-old Volvo; ~20 yr expected life                                          |
-| Credit cards                 |                                |      |                           |             |                                                                               |
-| Business / personal loans    |                                |      |                           |             |                                                                               |
-| Other                        |                                |      |                           |             |                                                                               |
-| **Total**                    | ≥500,000                       |      |                           |             | Plus two car loans once amounts entered                                       |
+| Debt                         | Balance                        | Rate | Monthly payment           | Payoff date  | Notes                                                                         |
+| ---------------------------- | ------------------------------ | ---- | ------------------------- | ------------ | ----------------------------------------------------------------------------- |
+| Mortgage                     | 518,519.43 as of June 27, 2026 | ??   | $1,295.07 bi-weekly ≈ $2,806/mo | ?? | Need rate to estimate payoff. At ~5%, $518.5k / $2,806/mo runs ~20+ yrs — **likely still active at both 2030 and 2032** unless prepaying |
+| HELOC / line of credit       |                                |      |                           |              |                                                                               |
+| Car loan — Chevy Bolt (Alec) | 35,478.39 as of June 27, 2026  | variable | $365.72 bi-weekly ≈ $792/mo | **~2031 (est.)** | At ~5–7%, balance clears in ~4 yrs → just after a 2030 retirement, before 2032 |
+| Car loan — Volvo (Andrea)    | (ending)                       | 0%   | $394.87 bi-weekly ≈ $856/mo | October 2026 | Frees ~$10,267/yr from Nov 2026; ~20 yr expected vehicle life |
+| Solar panel loan             | (in budget, file 04)           |      | $183.75/mo                | Feb 2036     | ~$2,205/yr; outlives retirement either way |
+| Credit cards                 | $0 balance on all cards        | —    | paid in full each pay     | —            | No revolving debt |
+| Business / personal loans    |                                |      |                           |              |                                                                               |
+| **Total**                    | ~554,000 (mortgage + Bolt)     |      |                           |              | Credit cards $0; Volvo nearly retired |
 
 ## Key questions
 - Will the mortgage be fully paid off before you retire? At which date?

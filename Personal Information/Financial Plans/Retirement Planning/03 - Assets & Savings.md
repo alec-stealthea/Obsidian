@@ -10,9 +10,9 @@ Balances as of: `June 2026` (confirm/refresh)
 
 | Account                                      | Owner  | Current balance | Asset mix (eq/fixed/cash) | Contribution room left | Notes |
 | -------------------------------------------- | ------ | --------------- | ------------------------- | ---------------------- | ----- |
-| RRSP                                         | Alec   | 200,000         |                           | 90,000                 |       |
+| RRSP                                         | Alec   | 200,000         |                           | 90,000                 | Currently contributing ~$79/pay (Voluntary RRSP) ≈ **$2,054/yr** (per pay stub) |
 | Spouse's RRSP                                | Andrea | 275,000         |                           |                        |       |
-| TFSA                                         |        |                 |                           |                        |       |
+| TFSA                                         | Alec   | ?? balance      |                           |                        | Funded by employer at $583.33/mo ≈ **$7,000/yr** (taxable benefit); used for the annual Mexico trip |
 | LIRA / Locked-in (from any prior DC pension) |        |                 |                           |                        |       |
 | Non-registered / taxable                     |        |                 |                           | n/a                    |       |
 | RESP (if relevant)                           |        |                 |                           |                        |       |

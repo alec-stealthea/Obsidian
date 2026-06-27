@@ -45,12 +45,12 @@ Columns to project each year:
 > When inputs are ready, I can also build this as an `.xlsx` model so you can flex the assumptions yourself.
 
 ## Status: what's ready vs. blocked
-- **Ready now:** all income lines (pension at both dates, CPP at 61/65/70, OAS), indexing, planning age, asset starting balances, and the assumptions above.
-- **Blocked on file 04:** the spending need / floor — without it the model can compute income and taxes but can't produce *surplus/shortfall* or tell you whether the portfolio survives to 90, which is the whole point.
-- **Also needed for precision:** annual savings rate during the working years to 2030/2032 (drives the "extra savings from working longer" line in file 06) and the TFSA/LIRA/non-registered balances (file 03).
+- **Ready now:** income lines (pension both dates, CPP at 61/65/70, OAS), indexing, planning age, asset starting balances, **spending floor/phases (file 04 ✅)**, debt run-off timeline, and the assumptions above.
+- **Quick read (pre-model):** household income at a 2030 retirement (~$145k gross / ~$115k after-tax) covers the comfortable target even with the mortgage running — see file 06. The full model will pressure-test this against inflation, the mortgage, and CPP-timing choices.
+- **Still useful for precision:** TFSA/LIRA/non-registered balances (file 03), the mortgage rate (to fix the payoff year), and Andrea's confirmed pension/CPP/OAS figures and start dates.
 
-> **Next step:** once file 04's floor is in, I'll build the year-by-year `.xlsx` for the 5 scenarios. The most decision-relevant output is Scenario 1 (retire 2030): does pension + CPP/OAS + savings fund your floor to age 90? If yes, 2032 is optional; if no, that's the financial case for working longer.
+> **Next step:** build the year-by-year `.xlsx` for the 5 scenarios. Most decision-relevant: Scenario 1 (retire 2030) — confirmed feasible on a rough basis; the model will show the portfolio path to 90 and how much cushion 2032 actually adds.
 
 ---
 
-*Needs: file 04 spending floor (the one remaining blocker) + savings rate. This is the synthesis step.*
+*Inputs now sufficient for a first full model. This is the synthesis step.*

@@ -11,11 +11,12 @@
 - [x] Confirm whether 2030 is truly **unreduced**, and the early-reduction % if not
 - [x] Pull **CPP estimate** from My Service Canada Account
 - [x] Confirm **OAS** eligibility (residency years) and estimate
-- [~] Gather current balances (file 03) — RRSP done ($200k + $275k spouse); **TFSA / LIRA / non-registered still blank**
-- [ ] **Pull current annual spending into file 04** — *the one remaining blocker for the full cash-flow model; [[Current Monthly Budget]] is still empty (no amounts entered)*
-- [ ] Enter your **annual savings rate** for the working years to 2030/2032 (feeds file 06's "extra savings" line)
-- [ ] Confirm **mortgage** rate, payment, payoff date (file 05) — gone before 2030 or 2032?
+- [~] Gather current balances (file 03) — RRSP done ($200k + $275k spouse); contributions added (RRSP ~$2,054/yr, TFSA $7k/yr employer); **TFSA / LIRA / non-registered balances still blank**
+- [x] Pull current annual spending into file 04 — done from pay stubs + reasonable assumptions (run-rate ~$129k; floor ~$57k paid-off)
+- [ ] Confirm **mortgage rate** (file 05) — to pin the payoff year; at current payment it likely outlives both 2030 and 2032
+- [ ] Decide **downsizing / sell-to-daughter timing** — the biggest single lever on the retirement floor (clears the mortgage)
 - [ ] Confirm **retiree health-benefit** option and enrollment deadline (file 09)
+- [ ] Verify the **$1,700/mo property-tax** figure (high for the home value)
 
 ## Pre-retirement actions (years to 2030/2032)
 - [ ] Maximize RRSP/TFSA room while earning
@@ -45,6 +46,9 @@
 - **Pension gap 2030→2032 is smaller than it looks:** +$9,900/yr gross, but only ~$23k of *real* lifetime difference; break-even age ≈ 82–83 — right at your dad's age at passing. Longevity expectation is the swing factor (file 06).
 - **OAS clawback is a live issue, not theoretical:** projected income sits at/above the $95,323 (2026) threshold, especially under the 2032 path and after age 71 (RRIF). Deferring CPP and draining RRSP in the 65–70 window helps (files 07, 08).
 - **CPP deferral to 70** looks attractive given the indexed pension floor (break-even ≈ age 82).
+- **2030 is financially feasible:** household income at a 2030 retirement (~$145k gross / ~$115k after-tax) covers the comfortable spending target even with the mortgage running. Working to 2032 = extra cushion, not necessity (file 06).
+- **The mortgage, not the retirement date, is the binding constraint:** ~$2,806/mo, likely active past 2032; downsizing / selling to your daughter is the lever that clears it.
+- **Spending floor ≈ $57k (home/cars paid off) / ~$90.7k (mortgage running); comfortable ≈ $82k** (file 04).
 
 ---
 

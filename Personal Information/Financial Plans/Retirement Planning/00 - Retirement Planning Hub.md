@@ -32,10 +32,10 @@ Everything in this folder feeds that comparison.
 |---|---|---|---|
 | 01 | [[01 - Personal & Goals Profile]] | Ages, dates, longevity assumptions, lifestyle goals | ✅ Filled (ages derived) |
 | 02 | [[02 - Income Sources]] | Pension (2030 & 2032 estimates), CPP, OAS, other | ✅ Filled (annuals derived) |
-| 03 | [[03 - Assets & Savings]] | RRSP, TFSA, LIRA, non-registered, home, etc. | ◑ Partial (TFSA/LIRA/non-reg blank) |
-| 04 | [[04 - Expenses & Spending Plan]] | Current spending + projected retirement budget | ☐ **Not started — the key blocker** |
-| 05 | [[05 - Debts & Liabilities]] | Mortgage, loans, payoff timing | ◑ Partial (mortgage $500k; rates/payoff TBD) |
-| 09 | [[09 - Healthcare & Benefits]] | Replacing employer health/dental coverage | ☐ Not started |
+| 03 | [[03 - Assets & Savings]] | RRSP, TFSA, LIRA, non-registered, home, etc. | ◑ Partial (RRSP/TFSA contributions added; TFSA/LIRA/non-reg balances blank) |
+| 04 | [[04 - Expenses & Spending Plan]] | Current spending + projected retirement budget | ✅ Filled (from pay stubs + reasonable assumptions) |
+| 05 | [[05 - Debts & Liabilities]] | Mortgage, loans, payoff timing | ◑ Mostly filled (mortgage rate/payoff still needed) |
+| 09 | [[09 - Healthcare & Benefits]] | Replacing employer health/dental coverage | ◑ Coverage values filled (retiree-plan deadline TBD) |
 | 10 | [[10 - Estate & Insurance]] | Will, beneficiaries, insurance, POA | ☐ Not started |
 
 ### Analysis files — I build these from your inputs
@@ -44,7 +44,7 @@ Everything in this folder feeds that comparison.
 | 06 | [[06 - Pension Decision 2030 vs 2032]] | The core 2030-vs-2032 comparison | ✅ Drafted (pension-only; final rec needs file 04) |
 | 07 | [[07 - CPP & OAS Timing]] | When to start CPP and OAS; break-even | ✅ Drafted |
 | 08 | [[08 - Tax Strategy & Drawdown Order]] | Tax-efficient withdrawal sequence, OAS clawback, RRIF | ✅ Drafted (first pass) |
-| 11 | [[11 - Scenarios & Cash Flow Model]] | Year-by-year income/spend/tax to age 90+ | ◑ Assumptions set; blocked on file 04 |
+| 11 | [[11 - Scenarios & Cash Flow Model]] | Year-by-year income/spend/tax to age 90+ | ◑ Inputs now sufficient; .xlsx model ready to build |
 | 12 | [[12 - Action Items & Decision Log]] | Running task list and decisions made | ☐ Ongoing |
 
 ---
