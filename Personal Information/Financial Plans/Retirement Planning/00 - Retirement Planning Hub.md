@@ -66,10 +66,10 @@ Everything in this folder feeds that comparison.
 
 The fastest unlock is these five numbers. Everything else can follow.
 
-- [ ] Pension annual estimate if you stop work in **2030** (after any reduction) — from your plan administrator
-- [ ] Pension annual estimate if you stop work in **2032** — from your plan administrator
-- [ ] Whether the pension is **indexed to inflation** (and how)
-- [ ] Your current **total annual spending** (rough is fine)
+- [x] Pension annual estimate if you stop work in **2030** (after any reduction) — from your plan administrator
+- [x] Pension annual estimate if you stop work in **2032** — from your plan administrator
+- [x] Whether the pension is **indexed to inflation** (and how)
+- [x] Your current **total annual spending** (rough is fine)
 - [ ] Current balances: **RRSP, TFSA, LIRA (if any), non-registered**
 
 ---
