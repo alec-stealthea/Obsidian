@@ -6,18 +6,18 @@
 
 ## Current annual spending (pre-retirement baseline)
 
-| Category | Monthly | Annual | Notes |
-|---|---|---|---|
-| Housing (mortgage/rent, tax, utilities, maintenance) |  |  |  |
-| Food & household |  |  |  |
-| Transportation |  |  |  |
-| Insurance (life, home, auto, health) |  |  |  |
-| Healthcare / dental / prescriptions |  |  |  |
-| Travel & leisure |  |  |  |
-| Subscriptions & memberships |  |  |  |
-| Family / gifts / support |  |  |  |
-| Discretionary / other |  |  |  |
-| **Total** |  |  |  |
+| Category                                             | Monthly | Annual | Notes |
+| ---------------------------------------------------- | ------- | ------ | ----- |
+| Housing (mortgage/rent, tax, utilities, maintenance) |         |        |       |
+| Food & household                                     |         |        |       |
+| Transportation                                       |         |        |       |
+| Insurance (life, home, auto, health)                 |         |        |       |
+| Healthcare / dental / prescriptions                  |         |        |       |
+| Travel & leisure                                     |         |        |       |
+| Subscriptions & memberships                          |         |        |       |
+| Family / gifts / support                             |         |        |       |
+| Discretionary / other                                |         |        |       |
+| **Total**                                            |         |        |       |
 
 ## Projected retirement spending
 

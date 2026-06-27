@@ -2,7 +2,7 @@
 
 *Input file. Balances as of a single date so totals are consistent. Update quarterly.*
 
-Balances as of: `____________`
+Balances as of: `June 2026` (confirm/refresh)
 
 ---
 
@@ -24,7 +24,7 @@ Balances as of: `____________`
 
 | Asset           | Estimated value | Mortgage/loan owing | Net equity | Notes                          |
 | --------------- | --------------- | ------------------- | ---------- | ------------------------------ |
-| Primary home    | 1,700,000       | 500,000             |            |                                |
+| Primary home    | 1,700,000       | 500,000             | 1,200,000  |                                |
 | Alec Chevy Bolt |                 |                     |            |                                |
 | Andrea Volvo    |                 |                     |            | Usually excluded from drawdown |
 
@@ -38,11 +38,13 @@ Balances as of: `____________`
 
 | Category | Total |
 |---|---|
-| Liquid investable (RRSP+TFSA+LIRA+non-reg) |  |
-| Real estate equity |  |
-| Business |  |
-| **Total net worth (excl. home)** |  |
-| **Total net worth (incl. home)** |  |
+| Liquid investable (RRSP+TFSA+LIRA+non-reg) | 475,000 *(both RRSPs only; TFSA/LIRA/non-reg still blank)* |
+| Real estate equity | 1,200,000 |
+| Business | ?? (Stealth EA not yet valued) |
+| **Total net worth (excl. home)** | 475,000 *(+ any TFSA/LIRA/non-reg/business/vehicles)* |
+| **Total net worth (incl. home)** | 1,675,000 |
+
+> **Gaps holding this back:** TFSA, LIRA, non-registered, vehicle values, and any Stealth EA value are still blank. The 475,000 liquid figure is almost certainly an *understatement* of household investable assets — fill those rows and these totals update.
 
 ---
 

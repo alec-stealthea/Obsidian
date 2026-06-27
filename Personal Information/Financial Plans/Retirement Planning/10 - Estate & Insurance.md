@@ -5,12 +5,12 @@
 ---
 
 ## Estate documents
-| Document | In place? | Last updated | Notes |
-|---|---|---|---|
-| Will |  |  |  |
-| Enduring Power of Attorney (financial) |  |  | Alberta |
-| Personal Directive (health) |  |  | Alberta |
-| Beneficiary designations (RRSP/TFSA/pension) |  |  | Review — these override the will |
+| Document                                     | In place? | Last updated | Notes                            |
+| -------------------------------------------- | --------- | ------------ | -------------------------------- |
+| Will                                         | Yes       | 2000         |                                  |
+| Enduring Power of Attorney (financial)       |           |              | Alberta                          |
+| Personal Directive (health)                  |           |              | Alberta                          |
+| Beneficiary designations (RRSP/TFSA/pension) |           |              | Review — these override the will |
 
 ## Insurance
 | Policy | Type | Coverage | Premium | Still needed in retirement? |

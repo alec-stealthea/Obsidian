@@ -13,8 +13,8 @@ Request an official estimate from your plan administrator for **both** retiremen
 | Plan name                                              | LAPP      | LAPP     | LAPP     |
 | Annual pension (gross)                                 | 45,750    | 67,700   | 77,600   |
 | Is it reduced? (early-retirement reduction %)          | Yes       | No       | No       |
-| Pensionable service years as of Dec 31, 2025 = 14.6538 |           |          |          |
-| Highest-average-salary used                            | 200,000   |          |          |
+| Pensionable service years                              | 14.6538 (Dec 31 2025) | ≈18.74 (proj.) | ≈20.74 (proj.) |
+| Highest-average-salary used                            | 200,000   | ≥200,000 (assume ≥) | ≥200,000 (assume ≥) |
 | Bridge benefit to 65 (if any)                          |           |          |          |
 | Survivor option chosen (e.g. 60% J&S)                  | Unsure    | Unsure   | Unsure   |
 
@@ -26,15 +26,21 @@ Request an official estimate from your plan administrator for **both** retiremen
 
 ## 2. CPP (Canada Pension Plan)
 
-- Estimated CPP at 65 (from My Service Canada Account): `$1,507.65/yr`
-- Estimate as of Jun 27, 2026 (reduced) $1,109.63 / at 70 (enhanced), $2,140.86:
+*Figures from My Service Canada Account are **monthly**; annual = ×12 (derived below).*
+
+| Start age | Monthly | Annual |
+|---|---|---|
+| Now / age 61 (Jun 27 2026, reduced) | $1,109.63 | $13,315.56 |
+| 65 (baseline) | $1,507.65 | $18,091.80 |
+| 70 (enhanced / deferred) | $2,140.86 | $25,690.32 |
+
 - Statement of Contributions reviewed? ☐  — [My Service Canada Account](https://www.canada.ca/en/employment-social-development/services/my-account.html)
 
 ## 3. OAS (Old Age Security)
 
-- Eligible at 65? Years of Canadian residency after 18: `43` (need 40 for full)
-- Estimated annual OAS at 65: 743.05 per month which would be the same as what my wife will get when she turns 65
-- Aware income may trigger clawback above ~$90K? Yes
+- Eligible at 65? Years of Canadian residency after 18: `43` (need 40 for full → eligible for **full** OAS)
+- Estimated OAS at 65: **$743.05/month → $8,916.60/year** (wife will get the same at 65)
+- Clawback (OAS recovery tax): begins at **$95,323** net income (2026), 15¢ per $1 above; fully eliminated ~$152,062 (age 65–74). See file 07 — your projected income sits right at this threshold, so it's a live consideration, not a theoretical one.
 
 ## 4. Other income
 
