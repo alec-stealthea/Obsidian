@@ -46,6 +46,7 @@ Everything in this folder feeds that comparison.
 | 08 | [[08 - Tax Strategy & Drawdown Order]] | Tax-efficient withdrawal sequence, OAS clawback, RRIF | ✅ Drafted (first pass) |
 | 11 | [[11 - Scenarios & Cash Flow Model]] | Year-by-year income/spend/tax to age 90+ | ◑ Inputs now sufficient; .xlsx model ready to build |
 | 12 | [[12 - Action Items & Decision Log]] | Running task list and decisions made | ☐ Ongoing |
+| 13 | [[13 - Scenario - House Transfer to Daughter]] | Transfer $1.7M home to daughter, loan back at BoC rate, equalize for 3 sons | ✅ Drafted (scenario) |
 
 ---
 
