@@ -4,16 +4,16 @@
 
 ---
 
-| Debt | Balance | Rate | Monthly payment | Payoff date | Notes |
-|---|---|---|---|---|---|
-| Mortgage | 500,000 *(from file 03)* | ?? | ?? (bi-weekly per budget) | ?? | Is it retired before 2030? Before 2032? Rate/payment/payoff date still needed |
-| HELOC / line of credit |  |  |  |  |  |
-| Car loan — Chevy Bolt (Alec) |  |  | ?? (bi-weekly per budget) |  | 3-yr-old Bolt; ~7 yrs life before possible battery replacement |
-| Car loan — Volvo (Andrea) |  |  | ?? (bi-weekly per budget) |  | 5-yr-old Volvo; ~20 yr expected life |
-| Credit cards |  |  |  |  |  |
-| Business / personal loans |  |  |  |  |  |
-| Other |  |  |  |  |  |
-| **Total** | ≥500,000 |  |  |  | Plus two car loans once amounts entered |
+| Debt                         | Balance                        | Rate | Monthly payment           | Payoff date | Notes                                                                         |
+| ---------------------------- | ------------------------------ | ---- | ------------------------- | ----------- | ----------------------------------------------------------------------------- |
+| Mortgage                     | 518,519.43 as of June 27, 2026 | ??   | ?? (bi-weekly per budget) | ??          | Is it retired before 2030? Before 2032? Rate/payment/payoff date still needed |
+| HELOC / line of credit       |                                |      |                           |             |                                                                               |
+| Car loan — Chevy Bolt (Alec) |                                |      | ?? (bi-weekly per budget) |             | 3-yr-old Bolt; ~7 yrs life before possible battery replacement                |
+| Car loan — Volvo (Andrea)    |                                | 0%   | ?? (bi-weekly per budget) |             | 5-yr-old Volvo; ~20 yr expected life                                          |
+| Credit cards                 |                                |      |                           |             |                                                                               |
+| Business / personal loans    |                                |      |                           |             |                                                                               |
+| Other                        |                                |      |                           |             |                                                                               |
+| **Total**                    | ≥500,000                       |      |                           |             | Plus two car loans once amounts entered                                       |
 
 ## Key questions
 - Will the mortgage be fully paid off before you retire? At which date?
