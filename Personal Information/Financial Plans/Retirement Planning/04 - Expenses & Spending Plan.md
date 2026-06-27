@@ -8,36 +8,38 @@
 
 *Conversions: bi-weekly ×26 = annual (÷12 → monthly); monthly ×12 = annual. Rows marked **(assumed)** are my reasonable estimates — adjust to actuals. Figures are household spending, after-tax.*
 
-| Category                                   | Bi-weekly | Monthly | Annual | Notes |
-| ------------------------------------------ | --------- | ------- | ------ | ----- |
-| Mortgage                                   | 1,295.07  | 2,806   | 33,672 | Payoff date TBD (file 05); biggest swing factor |
-| Property Taxes                             |           | 1,700   | 20,400 | High vs. typical for a $1.7M home (~$11k expected) — worth confirming |
-| TV and Internet                            |           | 165     | 1,980  |       |
-| Cellular                                   |           | 60      | 720    |       |
-| Food & household                           |           | 1,200   | 14,400 |       |
-| 2020 Volvo car loan                        | 394.87    | 856     | 10,267 | **Ends Oct 2026** — drops off baseline (0% rate) |
-| 2023 Chevy Bolt car loan                   | 365.72    | 792     | 9,509  | Balance $35,478 (Jun 2026); est. payoff **~2031** |
-| Solar panel loan                           |           | 183.75  | 2,205  | Ends Feb 2036 |
-| Insurance (life, home, auto, health)       |           | 925.84  | 11,110 | Drops in ~1 yr when youngest son comes off auto |
-| Healthcare / dental / prescriptions        |           | 100     | 1,200  | **(assumed)** out-of-pocket; employer funds health+dental now (~$2,477/yr value — file 09) |
-| Travel & leisure                           |           | 1,000   | 12,000 | **(assumed)** Mexico (~$7k, currently TFSA-funded) + 2nd spring/fall trip |
-| Subscriptions & memberships                |           | 200     | 2,400  | **(assumed)** Revv52 ($1–2k) + streaming/computer |
-| Family / gifts / support                   |           | 250     | 3,000  | **(assumed)** baseline; daughter's June 2027 wedding is one-time, excluded |
-| Discretionary / other                      |           | 500     | 6,000  | **(assumed)** clothing, household misc, personal buffer |
-| **Total (current run-rate)**               |           | **10,739** | **128,862** | Falls as loans end (see below) |
+| Category                             | Bi-weekly | Monthly    | Annual      | Notes                                                                                                                                                                                               |
+| ------------------------------------ | --------- | ---------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mortgage                             | 1,295.07  | 2,806      | 33,672      | 4.04% (file 05); at current payment runs to **~2050** — outlives retirement unless downsized/prepaid                                                                                                 |
+| Property Taxes                       |           | 831        | 9,972       | Corrected from earlier $20,400                                                                                                                                                                       |
+| TV and Internet                      |           | 165        | 1,980       |                                                                                                                                                                                                     |
+| Cellular                             |           | 60         | 720         |                                                                                                                                                                                                     |
+| Water                                |           | 100        | 1,200       |                                                                                                                                                                                                     |
+| Food & household                     |           | 1,200      | 14,400      |                                                                                                                                                                                                     |
+| Electricity and Gas                  |           | 300        | 3,600       | Based on past history; with solar, grid bill drops to <$40 in summer but winter offset unknown — **likely lower in practice**                                                                        |
+| 2020 Volvo car loan                  | 394.87    | 856        | 10,267      | **Ends Oct 2026** — drops off baseline (0% rate)                                                                                                                                                    |
+| 2023 Chevy Bolt car loan             | 365.72    | 792        | 9,509       | Balance $35,478 (Jun 2026); est. payoff **~2031**                                                                                                                                                   |
+| Solar panel loan                     |           | 183.75     | 2,205       | Ends Feb 2036                                                                                                                                                                                       |
+| Insurance (life, home, auto, health) |           | 925.84     | 11,110      | Drops in ~1 yr when youngest son comes off auto                                                                                                                                                     |
+| Healthcare / dental / prescriptions  |           | 100        | 1,200       | **(assumed)** out-of-pocket; employer funds health+dental now (~$2,477/yr value — file 09)                                                                                                          |
+| Travel & leisure                     |           | 1,000      | 12,000      | **(assumed)** Mexico (~$7k, currently TFSA-funded) + 2nd spring/fall trip                                                                                                                           |
+| Subscriptions & memberships          |           | 200        | 2,400       | **(assumed)** Revv52 ($1–2k) + streaming/computer                                                                                                                                                   |
+| Family / gifts / support             |           | 250        | 3,000       | **(assumed)** baseline; daughter's June 2027 wedding is one-time, excluded                                                                                                                          |
+| Discretionary / other                |           | 500        | 6,000       | **(assumed)** clothing, household misc, personal buffer                                                                                                                                             |
+| **Total (current run-rate)**         |           | **10,270** | **123,235** | Falls as loans end (see below)                                                                                                                                                                      |
 
 ### How the baseline steps down as debts clear
 
 | From | Change | New annual run-rate |
 | ---- | ------ | ------------------- |
-| Now (mid-2026) | — | ~128,900 |
-| Nov 2026 | − Volvo loan ($10,267) | ~118,600 |
-| ~2027 | − insurance reduction (son off auto, est. −$1,800) | ~116,800 |
-| ~2031 | − Chevy Bolt loan ($9,509) | ~107,300 |
-| When mortgage clears | − mortgage ($33,672) | ~73,600 |
-| Feb 2036 | − solar loan ($2,205) | ~71,400 |
+| Now (mid-2026) | — | ~123,200 |
+| Nov 2026 | − Volvo loan ($10,267) | ~113,000 |
+| ~2027 | − insurance reduction (son off auto, est. −$1,800) | ~111,200 |
+| ~2031 | − Chevy Bolt loan ($9,509) | ~101,700 |
+| Feb 2036 | − solar loan ($2,205) | ~99,500 |
+| If/when mortgage clears (downsize) | − mortgage ($33,672) | ~65,800 |
 
-> **Key insight:** once the mortgage and car loans are gone, baseline spending drops from ~$129k to roughly **$71–74k/yr** — before trimming any discretionary spending. Whether the mortgage is retired before 2030 is the single biggest lever on the retirement floor.
+> **Key insight — the mortgage is the story.** At 4.04% and current payments it doesn't clear until **~2050 (age ~85)**, so it sits on the budget through almost all of retirement unless you downsize or prepay. While it's running, baseline holds around **$100k+**; clear it (e.g. the sell-to-daughter plan) and it drops to **~$66k**. That single decision moves the retirement budget more than the 2030-vs-2032 choice does.
 
 ## Projected retirement spending
 
