@@ -19,7 +19,7 @@
 
 | Scenario          | Last day worked | Pension starts | Why consider it                                   |
 | ----------------- | --------------- | -------------- | ------------------------------------------------- |
-| **Plan A — 2030** | Feb. 1 2030     |                | Unreduced pension age; two extra years of freedom |
+| **Plan A — 2030** | Feb. 1 2030     | Feb 1,         | Unreduced pension age; two extra years of freedom |
 | **Plan B — 2032** | Feb 1, 2032     |                | "Dramatic" income increase — quantify in file 06  |
 
 ## Longevity & health assumptions
