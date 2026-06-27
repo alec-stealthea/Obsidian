@@ -5,11 +5,11 @@
 ---
 
 ## Immediate actions (unlock the analysis)
-- [ ] Request pension estimate for a **2030** retirement from plan administrator
-- [ ] Request pension estimate for a **2032** retirement
-- [ ] Confirm pension **indexing** (CPI-linked? partial? none?)
-- [ ] Confirm whether 2030 is truly **unreduced**, and the early-reduction % if not
-- [ ] Pull **CPP estimate** from My Service Canada Account
+- [x] Request pension estimate for a **2030** retirement from plan administrator
+- [x] Request pension estimate for a **2032** retirement
+- [x] Confirm pension **indexing** (CPI-linked? partial? none?)
+- [x] Confirm whether 2030 is truly **unreduced**, and the early-reduction % if not
+- [x] Pull **CPP estimate** from My Service Canada Account
 - [ ] Confirm **OAS** eligibility (residency years) and estimate
 - [ ] Gather current balances: RRSP, TFSA, LIRA, non-registered (file 03)
 - [ ] Pull current annual spending from [[Current Monthly Budget]] (file 04)

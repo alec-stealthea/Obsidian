@@ -8,25 +8,25 @@ Balances as of: `____________`
 
 ## Registered & investment accounts
 
-| Account | Owner | Current balance | Asset mix (eq/fixed/cash) | Contribution room left | Notes |
-|---|---|---|---|---|---|
-| RRSP |  |  |  |  |  |
-| Spousal RRSP |  |  |  |  |  |
-| TFSA |  |  |  |  |  |
-| LIRA / Locked-in (from any prior DC pension) |  |  |  |  |  |
-| Non-registered / taxable |  |  |  | n/a |  |
-| RESP (if relevant) |  |  |  |  |  |
-| Other |  |  |  |  |  |
+| Account                                      | Owner  | Current balance | Asset mix (eq/fixed/cash) | Contribution room left | Notes |
+| -------------------------------------------- | ------ | --------------- | ------------------------- | ---------------------- | ----- |
+| RRSP                                         | Alec   | 200,000         |                           | 90,000                 |       |
+| Spouse's RRSP                                | Andrea | 275,000         |                           |                        |       |
+| TFSA                                         |        |                 |                           |                        |       |
+| LIRA / Locked-in (from any prior DC pension) |        |                 |                           |                        |       |
+| Non-registered / taxable                     |        |                 |                           | n/a                    |       |
+| RESP (if relevant)                           |        |                 |                           |                        |       |
+| Other                                        |        |                 |                           |                        |       |
 
 > **Note on contribution room:** the years to 2030/2032 are the last big window to use RRSP/TFSA room while you still have employment income. File 08 will look at whether to prioritize this.
 
 ## Real estate & physical assets
 
-| Asset | Estimated value | Mortgage/loan owing | Net equity | Notes |
-|---|---|---|---|---|
-| Primary home |  |  |  |  |
-| Other property |  |  |  |  |
-| Vehicles / other |  |  |  | Usually excluded from drawdown |
+| Asset           | Estimated value | Mortgage/loan owing | Net equity | Notes                          |
+| --------------- | --------------- | ------------------- | ---------- | ------------------------------ |
+| Primary home    | 1,700,000       | 500,000             |            |                                |
+| Alec Chevy Bolt |                 |                     |            |                                |
+| Andrea Volvo    |                 |                     |            | Usually excluded from drawdown |
 
 ## Business assets (Stealth EA)
 

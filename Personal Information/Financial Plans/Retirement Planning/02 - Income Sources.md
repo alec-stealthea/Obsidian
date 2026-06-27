@@ -16,11 +16,11 @@ Request an official estimate from your plan administrator for **both** retiremen
 | Pensionable service years as of Dec 31, 2025 = 14.6538 |           |          |          |
 | Highest-average-salary used                            | 200,000   |          |          |
 | Bridge benefit to 65 (if any)                          |           |          |          |
-| Survivor option chosen (e.g. 60% J&S)                  |           |          |          |
+| Survivor option chosen (e.g. 60% J&S)                  | Unsure    | Unsure   | Unsure   |
 
 **Indexing / inflation protection** (critical):
-- Is the pension indexed to CPI? Fully / partially (e.g. 60% of CPI) / not at all: `??`
-- Source / confirmation:
+- Pension is indexed to 60% of the Alberta Consumer Price Index
+- Source / confirmation: https://www.lapp.ca/page/cost-of-living-increases
 
 > **Why both dates matter:** the gap between these two columns *is* the financial half of your retire-2030-vs-2032 decision. Get these numbers first.
 
@@ -32,9 +32,9 @@ Request an official estimate from your plan administrator for **both** retiremen
 
 ## 3. OAS (Old Age Security)
 
-- Eligible at 65? Years of Canadian residency after 18: `??` (need 40 for full)
-- Estimated annual OAS at 65:
-- Aware income may trigger clawback above ~$90K? ☐
+- Eligible at 65? Years of Canadian residency after 18: `43` (need 40 for full)
+- Estimated annual OAS at 65: 743.05 per month which would be the same as what my wife will get when she turns 65
+- Aware income may trigger clawback above ~$90K? Yes
 
 ## 4. Other income
 
@@ -47,9 +47,9 @@ Request an official estimate from your plan administrator for **both** retiremen
 | Other |  |  |  |  |
 
 ## 5. Spouse/partner income sources (if applicable)
-| Source | Annual amount | Starts | Notes |
-|---|---|---|---|
-|  |  |  |  |
+| Source | Annual amount | Starts   | Notes                                                             |
+| ------ | ------------- | -------- | ----------------------------------------------------------------- |
+| LAPP   | $50,000       | May 2030 | This is an estimate, need to get the actual numbers from my wife. |
 
 ---
 
