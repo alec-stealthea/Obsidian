@@ -14,7 +14,9 @@
 | Non-registered | Tax on gains/dividends only | None |
 
 ## Your numbers (from files 02–03)
-- **RRSP (Alec): $200,000**, with **$90,000 unused room** — the employment years to 2030/2032 are the last big chance to use it (top-bracket deduction now, withdraw later at a lower rate). Spouse RRSP: $275,000.
+- **RRSP (Alec): $200,000**, with **$89,071 unused room** — the employment years to 2030/2032 are the last big chance to use it (top-bracket deduction now, withdraw later at a lower rate). Spouse RRSP: $275,000.
+  - **Heads-up: this room will NOT be filled by retirement.** Current paycheck contributions won't max it before 2030/2032, so top-bracket deduction capacity is being left on the table each year. Filling it should be a priority — from any non-registered savings or extra salary, and (as a last resort) via the redirect-early-CPP route in file 07.
+- **TFSA (Alec): $109,836 room — but it's a vacation flow-through, not long-term savings.** It's contributed and then withdrawn each year to fund travel, so do **not** count on a meaningful TFSA balance in retirement. The "TFSA as a clawback-free top-up bucket" lever below is therefore largely unavailable unless this changes — another reason to make the RRSP room work hard during the earning years.
 - **No classic pre-65 window:** you retire *at* 65 (2030), so there's no 60–65 income gap. The equivalent opportunity is the **65–70 window if you defer CPP** — income would be just pension + OAS (≈ $76,600), leaving bracket room to draw the RRSP down before RRIF minimums and the CPP/OAS layer arrive.
 - **OAS clawback threshold $95,323 (2026)** sits right at your projected income — every withdrawal decision should watch net income against it (see file 07).
 
@@ -29,7 +31,7 @@
 
 ## Pre-retirement tax moves (the years to 2030/2032)
 - [ ] Maximize RRSP room while earning employment income (highest-bracket deduction now, withdraw later at lower rate)
-- [ ] Maximize TFSA room (tax-free, no clawback impact)
+- [ ] Maximize TFSA room (tax-free, no clawback impact) — *currently used as a vacation flow-through, so no long-term balance is building; decide whether to keep some as permanent retirement savings*
 - [ ] Pension adjustment may limit RRSP room — check your Notice of Assessment
 - [ ] If Stealth EA is incorporated, coordinate any wind-down with personal income timing
 
