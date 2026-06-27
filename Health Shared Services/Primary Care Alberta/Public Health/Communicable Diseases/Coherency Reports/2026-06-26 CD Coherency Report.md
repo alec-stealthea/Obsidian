@@ -90,5 +90,16 @@ The three open questions from Run 1 remain carried forward unchanged in `open_fi
 
 ---
 
+## Run 3 — 2026-06-27T07:33:02Z (01:33 MDT)
+
+**Sweep:** incremental (the full sweep from Run 1 at 02:35:46Z is still < 7 days old, so this run re-hashes only and checks changed files). **Files checked this run:** 0. **Queue remaining:** 0.
+
+**No new findings.** All 34 deliverables were re-hashed against the values recorded in the last full sweep and every hash matches — nothing has been edited, added, or removed since Run 1. The deferred queue was empty and no periodic full re-sweep was due. Nothing to re-evaluate this fire.
+
+The three open questions remain carried forward unchanged in `open_findings_carryover`: **1.1** (OMRA/OMRS naming in the task spec + the doubled-acronym garble in the three naming notes), **2.1** (`ActivityType` enum drift between O-M-6 and O-M-8 + CD-OI-16 scope), and **4.1** (missing regulatory anchors on five concept/build-analysis artifacts). All three still await Alec's interactive decision; the overnight task does not auto-apply them. Structural items remain owned by the [[Communicable Disease Open Issues]] register and are not duplicated here.
+
+---
+
 _Run log:_ 2026-06-27T02:35:46Z — full sweep, 34/34 checked, 0 remaining → `Coherency Reports/2026-06-26 CD Coherency Report.md`
 _Run log:_ 2026-06-27T05:32:24Z — incremental, 0/34 changed, 0 remaining, no new findings → `Coherency Reports/2026-06-26 CD Coherency Report.md`
+_Run log:_ 2026-06-27T07:33:02Z — incremental, 0/34 changed, 0 remaining, no new findings → `Coherency Reports/2026-06-26 CD Coherency Report.md`

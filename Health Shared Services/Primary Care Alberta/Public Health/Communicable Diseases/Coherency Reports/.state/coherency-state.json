@@ -14,139 +14,139 @@
   "files": {
     "Communicable Disease Management/Architecture Models/Communicable Disease Conceptual Data Model.md": {
       "hash": "c6b9ec465786335be0ec92b9db2f22dc7b5c7887",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Architecture Models/Communicable Disease Solution Architecture.md": {
       "hash": "00dae4f22c422c44fb34476a05dc4b2bc02cb008",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Architecture Models/Communicable Disease Solution Concept Model.md": {
       "hash": "522d32f19e1d6372c0394815a6280f0724940faf",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Architecture Models/Lambda Architecture - Real-Time Lab Surveillance.md": {
       "hash": "a9eacba976dcfaef104439925a74a5990e0be232",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Assign Staff to Outbreak - Team Lead Department Manager User Story.md": {
       "hash": "a0d385bebc113c5519de1fd50d80971375d32df5",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Create Exposure Incident ID - CDC Investigator User Story.md": {
       "hash": "2e6a2d68ac6d8a01ee1bb62c0f6dc46df40336c1",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Create Outbreak Investigation - CDC Investigator User Story.md": {
       "hash": "ffce2f51656fb5982f757c3fb967fba476a1fe9b",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Document Facility Outbreak Phone Encounter - PPHST Call Analyst User Story.md": {
       "hash": "4757fdc7d7db4e2283e76cfaf25a4531415b9b15",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Maintain Outbreak Task Lists - Team Lead Department Manager User Story.md": {
       "hash": "f3830f2ca6c5f1f2b9d4b3ead8b24d6a7f918d43",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Manager Outbreak Metrics and Reporting - Team Lead Department Manager User Story.md": {
       "hash": "7dd800fbdcccbdd8a49833f525dda7fe0b3490f6",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Outbreak Assessment - CDC Investigator User Story.md": {
       "hash": "380ea06fe9fbe89d0513368ca30394789110ff68",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Outbreak Search - Outbreak Investigator User Story.md": {
       "hash": "c526ff07180b3bc1d2e9cd84664dad74c2c2eb04",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Set Outbreak Status (Deprecated) - CDC Investigator User Story.md": {
       "hash": "bfd4613d8196d34d02676198a60b4424803508ed",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Submit Aggregate Outbreak Report - Facility Operator User Story.md": {
       "hash": "29fe710205aa5409dc2e77f9bc48412cb76e896a",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Submit Facility Outbreak Line List - Facility Operator User Story.md": {
       "hash": "0f20f2df0a90857f2110b0f72ca5a6e2f8ff1839",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Track Outbreak Activities and Tasks - CDC Investigator User Story.md": {
       "hash": "04cff1338a745422f5beb276f803ce21918247c4",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Update CD Episode Outbreak ID - CDC Investigator User Story.md": {
       "hash": "33199a79d18125ddb36172334bd5118992ba83d2",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/Sexually Transmitted Infections (STI)/STI Intake Form Design Specification.md": {
       "hash": "1a1346d3d3eac23633e7dac6a0cd3a4ee1cd1b46",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/Sexually Transmitted Infections (STI)/STI User Stories/Community Physician STI Notification User Story.md": {
       "hash": "ad42370b0538479f6d000d669e5a10b50a158c73",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/Sexually Transmitted Infections (STI)/STI User Stories/STI Large Exposure User Story.md": {
       "hash": "922a0af60e01f7d6071a03217bf99047f70394d8",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Communicable Disease Working Groups/TB/TB User Stories/TB Contact List - TB Nurse User Story.md": {
       "hash": "a307fd2b41f282b47432e1a5261b8b7433351610",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Connect Care Communicable Disease Episode/Build Specification - TB CD Episode Compass Rose (Tasks Targets Automation).md": {
       "hash": "8ebd8e43f7609b09da97de36038c3efb6b1c6ab6",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Connect Care Communicable Disease Episode/Interface Specification - Create CD Episode and Draft Contact Abstract (OMRA to Connect Care).md": {
       "hash": "d35189debfe14fb48de580e0c6d96ae2cacce006",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Connect Care Communicable Disease Episode/Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRA).md": {
       "hash": "d9955717c66a0ab95be6f05f1c24c24733edf7e9",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md": {
       "hash": "b716b3ba365f6f65cac2585fd16fd12504d6a866",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Search Screen Specifications.md": {
       "hash": "38e9f8195e59c43a2cd55977ba321c165343298a",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Contact Identification Screen Specifications.md": {
       "hash": "dd71561a72a28b7e272c79de526b5fc2a6e1a248",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Create Outbreak Investigation Screen Specifications.md": {
       "hash": "223ca6efaad3ea7bf9f7d9e25b02dbf9c0eb87e0",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Communicable Disease Management/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/User Maintenance Screen Specifications.md": {
       "hash": "9a106b77226269eb5192e9014536c937cc14c877",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Connect Care Build Specifications/Sexually Transmitted Infections/Sexual Contacts Flowsheet.md": {
       "hash": "6415dd916a1264a0a08ed648459b9b3209b6d0f4",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Connect Care Build Specifications/Sexually Transmitted Infections/Sexually Transmitted Infections Epic Build Analysis/Epic Family Planning Registry Data.md": {
       "hash": "cdb8bbbb1a1805fba65de18b4859ce3408bfde59",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Connect Care Build Specifications/Sexually Transmitted Infections/Sexually Transmitted Infections Epic Build Analysis/STI Encounter Value Stream.md": {
       "hash": "3bea2227b0fbeaec51d9ef094d6dd5aa3bf88af1",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Connect Care Build Specifications/Sexually Transmitted Infections/Sexually Transmitted Infections Epic Build Analysis/STI Flowsheet Logical Data Model.md": {
       "hash": "64d3ae8cd8f065874d00e7014874e1e99db97589",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     },
     "Connect Care Build Specifications/Sexually Transmitted Infections/Sexually Transmitted Infections Epic Build Analysis/STI Workflow Overview.md": {
       "hash": "ec323c5c9dd0d39d84d9df746252c0f699172ab8",
-      "last_checked": "2026-06-27T05:32:24Z"
+      "last_checked": "2026-06-27T07:33:02Z"
     }
   },
   "deferred_queue": [],
@@ -180,6 +180,13 @@
     },
     {
       "timestamp": "2026-06-27T05:32:24Z",
+      "files_checked": 0,
+      "files_remaining": 0,
+      "sweep": "incremental-no-changes",
+      "report": "Coherency Reports/2026-06-26 CD Coherency Report.md"
+    },
+    {
+      "timestamp": "2026-06-27T07:33:02Z",
       "files_checked": 0,
       "files_remaining": 0,
       "sweep": "incremental-no-changes",
