@@ -102,10 +102,11 @@ These are inflows, but the same situations can bring **outflows and time**: trav
 ## Action items
 
 - [ ] Confirm Andrea's parents' **wills and POAs are current**, and who the executor is. A stale or unclear will is the single biggest risk to an orderly $2–4M distribution.
-- [ ] Understand the **composition** of the in-laws' estate (liquid vs. real estate vs. business) — drives timing and tax on settlement.
-- [ ] Clarify Alec's mother's plan: does the "four-way split" happen **at sale** or **at her passing**, and is her care funded from her quarter or the whole?
+- [ ] **Raise the RRIF "meltdown" with the in-laws** (or their advisor): while both are alive, draw extra RRIF income up to the OAS-clawback threshold across both lower brackets, split pension income, and redirect to TFSA/non-registered. This is the single biggest lever on the net inheritance.
+- [ ] Confirm the **RRIF size** within the (~$1.5M home + RRIF) estate, and that the **estate will hold enough liquidity** to pay the RRIF tax on the second death (beneficiary-designation vs. through-estate).
+- [ ] ~~Clarify Alec's mother's plan~~ **Resolved:** four-way split happens **at sale**, as living gifts; her ¼ + OAS + CPP fund a retirement home. Sale is PRE-exempt; gifts are tax-free.
 - [ ] Note any **caregiving cost/time** Andrea may absorb for her parents in the next 5–10 years; hold budget flexibility for it.
-- [ ] Once any inflow is realized, **revisit files 08 (drawdown order) and 07 (OAS clawback)** before reinvesting.
+- [ ] Once any inflow is realized, **revisit files 08 (drawdown order) and 07 (OAS clawback)** before reinvesting. If gifting to the four kids, **gift reasonably promptly** to keep it out of the second-generation tax drag.
 - [ ] Keep this file's numbers as **ranges, not point estimates** — update only when something actually changes (a sale, a passing, a will revision).
 
 ---
@@ -113,6 +114,8 @@ These are inflows, but the same situations can bring **outflows and time**: trav
 ## References (to verify independently)
 - **No inheritance/estate tax in Canada (recipient pays nothing):** CRA — search "Canada Revenue Agency: What to do when someone dies" and "Deemed disposition of property" at canada.ca.
 - **Deemed disposition & principal-residence exemption on death:** CRA — "Principal residence and other real estate" at canada.ca.
+- **RRIF taxation at death (fully taxable as income; spousal rollover defers to the second death):** CRA — "Death of a RRIF annuitant" at canada.ca.
+- **No gift tax in Canada; gifting a principal residence / cash while alive:** CRA — "Gifts and income tax," plus the principal residence exemption on sale.
 - **OAS clawback (recovery tax) threshold:** see file 07; CRA — "Old Age Security pension recovery tax."
 - **Alberta continuing care / long-term care costs:** Alberta Health — "Continuing Care" accommodation charges; and private memory-care facility rate sheets for current market rates.
 
