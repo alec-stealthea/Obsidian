@@ -13,6 +13,7 @@
 | 3 | **Base — Work to 2032** | 2032 | 65 | Higher pension, 2 yrs more saving |
 | 4 | **Work to 2032, defer CPP to 70** | 2032 | 70 |  |
 | 5 | **Stress test** | either | — | Higher inflation, lower returns, longer life |
+| 6 | **Inheritance overlay** | 2030 | 65 | Scenario 1 + conservative lump sum — see [[14 - Inheritance & Expected Inflows]]. Run low ($200k) / mid ($400k) / high ($1M+) cases. Kept OUT of base scenarios. |
 
 ## Model structure (year-by-year, retirement → age 90+)
 Columns to project each year:

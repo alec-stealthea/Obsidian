@@ -37,6 +37,7 @@ Everything in this folder feeds that comparison.
 | 05 | [[05 - Debts & Liabilities]] | Mortgage, loans, payoff timing | ◑ Mostly filled (mortgage rate/payoff still needed) |
 | 09 | [[09 - Healthcare & Benefits]] | Replacing employer health/dental coverage | ◑ Coverage values filled (retiree-plan deadline TBD) |
 | 10 | [[10 - Estate & Insurance]] | Will, beneficiaries, insurance, POA | ☐ Not started |
+| 14 | [[14 - Inheritance & Expected Inflows]] | Potential inheritances (Alec's mother; Andrea's parents), timing, amounts, caveats | ✅ Drafted (treat as upside, not base income) |
 
 ### Analysis files — I build these from your inputs
 | # | File | What it produces | Status |

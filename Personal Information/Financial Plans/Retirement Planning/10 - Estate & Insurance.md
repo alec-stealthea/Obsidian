@@ -29,6 +29,8 @@
 - Anything you want to leave to family / charity?
 - Does that change the drawdown strategy (spend-down vs. preserve)?
 
+> Potential **inheritances** (Alec's mother; Andrea's parents) are tracked separately in [[14 - Inheritance & Expected Inflows]] — relevant here because they may fund gifting/legacy goals and change the spend-down vs. preserve calculus.
+
 ---
 
 *Pension survivor and beneficiary elections are typically locked in at retirement — review before the 2030 or 2032 date.*
