@@ -80,4 +80,15 @@ Open findings carried forward in `open_findings_carryover` (state file): **1.1**
 
 ---
 
+## Run 2 — 2026-06-27T05:32:24Z (23:32 MDT)
+
+**Sweep:** incremental (a full sweep already completed earlier tonight at 02:35:46Z, < 7 days old, so this run checks only changed files). **Files checked this run:** 0. **Queue remaining:** 0.
+
+**No new findings.** All 34 deliverables were re-hashed and every hash matches the value recorded in the last full sweep — no deliverable has been edited, added, or removed since Run 1. The deferred queue was empty and no incremental re-sweep was due. Nothing to re-evaluate.
+
+The three open questions from Run 1 remain carried forward unchanged in `open_findings_carryover`: **1.1** (OMRA/OMRS naming + the doubled-acronym garble in the three naming notes), **2.1** (`ActivityType` enum drift + CD-OI-16 scope), and **4.1** (regulatory anchors on five concept/build-analysis artifacts). These are still awaiting Alec's interactive decision; the overnight task does not auto-apply them. Structural items remain owned by the [[Communicable Disease Open Issues]] register.
+
+---
+
 _Run log:_ 2026-06-27T02:35:46Z — full sweep, 34/34 checked, 0 remaining → `Coherency Reports/2026-06-26 CD Coherency Report.md`
+_Run log:_ 2026-06-27T05:32:24Z — incremental, 0/34 changed, 0 remaining, no new findings → `Coherency Reports/2026-06-26 CD Coherency Report.md`
