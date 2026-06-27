@@ -5,8 +5,8 @@ type: Context File
 title: CLAUDE-Clippings
 scope: Clippings
 parent: "[[CLAUDE]]"
-last-updated: 2026-06-26
-timestamp: 2026-06-26T00:00:00Z
+last-updated: 2026-06-27
+timestamp: 2026-06-27T00:00:00Z
 ---
 # CLAUDE-Clippings.md — Clippings Context
 
@@ -21,7 +21,7 @@ This file governs the top-level `Clippings/` folder and reports to the root [[CL
 ## Key Facts
 
 - **Canonical clippings location.** This top-level `Clippings/` folder is where the **Obsidian Web Clipper** saves. All clippings were consolidated here from the former `Research/Clippings/`, which is now retired.
-- **Organised by topic.** Topic subfolders include Agile Data, Agile Waterfall, Artificial Intelligence, Enterprise Architecture, Personal Productivity, Podcast Review, and The Ontologist. Loose clippings sit at the folder root until filed.
+- **Organised by topic.** Topic subfolders include Agentic Mesh, Agile Data, Agile Waterfall, Artificial Intelligence, Enterprise Architecture, Personal Productivity, Podcast Review, and The Ontologist. Loose clippings sit at the folder root until filed.
 - **Purpose of a clipping.** Capture insights worth keeping from a given article (or set of articles from a publication) about reading, listening, or watching others' content. The structure is still being fleshed out.
 
 ## Working Conventions
@@ -31,5 +31,5 @@ This file governs the top-level `Clippings/` folder and reports to the root [[CL
 
 ---
 
-_Last Updated_: 2026-06-26
-_Version_: 1.0
+_Last Updated_: 2026-06-27
+_Version_: 1.1

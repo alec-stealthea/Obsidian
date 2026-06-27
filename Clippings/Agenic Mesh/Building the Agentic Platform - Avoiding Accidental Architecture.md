@@ -1,4 +1,5 @@
 ---
+type: Research Clipping
 title: "Building the Agentic Platform - Avoiding Accidental Architecture"
 source: "https://substack.com/inbox/post/203098529?utm_source=unread-posts-digest-email&inbox=true&utm_medium=email&triedRedirect=true"
 author:

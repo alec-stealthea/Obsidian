@@ -1,3 +1,13 @@
+---
+type: Methodology
+title: Business Domain Architecture
+description: Stealth EA methodology note on building a business-context domain architecture (value streams, stakeholders, business objects) to complement application-focused Domain Driven Design.
+tags:
+  - stealth-ea
+  - business-architecture
+  - domain-architecture
+timestamp: 2026-06-27T00:00:00Z
+---
 So you now have your [[Enterprise Domain Model]], what’s next?
 
 Now is the time to better understand a particular business domain more fully. Every organization is complicated and interconnected.  Smaller organizations have complexity based on the relatively fewer staff that need to execute all the domains for that industry.  Larger organizations have the size for specialization that can be made complicated due to the financial model they choose to operate in.
