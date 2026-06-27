@@ -52,7 +52,7 @@ Retiring in 2030 buys **two years of freedom** at a cost of roughly **$9,900/yr 
 
 ## Does the floor get covered? (now that file 04 exists)
 
-Spending floor (file 04): **~$57k** with home/cars paid off, **~$90.7k** while the mortgage is still running. Comfortable ≈ $82k (paid off).
+Spending floor (file 04): **~$50k** with home/cars paid off, **~$84k** while the mortgage is still running. Comfortable ≈ $75k (excl. mortgage).
 
 Rough household income if you **retire 2030** (Alec 65, Andrea 62):
 
@@ -63,9 +63,9 @@ Rough household income if you **retire 2030** (Alec 65, Andrea 62):
 | Andrea LAPP (from May 2030) | $50,000 | |
 | **Household** | **~$144,700** | **~$115,000** |
 
-- **Alec's guaranteed income alone (~$94.7k gross / ~$73k after-tax) already clears the paid-off floor (~$57k).** Add Andrea's pension and the household lands near the **comfortable** target *even while the mortgage runs.*
-- **So the floor is covered at 2030.** That reframes the decision exactly as flagged: working to 2032 is about **cushion and legacy, not necessity.**
-- **The real binding constraint isn't the retirement date — it's the mortgage.** At ~$2,806/mo it likely survives to both 2030 and 2032 (file 05), adding ~$33.7k/yr to the floor. Your downsizing idea (selling to your daughter after she has kids) is the lever that clears it — arguably a bigger swing on retirement comfort than the 2030-vs-2032 choice itself.
+- **Alec's guaranteed income alone (~$94.7k gross / ~$73k after-tax) already clears the paid-off floor (~$50k)** and nearly covers the floor *with* the mortgage (~$84k). Add Andrea's pension and the household (~$115k after-tax) covers the comfortable target **with the mortgage still running.**
+- **So the floor is covered at 2030** — cushion is just thinner while the mortgage runs. Working to 2032 is about **cushion and legacy, not necessity.**
+- **The binding constraint is the mortgage, not the retirement date.** At 4.04% / current payment it runs to **~2050 (age ~85)** (file 05), carrying ~$33.7k/yr through almost all of retirement. Your downsizing idea (selling to your daughter after she has kids) clears it and drops baseline spending by a third — a far bigger swing on retirement comfort than 2030-vs-2032. **Prioritize deciding the downsizing timeline.**
 
 ## Preliminary read
 > The pension math makes the two dates close (~$23k real lifetime, break-even ~82–83). The expense picture now tips it: **the 2030 income covers your floor comfortably**, so 2032 isn't financially required — it's a "bigger cushion / more legacy" choice to weigh against two years of health. Given your family-history longevity marker (~83) sitting right on the pension break-even, and a fulfilling job you enjoy, a reasonable framing is: **retire 2030 unless you specifically want the extra cushion or still enjoy the work.** Decisions that matter more than the date: (1) **mortgage payoff / downsizing timing**, and (2) **deferring CPP** (file 07). Finalize with the year-by-year model in file 11.

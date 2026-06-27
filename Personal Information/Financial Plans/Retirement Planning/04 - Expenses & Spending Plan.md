@@ -45,13 +45,13 @@
 
 Retirement spending usually isn't flat. Model three phases:
 
-*Assumes home + cars paid off by retirement; in today's dollars; after-tax spending need (income tax is handled separately in file 11).*
+*In today's dollars; after-tax spending need (income tax handled in file 11). **Cars assumed paid off; mortgage shown separately** — add ~$33,672/yr while it runs (to ~2050 unless you downsize).*
 
-| Phase | Years (approx) | Annual spend | Reasoning |
-|---|---|---|---|
-| **Go-go** (active, more travel) | age 65–75 | ~$85,000 | Loans gone, but travel heaviest (Mexico + a second trip + possible grandkid support); add ~$3–4k retiree health/dental premium |
-| **Slow-go** (less travel) | age 75–85 | ~$72,000 | Travel tapers after 75 (your own expectation, file 01) |
-| **No-go** (age 85+, more care) | final years | ~$68,000 | Travel minimal; healthcare/care costs rise and partly offset |
+| Phase | Years (approx) | Annual spend (excl. mortgage) | + mortgage while running | Reasoning |
+|---|---|---|---|---|
+| **Go-go** (active, more travel) | age 65–75 | ~$78,000 | ~$111,700 | Travel heaviest (Mexico + a second trip + possible grandkid support); + ~$3–4k retiree health/dental premium |
+| **Slow-go** (less travel) | age 75–85 | ~$66,000 | ~$99,700 | Travel tapers after 75 (your own expectation, file 01) |
+| **No-go** (age 85+, more care) | final years | ~$62,000 | (mortgage likely cleared by ~2050) | Travel minimal; healthcare/care costs rise and partly offset |
 
 ### Spending changes at retirement
 What disappears or appears once you stop working:
@@ -63,9 +63,9 @@ What disappears or appears once you stop working:
 
 *Estimated assuming home + cars paid off; after-tax. Adjust as your actuals firm up.*
 
-- **Essential / non-negotiable annual spend (the floor):** **~$57,000** — property tax, food, utilities/phone, reduced insurance, retiree health/dental, solar loan (to 2036), minimal discretionary. *(If the mortgage is still running, add ~$33,700 → ~$90,700.)*
-- **Comfortable target annual spend:** **~$82,000** — floor + the Mexico trip + a second trip + Revv52/hobbies + normal gifts and discretionary.
-- **Aspirational (everything you'd want):** **~$105,000** — comfortable + extra travel in the go-go years + meaningful grandchildren contributions + buffer.
+- **Essential / non-negotiable annual spend (the floor):** **~$50,000** — property tax, food, utilities/water/phone, reduced insurance, retiree health/dental, solar loan (to 2036), minimal discretionary. *(Mortgage still running → add ~$33,700 → **~$84,000**.)*
+- **Comfortable target annual spend:** **~$75,000** (excl. mortgage) — floor + the Mexico trip + a second trip + Revv52/hobbies + normal gifts and discretionary.
+- **Aspirational (everything you'd want):** **~$98,000** (excl. mortgage) — comfortable + extra travel in the go-go years + meaningful grandchildren contributions + buffer.
 
 > The pension's job is ideally to cover the **floor**. Savings cover the gap to **comfortable/aspirational**. File 06 tests this against both retirement dates.
 
