@@ -6,21 +6,21 @@
 
 ## People & dates
 
-| Field | Value | Notes |
-|---|---|---|
-| Your date of birth |  | Drives CPP/OAS eligibility and RRIF conversion at 71 |
-| Spouse/partner DOB (if applicable) |  | Their income/benefits affect tax splitting and survivor planning |
-| Dependents |  | Anyone financially reliant on you |
-| Current age |  |  |
-| Age at unreduced pension (2030) |  | Confirm the exact eligibility date |
-| Age if you work to 2032 |  |  |
+| Field                              | Value       | Notes                                                            |
+| ---------------------------------- | ----------- | ---------------------------------------------------------------- |
+| Your date of birth                 | 1965        | Drives CPP/OAS eligibility and RRIF conversion at 71             |
+| Spouse/partner DOB (if applicable) | 1968        | Their income/benefits affect tax splitting and survivor planning |
+| Dependents                         | 1           | Anyone financially reliant on you                                |
+| Current age                        | 25          | IN last year of university. Should be                            |
+| Age at unreduced pension (2030)    | Feb 1, 2030 | Confirm the exact eligibility date                               |
+| Age if you work to 2032            |             |                                                                  |
 
 ## Retirement timing being compared
 
-| Scenario | Last day worked | Pension starts | Why consider it |
-|---|---|---|---|
-| **Plan A — 2030** |  |  | Unreduced pension age; two extra years of freedom |
-| **Plan B — 2032** |  |  | "Dramatic" income increase — quantify in file 06 |
+| Scenario          | Last day worked | Pension starts | Why consider it                                   |
+| ----------------- | --------------- | -------------- | ------------------------------------------------- |
+| **Plan A — 2030** | Feb. 1 2030     |                | Unreduced pension age; two extra years of freedom |
+| **Plan B — 2032** | Feb 1, 2032     |                | "Dramatic" income increase — quantify in file 06  |
 
 ## Longevity & health assumptions
 
