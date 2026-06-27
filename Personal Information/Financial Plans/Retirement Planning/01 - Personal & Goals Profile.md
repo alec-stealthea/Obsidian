@@ -46,7 +46,7 @@ The money is only half the decision. Capture the rest so file 06 weighs it hones
 
 - How do you feel about two more years of work? As long ass the politics doesn't get me down and AI doesn't replace my job, I will be happy.
 - Health/energy now vs. likely at 2032:  I feel in good shape.  I am starting a new exercise program to add strength training to complement the 10-13,000 steps I get walking the dog each day.
-- What would you do with the two extra years if you retired in 2030? 
+- What would you do with the two extra years if you retired in 2030? I am not sure - need to develop a plan.
 
 ---
 
