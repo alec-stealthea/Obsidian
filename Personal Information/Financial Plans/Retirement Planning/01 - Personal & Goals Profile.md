@@ -8,13 +8,13 @@
 
 | Field                              | Value       | Notes                                                            |
 | ---------------------------------- | ----------- | ---------------------------------------------------------------- |
-| Your date of birth                 | 1965        | Drives CPP/OAS eligibility and RRIF conversion at 71             |
-| Spouse/partner DOB (if applicable) | 1968        | Their income/benefits affect tax splitting and survivor planning |
+| Your date of birth                 | Feb 1, 1965 | Drives CPP/OAS eligibility and RRIF conversion at 71             |
+| Spouse/partner DOB (if applicable) | May 30, 1968 | Their income/benefits affect tax splitting and survivor planning |
 | Dependents                         | 1           | Daughter — getting married June 2027                             |
-| Current age                        | 61          | Born 1965; 61 as of June 2026 (corrected from "25" placeholder)  |
-| Age at unreduced pension (2030)    | 65          | Feb 1 2030 = LAPP normal (unreduced) retirement age, so DOB ≈ early 1965. Confirm exact DOB/eligibility date |
-| Age if you work to 2032            | 67          | Feb 1 2032                                                       |
-| Spouse age now / at her pension start | 58 / ~62 | Born 1968; her LAPP starts May 2030 (≈ age 62)                  |
+| Current age                        | 61          | As of June 2026 (turned 61 on Feb 1, 2026)                      |
+| Age at unreduced pension (2030)    | 65          | Turns 65 exactly on Feb 1, 2030 = LAPP normal (unreduced) retirement age |
+| Age if you work to 2032            | 67          | Feb 1, 2032                                                      |
+| Spouse age now / at her pension start | 58 / 62  | Born May 30, 1968; her LAPP starts May 2030 → turns 62 on May 30, 2030 |
 
 ## Retirement timing being compared
 

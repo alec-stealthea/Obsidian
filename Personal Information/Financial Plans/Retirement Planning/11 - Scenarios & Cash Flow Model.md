@@ -36,13 +36,21 @@ Columns to project each year:
 ## Assumptions to set (with you)
 | Assumption | Value | Notes |
 |---|---|---|
-| Inflation | `__%` | 2–3% typical |
-| Investment return (real) | `__%` | conservative for a retiree mix |
-| Pension indexing | from file 02 |  |
-| Planning-to age | from file 01 |  |
+| Inflation (CPI) | 2.5% | Standard default — flex 2–3% |
+| Investment return (real) | ~3% | Conservative retiree mix (≈5.5% nominal) |
+| Pension indexing | 1.5%/yr | 60% of CPI per file 02 |
+| Planning-to age | 90 (year 2055) | From file 01 |
+| OAS clawback threshold | $95,323 (2026), grows w/ CPI | From file 07 |
 
 > When inputs are ready, I can also build this as an `.xlsx` model so you can flex the assumptions yourself.
 
+## Status: what's ready vs. blocked
+- **Ready now:** all income lines (pension at both dates, CPP at 61/65/70, OAS), indexing, planning age, asset starting balances, and the assumptions above.
+- **Blocked on file 04:** the spending need / floor — without it the model can compute income and taxes but can't produce *surplus/shortfall* or tell you whether the portfolio survives to 90, which is the whole point.
+- **Also needed for precision:** annual savings rate during the working years to 2030/2032 (drives the "extra savings from working longer" line in file 06) and the TFSA/LIRA/non-registered balances (file 03).
+
+> **Next step:** once file 04's floor is in, I'll build the year-by-year `.xlsx` for the 5 scenarios. The most decision-relevant output is Scenario 1 (retire 2030): does pension + CPP/OAS + savings fund your floor to age 90? If yes, 2032 is optional; if no, that's the financial case for working longer.
+
 ---
 
-*Needs: everything. This is the synthesis step.*
+*Needs: file 04 spending floor (the one remaining blocker) + savings rate. This is the synthesis step.*

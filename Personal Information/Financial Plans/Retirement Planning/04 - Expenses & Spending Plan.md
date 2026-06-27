@@ -6,18 +6,20 @@
 
 ## Current annual spending (pre-retirement baseline)
 
-| Category                                             | Monthly | Annual | Notes |
-| ---------------------------------------------------- | ------- | ------ | ----- |
-| Housing (mortgage/rent, tax, utilities, maintenance) |         |        |       |
-| Food & household                                     |         |        |       |
-| Transportation                                       |         |        |       |
-| Insurance (life, home, auto, health)                 |         |        |       |
-| Healthcare / dental / prescriptions                  |         |        |       |
-| Travel & leisure                                     |         |        |       |
-| Subscriptions & memberships                          |         |        |       |
-| Family / gifts / support                             |         |        |       |
-| Discretionary / other                                |         |        |       |
-| **Total**                                            |         |        |       |
+| Category                                   | Bi-weekly | Monthly | Annual | Notes |
+| ------------------------------------------ | --------- | ------- | ------ | ----- |
+| Mortgage                                   | 1,295.07  |         |        |       |
+| Property Taxes                             |           | 2,000   |        |       |
+| Food & household                           |           | 1,200   |        |       |
+| 2020 Volvo Car Loan - Done in October 2026 | 394.87    |         |        |       |
+| 2023 Chevy Bolt Var Loan - done in         | 365.72    |         |        |       |
+| Insurance (life, home, auto, health)       |           |         |        |       |
+| Healthcare / dental / prescriptions        |           |         |        |       |
+| Travel & leisure                           |           |         |        |       |
+| Subscriptions & memberships                |           |         |        |       |
+| Family / gifts / support                   |           |         |        |       |
+| Discretionary / other                      |           |         |        |       |
+| **Total**                                  |           |         |        |       |
 
 ## Projected retirement spending
 

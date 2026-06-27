@@ -13,8 +13,13 @@
 | TFSA | Tax-free | None — most flexible |
 | Non-registered | Tax on gains/dividends only | None |
 
+## Your numbers (from files 02–03)
+- **RRSP (Alec): $200,000**, with **$90,000 unused room** — the employment years to 2030/2032 are the last big chance to use it (top-bracket deduction now, withdraw later at a lower rate). Spouse RRSP: $275,000.
+- **No classic pre-65 window:** you retire *at* 65 (2030), so there's no 60–65 income gap. The equivalent opportunity is the **65–70 window if you defer CPP** — income would be just pension + OAS (≈ $76,600), leaving bracket room to draw the RRSP down before RRIF minimums and the CPP/OAS layer arrive.
+- **OAS clawback threshold $95,323 (2026)** sits right at your projected income — every withdrawal decision should watch net income against it (see file 07).
+
 ## Drawdown sequencing questions (to be modelled)
-- **Pre-65 / pre-CPP-OAS window:** lower-income years between retirement and starting CPP/OAS are a prime opportunity to draw down RRSP at low tax rates ("filling up" low brackets) — especially relevant if you retire 2030 and defer CPP.
+- **65–70 window (if CPP deferred):** these lower-income years are the prime chance to draw RRSP down at low rates ("filling up" low brackets) before RRIF minimums and the CPP/OAS layer stack on — especially relevant under retire-2030-and-defer-CPP.
 - Use TFSA to top up spending without raising taxable income (and OAS clawback).
 - Order of spend: often non-registered → RRSP/RRIF (managed to bracket) → TFSA last, but the low-income early years can flip this.
 
@@ -28,8 +33,8 @@
 - [ ] Pension adjustment may limit RRSP room — check your Notice of Assessment
 - [ ] If Stealth EA is incorporated, coordinate any wind-down with personal income timing
 
-## Recommendation (to be written)
-> *Placeholder.*
+## Recommendation (preliminary)
+> **Use the remaining working years to load the $90,000 RRSP room** while you're in the top bracket (~$200k salary), then **unwind that RRSP in the 65–70 window if you defer CPP** — keeping net income under the $95,323 OAS-clawback line and shrinking the RRSP before age-71 RRIF minimums force taxable income up. TFSA is the flexible top-up that doesn't count toward clawback; fund it too. Full sequencing and the year-by-year tax bill come together in file 11 once expenses (file 04) exist.
 
 ---
 

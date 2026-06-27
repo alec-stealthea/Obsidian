@@ -8,16 +8,17 @@
 | Document                                     | In place? | Last updated | Notes                            |
 | -------------------------------------------- | --------- | ------------ | -------------------------------- |
 | Will                                         | Yes       | 2000         |                                  |
-| Enduring Power of Attorney (financial)       |           |              | Alberta                          |
-| Personal Directive (health)                  |           |              | Alberta                          |
-| Beneficiary designations (RRSP/TFSA/pension) |           |              | Review — these override the will |
+| Enduring Power of Attorney (financial)       | No        |              | Alberta                          |
+| Personal Directive (health)                  | No        |              | Alberta                          |
+| Beneficiary designations (RRSP/TFSA/pension) | Yes       |              | Review — these override the will |
+|                                              |           |              |                                  |
 
 ## Insurance
-| Policy | Type | Coverage | Premium | Still needed in retirement? |
-|---|---|---|---|---|
-| Life |  |  |  | Often reduced once mortgage gone & assets built |
-| Disability |  |  |  | Usually irrelevant after work stops |
-| Critical illness / LTC |  |  |  |  |
+| Policy                 | Type     | Coverage  | Premium | Still needed in retirement?                     |
+| ---------------------- | -------- | --------- | ------- | ----------------------------------------------- |
+| Life                   | Employer | 2x salary |         | Often reduced once mortgage gone & assets built |
+| Disability             |          |           |         | Usually irrelevant after work stops             |
+| Critical illness / LTC |          |           |         |                                                 |
 
 ## Pension survivor election (decided AT retirement)
 - Survivor option choices available (e.g. 60% / 66⅔% / 100% joint-and-survivor):
