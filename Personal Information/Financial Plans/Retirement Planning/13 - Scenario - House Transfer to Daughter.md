@@ -4,6 +4,9 @@
 
 > **Not formal advice.** I'm not a lawyer, accountant, or tax advisor. Intra-family property transfers have real tax and legal traps (below). Treat this as decision-support and confirm the specifics with an Alberta real-estate lawyer + an accountant before acting.
 
+> [!update] Revised variant added (June 2026)
+> Sections 1–9 below were the first pass (loan at the **BoC rate**, daughter's use of the house open). The newer, preferred variant — **Haley moves in, sells her house, mortgage set at *market* rate, and we gift down her balance** — is worked out in the new section **["Variant B: Haley moves in + market-rate mortgage + gift"](#variant-b-haley-moves-in--market-rate-mortgage--gift)** at the bottom. That section answers "how much can we gift?"
+
 ---
 
 ## The idea in one line
@@ -151,3 +154,82 @@ The point: **decide now what counts as "her share"** — full FMV, the rate disc
 - Alberta land titles fees (no land transfer tax): search **"Alberta Land Titles registration fees"**
 
 *Figures computed at the 2.25% BoC rate on the $800k swing amount; re-run if the rate or home values change.*
+
+---
+---
+
+# Variant B: Haley moves in + market-rate mortgage + gift
+
+*Preferred variant. Haley moves into the $1.7M home as her principal residence and sells her own house; we set her mortgage at the **current market rate** (so there's no below-market "rate gift" for CRA to question); and we use her mortgage payments to cover a mortgage on our downsized home. Question answered: **how much can we gift her to shrink her mortgage?***
+
+## What changes from the first pass
+
+- **Haley lives in the house** → it becomes *her* principal residence, so her future growth is sheltered, and selling her current house should be **PRE-exempt** for her. Good outcomes both ways.
+- **Mortgage at market rate (~4.0%)** instead of 2.25% → removes the "cheap-rate gift" issue from Section 4. (The FMV / cost-base rule in Section 3 still applies — **transfer at full $1.7M FMV**.)
+- **Self-funding loop:** Haley pays us on her mortgage (a vendor-take-back held by us); we use that to pay the mortgage on our new $900k home.
+
+## The answer: gift ≈ your leftover equity
+
+The most you can gift while staying whole is simply:
+
+> **Max gift = (home equity at transfer) − (cost of your new home)**
+
+Because any gift beyond that means Haley's payments no longer cover your mortgage, and you'd be topping it up out of savings or other retirement income.
+
+**The catch — you still owe on the house.** Per [[05 - Debts & Liabilities]] you owe ~$518.5k today at 4.04%; paying it down through ~2030 leaves an estimated **~$463k** balance that must be discharged when the house transfers. So:
+
+| | Amount |
+|---|---|
+| Home FMV (2030) | $1,700,000 |
+| − Existing mortgage to discharge (est. 2030) | −$463,000 |
+| = **Equity at transfer** | **~$1,237,000** |
+| − Your new home | −$900,000 |
+| = **Maximum gift to Haley (self-funding)** | **≈ $337,000 (~$340k)** |
+
+**If you clear the existing mortgage before 2030**, equity becomes the full $1.7M and the ceiling rises to **$1,700,000 − $900,000 = $800,000.**
+
+> Rule of thumb: **Max gift ≈ $800,000 − (your remaining mortgage at transfer).** Every dollar you knock off your own mortgage before retiring is roughly a dollar more you can hand Haley.
+
+## What the gift does to Haley's mortgage
+
+Haley's loan = $1.7M − her $200k down payment − the gift. At a 4.0% market rate, 25-year amortization:
+
+| Gift | Haley's mortgage | Haley's payment | Feasible while you stay whole? |
+|---|---|---|---|
+| $0 | $1,500,000 | $7,918 /mo | Yes (you keep her full payment stream) |
+| $200,000 | $1,300,000 | $6,862 /mo | Yes |
+| **~$340,000** | **$1,160,000** | **$6,123 /mo** | **Yes — ceiling at current ~$463k mortgage** |
+| $500,000 | $1,000,000 | $5,278 /mo | Only if existing mortgage largely cleared |
+| $800,000 | $700,000 | $3,695 /mo | Only if existing mortgage fully cleared first |
+
+*(Market rate as of late June 2026: best 5-yr fixed ~3.94–4.16%, Big-6 average ~4.93% — see Sources. Re-quote at transfer.)*
+
+## How the self-funding loop works
+
+At the ~$340k-gift ceiling, the mechanics line up cleanly:
+
+- You take a mortgage on your **$900k home** equal to what Haley still owes you on the **vendor-take-back**, so **her monthly payment ≈ your monthly payment** at the same rate/term. The money passes through you.
+- Haley's total financing (~$1.16M) splits between a bank mortgage (cash she hands you at closing so you can discharge your $463k loan and fund your home) and the vendor-take-back you hold. Your lawyer structures the exact split; the *net* result is the table above.
+- Result: Haley owns the $1.7M home with ~$540k of equity (her $200k + your $340k gift); you own your $900k home; your mortgage payment is covered by hers; your savings stay untouched.
+
+> **Want a bigger gift than ~$340k?** Three levers: (1) **pay down your mortgage before 2030** (each dollar lifts the ceiling ~$1), (2) buy a **cheaper** replacement home (each $1 under $900k lifts the ceiling ~$1), or (3) **use savings** to fund part of the gift (but that's drawdown capital — check against [[11 - Scenarios & Cash Flow Model]]).
+
+## Still must be equalized for the three sons
+
+A gift of ~$340k (or up to $800k) to Haley is a real, large transfer of value — even though she pays market rate on what's left. It needs to be squared with your three sons via the will. Use the equalization formula and life-insurance option in Section "Making it equitable with the three sons" above: treat the **gift amount** (plus any VTB balance you forgive on death) as Haley's advance, and bring the others up to equal.
+
+## Open questions (Variant B)
+
+- [ ] Confirm Haley's ~$200k equity / down-payment assumption for 2030.
+- [ ] Decide: **pay the mortgage off before 2030** (unlocks up to ~$800k of gift room) or transfer with ~$463k still owing (caps the gift ~$340k)?
+- [ ] Can Haley **qualify and carry** a ~$1.16M mortgage (~$6,100/mo) on her income? If not, a larger gift / lower price is needed.
+- [ ] Lawyer to confirm the bank-mortgage vs. vendor-take-back split that lets you discharge your loan and buy your home.
+- [ ] Re-quote the market mortgage rate at transfer; set the family mortgage at a defensible posted rate.
+
+## Sources (Variant B)
+
+- Current Canadian mortgage rates (late June 2026): [Ratehub — best 5-yr fixed](https://www.ratehub.ca/best-mortgage-rates/5-year/fixed) · [Bank of Canada — posted rates by chartered banks](https://www.bankofcanada.ca/rates/banking-and-financial-statistics/posted-interest-rates-offered-by-chartered-banks/)
+- Your existing mortgage figures: [[05 - Debts & Liabilities]] (~$518.5k @ 4.04%, est. ~$463k at 2030)
+- FMV/cost-base & PRE rules: see Sources in the first pass above.
+
+*Gift ceiling = equity − new home. Re-run if your mortgage payoff pace, home values, or the market rate change.*

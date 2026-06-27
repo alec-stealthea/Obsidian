@@ -33,8 +33,8 @@ Notes and caveats:
 
 Notes and caveats:
 - **This is the larger and more uncertain of the two.** A $0.67M–$1.33M range is enormous spread; the plan should never assume the top end.
-- **Long-term care is the biggest eroder.** Dad is already in care; memory care / complex continuing care in Alberta commonly runs **~$3k–$12k+/month** per person, and a private or premium facility can run higher. Two parents needing years of care can take a real bite out of a $2–4M estate. The surviving spouse also needs the assets to live on, which delays and reduces what flows down.
-- **Liquidity matters.** A $2–4M estate that's mostly real estate or an illiquid business behaves very differently from one in cash/securities. Worth understanding the composition (see Action items).
+- **Dad's continuing care is currently fully covered by the Alberta government** — so it is *not* eroding the estate today. That's a meaningful positive vs. the earlier assumption. Two watch-items remain: (1) publicly-funded continuing care usually still carries a **resident accommodation ("room & board") charge** the resident pays, and (2) coverage rules and the level/type of care can change, or Mom may later need care that's less fully covered. So care risk is reduced, not eliminated.
+- **The estate includes a mortgage-free home.** Good for net value, but it means part of the estate is **illiquid** — it converts to cash only on sale, which affects timing. Worth understanding the rest of the composition (cash/securities vs. property vs. anything illiquid — see Action items).
 - Given both parents are mid-80s with meaningful health issues, this inflow is **plausibly within the next ~5–10 years** — i.e., it could land *before or around* Alec's retirement — but it is genuinely unpredictable.
 
 ---
@@ -44,7 +44,7 @@ Notes and caveats:
 | Source | Likely range to the household | Rough timing |
 |---|---|---|
 | Alec's mother | ~$150k–$200k | ~2034+ (later if she stays healthy) |
-| Andrea's parents | ~$667k–$1.33M (could be materially less after care costs) | Next ~5–10 yrs, highly uncertain |
+| Andrea's parents | ~$667k–$1.33M (Dad's care currently gov't-funded; estate includes a mortgage-free home) | Next ~5–10 yrs, highly uncertain |
 | **Combined** | **~$0.8M–$1.5M+**, with wide downside | Mostly 2030s |
 
 For scale: the base plan already shows a 2030 retirement is feasible on pension + savings alone (file 06 / file 11). An eventual inflow on this order is **not "make or break" — it's "comfortable becomes very comfortable,"** and it opens real choices around gifting, the grandchildren goal, and the home downsize/transfer.
