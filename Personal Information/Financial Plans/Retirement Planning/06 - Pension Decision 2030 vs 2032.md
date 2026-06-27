@@ -17,15 +17,15 @@ Working 2030 → 2032 typically raises the pension through:
 
 ## Comparison table (to be filled)
 
-| Metric | Retire 2030 | Retire 2032 | Difference |
-|---|---|---|---|
-| Annual pension (gross) |  |  |  |
-| Annual pension (after-tax, est.) |  |  |  |
-| Bridge benefit to 65 |  |  |  |
-| Extra savings accumulated by working 2 more yrs | — |  |  |
-| Years of pension collected to age 90 | (more) | (fewer) |  |
-| **Lifetime pension $ to age 90 (nominal)** |  |  |  |
-| **Lifetime pension $ to age 90 (real, indexed-adjusted)** |  |  |  |
+| Metric                                                    | Retire 2030 | Retire 2032 | Difference |
+| --------------------------------------------------------- | ----------- | ----------- | ---------- |
+| Annual pension (gross)                                    |             |             |            |
+| Annual pension (after-tax, est.)                          |             |             |            |
+| Bridge benefit to 65                                      |             |             |            |
+| Extra savings accumulated by working 2 more yrs           | —           |             |            |
+| Years of pension collected to age 90                      | (more)      | (fewer)     |            |
+| **Lifetime pension $ to age 90 (nominal)**                |             |             |            |
+| **Lifetime pension $ to age 90 (real, indexed-adjusted)** |             |             |            |
 
 ## Break-even analysis (to be built)
 - Lower 2030 pension collected for 2 extra years vs. higher 2032 pension starting later.
