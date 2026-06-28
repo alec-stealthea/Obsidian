@@ -35,3 +35,18 @@ Full detail for these items is in [[2026-06-26 CD Coherency Report]].
 ---
 
 _Report-only output. No deliverables were edited. Cross-folder register referenced, not modified: [[Communicable Disease Open Issues]]._
+
+## Run — 2026-06-28T05:33Z (2026-06-27 23:33 MDT)
+
+**Mode**: incremental (hash-diff against last full sweep).
+**Files checked this run**: 0 changed / 34 in scope.
+**Queue remaining**: 0.
+**Last full sweep completed**: 2026-06-27T02:35Z (< 7 days old, no forced re-sweep due).
+
+### Summary
+
+No new findings. A second pass tonight re-expanded all six `deliverable_globs` and re-hashed every in-scope deliverable. All 34 hashes match those recorded at the last completed full sweep — nothing added, removed, or modified since the earlier 02:33Z run — so there was nothing to re-analyse. The three open items (1.1 terminology, 2.1 field-name, 4.1 traceability) remain carried forward in `open_findings_carryover`; no new evidence emerged. Full detail in [[2026-06-26 CD Coherency Report]].
+
+---
+
+_Report-only output. No deliverables were edited. Cross-folder register referenced, not modified: [[Communicable Disease Open Issues]]._
