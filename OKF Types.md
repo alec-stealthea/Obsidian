@@ -72,6 +72,14 @@ Where the artifact originates in the Architecture Development Method: `A` (Visio
 
 For data models, the [ANSI/SPARC three-schema](https://en.wikipedia.org/wiki/Three-schema_approach) level: `Conceptual` · `Logical` · `Physical`. Prefer this facet over separate `Data Model` / `Logical Data Model` type values.
 
+### `format` — deliverable structure *(optional)*
+
+The presentation structure a note follows, *independent of its subject*. Like `artifact-class`, this is a form facet, not a kind — it lets you find every note delivered in a given structure regardless of `type` (e.g. "all SBAR briefs").
+
+| Value | Meaning |
+|---|---|
+| `SBAR` | Situation–Background–Assessment–Recommendation briefing structure (borrowed from clinical handoff practice). The Stealth EA Architecture Decision Request deliverable, but reusable for any concise decision/recommendation brief — not only Architecture Decisions. Lead with the recommendation (RSBA) for executive audiences. See [[Architecture Decision Request (aka SBAR)]]. |
+
 ---
 
 ## Memory & System
@@ -92,7 +100,7 @@ For data models, the [ANSI/SPARC three-schema](https://en.wikipedia.org/wiki/Thr
 | `Architecture Assessment` | Evaluation of a current/target state against criteria. |
 | `Architecture Concept` | Early-stage conceptual architecture framing. |
 | `Architecture Background` | Context/background note supporting an architecture effort. |
-| `Architecture Decision Record` | A captured architecture decision with context, options, decision, and rationale. Aligns to the industry-standard ADR and the [ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/templates/42010-ad-template.pdf) decision items. Use `status` to distinguish a proposed decision (`Draft`/`In Review`) from an accepted one (`Approved`). |
+| `Architecture Decision` | An architecture decision across its whole lifecycle — from the initial *request* (the open need for a decision) to the settled *record* (the documented decision). One coarse type; the `status` facet carries the lifecycle: `Draft`/`In Review` is the request, `Approved` is the record, `Superseded` marks one overridden by a later decision. Aligns to the industry-standard ADR and the [ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/templates/42010-ad-template.pdf) decision items. When delivered as an SBAR brief, set `format: SBAR` (the structure is orthogonal to the type). |
 | `Solution Concept Model` | Solution-level conceptual model. |
 | `Application Context Model` | Application-scoped context model. |
 | `Value Stream` | Value stream definition or mapping. |
@@ -168,7 +176,8 @@ Existing files use these non-canonical spellings. They should be migrated to the
 | `marketing-plan` | `Marketing Plan` |
 | `proposal` | `Proposal` |
 | `budget` | `Budget` |
-| `Architecture Decision Request` | `Architecture Decision Record` (align to ADR standard; `status` carries proposed vs. accepted) |
+| `Architecture Decision Request` | `Architecture Decision` + `status: Draft`/`In Review` (the request is the early lifecycle state) |
+| `Architecture Decision Record` | `Architecture Decision` + `status: Approved` (the record is the settled state). Existing SBAR instances migrated 2026-06-28: set `format: SBAR` and a `status` reflecting actual state. |
 | `Data Model` | `Logical Data Model` (or keep `Data Model` + set the `data-layer` facet) |
 
 ## Spec-referenced types not yet in use
@@ -191,7 +200,8 @@ This vocabulary borrows from established standards so the vault stays interopera
 - **[Dublin Core (DCMI Metadata Terms)](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)** — the records-metadata baseline. Existing OKF fields map onto it: `title`→`dcterms:title`, `description`→`dcterms:description`, `tags`→`dcterms:subject`, `timestamp`→`dcterms:modified`. DCMI's guidance to keep `type` a small controlled vocabulary is the basis for the faceted approach here.
 - **[TOGAF Content Framework](https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap30.html)** — source of the `artifact-class` (Catalog/Matrix/Diagram) and `adm-phase` facets, and the Deliverable/Artifact/Building Block distinction.
 - **[ArchiMate 3.2](https://pubs.opengroup.org/architecture/archimate3-doc/)** — source of the `ea-layer` facet values.
-- **[ADR / ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/templates/42010-ad-template.pdf)** — source of the `Architecture Decision Record` type and its expected content (context, options, decision, rationale, consequences).
+- **[ADR / ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/templates/42010-ad-template.pdf)** — source of the `Architecture Decision` type and its expected content (context, options, decision, rationale, consequences); `status` carries the request→record lifecycle rather than separate types.
+- **SBAR (clinical handoff communication)** — source of the `format: SBAR` deliverable-structure facet, adopted by Stealth EA as the Architecture Decision Request form. A *form* facet, deliberately decoupled from `type` so it can wrap any concise decision/recommendation brief.
 - **[ANSI/SPARC three-schema](https://en.wikipedia.org/wiki/Three-schema_approach)** — source of the `data-layer` facet.
 
 When backfilling the `Health Shared Services/` records at scale, the relevant records-management standards are **ISO 15489** (records management) and **ISO 23081** (records metadata); for clinical *subject* tagging (distinct from `type`), HL7 FHIR resource names and SNOMED CT are the controlled vocabularies to draw on.

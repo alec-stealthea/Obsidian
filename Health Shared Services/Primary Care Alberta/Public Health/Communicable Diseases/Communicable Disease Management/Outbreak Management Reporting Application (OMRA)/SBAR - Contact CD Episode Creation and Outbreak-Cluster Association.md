@@ -1,5 +1,7 @@
 ---
-type: Architecture Decision Record
+type: Architecture Decision
+status: Draft
+format: SBAR
 title: SBAR - Contact CD Episode Creation and Outbreak-Cluster Association
 description: Decision request on whether every identified contact in OMRA should have a Communicable Disease Episode created in Connect Care for rule-out traceability, and how such episodes associate to outbreaks versus clusters.
 tags:

@@ -1,5 +1,7 @@
 ---
-type: Architecture Decision Record
+type: Architecture Decision
+status: Draft
+format: SBAR
 title: "Contracted Vendor Portal Rolling Archive SBAR"
 description: "What has prompted this analysis to be completed and who must make the decision on how to proceed."
 timestamp: 2026-06-26T19:19:06Z

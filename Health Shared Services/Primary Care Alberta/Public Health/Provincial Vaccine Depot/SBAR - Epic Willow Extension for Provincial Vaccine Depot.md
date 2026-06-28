@@ -1,5 +1,7 @@
 ---
-type: Architecture Decision Record
+type: Architecture Decision
+status: Draft
+format: SBAR
 title: "SBAR: Extending Epic Willow Inventory Vaccine Build to Support the Alberta Provincial Vaccine Depot and Distribution"
 description: "Date: June 5, 2026"
 timestamp: 2026-06-26T19:19:06Z

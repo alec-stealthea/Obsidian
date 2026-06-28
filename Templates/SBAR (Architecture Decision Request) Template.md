@@ -1,8 +1,9 @@
 ---
-type: Architecture Decision Record
+type: Architecture Decision
 title: "<% tp.file.title %>"
 description: ""
 status: Draft
+format: SBAR
 tags:
   - sbar
   - architecture-decision

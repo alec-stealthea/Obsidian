@@ -1,5 +1,5 @@
 ---
-type: Architecture Decision Record
+type: Methodology
 title: "Architecture Decision Request (aka SBAR)"
 description: "Every spy knows you don't hand headquarters a 47-page dossier when they need to make a call in the next five minutes."
 timestamp: 2026-06-26T19:19:05Z
