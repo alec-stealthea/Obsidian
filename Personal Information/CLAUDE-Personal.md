@@ -1,9 +1,12 @@
 ---
 tags:
   - claude-context
+type: Context File
+title: CLAUDE-Personal
 scope: Personal Information
 parent: "[[CLAUDE]]"
-last-updated: 2026-05-13
+last-updated: 2026-06-28
+timestamp: 2026-06-28T00:00:00Z
 ---
 # CLAUDE-Personal
 
@@ -46,11 +49,12 @@ The original 2024-2026 plan lives in `Spark for Life Coaching/` as it was a coac
 
 ## Financial Plans
 
-The `Financial Plans/` subfolder contains personal financial planning:
+The `Financial Plans/` subfolder contains personal financial planning — see [[CLAUDE-Personal-Finance]] for its dedicated context. In brief:
 
-- **Annual Budget** — Household budget and financial planning.
+- **Household budgeting** — current monthly budget and recent pay stubs.
+- **Retirement planning** — the `Retirement Planning/` subfolder is a numbered hub-and-spoke workspace anchored on Alec's retirement-timing decision; see [[CLAUDE-Retirement-Planning]].
 
-Handle with discretion.
+Handle with discretion — this is private financial material.
 
 ## Coaching Material
 
@@ -58,5 +62,5 @@ The `Spark for Life Coaching/` subfolder contains the full outputs from Alec's 2
 
 ---
 
-_Last Updated_: 2026-05-13
-_Version_: 2.0
+_Last Updated_: 2026-06-28
+_Version_: 2.1
