@@ -1,6 +1,6 @@
 ---
 title: Revv52 Marketing Plan 2025-2026 (Updated)
-type: marketing-plan
+type: Marketing Plan
 source: Google Doc sync (project knowledge) — November 2025 update
 date: 2025-11-01
 tags:

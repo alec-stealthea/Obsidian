@@ -1,6 +1,6 @@
 ---
 title: Audience Segmentation Proposal - Finley & Associates
-type: proposal
+type: Proposal
 source: Finley & Associates PDF (project knowledge)
 date: 2025-03-21
 tags:

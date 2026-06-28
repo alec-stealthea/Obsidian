@@ -179,7 +179,7 @@ When a new skill is created or an existing one is substantially revised, Claude 
 Every markdown file created or updated in this vault MUST conform to the [[OKF SPEC|Open Knowledge Format v0.1]] specification stored at the vault root. The conformance rules are:
 
 1. **Frontmatter required** — every `.md` file (except reserved `index.md` and `log.md` files) must open with a parseable YAML frontmatter block delimited by `---`.
-2. **`type` field required** — the frontmatter must include a non-empty `type` field describing the kind of concept (e.g., `Journal Entry`, `Architecture Deliverable`, `Blog Draft`, `Meeting Note`, `Reference`, `Context File`, `Skill`, `Research Clipping`).
+2. **`type` field required** — the frontmatter must include a non-empty `type` field describing the kind of concept (e.g., `Journal Entry`, `Architecture Deliverable`, `Blog Draft`, `Meeting Note`, `Reference`, `Context File`, `Skill`, `Research Clipping`). Allowed values are governed by the controlled vocabulary in [[OKF Types]] — use an existing canonical value, and add a new one there (with review) rather than inventing a silent variant.
 3. **Recommended frontmatter fields** — include these when applicable:
    - `title` — human-readable display name
    - `description` — one-sentence summary

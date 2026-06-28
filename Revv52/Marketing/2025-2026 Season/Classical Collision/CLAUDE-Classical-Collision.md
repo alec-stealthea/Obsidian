@@ -1,4 +1,5 @@
 ---
+type: Context File
 tags:
   - claude-context
 scope: Revv52/Marketing/2025-2026 Season/Classical Collision

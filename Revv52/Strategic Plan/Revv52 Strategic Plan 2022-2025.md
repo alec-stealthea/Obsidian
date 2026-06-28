@@ -1,6 +1,6 @@
 ---
 title: Revv52 Strategic Plan 2022-2025
-type: strategic-plan
+type: Strategic Plan
 source: Strategic Plan PDF (project knowledge)
 tags:
   - strategy

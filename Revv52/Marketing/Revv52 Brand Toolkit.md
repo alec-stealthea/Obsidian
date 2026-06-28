@@ -1,6 +1,6 @@
 ---
 title: Revv52 Brand Toolkit
-type: reference
+type: Reference
 source: Brand Toolkit PDF (project knowledge)
 tags:
   - brand

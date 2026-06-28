@@ -1,6 +1,6 @@
 ---
 title: Revv52 Draft Strategic Plan 2026-2028
-type: strategic-plan
+type: Strategic Plan
 source: Finley & Associates PDF - Working Draft (25-10-19) (project knowledge)
 date: 2025-10-19
 status: working-draft

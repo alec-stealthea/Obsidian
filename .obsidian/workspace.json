@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal Information/Financial Plans/Retirement Planning/14 - Inheritance & Expected Inflows.md",
+                "file": "OKF Types.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "14 - Inheritance & Expected Inflows"
+              "title": "OKF Types"
             }
           }
         ]
@@ -209,6 +209,10 @@
   },
   "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Vault Dashboard.md",
+    "OKF SPEC.md",
+    "OKF Types.md",
+    "Personal Information/Financial Plans/Retirement Planning/14 - Inheritance & Expected Inflows.md",
     "Personal Information/Financial Plans/Retirement Planning/CLAUDE-Retirement-Planning.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports/2026-06-28 CD Coherency Report.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports/2026-06-27 CD Coherency Report.md",
@@ -217,7 +221,6 @@
     "Personal Information/Financial Plans/Retirement Planning/CPP & RRSP Redirect Analysis.xlsx",
     "Personal Information/Financial Plans/Retirement Planning/07 - CPP & OAS Timing.md",
     "Personal Information/Financial Plans/Retirement Planning/13 - Scenario - House Transfer to Daughter.md",
-    "Personal Information/Financial Plans/Retirement Planning/14 - Inheritance & Expected Inflows.md",
     "Personal Information/Financial Plans/Retirement Planning/04 - Expenses & Spending Plan.md",
     "Personal Information/Financial Plans/Retirement Planning/05 - Debts & Liabilities.md",
     "Personal Information/Financial Plans/Retirement Planning/06 - Pension Decision 2030 vs 2032.md",
@@ -235,9 +238,6 @@
     "Personal Information/Financial Plans/Retirement Planning",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports/2026-06-26 CD Coherency Report.md",
     "Health Shared Services/Primary Care Alberta/CLAUDE-PCA.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Track Outbreak Activities and Tasks - CDC Investigator User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Manager Outbreak Metrics and Reporting - Team Lead Department Manager User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Maintain Outbreak Task Lists - Team Lead Department Manager User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting Application (OMRA)/Alberta Outbreak Management Reporting Application (OMRA) Design.pptx",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting Application (OMRA)/CDOM User Roles.pdf",

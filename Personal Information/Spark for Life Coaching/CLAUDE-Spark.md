@@ -1,4 +1,5 @@
 ---
+type: Context File
 tags:
   - claude-context
 scope: Personal Information/Spark for Life Coaching
