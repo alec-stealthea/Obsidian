@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Agile Story"
+description: "In all flavours of Agile methodology a key concept is the user story."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 In all flavours of Agile methodology a key concept is the user story.  A formula for creating that story is usually expressed as follow, ‘As a role, I need the following so that I can accomplish this outcome.’  This story can be visualized using  [[Value Stage Capability Instance Model]] which adds additional context for how this user story ends up contributing to an overall [[Value Streams]].
 
 	1.	Title: A brief, descriptive title for the story to quickly convey what it is about.

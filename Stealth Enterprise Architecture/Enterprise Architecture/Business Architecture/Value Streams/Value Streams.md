@@ -1,4 +1,8 @@
 ---
+type: Value Stream
+title: "Value Streams"
+description: "A Value Stream provides one of the most valuable models of a business architecture."
+timestamp: 2026-06-26T19:19:05Z
 feature: Retail Mortgage Value Stream.png
 ---
 A Value Stream provides one of the most valuable models of a business architecture. It describes the way an organization delivers something of value to one of their stakeholders. This can be products or services. As a model it's quite simple, but with some very powerful rules that make it compelling to support your business architecture practice.

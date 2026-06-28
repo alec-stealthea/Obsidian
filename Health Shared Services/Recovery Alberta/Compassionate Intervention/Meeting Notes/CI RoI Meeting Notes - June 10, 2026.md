@@ -1,3 +1,9 @@
+---
+type: Meeting Note
+title: "CI RoI Meeting Notes - June 10, 2026"
+timestamp: 2026-06-26T19:19:07Z
+---
+
 ### Certificate Authority Setup
 
 - Both sides confirmed mutual TLS (mTLS) is the end-game authentication approach

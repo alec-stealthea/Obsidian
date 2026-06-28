@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Healthcare Business Capability Catalogue"
+description: "Healthcare Business Capability Catalogue"
+timestamp: 2026-06-26T19:19:05Z
 feature: Healthcare Business Capability Catalogue.png
 published: 2026-02-11
 ---

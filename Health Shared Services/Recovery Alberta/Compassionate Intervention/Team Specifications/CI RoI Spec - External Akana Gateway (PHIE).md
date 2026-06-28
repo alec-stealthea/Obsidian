@@ -1,3 +1,10 @@
+---
+type: Interface Specification
+title: "CI RoI Spec — External Akana Gateway (PHIE Team)"
+description: "Owning team: PHIE (Akana)"
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # CI RoI Spec — External Akana Gateway (PHIE Team)
 
 **Owning team:** PHIE (Akana)

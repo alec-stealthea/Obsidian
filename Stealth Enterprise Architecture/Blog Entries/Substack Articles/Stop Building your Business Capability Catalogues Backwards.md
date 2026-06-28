@@ -1,4 +1,8 @@
 ---
+type: Blog Draft
+title: "Stop Building your Business Capability Catalogues Backwards"
+description: "Start you business architecture journey in the right place"
+timestamp: 2026-06-26T19:19:05Z
 published: 2026-02-25
 ---
 Start you business architecture journey in the right place

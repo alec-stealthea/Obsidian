@@ -1,1 +1,8 @@
+---
+type: Glossary Term
+title: "Ontology"
+description: "An ontology is, as described by technologist Tom Gruber, a specification of a conceptualization."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 An ontology is, as described by technologist Tom Gruber, a specification of a conceptualization. It is a formal description of the relationships between types of entities and the constraints that define and circumscribe them. An ontology is often referred to as a semantic data model and is used in research (and increasingly in business) to describe the concepts and relationships that are pertinent to those domains. More generally, an ontology can be thought of as one why of establishing the grammar and vocabulary of a domain language.

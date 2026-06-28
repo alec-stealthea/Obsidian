@@ -1,3 +1,10 @@
+---
+type: Interface Specification
+title: "Compassionate Intervention — Release of Information"
+description: "This document defines how IBM ACE (the RIE integration engine) calls the Snowflake SQL API to retrieve the CI RoI encounter summary for a given patient, and how it formats the response payload for..."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # Compassionate Intervention — Release of Information
 ## IBM Integration Engine Message Specification
 

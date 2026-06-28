@@ -1,3 +1,10 @@
+---
+type: Architecture Assessment
+title: "Epic Willow VIMS Capability Assessment Matrix — Initial Proposed Responses"
+description: "Date: June 9, 2026 (updated June 11, 2026 — external on-hand capture premise; portal scope expansion)"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Epic Willow VIMS Capability Assessment Matrix — Initial Proposed Responses
 
 **Date:** June 9, 2026 (updated June 11, 2026 — external on-hand capture premise; portal scope expansion)

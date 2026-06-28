@@ -1,3 +1,10 @@
+---
+type: Glossary Term
+title: "Lexical Graph"
+description: "A lexical graph (sometimes called a lexical semantic network or a word graph) organizes words and their linguistic relationships."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 A **lexical graph** (sometimes called a _lexical semantic network_ or a _word graph_) organizes words and their linguistic relationships. For example, in a lexical graph:
 
 • **Nodes** represent words or phrases (e.g., _run_, _sprint_, _jog_).

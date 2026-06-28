@@ -1,3 +1,9 @@
+---
+type: Note
+title: "Current Monthly Budget"
+timestamp: 2026-06-26T19:19:07Z
+---
+
 
 | Budget Item     | Frequency | Amount |
 | --------------- | --------- | ------ |

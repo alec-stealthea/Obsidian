@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Emergency Room Triage Nurse Persona"
+description: "Name: Clara Hughes (example persona name)"
+timestamp: 2026-06-26T19:19:05Z
 feature: ED Nurse Avatar.png
 thumbnail: thumbnails/resized/cd0fe7b2ab93d19dc735e73a9c04a0f1_b89e22fb.jpg
 ---

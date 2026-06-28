@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "I must be MAD!"
+description: "In today's rapidly evolving digital landscape, the ability to streamline an organisation's value streams and enhance decision-making is more crucial than ever."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 
 In today's rapidly evolving digital landscape, the ability to streamline an organisation's value streams and enhance decision-making is more crucial than ever. A key asset in supporting any organisation is developing and maintaining master architecture data (MAD). This is where the architects take the key organisational design data entities and use master data management techniques to be able to cross-map these entities across the organisation. While this is a first and crucial step, of more value is building relationships between the entities themselves and how they may change over time.
 

@@ -1,3 +1,10 @@
+---
+type: Note
+title: "02 — Income Sources"
+description: "Input file."
+timestamp: 2026-06-27T20:04:50Z
+---
+
 # 02 — Income Sources
 
 *Input file. This is the most important input. The pension estimates at both dates drive the entire 2030-vs-2032 analysis.*

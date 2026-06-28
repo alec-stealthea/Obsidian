@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Enterprise Agile Domain Roadmaps"
+description: "If we’re truly wanting to be an agile enterprise, continuous improvement of the core value streams we execute needs to be a foundational part of how we operate."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 If we’re truly wanting to be an agile enterprise, continuous improvement of the core value streams we execute needs to be a foundational part of how we operate.  Within most agile frameworks, the Epic is intended to represent a large body of work to enhance a product.  That usually leads to a form of [[Enterprise Agile Product Roadmap]]. 
 
 What if we change that paradigm? 

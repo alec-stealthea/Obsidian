@@ -1,1 +1,8 @@
+---
+type: Blog Draft
+title: "The Agile Architect"
+description: "Key thesis - The Agile architect realizes that the foundational business architecture that is represented by value streams and business capabilities being represented as user stories to show what i..."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Key thesis - The Agile architect realizes that the foundational business architecture that is represented by value streams and business capabilities being represented as user stories to show what is required for those business capabilities to be instantiated. In essence what this means is that your architecture deliverable are the user stories and the dependencies between them.  If you layer on the 'products' that are required to instantiate the stories, you have the linkage to the application architecture.

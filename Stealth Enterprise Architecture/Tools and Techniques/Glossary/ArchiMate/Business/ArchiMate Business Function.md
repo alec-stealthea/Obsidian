@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "ArchiMate Business Function"
+description: "Within ArchiMate a Business Function, \"represents a collection of business behaviour based on a chosen set of criteria such as required business resources and/or competencies, and is managed or per..."
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - Business Function
 created: 2025-11-08

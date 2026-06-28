@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "ArchiMate Stakeholder"
+description: "An ArchiMate Stakeholder is defined as, \"the role of an individual, team, or organization (or classes thereof) that represents their interests in the effects of the architecture."
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - Stakeholder
 ---

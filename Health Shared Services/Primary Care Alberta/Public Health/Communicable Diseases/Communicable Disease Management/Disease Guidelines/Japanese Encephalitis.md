@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Japanese Encephalitis"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Japanese Encephalitis
 
 Alberta Public Health

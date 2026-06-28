@@ -1,3 +1,10 @@
+---
+type: Checklist
+title: "Risk Assessment Worksheet"
+description: "Risk Assessment Worksheet"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Risk Assessment Worksheet
 
 Risk Assessment Worksheet

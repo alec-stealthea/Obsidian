@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Stealth EA Style Guide"
+description: "Seriously Professional, Playfully Irreverent: Deep expertise delivered with accessibility and wit."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 # Stealth EA Style Guide
 
 > **Purpose**: Comprehensive style and brand guidelines for all Stealth EA communications, content, and deliverables. Use this guide to ensure consistency across all channels and touchpoints.

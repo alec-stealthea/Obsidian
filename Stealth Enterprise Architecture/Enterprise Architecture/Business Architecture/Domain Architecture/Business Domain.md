@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Business Domain"
+description: "A business domain is a high-level business architecture concept that allows an enterprise's business architecture to be broken down a level deeper as shown in the Enterprise Domain Model."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 A business domain is a high-level business architecture concept that allows an enterprise's business architecture to be broken down a level deeper as shown in the [[Enterprise Domain Model]].  Domain scope is defined by the value streams they are responsible for and the knowledge and value stream networks required for that domain to operate. These value streams and the associated business capability instances that support the value stream stages within that domain set the stage for the domain's enterprise architecture.
 
 Outside the domain's scope are the value streams that form the [[Value Stream Network]] required for the domain value streams to execute both operationally and foundationally. The value stream network is important for it's own sake for assessing areas for improvement that span the organization.  Within a Domain architecture, the focus is on the value stream(s) and the business capability instances within the domains's scope and control. 

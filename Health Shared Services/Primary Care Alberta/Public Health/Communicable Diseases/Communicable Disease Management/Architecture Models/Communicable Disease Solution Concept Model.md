@@ -1,3 +1,10 @@
+---
+type: Value Stream
+title: "Communicable Disease Solution Concept Model"
+description: "Healthy Albertans."
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Communicable Disease Solution Concept Model
 
 Healthy Albertans. Healthy Communities. Together.

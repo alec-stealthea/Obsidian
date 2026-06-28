@@ -1,4 +1,8 @@
 ---
+type: Design Specification
+title: "Facility Location Dimension — Data Pipeline Specification"
+description: "This specification defines the data pipeline design for building and maintaining the Communicable Disease Location Dimension within the Communicable Disease Data Lake House."
+timestamp: 2026-06-26T19:19:06Z
 tags:
   - communicable-disease
   - data-lake-house

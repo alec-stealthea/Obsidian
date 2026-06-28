@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "The Secrets of the Man Who Made Nvidia the World's Most Valuable Company"
+description: "Every morning, the man who built one of the world’s most valuable companies scrolls through his inbox and looks at 100 of the most important emails that he’ll see all day."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Every morning, the man who built one of the world’s most valuable companies scrolls through his inbox and looks at 100 of the most important emails that he’ll see all day. And on Sunday nights, he pours himself a glass of his favorite Scotch and reads even more of them. 
 
 For decades, [Nvidia](https://www.wsj.com/market-data/quotes/NVDA) [NVDA \-1.70%decrease; red down pointing triangle](https://www.wsj.com/market-data/quotes/NVDA) employees have been sending notes known as T5Ts, or Top-5 Things—things they’re working on, things they’re thinking about, things they’re noticing in their corners of the business. 

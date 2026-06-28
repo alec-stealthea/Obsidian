@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "HBR Waterfall vs. Agile"
+description: "It’s Time to End the Battle Between Waterfall and Agile (hbr.org)"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 [It’s Time to End the Battle Between Waterfall and Agile (hbr.org)](https://hbr.org/2023/10/its-time-to-end-the-battle-between-waterfall-and-agile)
 
 When you are leading a high-stakes project, choosing between the rigor of Waterfall and the flexibility of Agile can make or break your initiative. For the last two decades, too many academics, leaders, project managers, and organizations have thought they have to choose one or the other. Worse, the emergence of Agile methods led to tribalism in the project community, stifling innovation and limiting the potential for truly effective solutions.

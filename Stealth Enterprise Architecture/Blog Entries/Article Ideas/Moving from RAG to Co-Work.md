@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Moving from RAG to Co-Work"
+description: "Over the last year, I have been experimenting with creating my own Retrieval Augmented Generation vector stores as well as trying to use Graph RAG to create my knowledge graph databases."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Over the last year, I have been experimenting with creating my own Retrieval Augmented Generation vector stores as well as trying to use Graph RAG to create my knowledge graph databases. This was a LOT of overhead that meant I was able to discover how amazingly fast Claude Code was in creating working prototypes.  The real effort of creating and maintaining operational code - not quite the same degree of efficiency. It also did not really support how rapidly my own knowledge base gets updated.
 
 Then Claude Cowork came along.  This has changed the way that I think about unstructured data and managing content. The examples that I am going to work through are personal, but I am sure that many of you could see how using a git wiki repository that leverages markdown and other files instead.

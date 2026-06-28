@@ -1,3 +1,10 @@
+---
+type: Note
+title: "Toenail Fungus Treatment"
+description: "I have had a fungal infection on my toenail for a number of years."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 I have had a fungal infection on my toenail for a number of years.  I had previously been treated with Terbinafine HCL  250mg, but no affect.  I have taken another doe recently once a day for 90 days.  How long will it take to see it that had an affect?  Also - what are some other options.  I have also tried a topical ointment that I think was efinaconazole.
 
 ---

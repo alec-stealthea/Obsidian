@@ -1,3 +1,10 @@
+---
+type: Note
+title: "Solar Panel Return on Investment Calculation"
+description: "I have created a spreadsheet where I am tracking daily power generation."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 I have created [a spreadsheet](https://docs.google.com/spreadsheets/d/1KxinFPRpDB_1VxSeR8c7TBzisJcn1LvKMDEsbtkMVBU/edit?usp=sharing) where I am tracking daily power generation.
 
 I took out an interest free loan that is costing me $183.75/month over 10 years.  It essentially covered the installation costs. There was a $300 fee to have the energy assessment to qualify for the loan.

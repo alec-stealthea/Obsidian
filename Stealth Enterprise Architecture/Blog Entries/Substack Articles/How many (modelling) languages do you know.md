@@ -1,4 +1,8 @@
 ---
+type: Blog Draft
+title: "How many (modelling) languages do you know"
+description: "Welcome to Stealth EA — where we demystify enterprise architecture without losing our minds or our sense of humour."
+timestamp: 2026-06-26T19:19:05Z
 feature: Happy Birthday.png
 published: 2023-01-03
 republished: 2026-01-14

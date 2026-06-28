@@ -1,3 +1,10 @@
+---
+type: Note
+title: "Which Homework"
+description: "Who"
+timestamp: 2026-06-26T19:19:07Z
+---
+
 **Who**
 
 1. I choose to be: patient  

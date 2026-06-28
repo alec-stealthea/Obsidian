@@ -1,3 +1,10 @@
+---
+type: Screen Specification
+title: "Business Case: AI-Assisted Requirements Authoring on GitLab"
+description: "I'm requesting approval for a small pilot in which myself and two Business Analysts use an AI assistant (Claude Cowork) to produce our requirements content — user stories, screen specifications, SB..."
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Business Case: AI-Assisted Requirements Authoring on GitLab
 
 ## Summary

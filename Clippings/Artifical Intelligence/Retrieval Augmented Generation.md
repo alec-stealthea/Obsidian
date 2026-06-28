@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Retrieval Augmented Generation"
+description: "“Graph RAG” (Graph-based Retrieval-Augmented Generation) is an approach to building language model applications that combines two key ideas:"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 “Graph RAG” (Graph-based Retrieval-Augmented Generation) is an approach to building language model applications that combines two key ideas:
 
 1. **Knowledge Graphs** – Data is stored in a graph structure (nodes and edges) that captures entities and their relationships.

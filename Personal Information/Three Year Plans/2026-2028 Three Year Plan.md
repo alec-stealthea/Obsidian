@@ -1,3 +1,10 @@
+---
+type: Note
+title: "2026-2028 Three Year Plan"
+description: "This is a follow-up plan from the 2024-2026 Three Year Plan."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 This is a follow-up plan from the [[2024-2026 Three Year Plan]].  My risks of my daughter getting engaged and married has not come true.  It also took me until 2025 to get my first paid consulting gig. Finally, my youngest did not move out and has now decided to take a two year aviation mechanics certificate. Finally, my wife is not even close to discussing down sizing let alone planning for it.
 
 - **2026**

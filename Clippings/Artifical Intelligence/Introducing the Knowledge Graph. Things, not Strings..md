@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Introducing the Knowledge Graph. Things, not Strings."
+description: "Search is a lot about discovery—the basic human need to learn and broaden your horizons."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Search is a lot about discovery—the basic human need to learn and broaden your horizons. But searching still requires a lot of hard work by you, the user. So today I’m really excited to launch the Knowledge Graph, which will help you discover new information quickly and easily.
 
 Take a query like \[taj mahal\]. For more than four decades, search has essentially been about matching keywords to queries. To a search engine the words \[taj mahal\] have been just that—two words.

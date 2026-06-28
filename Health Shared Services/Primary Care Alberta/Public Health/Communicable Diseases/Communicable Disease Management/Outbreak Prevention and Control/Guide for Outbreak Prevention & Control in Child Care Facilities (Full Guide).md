@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Guide for Outbreak Prevention & Control in Child Care Facilities (Full Guide)"
+description: "Guide for Outbreak Prevention"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Guide for Outbreak Prevention & Control in Child Care Facilities (Full Guide)
 
 Guide for Outbreak Prevention

@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Revv52 AI Guidelines"
+description: "Revv52 is built on human artistry — 52 voices on mics, a live band, and the creative energy of real performers delivering high-energy shows."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 
 ## Purpose
 

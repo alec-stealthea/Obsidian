@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Agile Data Warehousing"
+description: "This article overviews a disciplined approach to agile data warehousing (DW)."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 This article overviews a disciplined approach to agile data warehousing (DW). The focus of this article is on the process itself, as opposed to specific architecture and design techniques (for those I highly suggest [Data Vault 2](https://datavaultalliance.com/)). Furthermore, this topic is clearly worthy of a book containing detailed descriptions of the techniques and artifacts described below (however, I have included numerous links to such details if you’re willing to explore further on your own).
 
 This article addresses:

@@ -1,4 +1,8 @@
 ---
+type: Research Clipping
+title: "Additional standard RDF declarations"
+description: "After posting my last article, I had a question from one of my readers:"
+timestamp: 2026-06-26T19:19:05Z
 feature: thumbnails/external/6c4ed8cadf03a8cd17371b44163c31a3.jpg
 thumbnail: thumbnails/resized/85c0c569c6df697b77794f45e23cc703_b89e22fb.jpg
 ---

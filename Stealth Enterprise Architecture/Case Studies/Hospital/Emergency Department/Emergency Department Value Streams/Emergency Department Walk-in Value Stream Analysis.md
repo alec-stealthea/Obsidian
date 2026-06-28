@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Emergency Department Walk-in Value Stream Analysis"
+description: "A key start to understand the overall Emergency Department business architecture is to start by looking at the primary value stream for people who walk in."
+timestamp: 2026-06-26T19:19:05Z
 feature: Pasted image 20240909161944.png
 ---
 A key start to understand the overall Emergency Department business architecture is to start by looking at the primary value stream for people who walk in.  Depending on the location and size of the hospital, walking patients will vary from between 60% and 90% of the total number of encounters. The next largest value stream to review would be the transfer of Emergency Medical Services (EMS) patients. 

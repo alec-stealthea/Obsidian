@@ -1,3 +1,10 @@
+---
+type: Note
+title: "13 — Scenario: Transfer House to Daughter (2030)"
+description: "Scenario / analysis file."
+timestamp: 2026-06-27T21:13:19Z
+---
+
 # 13 — Scenario: Transfer House to Daughter (2030)
 
 *Scenario / analysis file. Explores transferring our home to our daughter at retirement, financing it as a loan back to us at the Bank of Canada rate, and keeping the estate equitable across all four children. Feeds into [[10 - Estate & Insurance]] and [[11 - Scenarios & Cash Flow Model]].*

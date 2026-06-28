@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Cryptosporidiosis"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Cryptosporidiosis
 
 Alberta Public Health

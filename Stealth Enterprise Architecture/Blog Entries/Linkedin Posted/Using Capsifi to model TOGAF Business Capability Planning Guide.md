@@ -1,4 +1,8 @@
 ---
+type: Blog Draft
+title: "Using Capsifi to model TOGAF Business Capability Planning Guide"
+description: "A colleague of mine had the opportunity to witness a Capsifi demonstration at a trade show this past summer."
+timestamp: 2026-06-26T19:19:05Z
 feature: Capsify Data Model.png
 ---
 A colleague of mine had the opportunity to witness a Capsifi demonstration at a trade show this past summer. Upon seeing the demonstration, he promptly sent me an email stating, 'Capsifi is your spirit animal.' Intrigued, I immediately visited the website to understand what he meant and delved into research about the founder, [Terry Roach](https://www.linkedin.com/in/terryroach/).. I even managed to find and read his PhD thesis before introducing myself on LinkedIn.

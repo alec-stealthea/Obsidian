@@ -1,4 +1,8 @@
 ---
+type: Context File
+title: "CLAUDE.md — Alec Blair's Obsidian Vault"
+description: "Alec Blair"
+timestamp: 2026-06-28T15:16:09Z
 tags:
   - linker-exclude
 ---

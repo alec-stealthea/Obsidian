@@ -1,1 +1,8 @@
+---
+type: Glossary Term
+title: "Closed World Assumption"
+description: "In the closed world assumption, all graphs are connected."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 In the closed world assumption, all graphs are connected. This implies referential integrity - every foreign key has a corresponding primary key in the system and vice versa. Everything within the database is known. In the open-world assumption, on the other hand, graphs are disconnected - you may have a foreign key reference to an entity that does not yet (and may never) exist. You may not know what you don't know. OWA systems have some peculiar traits, but on the flip-side, there are no stored null values in a semantic graph.

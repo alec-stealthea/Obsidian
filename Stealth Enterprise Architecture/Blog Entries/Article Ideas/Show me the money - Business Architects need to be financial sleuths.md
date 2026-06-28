@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Show me the money - Business Architects need to be financial sleuths"
+description: "Hey there, esteemed Business Architects and fellow money detectives!"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Hey there, esteemed Business Architects and fellow money detectives! Today, we're going to embark on a thrilling adventure, one that might not feature Tom Cruise but is equally, if not more, exciting. It's time to talk about the art of following the money. No, we're not joining the Avengers (though that would be cool), but we're doing something just as critical - diving into the financial statements and general ledgers of organizations. Why, you ask? Buckle up, and let's find out!
 ## The Treasure Map - Financial Statements
 

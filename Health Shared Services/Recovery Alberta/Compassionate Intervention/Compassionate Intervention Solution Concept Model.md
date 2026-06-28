@@ -1,3 +1,10 @@
+---
+type: Solution Concept Model
+title: "Compassionate Intervention Solution Concept Model"
+description: "Alberta's Compassionate Intervention Act (Bill 53), which received royal assent on May 15, 2025, establishes a legal framework to support the stabilization, assessment, and treatment of individuals..."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 ## 1. Executive Summary
 
 Alberta's Compassionate Intervention Act (Bill 53), which received royal assent on May 15, 2025, establishes a legal framework to support the stabilization, assessment, and treatment of individuals whose severe substance use or addiction is likely to cause substantial harm to themselves or others. This recovery-oriented approach represents a life-saving intervention to support Albertans experiencing severe addiction.

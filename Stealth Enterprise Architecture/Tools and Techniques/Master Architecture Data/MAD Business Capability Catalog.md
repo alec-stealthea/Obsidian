@@ -1,3 +1,11 @@
+---
+type: Architecture Artifact
+artifact-class: Catalog
+title: "MAD Business Capability Catalog"
+description: "Welcome to the MAD Business Capability Catalogue - because knowing you have capabilities is cute, but understanding which ones actually drive your value streams?"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Welcome to the **MAD Business Capability Catalogue** - because knowing you have capabilities is cute, but understanding which ones actually drive your value streams? That's intelligence work. While your strategy team creates aspirational capability heat maps and your process improvement folks document what people _should_ be doing, the MAD Business Capability Catalogue focuses on the capabilities that actually matter for executing value streams every day.
 
 The Stealth EA doesn't believe in capability decomposition - that's what your Enterprise Architecture modelling tool is for. Stealth EA focuses on **business capability instances** - the real capabilities that exist in your actual value streams, not the theoretical ones from consulting frameworks. Think of it as the difference between knowing your organization has "communications capabilities" versus knowing exactly who can actually get a message to the right person when the crisis hits. Capability Instances are modelled in your Enterprise Architecture tool vs. in your MAD Entity Catalogues.

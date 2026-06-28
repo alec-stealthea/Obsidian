@@ -1,3 +1,10 @@
+---
+type: Design Note
+title: "Compassionate Intervention — Release of Information Sequence Diagram"
+description: "This diagram illustrates the interaction between the MHA Compassionate Intervention Application (hosted on AWS) and HSS, where HSS creates an ROI request in Epic's HIM module via Epic's proprietary..."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # Compassionate Intervention — Release of Information Sequence Diagram
 
 ## Proposed Integration Pattern: Compassionate Intervention Program ↔ HSS ↔ Epic Connect Care HIM ROI

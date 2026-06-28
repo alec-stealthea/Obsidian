@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Is Apple About to Win the AI Race?"
+description: "Thesis - Apple's dominance of the integrated technology stack with the hardware and operating system that now supports local AI compute seems to position it to enable local inference."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Thesis - Apple's dominance of the integrated technology stack with the hardware and operating system that now supports local AI compute seems to position it to enable local inference. This is both secure, but also seems to able to scale to use foundation models within Apple's infrastructure. While this is not released yet, Apple's dominance in the consumer marketplace positions them to offer AI products with Agents and possibly optimized personal vector stores that can be more cost effective than
 
 ---

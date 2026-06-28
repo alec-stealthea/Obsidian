@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Hepatitis C (Acute Case)"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Hepatitis C (Acute Case)
 
 Alberta Public Health

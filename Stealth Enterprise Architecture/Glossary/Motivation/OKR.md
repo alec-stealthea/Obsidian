@@ -1,3 +1,10 @@
+---
+type: Glossary Term
+title: "OKR"
+description: "OKR stands for “Objectives and Key Results.” It is a goal-setting framework used by individuals, teams, and organizations to define and track measurable goals."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 OKR stands for “Objectives and Key Results.” It is a goal-setting framework used by individuals, teams, and organizations to define and track measurable goals. An OKR is made up of:
 
 • **Objective:** A clear, inspiring, and often qualitative goal that sets the direction (what you want to achieve).

@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "SPARQL"
+description: "["
+timestamp: 2026-06-26T19:19:05Z
+---
+
 [
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80d78cbe-3014-4639-a8cd-3a389b216bd9_1344x768.png)

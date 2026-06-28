@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Pronghorn AI Assisted Development"
+description: "HSS is looking to take the current"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 HSS is looking to take the current
 
 ---

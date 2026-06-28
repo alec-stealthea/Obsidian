@@ -1,3 +1,10 @@
+---
+type: Meeting Note
+title: "Meeting Notes from Chris and Krista Meeting"
+description: "The discussion with Chris and Krista occured on Saturday February 23, 2024 from 4-5PM."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 The discussion with Chris and Krista occured on Saturday February 23, 2024 from 4-5PM. Alec chaired the meeting with Michael Birnie assisting.  The following is a transcription of the meeting that has been organized by themes vs. the way the discussion occured.
 
 **Opening**

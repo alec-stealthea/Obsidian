@@ -1,4 +1,9 @@
 ---
+type: Architecture Artifact
+artifact-class: Diagram
+title: "MAD Entity Relationship Diagram"
+description: "For those who might be interested in the data model in a more structured form, all of the core tables for Domains, Applications, Locations, Organizations, and, Business Capabilities as well as the..."
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - MAD ERD
 ---

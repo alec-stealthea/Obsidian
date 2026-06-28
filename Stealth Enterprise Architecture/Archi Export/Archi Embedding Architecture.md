@@ -1,4 +1,7 @@
 ---
+type: Reference
+title: "Archi Embedding Architecture"
+timestamp: 2026-06-26T19:19:05Z
 feature: Archi Embedding Architecture.png
 ---
 # Archi Embedding Architecture

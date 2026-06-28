@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Jira Kanban vs. Scrum Boards"
+description: "Within Jira, you have the ability to use two types of Kanban workflows."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Within Jira, you have the ability to use two types of Kanban workflows.
 
 ## Agile Team Jira Scrum Workflow

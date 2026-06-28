@@ -1,3 +1,10 @@
+---
+type: Design Specification
+title: "Compassionate Intervention — Release of Information"
+description: "This document defines the individual SQL views in Snowflake for each entity in the CI RoI Data Model, plus the aggregate view that unions them for the IBM Integration Engine query."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # Compassionate Intervention — Release of Information
 ## Object View Structure
 

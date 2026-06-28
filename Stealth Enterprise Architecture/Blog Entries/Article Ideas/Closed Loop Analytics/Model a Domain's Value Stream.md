@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Model a Domain's Value Stream"
+description: "In the last article The Case for Value Driven Analytics, I proposed that you start your data product journey by looking at your organization's Enterprise Domain Model."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 In the last article [[The Case for Value Driven Analytics]], I proposed that you start your data product journey by looking at your organization's [[Enterprise Domain Model]].  This is the big picture view of your organization, but starts the process of creating your case board where you have the ability to connect the dots for your focus domain.
 
 For this example, we have chosen the Kitchen domain.  This is an example of a [[Pizzeria Food Order Value Stream]] defined to the ArchiMate motivation level. The motivation view looks to identify the why before the how.  From our Value Stream perspective, this first means identifying the value the customer receives at each stage.  we can the add possible organizational goals or objectives for that stage or the value stream overall.  

@@ -1,3 +1,10 @@
+---
+type: Glossary Term
+title: "R2RML"
+description: "R2RML (Relational-to-RDF Mapping Language) is a W3C standard that defines how to express mappings from relational database structures (tables, columns, foreign-key relationships, etc.) to the RDF (..."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 **R2RML** (Relational-to-RDF Mapping Language) is a W3C standard that defines how to express mappings from relational database structures (tables, columns, foreign-key relationships, etc.) to the RDF (Resource Description Framework) data model. In other words, it provides instructions so that data stored in a relational database can be transformed and represented as an RDF graph.
 
   

@@ -1,5 +1,5 @@
 ---
-type: Reference
+type: Coherency Report
 title: CD Coherency Reports — How This Works
 description: Explains the overnight Communicable Disease coherency-analysis scheduled task, its resumable design, and where reports land.
 tags:

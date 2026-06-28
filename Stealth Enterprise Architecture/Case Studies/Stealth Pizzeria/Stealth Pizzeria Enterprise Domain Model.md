@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Stealth Pizzeria Enterprise Domain Model"
+description: "In order to bring the art of business architecture to life, I have drawn inspiration from Kurt Cagle's ontology example using a pizzaria to bring some concepts to life."
+timestamp: 2026-06-26T19:19:05Z
 feature: Pizzaria Enterprise Domain Model.png
 ---
 In order to bring the art of business architecture to life, I have drawn inspiration from Kurt Cagle's ontology example using a pizzaria to bring some concepts to life. The following model expands on the [[Enterprise Domain Model]] template and looks to bring that pattern to life with a practical example.

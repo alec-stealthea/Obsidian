@@ -1,3 +1,10 @@
+---
+type: Case Study
+title: "Pizzaria Chef Persona"
+description: "• Managing kitchen operations during high-demand hours."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 
 | Name           | **Marco Santini**                   |
 | -------------- | ----------------------------------- |

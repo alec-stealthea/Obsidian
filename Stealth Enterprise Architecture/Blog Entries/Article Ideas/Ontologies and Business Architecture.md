@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Ontologies and Business Architecture"
+description: "Every business has their own language."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Every business has their own language. In fact, every domain within a business has their own language. That language is (largely) tied to the business objects that domain manages.  Those [[Business Objects]] are managed using [[business capability instance|business capability instances]] that supports the [[Value Streams]] and the [[Value Stream Network]] that forms the ecosystem for that domain.
 
 By examining the value stream network for a given domain and the business capability instances, it becomes possible to start building out that domain's ontology

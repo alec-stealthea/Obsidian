@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "ArchiMate Flow"
+description: "ArchiMate definition, \"The Flow Relationship represents transfer (e.g."
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - Flow
 tags:

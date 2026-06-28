@@ -1,4 +1,8 @@
 ---
+type: Reference
+title: "Business Architecture Motivation Measures"
+description: "A key aspect of any business architecture are the measures that leaders choose to manage the business."
+timestamp: 2026-06-26T19:19:05Z
 feature: Business Architecture Motivation Legend.png
 thumbnail: thumbnails/resized/6452b051a5a2773fe8fcff9e35622a61_b89e22fb.jpg
 ---

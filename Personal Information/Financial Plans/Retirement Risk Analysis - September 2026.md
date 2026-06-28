@@ -1,3 +1,10 @@
+---
+type: Note
+title: "Retirement Risk Analysis — September 2026"
+description: "Created: June 2026 | Status: Draft"
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # Retirement Risk Analysis — September 2026
 
 *Created: June 2026 | Status: Draft*

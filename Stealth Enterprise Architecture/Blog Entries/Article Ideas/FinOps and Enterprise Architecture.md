@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "FinOps and Enterprise Architecture"
+description: "URL: https://www.finops.org/insights/token-economics-the-atomic-unit-of-ai-value/"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 # FinOps and Enterprise Architecture
 
 > **Impetus:** Tokenomics — as AI token-based pricing becomes a primary cost driver, FinOps disciplines are converging with enterprise architecture decisions.

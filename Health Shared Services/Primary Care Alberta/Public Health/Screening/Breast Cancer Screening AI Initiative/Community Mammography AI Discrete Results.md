@@ -1,3 +1,10 @@
+---
+type: Application Context Model
+title: "Community Mammography AI Discrete Results"
+description: "The following is the proposed solution context model for getting discrete results for the purpose of being able to enable Epic Health Maintenance Reminders for all Albertans."
+timestamp: 2026-06-26T19:19:06Z
+---
+
 The following is the proposed solution context model for getting discrete results for the purpose of being able to enable Epic Health Maintenance Reminders for all Albertans. 
 
 ![Community Mammography Application Context Model 

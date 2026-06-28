@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "The Missing Pillar of Canada's AI Strategy - Data Supply Chains"
+description: "https://cdhowe.org/publication/the-missing-pillar-of-canadas-ai-strategy-data-supply-chains/"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 https://cdhowe.org/publication/the-missing-pillar-of-canadas-ai-strategy-data-supply-chains/
 
 This article discusses the wealth of data that is available from governments - specifically from Statistics Canada that could be useful in training large langusage models.  Making this data available to commercial organizations does expose citizen data that even when an approach is taken to de-identify the data. Evidence shows that when taking data sets from say the health system, that correlating that data with other data sets, like high profile athletes where injury events and treatment are know, allow for the citizen data to be linked together.

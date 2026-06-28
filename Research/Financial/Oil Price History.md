@@ -1,3 +1,9 @@
+---
+type: Reference
+title: "Brent Crude Oil Price History"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 # Brent Crude Oil Price History
 
 | Date | Spot (USD/bbl) | 30-Day Futures (USD/bbl) | 90-Day Futures (USD/bbl) | Source |

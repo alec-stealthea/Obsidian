@@ -1,3 +1,10 @@
+---
+type: Design Specification
+title: "Compassionate Intervention — Release of Information"
+description: "This document defines the Snowflake-side configuration required for the IBM Integration Engine to query the CI RoI aggregate view via the Snowflake SQL API (REST)."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # Compassionate Intervention — Release of Information
 ## Option A: Snowflake SQL API Configuration
 

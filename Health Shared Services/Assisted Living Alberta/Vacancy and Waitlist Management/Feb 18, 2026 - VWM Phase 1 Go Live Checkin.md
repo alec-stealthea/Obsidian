@@ -1,4 +1,7 @@
 ---
+type: Reference
+description: "Date: February 18, 2026 at 09:05"
+timestamp: 2026-06-26T19:19:06Z
 title: Feb 18, 2026 - VWM Phase 1 Go Live CheckinUntitled
 date: 2026-02-18
 time: 09:05

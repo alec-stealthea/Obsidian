@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Tools and Techniques"
+description: "The arsenal."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 # Tools and Techniques
 
 The arsenal. Practical tools, templates, modelling languages, and reference material that get results. Because having the right tool for the job is half the battle.

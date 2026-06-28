@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "AHS Persona Dissertation"
+description: "Personas can be used in a variety of contexts: capturing of user requirements for a particular solution, a perspective in how to approach aspects of Organizational Change Management and finally as..."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 ## Background
 
 Personas can be used in a variety of contexts: capturing of user requirements for a particular solution, a perspective in how to approach aspects of Organizational Change Management and finally as a reusable infographic for better understanding the business processes that affect staff within a particular environment.  This is an aspect of the Enterprise Architecture that has yet to be elaborated, but included here as food for thought.

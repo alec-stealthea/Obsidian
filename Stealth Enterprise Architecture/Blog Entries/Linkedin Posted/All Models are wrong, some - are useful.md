@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "All Models are wrong, some - are useful"
+description: "In the world of enterprise architecture (EA), we often find ourselves striving for perfection in modelling our organizations."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 In the world of enterprise architecture (EA), we often find ourselves striving for perfection in modelling our organizations. Statistician George Box remind us of a crucial lesson: "All models are wrong, but some are useful." This quote encapsulates a profound truth that is particularly relevant in the dynamic and complex field of enterprise architecture.
 ### Models in Enterprise Architecture
 Models in EA are simplified representations of a complex reality. They are tools that help us understand, analyze, and plan the structure and operations of an organization. However, no model can capture the entirety of an organization's intricacies, uncertainties, and evolving nature. This is where Box's wisdom becomes invaluable.

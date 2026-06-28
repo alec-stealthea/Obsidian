@@ -1,4 +1,7 @@
 ---
+type: Reference
+description: "Date: February 18, 2026 at 10:34"
+timestamp: 2026-06-26T19:19:06Z
 title: Feb 18, 2026 - VWM Weekly Project Team Meeting
 date: 2026-02-18
 time: 10:34

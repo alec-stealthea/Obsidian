@@ -1,4 +1,8 @@
 ---
+type: Reference
+title: "Domain Value Stream Network"
+description: "Every spy knows that no mission happens in isolation."
+timestamp: 2026-06-26T19:19:05Z
 feature: Emergency Department Domain Value Stream Network.png
 ---
 Every spy knows that no mission happens in isolation. That said, sometimes different Domains compartmentalize their domain knowledge like they are trying to prevent their data from being discovered though espionage. Within an organization, domain value stream interoperability should not require the skills of the IMF to infiltrate Langley to gain access to the NOC list.

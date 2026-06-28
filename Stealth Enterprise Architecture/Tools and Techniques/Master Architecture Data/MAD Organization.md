@@ -1,4 +1,8 @@
 ---
+type: Architecture Artifact
+title: "MAD Organization"
+description: "Welcome to the MAD Organization Catalogue - the stakeholder ecosystem map that your org chart misses!"
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - Organization
 ---

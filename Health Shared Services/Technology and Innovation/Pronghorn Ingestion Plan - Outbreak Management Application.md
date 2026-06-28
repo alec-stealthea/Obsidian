@@ -1,4 +1,8 @@
 ---
+type: Value Stream
+title: "Pronghorn Ingestion Plan — Outbreak Management Application"
+description: "Pronghorn decomposes unstructured input into a hierarchy of Epics → Features → User Stories → Acceptance Criteria and links every requirement to reusable organisational Standards held in a Global S..."
+timestamp: 2026-06-26T19:19:06Z
 tags:
   - claude-context
 scope: Health Shared Services/Technology and Innovation

@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Implementation of Advanced Triage"
+description: "Advanced Practice Nursing (APN), which first appeared in the United States around the 1960s, took almost 20 years to spread to Europe and was first introduced in Great Britain."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 ## 1 INTRODUCTION
 
 Advanced Practice Nursing (APN), which first appeared in the United States around the 1960s, took almost 20 years to spread to Europe and was first introduced in Great Britain. Subsequently, it was used in other countries such as Australia and Ireland. This practice emerged due to changes in the healthcare system and the need to adapt to new models of healthcare due to a shortage of medical professionals, an increase in the demand for care in the provision of services and an improvement in the professional development of nurses (Woo et al., [2017](https://onlinelibrary.wiley.com/doi/full/10.1002/nop2.1622#nop21622-bib-0031)).

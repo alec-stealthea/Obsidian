@@ -1,3 +1,10 @@
+---
+type: Architecture Decision Record
+title: "Architecture Decision Request (aka SBAR)"
+description: "Every spy knows you don't hand headquarters a 47-page dossier when they need to make a call in the next five minutes."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Every spy knows you don't hand headquarters a 47-page dossier when they need to make a call in the next five minutes. The SBAR format is your one-page mission brief — just enough intel to enable a decision, no more, no less.
 
 The Architecture Alternatives deliverable is probably the most frequently deployed weapon in your arsenal for providing information to decision makers at all levels. It borrows from clinical medicine, where practitioners need to communicate concisely in urgent situations and during patient handoffs. We've adopted this situational briefing model using the acronym SBAR:

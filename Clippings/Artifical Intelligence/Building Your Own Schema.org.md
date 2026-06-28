@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Building Your Own Schema.org"
+description: "["
+timestamp: 2026-06-26T19:19:05Z
+---
+
 [
 
 ![Tony Seale](https://miro.medium.com/v2/da:true/resize:fill:88:88/0*OKJo5DD8uoUmjWt6)

@@ -1,3 +1,10 @@
+---
+type: Book Note
+title: "Stealth EA Bookshelf"
+description: "Curated intelligence."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 # Stealth EA Bookshelf
 
 Curated intelligence. The books and resources that have shaped our thinking and can accelerate yours. These aren't textbook recommendations — they're field-tested references that have proven their worth in actual enterprise architecture practice.

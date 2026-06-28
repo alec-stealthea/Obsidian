@@ -1,3 +1,9 @@
+---
+type: Marketing Plan
+title: "Classical Collision Setlist"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 | Act 1                           | Group                   | Arranger      |
 | ------------------------------- | ----------------------- | ------------- |
 | Land Acknowledment              | N/A                     | N/A           |

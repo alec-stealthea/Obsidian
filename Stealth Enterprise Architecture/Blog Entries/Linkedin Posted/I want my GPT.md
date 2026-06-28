@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "I want my GPT"
+description: "I want my, I want my GPT"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 I want my, I want my GPT
 I want my, I want my GPT
 

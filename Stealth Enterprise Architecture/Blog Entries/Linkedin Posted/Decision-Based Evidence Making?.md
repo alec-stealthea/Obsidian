@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Decision-Based Evidence Making?"
+description: "How un-biased are you with the recommendations you make?"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 How un-biased are you with the recommendations you make? 
 
 The most common enterprise architecture deliverable I create is the Architecture Decision Request. If not on a weekly basis, it's pretty close to that. While I think we all look to present the fairest assessment possible, there's many times that does not turn out to be the case.

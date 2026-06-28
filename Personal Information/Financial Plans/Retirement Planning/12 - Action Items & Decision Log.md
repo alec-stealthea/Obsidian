@@ -1,3 +1,10 @@
+---
+type: Note
+title: "12 — Action Items & Decision Log"
+description: "Ongoing."
+timestamp: 2026-06-27T20:46:33Z
+---
+
 # 12 — Action Items & Decision Log
 
 *Ongoing. Running task list and a record of decisions made, so the reasoning isn't lost.*

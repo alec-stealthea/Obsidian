@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Compassionate Intervention — Release of Information"
+description: "This document defines the functional test cases for the CI RoI interface and the test data needed to execute them."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # Compassionate Intervention — Release of Information
 ## Functional Test Cases and Test Data Requirements
 

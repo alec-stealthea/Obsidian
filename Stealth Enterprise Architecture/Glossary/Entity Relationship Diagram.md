@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "Entity Relationship Diagram"
+description: "An Entity Relationship Diagram (ERD) is a visual representation of the relationships between business or information objects."
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - ERD
 ---

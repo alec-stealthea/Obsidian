@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Where Knowledge Graphs Came From"
+description: "Knowledge graphs seem to have sprung up out of nowhere in the last couple of years, but they are in fact one of the older data structures currently in use, dating back at least a quarter century."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Knowledge graphs seem to have sprung up out of nowhere in the last couple of years, but they are in fact one of the older data structures currently in use, dating back at least a quarter century. There are certain aspects that I see changing with knowledge graphs moving forward, especially in light of their frequently symbiotic relationship with generative artificial intelligence systems.
 
 # Where Knowledge Graphs Came From

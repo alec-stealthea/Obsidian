@@ -1,4 +1,6 @@
 ---
+type: Reference
+timestamp: 2026-06-26T19:19:05Z
 title: "Beyond the mammogram: a framework for smarter breast cancer screening"
 source: "https://peterattiamd.com/a-framework-for-smarter-breast-cancer-screening/?utm_source=Klaviyo&utm_medium=campaign&utm_campaign=260614%20-%20Breast%20cancer%20screening%20-%20Non%20Subs&_kx=JfjFl1XH70G85IfcceVIEYPTqyP-RJnVL-B7JpeCycA.W9ibUh"
 author:

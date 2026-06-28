@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Severe Acute Respiratory Infection (SARI)"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Severe Acute Respiratory Infection (SARI)
 
 Alberta Public Health

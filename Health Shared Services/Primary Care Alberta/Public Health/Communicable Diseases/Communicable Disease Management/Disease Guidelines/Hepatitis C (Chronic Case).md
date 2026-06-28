@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Hepatitis C (Chronic Case)"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Hepatitis C (Chronic Case)
 
 Alberta Public Health

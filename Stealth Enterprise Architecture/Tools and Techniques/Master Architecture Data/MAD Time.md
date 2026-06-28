@@ -1,3 +1,10 @@
+---
+type: Architecture Artifact
+title: "MAD Time"
+description: "Welcome to the MAD Time Catalogue - the temporal dimension that transforms your architecture dynamic roadmaps!"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Welcome to the **MAD Time Catalogue** - the temporal dimension that transforms your architecture dynamic roadmaps! Unlike your project management timeline (which exists in a parallel universe where everything finishes on schedule), the MAD Time Catalogue actually acknowledges that enterprise architecture evolves in quarterly chunks, not daily sprints.
 
 Think of it as the difference between a photograph and a time-lapse video. Your current state architecture documentation is the photograph - useful for understanding what exists right now. But when you're trying to plan application retirements, facility moves, or organizational transformations, you need the time-lapse perspective to understand what's changing, when it's changing, and how all those changes relate to each other.

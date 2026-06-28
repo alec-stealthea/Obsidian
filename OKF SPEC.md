@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Open Knowledge Format (OKF)"
+description: "Version 0.1 — Draft"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 # Open Knowledge Format (OKF)
 
 **Version 0.1 — Draft**

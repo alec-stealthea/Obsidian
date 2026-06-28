@@ -1,3 +1,10 @@
+---
+type: Checklist
+title: "Outbreak Management Checklist"
+description: "Acute Care Outbreak Management Team (OMT)"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Outbreak Management Checklist
 
 Acute Care Outbreak Management Team (OMT)

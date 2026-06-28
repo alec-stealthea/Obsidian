@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Lambda Architecture - Real-Time Lab Surveillance"
+description: "The current Chronicles-to-Clarity ETL is a nightly batch process, resulting in a 24-hour data lag for lab results."
+timestamp: 2026-06-26T19:19:06Z
+---
+
 ## Problem Statement
 The current Chronicles-to-Clarity ETL is a nightly batch process, resulting in a 24-hour data lag for lab results. For communicable disease surveillance, near real-time access to lab results is required to detect and respond to reportable conditions quickly. Running the Clarity ETL on an hourly basis introduces performance risk to the production Chronicles database and is architecturally complex for marginal latency improvement.
 

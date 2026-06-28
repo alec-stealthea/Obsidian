@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "Retrieval-Augmented Generation"
+description: "RAG (Retrieval-Augmented Generation) is a framework in machine learning that combines a retrieval system and a generative model to produce accurate and contextually relevant outputs."
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - RAG
 ---

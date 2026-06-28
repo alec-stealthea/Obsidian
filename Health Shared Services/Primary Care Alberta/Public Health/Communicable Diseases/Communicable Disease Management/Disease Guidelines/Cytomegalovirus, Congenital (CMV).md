@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Cytomegalovirus, Congenital (CMV)"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Cytomegalovirus, Congenital (CMV)
 
 Alberta Public Health

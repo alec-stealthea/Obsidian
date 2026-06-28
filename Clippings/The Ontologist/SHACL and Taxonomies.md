@@ -1,4 +1,8 @@
 ---
+type: Research Clipping
+title: "Define the Comprehensive Color Taxonomy"
+description: "I’ve talked a lot about knowledge graphs, and ontologies in particular, in this column, but I haven’t spent as much time talking about taxonomies."
+timestamp: 2026-06-26T19:19:05Z
 feature: thumbnails/external/123052ac68e5090b9072b3dcf0d02a77.jpg
 thumbnail: thumbnails/resized/d8211bcac6bb97eafac12cd062b5c122_b89e22fb.jpg
 ---

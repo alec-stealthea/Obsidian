@@ -1,3 +1,10 @@
+---
+type: Architecture Assessment
+title: "Epic Willow Inventory Gap Assessment: Extending the Alberta (Connect Care) Epic Instance for PVD and Provincial Distribution"
+description: "Date: June 5, 2026"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Epic Willow Inventory Gap Assessment: Extending the Alberta (Connect Care) Epic Instance for PVD and Provincial Distribution
 
 **Date:** June 5, 2026  

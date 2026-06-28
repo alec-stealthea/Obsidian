@@ -1,3 +1,10 @@
+---
+type: Solution Concept Model
+title: "Solution Concept Model"
+description: "A Solution Concept Model is a structural decomposition of an initiative's application landscape showing the applications, conceptual components, information exchanges, and stakeholders within the s..."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 A Solution Concept Model is a structural decomposition of an initiative's application landscape showing the applications, conceptual components, information exchanges, and stakeholders within the solution boundary. Where an [[Application Context Model]] zooms into a single application, the Solution Concept Model zooms out to show how multiple applications and components work together to address a business need.
 
 Think of it as the "ensemble cast" view versus the "character study." The Application Context Model is a deep dive into one protagonist; the Solution Concept Model shows how the whole team operates together.

@@ -1,4 +1,8 @@
 ---
+type: Blog Draft
+title: "You can't handle the truth"
+description: "-----"
+timestamp: 2026-06-26T19:19:05Z
 published:
 Status: Draft
 Improvements Needed: Need to add more stories of relevance and wait for more Stealth EA Content.

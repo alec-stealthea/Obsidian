@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Updated Action and Timing Mapping"
+description: "The following table lists the possible results coming in from a Mammogram and how those will be mapped to an 'external value' which is what the Bridges integration engine is expecting and the Inter..."
+timestamp: 2026-06-26T19:19:06Z
+---
+
 The following table lists the possible results coming in from a Mammogram and how those will be mapped to an 'external value' which is what the Bridges integration engine is expecting and the Internal Value that will be stored in Radiant.
 
 | **Recommended Action**            | **AI Recommended Timing** | **Epic Internal Value**                          | **External Value** |

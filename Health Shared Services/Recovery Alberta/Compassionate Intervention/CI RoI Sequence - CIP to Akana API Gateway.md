@@ -1,3 +1,10 @@
+---
+type: Design Note
+title: "Compassionate Intervention — Release of Information"
+description: "This diagram shows the interaction between the CIP application and the HSS external Akana API Gateway from the CIP application's perspective."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # Compassionate Intervention — Release of Information
 ## CIP to Akana API Gateway (External Boundary)
 

@@ -1,3 +1,10 @@
+---
+type: Architecture Artifact
+title: "MAD Business Domains"
+description: "Welcome to the MAD Stealth Enterprise Architecture/Enterprise Architecture/Business Architecture/Domain Architecture/Business Domain Catalogue - the business architecture foundation that complements!"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Welcome to the **MAD [[Stealth Enterprise Architecture/Enterprise Architecture/Business Architecture/Domain Architecture/Business Domain]] Catalogue** - the business architecture foundation that complements! Unlike that static org chart hanging in the break room (which was outdated before the ink dried), the MAD Business Domain Catalogue actually cares about how work flows through your organization, not just who reports to whom.
 
 Think of it as the difference between a city's political boundaries versus its actual neighbourhoods. The political map tells you who's in charge of what, but the neighbourhood map tells you where people actually live, work, and create value. Neighbourhoods don't change, but political boundaries can.  When you're trying to optimize [[Value Streams]] and understand how business really gets done, you need the neighbourhood perspective.

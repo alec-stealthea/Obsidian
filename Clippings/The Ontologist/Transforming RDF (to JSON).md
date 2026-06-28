@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "New properties from Trigon's profile:"
+description: "["
+timestamp: 2026-06-26T19:19:05Z
+---
+
 [
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd639a7ec-c04b-4ffd-aeb4-97bf2e39b41e_1408x768.png)

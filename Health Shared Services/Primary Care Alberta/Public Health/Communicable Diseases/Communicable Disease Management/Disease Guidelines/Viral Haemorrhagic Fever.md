@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Viral Haemorrhagic Fever"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Viral Haemorrhagic Fever
 
 Alberta Public Health

@@ -1,1 +1,8 @@
+---
+type: Glossary Term
+title: "Directed Cyclic Graphs"
+description: "A directed acyclic graph (or DAG) is a graph that both has a specific traversal direction and no loops."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 A directed acyclic graph (or DAG) is a graph that both has a specific traversal direction and no loops. These are generally known as trees or hierarchies. As a general rule of thumb, most taxonomy systems, as well as XML and JSON structures are DAGs. RDF and Codd model relational databases may be cyclic, but in general, because they are directed, most query algorithms will never visit the same node twice.

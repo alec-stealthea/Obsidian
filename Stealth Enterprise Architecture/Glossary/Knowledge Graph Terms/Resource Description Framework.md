@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "Resource Description Framework"
+description: "Initiated in 1999, and first publicized in an article in Scientific American by Tim Berners-Lee (TBL) and cowriters in 2004, the resource description framework is an abstract language used to descr..."
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - RDF
 ---

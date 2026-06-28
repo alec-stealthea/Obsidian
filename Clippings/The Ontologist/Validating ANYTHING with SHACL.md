@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "pet.shacl.ttl"
+description: "SHACL (the Shape Constraint Language) was first introduced in 2017 as a variation of another RDF standard called SHEX (Shape Expression Language)."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 ### A look at the RDF Shape Constraint Language
 
 SHACL (the Shape Constraint Language) was first introduced in 2017 as a variation of another RDF standard called SHEX (Shape Expression Language). It’s purpose was to provide a schema language that more closely aligned with languages such as the XML Schema Definition Language (XSD), a language that could be used to better validate data structures within RDF.

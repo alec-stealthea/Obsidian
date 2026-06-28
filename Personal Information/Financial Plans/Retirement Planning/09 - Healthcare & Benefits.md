@@ -1,3 +1,10 @@
+---
+type: Note
+title: "09 — Healthcare & Benefits"
+description: "Input file."
+timestamp: 2026-06-27T20:33:28Z
+---
+
 # 09 — Healthcare & Benefits
 
 *Input file. Losing employer health/dental coverage is one of the most under-planned retirement costs.*

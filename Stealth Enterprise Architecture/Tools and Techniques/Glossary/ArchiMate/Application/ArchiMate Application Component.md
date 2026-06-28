@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "ArchiMate Application Component"
+description: "Within ArchiMate, and Application Component is defined as, \"represents an encapsulation of application functionality aligned to implementation structure, which is modular and replaceable.\""
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - Application Component
 created: 2025-11-08

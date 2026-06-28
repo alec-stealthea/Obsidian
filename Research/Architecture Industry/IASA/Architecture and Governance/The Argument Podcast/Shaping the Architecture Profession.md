@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Shaping the Architecture Profession"
+description: "Paul Price and Grant Ecker - co-founders of the Chief Architect forum."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Paul Price and Grant Ecker - co-founders of the Chief Architect forum.
 
 What is the Chief Architect role?

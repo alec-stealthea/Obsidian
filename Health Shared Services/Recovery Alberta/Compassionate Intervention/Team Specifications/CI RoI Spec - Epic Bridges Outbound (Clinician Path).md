@@ -1,3 +1,10 @@
+---
+type: Interface Specification
+title: "CI RoI Spec — Epic Bridges Outbound (Clinician-Prepared Path)"
+description: "Owning teams: Epic HIM IT / Connect Care integration team — producer · RIE (IBM ACE) — consumer"
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # CI RoI Spec — Epic Bridges Outbound (Clinician-Prepared Path)
 
 **Owning teams:** Epic HIM IT / Connect Care integration team — producer · RIE (IBM ACE) — consumer

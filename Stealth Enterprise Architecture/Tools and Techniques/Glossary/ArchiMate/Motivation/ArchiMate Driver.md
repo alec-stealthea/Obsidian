@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "ArchiMate Driver"
+description: "An ArchiMate Driver is defined as something that creates, motivates, and fuels the change in an organization."
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - Driver
 ---

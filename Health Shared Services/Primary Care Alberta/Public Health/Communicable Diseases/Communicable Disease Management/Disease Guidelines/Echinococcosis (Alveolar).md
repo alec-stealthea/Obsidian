@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Echinococcosis (Alveolar)"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Echinococcosis (Alveolar)
 
 Alberta Public Health

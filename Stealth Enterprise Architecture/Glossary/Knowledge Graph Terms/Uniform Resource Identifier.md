@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "Uniform Resource Identifier"
+description: "ThA Uniform Resource Identifier (URI) is a unique string used to identify a resource on the internet or within a system."
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - URI
 ---

@@ -1,3 +1,10 @@
+---
+type: Strategic Plan
+title: "Values"
+description: "Values are fundamental principles and beliefs that serve as implicit criteria guiding all actions and decision-making conducted by Revv52."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 # Values
 
 Values are fundamental principles and beliefs that serve as implicit criteria guiding all actions and decision-making conducted by Revv52.

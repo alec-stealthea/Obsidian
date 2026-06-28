@@ -1,3 +1,10 @@
+---
+type: Book Note
+title: "Balanced Scorecard - Translating Strategy to Action"
+description: "The seminal work by Robert S."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 The seminal work by Robert S. Kaplan and David P. Norton was originally published as [Balanced Scorecard - Measures that Drive Performance](https://hbr.org/1992/01/the-balanced-scorecard-measures-that-drive-performance-2) in the January/February 1992 edition of the Harvard Business Review. This has the opening line that has become a truism for performance management, "What you measure is what you get."
 
 It is here that the original four perspectives of Financial, Customer, Internal, and Learning are introduced. This was an attempt to move past the focus on finance that affects (largely) publicly traded companies and expand into other views of the organization that are interdependent. In order to be able to get the appropriate perspective, each of these perspectives are then broken now into goals and then further into measurable objectives.

@@ -1,4 +1,7 @@
 ---
+type: Research Clipping
+description: "Web Clipper is a bookmarklet I made for Obsidian that saves articles and pages from the web as Markdown files in Obsidian."
+timestamp: 2026-06-26T19:19:05Z
 category: "[[Clippings]]"
 author: "[[Steph Ango]]"
 title: "Obsidian Web Clipper"

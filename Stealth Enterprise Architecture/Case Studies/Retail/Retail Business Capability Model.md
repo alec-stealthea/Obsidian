@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Retail Business Capability Model"
+description: "Retail Business Capability Map"
+timestamp: 2026-06-26T19:19:05Z
 feature: Retail Business Capability Model 1.png
 ---
 # Retail Business Capability Model

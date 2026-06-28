@@ -1,3 +1,10 @@
+---
+type: Case Study
+title: "Emergency Department Floorplan with User Experience Devices"
+description: "Within every care setting there are many, many user experience devices."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Within every care setting there are many, many user experience devices. Within a healthcare setting they are normally split between medical and nonmedical devices. Further, there is equipment like gurneys that are a key component for care, though therapy beds are increasingly equipped with biometric sensors which would move them into the class of medical devices.
 
 Segmenting a hospital enterprise's electronic devices into the care settings where they are deployed brings the device catalogue to life that provides business context on the overall physical space where care is delivered.

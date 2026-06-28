@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "2024 Buzzword Bingo"
+description: "I remember many years ago going to a technology conference with a number of my colleagues."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 I remember many years ago going to a technology conference with a number of my colleagues. We had agreed to go for breakfast before we went to the keynote address. When we sat down for breakfast, at each place was a Buzzword Bingo card.  Our instructions were to spread out as much as possible in the crowd and if one of us got a bingo, to stand up and yell, "Bingo" when we had one line any way. I was grateful that I didn't come close as I don't think I would have been able to do that, but sure enough, not 15 minutes in, we had a bingo.
 
 After a number of decades in information technology, I have seen my fair share of technologies that go through the hype cycle. In the spirit of that, I thought I would generate my 2024 information technology buzzword bingo.

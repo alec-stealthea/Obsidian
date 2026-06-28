@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Do you measure up?"
+description: "How do you measure success?"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 How do _you_ measure success? And how does your organization do it? For most, success is that yardstick that people outside the company wave around, hoping to make sense of your efforts. It’s been almost thirty years since the Balanced Scorecard concept made its debut in _Harvard Business Review_. Now, you might not be a fan of the quadrants they propose, but almost every scorecard has a trusty old [[The Power of the 2 x 2 Matrix|two by two matrix]]. And any organization in need of a stealthy enterprise architect probably already has a set of measures—even if they’re not front and centre as a proper scorecard.
 
 Capturing what motivates an organization, whether it’s through OKRs (Objectives and Key Results) or KPIs (Key Performance Indicators), is a bit of an art form. In the spirit of Mark Twain, “There are lies, damn lies, and statistics.” True enough! But, if the leadership is taking those numbers seriously, for better or worse, they’re going to _manage_ them.

@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Review of Understanding the Role of Knowledge Graphs for Question Answering on Enterprise SQL Databases"
+description: "Thesis -"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Thesis - 
 
 This is a review of the paper titled [A Benchmark to Understanding the Role of Knowledge Graphs for Question Answering on Enterprise SQL Databases.](Understanding the Role of Knowledge Graphs for Question Answering on Enterprise SQL Databases)

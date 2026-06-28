@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Do you know where you're going to?"
+description: "How many times when there's a new challenge or opportunity is the suggestion to do a current state analysis?"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 How many times when there's a new challenge or opportunity is the suggestion to do a current state analysis? Let me be clear. I am not suggesting that there's anything wrong with a current state analysis. It's just that unless you know where you're going, you don't know where to look.
 
 If you map out all the streets in the city, but realize that you're wanting to travel internationally, you really only needed to map the ways to get to the airport.

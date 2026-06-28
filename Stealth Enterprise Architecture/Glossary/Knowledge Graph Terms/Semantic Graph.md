@@ -1,1 +1,8 @@
+---
+type: Glossary Term
+title: "Semantic Graph"
+description: "A semantic graph is one that is but on the foundation of RDF or related technologies (such as GraphQL, which can query a variety of graphs for simple construction and mutation."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 A semantic graph is one that is but on the foundation of RDF or related technologies (such as GraphQL, which can query a variety of graphs for simple construction and mutation. Most of these use the subject/predicate/object assertion paradigm for building out logical tuples in specially indexed databases known as triple stores or graph stores.

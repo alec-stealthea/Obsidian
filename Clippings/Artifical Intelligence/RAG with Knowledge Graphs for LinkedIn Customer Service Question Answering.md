@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "RAG with Knowledge Graphs for LinkedIn Customer Service Question Answering"
+description: "(2024)"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 (2024)
 
 ###### Abstract.

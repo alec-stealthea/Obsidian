@@ -1,3 +1,11 @@
+---
+type: Architecture Artifact
+artifact-class: Catalog
+title: "MAD Location Catalogue"
+description: "Welcome to the MAD Location Catalogue - because even in our increasingly virtual, cloud-first, \"location-independent\" world, someone still has to know where the actual stuff is."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 # MAD Location Catalogue
 
 Welcome to the **MAD Location Catalogue** - because even in our increasingly virtual, cloud-first, "location-independent" world, someone still has to know where the actual stuff is. Despite the promises of the metaverse evangelists, most organizations stubbornly insist on occupying physical space and serving real people in actual places.

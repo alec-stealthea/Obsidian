@@ -1,1 +1,8 @@
+---
+type: Glossary Term
+title: "Property Graph"
+description: "A property graph is a more generalized form of a graph that incorporates a reification layer upon edges and does not absolutely require directedness."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 A property graph is a more generalized form of a graph that incorporates a reification layer upon edges and does not absolutely require directedness. It is possible to model a semantics graph upon a property graph and vice versa, so the primary difference between the two tends to be the degree to which metadata is optimized and which query languages are involved, with property graphs lending themselves better to calculation and machine learning while semantic graphics focus primarily upon language structures.

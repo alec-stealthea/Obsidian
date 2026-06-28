@@ -1,3 +1,10 @@
+---
+type: Value Stream
+title: "Value Stream Network"
+description: "A value stream network provides the basis to understand how one particular domain's value streams are connected with other Business Domain value streams inside and outside an organization."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 A value stream network provides the basis to understand how one particular domain's value streams are connected with other [[MAD Business Domains|Business Domain]] value streams inside and outside an organization. By understanding the business capability that 
 
 

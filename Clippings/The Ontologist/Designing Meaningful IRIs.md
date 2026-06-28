@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Designing Meaningful IRIs"
+description: "["
+timestamp: 2026-06-26T19:19:05Z
+---
+
 [
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe20a1f7c-7eb0-4100-86a9-c7b3211b8c49_2688x1536.png)
 

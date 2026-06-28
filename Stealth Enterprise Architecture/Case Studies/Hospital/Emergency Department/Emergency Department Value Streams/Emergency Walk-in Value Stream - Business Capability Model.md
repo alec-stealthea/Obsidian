@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Emergency Walk-in Value Stream - Business Capability Model"
+description: "Business capabilities without value streams are ingredients without recipes."
+timestamp: 2026-06-26T19:19:05Z
 feature: Emergency Room Walk-in Value Stream - Business Capability View.png
 ---
 Business capabilities without value streams are ingredients without recipes. You know what you have, but not how it creates value. The [[Value Stream Capability Model]] fixes that by mapping capabilities directly to the value stream stages they serve — showing exactly what's needed to deliver value at each step of the journey.

@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Resistance Training - Lowering the barrier to entry"
+description: "Original of this note is from the following link."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Original of this note is from the following [link](https://peterattiamd.com/lowering-the-barrier-to-entry-for-resistance-training/?utm_source=Klaviyo&utm_medium=campaign&utm_campaign=260531%20-%20Low%20Intensity%20Exercise%20Benefit%20-%20Non%20Subs&_kx=JfjFl1XH70G85IfcceVIEYPTqyP-RJnVL-B7JpeCycA.W9ibUh).
 
 Optimized programs with heavy weights are the gold standard for trained athletes. How much do they matter when starting fresh? 

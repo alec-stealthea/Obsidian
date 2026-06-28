@@ -1,3 +1,10 @@
+---
+type: Data Model
+title: "Communicable Disease Conceptual Data Model"
+description: "The Communicable Disease Conceptual Data Model is a view that will inform the configuration of the application portfolio for communicable diseases across multiple domains."
+timestamp: 2026-06-26T19:19:06Z
+---
+
 ![[Communicable Disease Conceptual Data Model.png]] ## **Overview**
 The Communicable Disease Conceptual Data Model is a view that will inform the configuration of the application portfolio for communicable diseases across multiple domains.
 

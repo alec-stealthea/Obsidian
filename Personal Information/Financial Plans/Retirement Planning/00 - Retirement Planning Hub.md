@@ -1,3 +1,10 @@
+---
+type: Note
+title: "Retirement Planning Hub"
+description: "Created: June 2026 | Owner: Alec | Advisor role: Claude"
+timestamp: 2026-06-27T21:29:36Z
+---
+
 # Retirement Planning Hub
 
 *Created: June 2026 | Owner: Alec | Advisor role: Claude*

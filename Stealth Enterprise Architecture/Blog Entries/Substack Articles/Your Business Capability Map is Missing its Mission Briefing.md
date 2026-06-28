@@ -1,4 +1,8 @@
 ---
+type: Blog Draft
+title: "Your Business Capability Map is Missing its Mission Briefing"
+description: "Business Capability Maps are the hot commodity in business architecture."
+timestamp: 2026-06-26T19:19:05Z
 created: 2025-11-10
 Publish Status: Published
 Improvements Needed: Add Business Capability Map, Add Domain breakdown

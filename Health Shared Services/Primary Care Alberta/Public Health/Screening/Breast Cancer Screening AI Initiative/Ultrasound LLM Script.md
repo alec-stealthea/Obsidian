@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Ultrasound LLM Script"
+description: "Enhanced Prompt for Breast Cancer Criteria Detection"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 Enhanced Prompt for Breast Cancer Criteria Detection 
 
 This prompt is designed to be used with Microsoft Copilot to analyze radiology reports and extract structured data related to breast cancer screening. The prompt has been updated to incorporate the persona of an experienced mammography specialist and includes detailed definitions and mappings based on Alberta, Canada standards. 

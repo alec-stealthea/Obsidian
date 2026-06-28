@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "What is an Ontology?"
+description: "["
+timestamp: 2026-06-26T19:19:05Z
+---
+
 [
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feee92b74-270e-483c-9a94-a55101df59f9_1024x1024)

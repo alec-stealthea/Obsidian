@@ -1,3 +1,10 @@
+---
+type: Note
+title: "11 — Scenarios & Cash Flow Model"
+description: "Analysis file."
+timestamp: 2026-06-27T22:07:17Z
+---
+
 # 11 — Scenarios & Cash Flow Model
 
 *Analysis file. The integrated year-by-year projection that ties every other file together. I build this last, once 01–10 are populated. Likely paired with a spreadsheet for the math.*

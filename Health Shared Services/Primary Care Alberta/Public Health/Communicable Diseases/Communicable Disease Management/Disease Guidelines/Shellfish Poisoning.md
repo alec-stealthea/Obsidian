@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Shellfish Poisoning"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Shellfish Poisoning
 
 Alberta Public Health

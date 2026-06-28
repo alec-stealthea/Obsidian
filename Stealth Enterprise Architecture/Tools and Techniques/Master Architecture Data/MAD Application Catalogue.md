@@ -1,3 +1,11 @@
+---
+type: Architecture Artifact
+artifact-class: Catalog
+title: "MAD Application Catalogue"
+description: "Welcome to the MAD Application Catalogue - the application inventory that your CMDB wishes it could be when it grows up!"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Welcome to the **MAD Application Catalogue** - the application inventory that your CMDB wishes it could be when it grows up! Unlike its configuration management cousin (who's obsessed with servers and IP addresses), the MAD Application Catalogue actually cares about what applications _do_ for the business, not just what technology nodes they have been implement on.
 
 Think of it as the difference between a car enthusiast who knows every bolt in the engine versus someone who just wants to know if it'll get them to work on time. Both perspectives matter, but when you're trying to accelerate [[Value Streams]] and optimize business outcomes, you need to focus on the "getting to work on time" part.

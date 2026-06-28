@@ -1,3 +1,10 @@
+---
+type: Note
+title: "10 — Estate & Insurance"
+description: "Input file."
+timestamp: 2026-06-27T21:03:01Z
+---
+
 # 10 — Estate & Insurance
 
 *Input file. Not central to the 2030-vs-2032 math, but part of a complete plan — and pension survivor elections are made AT retirement.*

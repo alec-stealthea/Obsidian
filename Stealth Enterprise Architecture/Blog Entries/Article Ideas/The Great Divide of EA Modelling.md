@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "The Great Divide of EA Modelling"
+description: "In the grand arena of enterprise architecture modelling, there stand two formidable contenders."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 In the grand arena of enterprise architecture modelling, there stand two formidable contenders. On one side, we have the sleek, sophisticated infographics crafted for the discerning eyes of senior executives. I call it this 'marketing architecture' or Marchitecture – where simplicity reigns supreme, and the glitz and glam of high-level summaries dazzle the boardroom. On the other side, stealthily in the shadows of this high-stakes environment, we find the rule-based, detailed specifications detailed using a modelling language like ArchiMate
 
 ### The Courtship of the C-Suite using Marchitecture

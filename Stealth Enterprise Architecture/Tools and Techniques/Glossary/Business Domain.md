@@ -1,3 +1,10 @@
+---
+type: Glossary Term
+title: "Business Domain"
+description: "A bounded context that represents a logical grouping of related business functions, value streams, and capabilities."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 A bounded context that represents a logical grouping of related business functions, value streams, and capabilities. Business domains provide the organisational containers where ubiquitous language has meaning and where architectural decisions can be governed.
 
 Unlike org chart divisions (which change with every restructure), business domains represent the fundamental ways an organisation creates value. They're the stable foundation on which you build business architecture.

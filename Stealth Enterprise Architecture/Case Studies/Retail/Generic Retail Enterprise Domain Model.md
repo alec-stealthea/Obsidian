@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Generic Retail Enterprise Domain Model"
+description: "This retail domain model demonstrates how an Enterprise Domain Model provides a complete business context without getting lost in organizational structure."
+timestamp: 2026-06-26T19:19:05Z
 feature: Retail Enterprise Domain Model.png
 thumbnail: thumbnails/resized/2adb867b0b9fdf4cb68a2e1a1ed6a33e_b89e22fb.jpg
 created: 2025-11-08

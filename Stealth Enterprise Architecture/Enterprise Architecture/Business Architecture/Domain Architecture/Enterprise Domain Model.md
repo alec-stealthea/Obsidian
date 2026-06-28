@@ -1,4 +1,8 @@
 ---
+type: Reference
+title: "Business Architecture Enterprise Domain Models"
+description: "Every good intelligence operation starts with understanding the territory."
+timestamp: 2026-06-26T19:19:05Z
 Publish Status: Published
 Improvements Needed: Change the PowerPoint Model into an ArchiMate model
 feature: ArchiMate Enterprise Domain Model Template.png

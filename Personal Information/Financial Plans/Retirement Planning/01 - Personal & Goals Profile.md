@@ -1,3 +1,10 @@
+---
+type: Note
+title: "01 — Personal & Goals Profile"
+description: "Input file."
+timestamp: 2026-06-27T20:11:35Z
+---
+
 # 01 — Personal & Goals Profile
 
 *Input file. Fill in the blanks. Use `??` for anything uncertain.*

@@ -1,4 +1,8 @@
 ---
+type: Reference
+title: "Hospital Enterprise Model"
+description: "The ability to create, manage, and distribute the information pertaining to business entities (e.g., providers, patients, care delivery sites, and services) that are agreed upon and shared across t..."
+timestamp: 2026-06-26T19:19:05Z
 feature: /Users/AlecBlair/Documents/Stealth EA/Stealth Enterprise Architecture/Archi Export/Hospital Enterprise Model.png
 ---
 # Hospital Enterprise Model

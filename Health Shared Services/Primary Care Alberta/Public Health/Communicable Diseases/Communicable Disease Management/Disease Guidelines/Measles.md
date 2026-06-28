@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Measles"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Measles
 
 Alberta Public Health

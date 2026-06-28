@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "AI Tower of Babel or the foundation for a better world?"
+description: "The following is a blog idea inspired from the Magnifica Humanitas essay the pope released on May 25, 2026."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 The following is a blog idea inspired from the [[Magnifica Humanitas]] essay the pope released on May 25, 2026.  Also being used as reference is the [[Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"]] response.
 
 Increasingly, I am seeing how people are using artificial intelligence as a means for enhancing their own personal productivity. Sometimes that's by automating the routine or mundane.  Other times it's 

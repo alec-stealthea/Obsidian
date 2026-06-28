@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Rare or Emerging Communicable Disease"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Rare or Emerging Communicable Disease
 
 Alberta Public Health

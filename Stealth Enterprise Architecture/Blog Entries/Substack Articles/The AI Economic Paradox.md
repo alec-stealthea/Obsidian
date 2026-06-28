@@ -1,4 +1,8 @@
 ---
+type: Blog Draft
+title: "The AI Economic Paradox"
+description: "When Supply Economics Collide with Demand Ceilings"
+timestamp: 2026-06-26T19:19:05Z
 feature: Screenshot 2025-12-31 at 12.03.00 PM.png
 tags:
   - artificialIntelligence

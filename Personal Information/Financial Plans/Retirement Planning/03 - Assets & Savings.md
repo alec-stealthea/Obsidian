@@ -1,3 +1,10 @@
+---
+type: Note
+title: "03 — Assets & Savings"
+description: "Input file."
+timestamp: 2026-06-27T20:33:40Z
+---
+
 # 03 — Assets & Savings
 
 *Input file. Balances as of a single date so totals are consistent. Update quarterly.*

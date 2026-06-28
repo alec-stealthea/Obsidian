@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Archipeg Domain Driven Design"
+description: "Note: some parts of the below text are quoted from the Domain-Driven Design book, reference, or domainlanguage.com to maintain accuracy and correctness."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Note: some parts of the below text are quoted from the Domain-Driven Design [book](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215), [reference](https://www.domainlanguage.com/ddd/reference/), or [domainlanguage.com](https://www.domainlanguage.com/) to maintain accuracy and correctness. Please refer to its original sources if you want to learn more about Domain-Driven Design. Some parts of the material on this page are different from the original text to adjust the terminology, concepts, and instrumentation with Archipeg.
 
 > **_Synopsis_**_: Domain-Driven Design (DDD) is an approach to software development for complex businesses and other domains. DDD tackles that complexity by focusing the team's attention on knowledge of the domain, picking apart the most tricky, intricate problems with models, and shaping the software around those models._

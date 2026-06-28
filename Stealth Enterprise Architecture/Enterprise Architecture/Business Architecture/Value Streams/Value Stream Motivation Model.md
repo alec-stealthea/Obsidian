@@ -1,3 +1,10 @@
+---
+type: Value Stream
+title: "Value Stream Motivation Model"
+description: "When starting to build a [value stream], ideally we would start with the Motivation Map."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 When starting to build a [value stream], ideally we would start with the Motivation Map.
 
 **Stakeholder** - This is usually the person receiving the value at the end of the Value Stream

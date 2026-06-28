@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "ArchiMate Business Actor"
+description: "From the ArchiMate guide a business actor, \"represents a business entity that is capable of performing behaviour.\""
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - Business Actor
   - Actor

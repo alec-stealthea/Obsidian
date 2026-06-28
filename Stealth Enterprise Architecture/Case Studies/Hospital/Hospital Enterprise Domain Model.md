@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Hospital Enterprise Domain Model"
+description: "Every intelligence operation begins with understanding the terrain."
+timestamp: 2026-06-26T19:19:05Z
 created: 2025-11-12
 Publish Status: Draft
 Improvements Needed: Need to add narrative

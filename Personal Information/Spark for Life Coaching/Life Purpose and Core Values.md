@@ -1,3 +1,9 @@
+---
+type: Note
+title: "Life Purpose and Core Values"
+timestamp: 2026-06-26T19:19:07Z
+---
+
 - **Purpose** - I am a person who creates meaningful, individual relationships with people that contributes successfully to achieving amazing group outcomes that benefit my community.
 	- **Open Pandora's Box** - A person who provides opportunities to have people see the art of the possible within their personal skills journey.
 		- **Be** - 

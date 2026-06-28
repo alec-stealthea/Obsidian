@@ -1,3 +1,10 @@
+---
+type: Interface Specification
+title: "CI RoI Spec — RIE ↔ Internal Akana ↔ Epic ROI Web Service"
+description: "Owning teams: RIE (IBM ACE) — caller · PHIE (Akana, internal instance) — gateway · Epic HIM IT — service owner"
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # CI RoI Spec — RIE ↔ Internal Akana ↔ Epic ROI Web Service
 
 **Owning teams:** RIE (IBM ACE) — caller · PHIE (Akana, internal instance) — gateway · Epic HIM IT — service owner

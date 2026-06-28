@@ -1,3 +1,10 @@
+---
+type: Meeting Note
+title: "Apr-29-26 Followup e-mail to Corry Ann Struik"
+description: "This is the text of a followup e-mail based on an initial conversation with CorryAnn Struik from In Sync Systems in Calgary on April 29, 2026."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 This is the text of a followup e-mail based on an initial conversation with CorryAnn Struik from In Sync Systems in Calgary on April 29, 2026.  All of these links are to content that is also contained within the Enterprise Architecture repository.
 
 ---

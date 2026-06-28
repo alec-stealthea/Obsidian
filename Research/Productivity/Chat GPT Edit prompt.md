@@ -1,3 +1,9 @@
+---
+type: Reference
+title: "Chat GPT Edit prompt"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 - Correct any grammar, spelling, and punctuation errors in the text.
 - Check for clarity in the text.
 - Suggest improvements.

@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "Open Group ArchiMate® 3.2"
+description: "The ArchiMate Enterprise Architecture modelling language is a visual language with a set of default iconography for describing, analyzing, and communicating many concerns of Enterprise Architecture..."
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - ArchiMate
 ---

@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Designing the Agile Waterfall"
+description: "It was early in my career when the Agile Manifesto](https://agilemanifesto.org/)) first came out."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 
 ![[Designing the Agile Waterfall 1.png]]
 It was early in my career when the [Agile Manifesto]([Manifesto for Agile Software Development (agilemanifesto.org)](https://agilemanifesto.org/)) first came out.  Working at an application development IT consultancy at the time meant that there was a lot of debate about Agile vs. Waterfall. In the 25 years since that manifesto came out, I find it unfortunate that the debate seems to continue.

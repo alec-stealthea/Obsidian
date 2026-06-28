@@ -1,3 +1,10 @@
+---
+type: Architecture Assessment
+title: "Cover Letter"
+description: "**Epic Willow Assessment Package"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 **Epic Willow Assessment Package  
 **Alberta Provincial Vaccine Inventory Management System (VIMS)  
 Capability Assessment Request

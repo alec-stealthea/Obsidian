@@ -1,4 +1,8 @@
 ---
+type: Reference
+title: "Closed Loop Analytics"
+description: "The Closed Loop Analytics pattern isn't just about moving data from applications to dashboards."
+timestamp: 2026-06-26T19:19:05Z
 feature: Closed Loop Analytics.png
 ---
 

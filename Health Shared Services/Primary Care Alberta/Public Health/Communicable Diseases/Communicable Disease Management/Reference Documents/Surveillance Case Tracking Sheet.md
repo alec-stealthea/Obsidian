@@ -1,3 +1,10 @@
+---
+type: Checklist
+title: "Surveillance Case Tracking Sheet"
+description: "Onset of For Staff Cases -"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Surveillance Case Tracking Sheet
 
 ## Surveillance Case Tracking Sheet

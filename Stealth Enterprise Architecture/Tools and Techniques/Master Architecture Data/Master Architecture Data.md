@@ -1,3 +1,11 @@
+---
+type: Architecture Artifact
+artifact-class: Catalog
+title: "MAD Catalogues - Your Survival Guide to Enterprise Complexity"
+description: "Welcome to the world of Master Architecture Data (MAD), where we take the Byzantine complexity of modern organizations and try to make sense of it without losing our minds."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 
 # MAD Catalogues - Your Survival Guide to Enterprise Complexity
 

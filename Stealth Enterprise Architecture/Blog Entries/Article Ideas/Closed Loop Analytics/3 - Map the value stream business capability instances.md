@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "3 - Map the value stream business capability instances"
+description: "This is a placeholder for the fourth article in the series for Value Driven Analytics"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 This is a placeholder for the fourth article in the series for Value Driven Analytics
 
 We now get to the place where the rubber meets the road by modelling out the people, tools, processes and knowledge that's required for a given business capability instance[^1] within the value stage[^2].

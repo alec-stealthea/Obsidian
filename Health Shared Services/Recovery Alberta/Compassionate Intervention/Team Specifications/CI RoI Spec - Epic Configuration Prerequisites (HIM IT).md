@@ -1,3 +1,10 @@
+---
+type: Interface Specification
+title: "CI RoI Spec — Epic Configuration Prerequisites (Epic HIM IT Team)"
+description: "Owning team: Epic HIM IT (Connect Care)"
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # CI RoI Spec — Epic Configuration Prerequisites (Epic HIM IT Team)
 
 **Owning team:** Epic HIM IT (Connect Care)

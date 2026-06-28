@@ -1,3 +1,9 @@
+---
+type: Blog Draft
+title: "Linkedin Blog History"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 | Date Released     | Link to Blog Post                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------- |
 | July 3, 2024      | [[Business Architecture and Domain Driven Design]]                       |

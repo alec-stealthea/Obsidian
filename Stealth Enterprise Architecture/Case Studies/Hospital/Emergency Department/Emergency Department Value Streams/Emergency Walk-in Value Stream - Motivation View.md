@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Emergency Walk-in Value Stream - Motivation View"
+description: "Your mission, should you choose to accept it, is to understand why this value stream exists before we worry about how it works."
+timestamp: 2026-06-26T19:19:05Z
 feature: Emergency Walk-in Value Stream - Motivation View.png
 created: 2025-12-01
 ---

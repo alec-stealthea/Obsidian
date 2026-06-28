@@ -1,4 +1,8 @@
 ---
+type: Blog Draft
+title: "Intelligence Without Allegiance"
+description: "Why your AI strategy should be about design, not vendors"
+timestamp: 2026-06-26T19:19:05Z
 tags:
   - artificialIntelligence
   - economics

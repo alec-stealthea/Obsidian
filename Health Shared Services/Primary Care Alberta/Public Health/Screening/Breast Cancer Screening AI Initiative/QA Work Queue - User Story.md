@@ -1,3 +1,10 @@
+---
+type: User Story
+title: "User Story: QA Work Queue for AI-Generated Mammography Discrete Results"
+description: "Mammography results arriving in Epic from external radiology clinics are processed by an AI engine that populates discrete result fields (e.g., BI-RADS assessment category, breast density)."
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # User Story: QA Work Queue for AI-Generated Mammography Discrete Results
 
 ## User Story

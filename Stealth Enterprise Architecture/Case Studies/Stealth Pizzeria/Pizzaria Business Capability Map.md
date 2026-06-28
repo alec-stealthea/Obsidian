@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Pizzaria Business Capability Map"
+description: "Business Capabilities that directly shape the customer experience — from how customers discover and order, to how they receive and pay for their food."
+timestamp: 2026-06-26T19:19:05Z
 feature: Pizzaria Business Capability Map.png
 ---
 # Pizzaria Business Capability Map

@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Welcome to Stealth EA"
+description: "<div style=\"background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); padding: 2rem; margin: 1rem 0; border-radius: 8px; border-left: 4px solid #c41e3a;\"> <h3 style=\"color: #ffffff; margin-top..."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 ## _Be vewy, vewy quiet - we're modelling an enterprise architecture_
 
 ---

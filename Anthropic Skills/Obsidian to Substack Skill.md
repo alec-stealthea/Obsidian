@@ -1,6 +1,10 @@
 ---
-
-## name: obsidian-to-substack description: Convert Obsidian markdown files to Substack format and generate LinkedIn promotional copy for both personal and company pages. Handles wikilinks, footnotes, and creates thought leadership content.
+type: Skill
+name: obsidian-to-substack
+title: "Obsidian to Substack Converter with LinkedIn Copy"
+description: "Convert Obsidian markdown files to Substack format and generate LinkedIn promotional copy for both personal and company pages. Handles wikilinks, footnotes, and thought-leadership content."
+timestamp: 2026-06-26T19:19:05Z
+---
 
 # Obsidian to Substack Converter with LinkedIn Copy
 

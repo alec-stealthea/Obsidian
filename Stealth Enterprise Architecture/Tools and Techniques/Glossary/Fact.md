@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "Fact"
+description: "In dimensional modelling, facts are the numeric measurements of business processes - the things you count, sum, or average."
+timestamp: 2026-06-26T19:19:05Z
 tags:
   - linker-exclude
 ---

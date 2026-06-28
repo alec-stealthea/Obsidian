@@ -1,4 +1,8 @@
 ---
+type: Blog Draft
+title: "An Argue of Architects?"
+description: "After more than a couple of decades in some form of Enterprise Architecture, I am left to ask the following question."
+timestamp: 2026-06-26T19:19:05Z
 feature: Argue of Architects.webp
 ---
 After more than a couple of decades in some form of Enterprise Architecture, I am left to ask the following question. Is it time to see if we can stop having more than one architect talking, becoming a discussion that requires Queensbury Rules? While spirited debates can sharpen our understanding, much of the discourse amongst architects online tends to be more self-serving than constructive. As someone who believes EA is an enabler, I offer a take on three common points of contention in our field:

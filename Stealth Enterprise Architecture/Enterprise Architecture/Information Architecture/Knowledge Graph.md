@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Knowledge Graph"
+description: "A knowledge graph is an organized representation of real-world entities and their relationships."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 A knowledge graph is an organized representation of real-world entities and their relationships.  [[Master Architecture Data]] is an example of a knowledge graph. The key characteristics of a knowledge graph are as follows:
 - **Nodes** - Entities like buildings, applications, business objects, etc.
 - **Relationships** - Relationships link two nodes together and have attributes about that relationship. 

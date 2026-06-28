@@ -1,3 +1,10 @@
+---
+type: Note
+title: "08 — Tax Strategy & Drawdown Order"
+description: "Analysis file."
+timestamp: 2026-06-27T22:00:35Z
+---
+
 # 08 — Tax Strategy & Drawdown Order
 
 *Analysis file. How to withdraw from accounts in the most tax-efficient order, Alberta rates.*

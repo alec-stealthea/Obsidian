@@ -1,3 +1,10 @@
+---
+type: Case Study
+title: "Emergency Value Stream Analysis Variations"
+description: "With the core Emergency Department Walk-in Value Stream Analysis completed, we are then able to review variations that may adjust one or more of the value stages or possibly the entire value stream."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 With the core [[Emergency Department Walk-in Value Stream Analysis]] completed, we are then able to review variations that may adjust one or more of the value stages or possibly the entire value stream.  More often than not, variance will be at the value stage level vs. the entire value stream. Value stream capability instances may also be introduced.  A key aspect for deciding in how many value stream scenarios that need to be examined will be the overall volume of that particular variation.
 
 For our analysis we will look at three. First and most obvious will be the Emergency Medical Services scenario.  A second scenario will be a pediatric patient followed, finally by a rural scenario.

@@ -1,3 +1,10 @@
+---
+type: Case Study
+title: "Chat CPT Mortgage Value Stream"
+description: "As part of writing the Value Streams narrative, this was the result of the following prompt to ChatGPT 4o, \"Describe the value stages for a retail mortgage process with descriptions and the value t..."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 As part of writing the [[Value Streams]] narrative, this was the result of the following prompt to ChatGPT 4o, "Describe the value stages for a retail mortgage process with descriptions and the value that is generated for the homeowner at each stage"
 
 In the retail mortgage process, there are several value stages that a homeowner goes through from initial inquiry to loan closure. Each stage generates specific value for the homeowner. Here’s an overview of these stages along with their descriptions and the value generated:

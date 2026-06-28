@@ -1,4 +1,8 @@
 ---
+type: Research Clipping
+title: "Narrative Models vs. Conceptual Models"
+description: "Since the emergence of LLMs a couple of years ago, I’ve been trying to understand the difference between the inherent data information structures of a latent space as compared to that of a conceptu..."
+timestamp: 2026-06-26T19:19:05Z
 feature: thumbnails/external/44ecdd118f625183ee1a4ef9d51b2509.jpg
 thumbnail: thumbnails/resized/f98347db64ce247680a1b48d328eda5c_b89e22fb.jpg
 ---

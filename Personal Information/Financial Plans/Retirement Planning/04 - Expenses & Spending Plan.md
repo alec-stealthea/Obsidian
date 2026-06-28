@@ -1,3 +1,10 @@
+---
+type: Note
+title: "04 — Expenses & Spending Plan"
+description: "Input file."
+timestamp: 2026-06-27T20:45:44Z
+---
+
 # 04 — Expenses & Spending Plan
 
 *Input file. The target number that decides whether either retirement date works. Pull from [[Current Monthly Budget]] where possible.*

@@ -1,4 +1,8 @@
 ---
+type: Reference
+title: "Application Architecture"
+description: "Of all the Enterprise Architecture perspectives, Application Architecture is the natural companion to Business Architecture."
+timestamp: 2026-06-26T19:19:05Z
 Publish Status: Draft
 created: 2025-12-01
 Priority: Low

@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Business Architecture and Domain Driven Design"
+description: "Domain Driven Design is an approach to application design that looks to provide a focus for a particular business domain."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Domain Driven Design is an approach to application design that looks to provide a focus for a particular business domain. The goal is to provide a focus by using the 'ubiquitous language' for that business domain and by breaking the domain into 'bounded contexts'. So how can Business Architecture help?
 ### What are your enterprise domains?
 

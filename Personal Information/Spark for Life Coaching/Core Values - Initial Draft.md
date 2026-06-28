@@ -1,3 +1,10 @@
+---
+type: Note
+title: "Core Values - Initial Draft"
+description: "The following is a draft of core values from Lisa that eventually became the Life Purpose and Core Values"
+timestamp: 2026-06-26T19:19:07Z
+---
+
 The following is a draft of core values from Lisa that eventually became the [[Life Purpose and Core Values]]
 
 CREATING: doing anything creative - writing - music - making something

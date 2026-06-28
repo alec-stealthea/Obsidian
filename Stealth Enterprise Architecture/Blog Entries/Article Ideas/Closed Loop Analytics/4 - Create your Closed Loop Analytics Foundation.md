@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "4 - Create your Closed Loop Analytics Foundation"
+description: "This is a placeholder for the next in the series of Substack articles with the following text that came from the original article."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 This is a placeholder for the next in the series of Substack articles with the following text that came from the original article.
 
 This first step for your domain is to take the application portfolio that became evident from modelling the business capability instances. The Stealth EA believes that creating the ability for closed loop analytics starts by making the instance of the application's database essentially one of the environments that is used to enhance and maintain your application.

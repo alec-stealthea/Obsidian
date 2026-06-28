@@ -1,3 +1,10 @@
+---
+type: Marketing Plan
+title: "Classical Collision — Campaign Plan"
+description: "Campaign Name: Classical Collision: This Day in Music History"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 # Classical Collision — Campaign Plan
 
 **Campaign Name:** *Classical Collision: This Day in Music History*

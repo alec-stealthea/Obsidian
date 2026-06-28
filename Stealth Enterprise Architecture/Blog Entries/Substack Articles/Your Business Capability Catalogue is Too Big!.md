@@ -1,4 +1,8 @@
 ---
+type: Blog Draft
+title: "Your Business Capability Catalogue is Too Big!"
+description: "Intelligence agencies learned this lesson the hard way: more data doesn't mean better intelligence."
+timestamp: 2026-06-26T19:19:05Z
 feature: Pasted image 20260216074642.png
 thumbnail: thumbnails/resized/51817cf2f6b6f23bc4697316bc19b398_86cf658e.webp
 ---

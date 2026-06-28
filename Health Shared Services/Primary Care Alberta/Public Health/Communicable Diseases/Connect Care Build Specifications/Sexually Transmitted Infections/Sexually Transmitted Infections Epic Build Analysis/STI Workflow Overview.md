@@ -1,5 +1,5 @@
 ---
-type: Reference
+type: Build Specification
 title: STI Workflow Overview
 description: Overview note linking the STI intake workflow artifacts.
 tags:

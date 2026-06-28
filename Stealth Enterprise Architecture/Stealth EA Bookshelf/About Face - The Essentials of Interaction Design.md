@@ -1,4 +1,8 @@
 ---
+type: Book Note
+title: "About Face - The Essentials of Interaction Design"
+description: "Enterprise architects build models full of applications, data flows, and business capabilities."
+timestamp: 2026-06-26T19:19:05Z
 published: 2026-02-04
 Channel: Substack
 ---

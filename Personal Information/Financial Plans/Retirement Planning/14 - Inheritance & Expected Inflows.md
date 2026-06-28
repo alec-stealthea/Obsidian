@@ -1,3 +1,10 @@
+---
+type: Note
+title: "14 — Inheritance & Expected Inflows"
+description: "Input + analysis file."
+timestamp: 2026-06-27T22:29:50Z
+---
+
 # 14 — Inheritance & Expected Inflows
 
 *Input + analysis file. Captures potential inheritances and how (and whether) to fold them into the plan. Added June 2026.*

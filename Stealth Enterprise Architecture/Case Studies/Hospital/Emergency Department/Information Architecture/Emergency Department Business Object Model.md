@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Emergency Department Business Object Model"
+description: "One of the key aspects of an overall business architecture is understanding the different business objects that apply within the particular domain."
+timestamp: 2026-06-26T19:19:05Z
 feature: ED Business Object ERD.png
 thumbnail: thumbnails/resized/b954fed1c03c57d461a8765d30257475_b89e22fb.jpg
 ---

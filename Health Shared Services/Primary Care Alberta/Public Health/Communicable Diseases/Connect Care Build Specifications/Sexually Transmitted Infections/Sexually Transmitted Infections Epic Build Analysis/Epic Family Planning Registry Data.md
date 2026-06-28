@@ -1,5 +1,5 @@
 ---
-type: Reference
+type: Build Specification
 title: Epic Family Planning Registry Data
 description: Mapping of FPAR (Family Planning Annual Report) data elements to Epic documentation, registry autopopulation rules, and category lists.
 tags:

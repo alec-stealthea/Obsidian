@@ -1,4 +1,8 @@
 ---
+type: Blog Draft
+title: "2025 Information Technology Buzzword Bingo"
+description: "Because nothing says \"technology conference\" like a room full of professionals silently mouthing \"synergy\" while waiting to yell \"BINGO!\""
+timestamp: 2026-06-26T19:19:05Z
 published: 2026-01-01
 Channel: Substack
 ---

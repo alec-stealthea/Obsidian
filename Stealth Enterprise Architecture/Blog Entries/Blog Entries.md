@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Blog Entries"
+description: "Tactical insights, war stories, and hard-won lessons from the trenches of enterprise architecture."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 # Blog Entries
 
 Tactical insights, war stories, and hard-won lessons from the trenches of enterprise architecture. Because sometimes the best way to learn is from someone else's mistakes.

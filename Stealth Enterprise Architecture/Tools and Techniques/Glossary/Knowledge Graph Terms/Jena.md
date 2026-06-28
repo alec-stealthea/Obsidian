@@ -1,1 +1,8 @@
+---
+type: Glossary Term
+title: "Jena"
+description: "Jena was the first open-source graph database, built for use with Apache."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Jena was the first open-source graph database, built for use with Apache. While it can be used as a reasonable good basic tuple store, its primary benefit is that it is frequently used as a platform for building proof of concept.

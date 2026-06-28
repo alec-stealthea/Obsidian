@@ -110,6 +110,12 @@ For data models, the [ANSI/SPARC three-schema](https://en.wikipedia.org/wiki/Thr
 | `Design Specification` | Detailed design specification. |
 | `Design Note` | Lighter-weight design note (not a full spec). |
 
+## Clinical & Public Health
+
+| Type | Use for |
+|---|---|
+| `Disease Guideline` | Per-disease notifiable/communicable disease management guideline entries (e.g. the Primary Care Alberta `Disease Guidelines/` set). For clinical *subject* tagging, pair with FHIR/SNOMED terms in `tags` rather than minting more `type` values. |
+
 ## Agile & Backlog
 
 | Type | Use for |
@@ -134,6 +140,20 @@ For data models, the [ANSI/SPARC three-schema](https://en.wikipedia.org/wiki/Thr
 | `Blog Draft` | Stealth EA blog/article drafts. |
 | `Methodology` | Stealth EA methodology documents. |
 | `Research Clipping` | Web Clipper output and curated external research. |
+| `Glossary Term` | Single-term definitions in the Stealth EA `Glossary/` (and nested glossary subfolders). |
+| `Case Study` | Worked real-world examples in `Case Studies/`. |
+| `Book Note` | Reading notes / summaries in the `Stealth EA Bookshelf/`. |
+
+## General
+
+| Type | Use for |
+|---|---|
+| `Note` | Generic catch-all for personal or miscellaneous notes that fit no more specific type (e.g. items in `Personal Information/`). Prefer a specific type where one applies. |
+| `Journal Entry` | Daily reflection / gratitude entries in `Daily Reflections/`. |
+| `Meeting Note` | Meeting notes and transcriptions in `Meetings/` and `Personal Note/`. |
+| `Template` | Obsidian/Templater template files in `Templates/`. |
+| `Kanban Board` | Obsidian Kanban plugin board files (`kanban-plugin: board`). |
+| `Dashboard` | Vault dashboard / landing pages. |
 
 ---
 

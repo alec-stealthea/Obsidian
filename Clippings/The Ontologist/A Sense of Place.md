@@ -1,4 +1,8 @@
 ---
+type: Research Clipping
+title: "SPARQL"
+description: "About once a month, a motley group of adventurers used to descend upon my house."
+timestamp: 2026-06-26T19:19:05Z
 feature: thumbnails/external/4d088c4e5a735512db04ba4c32245db3.jpg
 thumbnail: thumbnails/resized/ff8ec92590caa2a68c757e1aaffea6f7_b89e22fb.jpg
 ---

@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Blending Agile and Waterfall"
+description: "Blending Agile And Waterfall Keys To Successful Implementation (pmi.org)I"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 [Blending Agile And Waterfall Keys To Successful Implementation (pmi.org)](https://www.pmi.org/learning/library/blending-agile-waterfall-successful-integration-10213)I
 
 In this paper, the authors present their hypothesis that in the future, projects will use a combination of agile practices, with a traditional approach, usually associated with waterfall projects. This should become the dominant successful methodology, even despite the pressure for quick deliveries and the unstoppable growth of agile philosophy. The article includes specific recommendations on how to blend agile and waterfall approaches in aspects such as scope, schedule, communication, teams, and others.

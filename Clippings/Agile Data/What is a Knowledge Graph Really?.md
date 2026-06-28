@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "What is a Knowledge Graph Really?"
+description: "Go back far enough in time, and you will eventually reach a stage where all the words for concepts that now seem pervasive did not yet exist."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Go back far enough in time, and you will eventually reach a stage where all the words for concepts that now seem pervasive did not yet exist. I’ve worked with RDF for about twenty years or so, but the terminology surrounding [[Knowledge Graph 1|knowledge graphs]] didn’t really start showing up until perhaps six or seven years ago, around 2017. Until then, we talked about triples and triple stores, or tuple stores, or semantic graphs, but even though most of us in the field recognized that we were working in the “knowledge” domain, the idea … the concept, if you will, of a knowledge graph didn’t show up until comparatively recently.
 
 Since then, if a company in the knowledge space was not flogging some neural network-based AI, they were selling knowledge graphs, and like many such terms, most people would be hard-pressed to describe what that means. In some of the broadest definitions I’ve seen, a knowledge graph could be any relational database, just as, ten years before, anyone working with cloud computing was somehow involved in Big Data. This term has become conspicuous of late, primarily in its absence.

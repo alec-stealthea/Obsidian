@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "NDR Manual Edition 9"
+description: "FEBRUARY 2019 | EDITION 9"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # NDR Manual Edition 9
 
 FEBRUARY 2019 | EDITION 9

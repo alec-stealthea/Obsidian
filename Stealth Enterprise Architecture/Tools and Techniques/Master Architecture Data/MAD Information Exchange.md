@@ -1,3 +1,10 @@
+---
+type: Architecture Artifact
+title: "MAD Information Exchange"
+description: "Welcome to the MAD Information Exchange Catalogue - because knowing your applications have APIs is cute, but understanding which data flows are critical in maintaining your value stream networks?"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Welcome to the **MAD Information Exchange Catalogue** - because knowing your applications have APIs is cute, but understanding which data flows are critical in maintaining your value stream networks? That's enterprise architecture. While your integration team maintains detailed sequence diagrams, you need a cipher to translate API code words, and your data architects create entity relationship models, the MAD Information Exchange Catalogue focuses on the business-critical conversations happening between your applications every day.
 
 Think of it as the difference between having a phone directory with everyone's number versus understanding who actually calls whom and what they talk about. You might know all the technical endpoints, but do you know which information flows will bring your business to its knees if they stop working? When push comes to shove and the CEO asks "what breaks if this system goes down," you need the conversation map, not the technical manual.

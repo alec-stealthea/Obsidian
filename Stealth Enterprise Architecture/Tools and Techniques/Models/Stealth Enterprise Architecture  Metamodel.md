@@ -1,4 +1,8 @@
 ---
+type: Reference
+title: "Stealth EA Metamodel"
+description: "While most enterprise architects get lost in debates about which framework reigns supreme, at Stealth EA we've taken a different approach."
+timestamp: 2026-06-26T19:19:05Z
 feature: Stealth Enterprise Architecture Metamodel.png
 Publish Status: Draft
 created: 2025-10-01

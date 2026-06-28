@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Multidimensional Data Warehouse Design (Research Paper)"
+description: "Journal of Data, Information and Management (2022) 4:371–386"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Multidimensional Data Warehouse Design (Research Paper)
 
 Journal of Data, Information and Management (2022) 4:371–386

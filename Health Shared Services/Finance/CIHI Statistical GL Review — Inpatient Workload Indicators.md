@@ -1,4 +1,8 @@
 ---
+type: Reference
+title: "CIHI Statistical G/L Review — Inpatient Workload Indicators"
+description: "Alberta Health reports financial and statistical data to CIHI's Canadian MIS Database (CMDB) using the MIS Standards framework."
+timestamp: 2026-06-26T19:19:06Z
 tags:
   - hss
   - finance

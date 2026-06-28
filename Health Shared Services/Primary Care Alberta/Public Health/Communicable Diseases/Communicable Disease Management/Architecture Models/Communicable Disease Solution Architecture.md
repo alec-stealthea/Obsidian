@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Communicable Disease Solution Architecture"
+description: "At the moment, the Alberta Communicable Disease teams are using or partially using an application called CD/OM for Outbreak reporting."
+timestamp: 2026-06-26T19:19:06Z
+---
+
 ## Situation
 At the moment, the Alberta Communicable Disease teams are using or partially using an application called CD/OM for Outbreak reporting. This solution was primarily designed to report data to the Alberta Ministry vs. managing individual Albertan Communicable Disease Episodes or individual Outbreak Cases.
 An initiative have been started to look at what Communicable Disease functionality can be migrated to Epic, what functionality will need a separate custom application, and what functionality can be contained within the Alberta Shared Services Analytics Infrastructure

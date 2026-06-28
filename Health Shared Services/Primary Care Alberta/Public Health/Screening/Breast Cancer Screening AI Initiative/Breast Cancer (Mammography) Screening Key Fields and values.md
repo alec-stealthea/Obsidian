@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Breast Cancer (Mammography) Screening Key Fields and values"
+description: "The final results need to confirm to the following five attributes with the listed acceptable values within Radiant for:"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 The final results need to confirm to the following five attributes with the listed acceptable values within Radiant for: 
 
 - Recommended Side 

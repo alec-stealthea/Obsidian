@@ -1,4 +1,8 @@
 ---
+type: Reference
+title: "InSync Systems — Company Overview"
+description: "InSync Systems Inc."
+timestamp: 2026-06-26T19:19:07Z
 tags:
   - stealth-ea
   - client-prospect

@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Growing Canada's Agriculture Sector"
+description: "These are the notes from the Canada West Foundation publication https://cwf.ca/wp-content/uploads/2026/02/Agriculture-Sector-RTS-Report_Final.pdf"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 These are the notes from the Canada West Foundation publication https://cwf.ca/wp-content/uploads/2026/02/Agriculture-Sector-RTS-Report_Final.pdf
 
 Four key areas:

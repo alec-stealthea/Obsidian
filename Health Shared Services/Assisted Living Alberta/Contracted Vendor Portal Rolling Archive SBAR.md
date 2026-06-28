@@ -1,3 +1,10 @@
+---
+type: Architecture Decision Record
+title: "Contracted Vendor Portal Rolling Archive SBAR"
+description: "What has prompted this analysis to be completed and who must make the decision on how to proceed."
+timestamp: 2026-06-26T19:19:06Z
+---
+
 ## Situation
 *What has prompted this analysis to be completed and who must make the decision on how to proceed.*
 The Contracted Vendor Portal is adding contracted home care vendors over the next six months which is increasing the load on the current infrastructure. To reduce the load, the development team would like to be able to archive data after it is beyond one year old from the production application.  This SBAR needs to be reviewed by DnA, HIM, and IT before being put forward to the Continuing Care Home Care Working Group.

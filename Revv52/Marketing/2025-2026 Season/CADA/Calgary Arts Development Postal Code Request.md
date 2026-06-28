@@ -1,3 +1,10 @@
+---
+type: Marketing Plan
+title: "Calgary Arts Development Postal Code Request"
+description: "You are receiving this email as the primary contact for your operating grant with Calgary Arts Development."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 You are receiving this email as the primary contact for your operating grant with Calgary Arts Development.
 
 As you may know, we have already started working in advance of the 2027-2030 budget cycle to remind City Council of the wide reach our operating grant clients have in Calgary and beyond. One of the projects we supported last year in advance of the municipal election was a pilot project with Creative Calgary, mapping audience and participant postal codes for a sample set of 21 organizations. It was so successful in showcasing the reach our operating grantees that the mayor included the map as part of his Celebration for the Arts on May 4!

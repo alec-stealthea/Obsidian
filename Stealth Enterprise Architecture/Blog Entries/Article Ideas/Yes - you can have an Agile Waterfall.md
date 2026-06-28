@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Waterfall Phase"
+description: "Ever since the Agile manifesto was published in 2001, the battle between an agile approach to application development and maintenance has been waged."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Ever since the Agile manifesto was published in 2001, the battle between an agile approach to application development and maintenance has been waged. In my opinion, the battle is over. The solution is an agile waterfall. While my day job is in IT, I have the privilege of performing with a rock choir called Revv52. In January we performed our January show called Epic 80's - Don't Stop Believing. This show is a classic example of the Agile Waterfall.
 
 # Waterfall Phase

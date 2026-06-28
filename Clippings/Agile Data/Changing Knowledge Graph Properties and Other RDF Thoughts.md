@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Changing Knowledge Graph Properties and Other RDF Thoughts"
+description: "Copyright 2024 Kurt Cagle / The Cagle Report"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Copyright 2024 Kurt Cagle / The Cagle Report
 
 The problem with writing a blog is that eventually, you will reach a stage where you contradict yourself. In most cases, such contradictions are not intentional efforts to deceive but rather the results of digging deeper into a problem.

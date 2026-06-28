@@ -1,3 +1,10 @@
+---
+type: Note
+title: "06 — Pension Decision: 2030 vs 2032"
+description: "Analysis file."
+timestamp: 2026-06-27T20:46:11Z
+---
+
 # 06 — Pension Decision: 2030 vs 2032
 
 *Analysis file. The core decision. I build this once files 01–05 are filled. Structure shown so you know what data it needs.*

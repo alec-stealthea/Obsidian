@@ -1,1 +1,8 @@
+---
+type: Glossary Term
+title: "Federated Data"
+description: "While the notion has been around for a while, federated data is data that can be cleanly exchanged and queried across multiple distributed data systems."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 While the notion has been around for a while, federated data is data that can be cleanly exchanged and queried across multiple distributed data systems. RDF data especially is well suited to this ability to query and update across multiple systems, making use of data from one system to better create and analyze new information in other semantic systems. The same idea can apply to non-semantic data, but the poorer data models and complexity of RDBMs systems, in particular, make integration there a bigger issue.

@@ -1,3 +1,10 @@
+---
+type: Interface Specification
+title: "CI RoI Security and Certificates Register"
+description: "Single register of every credential in the end-to-end flow (CI RoI Proposed Sequence Diagram), who holds it, who trusts it, and rotation expectations."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # CI RoI Security and Certificates Register
 
 Single register of every credential in the end-to-end flow ([[CI RoI Proposed Sequence Diagram]]), who holds it, who trusts it, and rotation expectations. Cross-team note — PHIE holds most channel credentials, but RIE signs messages and holds the Snowflake key, and Epic HIM IT issues the client ID, so no single team can own this alone.

@@ -1,4 +1,8 @@
 ---
+type: Blog Draft
+title: "Domain Driven Design Needs a Higher Floor"
+description: "Every spy knows the first rule of reconnaissance: understand the territory before you go deep cover."
+timestamp: 2026-06-26T19:19:05Z
 feature: Pizzaria Enterprise Domain Model.png
 created: 2026-01-11
 published: 2026-01-28

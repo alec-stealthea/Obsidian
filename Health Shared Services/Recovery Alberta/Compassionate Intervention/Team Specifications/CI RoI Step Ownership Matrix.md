@@ -1,3 +1,10 @@
+---
+type: Interface Specification
+title: "CI RoI Step Ownership Matrix"
+description: "Maps every interaction in CI RoI Proposed Sequence Diagram (and the error path from CI RoI Sequence - All Engines Automated vs Human) to its producer, consumer, and the spec note that owns the cont..."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # CI RoI Step Ownership Matrix
 
 Maps every interaction in [[CI RoI Proposed Sequence Diagram]] (and the error path from [[CI RoI Sequence - All Engines Automated vs Human]]) to its producer, consumer, and the spec note that owns the contract. Use this as the index for cross-team coordination — each boundary spec is co-owned by the two teams on either side of the arrow.

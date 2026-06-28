@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Emergency Department Domain Value Stream Network"
+description: "This Emergency Domain Value Stream Network answers a question every hospital executive eventually asks: \"What actually happens when someone shows up at our Emergency Department, and who else gets p..."
+timestamp: 2026-06-26T19:19:05Z
 feature: Emergency Department Domain Value Stream Network.png
 created: 2025-02-01
 Status: Draft

@@ -1,1 +1,8 @@
+---
+type: Blog Draft
+title: "7 - When and how does using LLMs fit into this life-cycle?"
+description: "This is a placeholder to elaborate the concepts from the following description from the summary, \"With access now to a domain's glossary of terms (or vocabulary), the enterprise architecture model..."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 This is a placeholder to elaborate the concepts from the following description from the summary, "With access now to a domain's glossary of terms (or vocabulary), the enterprise architecture model that both provides business context as well as a link to data provenance, you now have the backplane to either streamline the data products creation and maintenance value stream itself, if not, make it something that allows for self-service ad hoc queries by the business that can be answered in context."

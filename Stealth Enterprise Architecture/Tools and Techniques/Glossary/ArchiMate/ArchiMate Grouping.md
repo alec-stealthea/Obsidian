@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "ArchiMate Grouping"
+description: "Within Archimate a grouping is used to \"element aggregates or composes concepts that belong together based on some common characteristic.\""
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - Grouping
 created: 2025-11-08

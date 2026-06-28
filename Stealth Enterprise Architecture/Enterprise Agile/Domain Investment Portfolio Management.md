@@ -1,4 +1,8 @@
 ---
+type: Reference
+title: "Domain Investment Portfolio Management"
+description: "Before we dive into portfolio management mechanics, we need to talk about who actually owns these portfolios."
+timestamp: 2026-06-26T19:19:05Z
 created: 2025-11-02
 Publish Status: Published
 published: 2025-11-03

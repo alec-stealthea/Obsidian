@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Escherichia coli, Shiga Toxin-Producing (STEC) Infections"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Escherichia coli, Shiga Toxin-Producing (STEC) Infections
 
 Alberta Public Health

@@ -1,4 +1,8 @@
 ---
+type: Research Clipping
+title: "Pizza instance"
+description: "This started out as an article on RDF as assembly language, but as I wrote it, I realized that there was another question that needed to be answered first - how to you describe narrative documents..."
+timestamp: 2026-06-26T19:19:05Z
 feature: thumbnails/external/9ea2be477c5b0e9a8535634942a91a51.jpg
 thumbnail: thumbnails/resized/fda0b3cb5845a8df14a90f9a8f96cb17_b89e22fb.jpg
 ---

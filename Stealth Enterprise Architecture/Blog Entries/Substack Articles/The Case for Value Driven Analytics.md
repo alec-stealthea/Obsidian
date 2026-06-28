@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "The Case for Value Driven Analytics"
+description: "Enterprise Architecture techniques for creating better data products."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 *Enterprise Architecture techniques for creating better data products.*
 
 Ever notice how every detective show has that scene — the case board covered in photos, red string connecting suspects to events? Your ability to perform any meaningful investigation depends on collecting facts in a way that connects the dots. Creating your case board is a form of link analysis that connects people to events and other people to try and track the suspect and break the case. Organisations increasingly apply these same link analysis techniques to their data — connecting business events, systems, and stakeholders to understand how the enterprise actually operates.

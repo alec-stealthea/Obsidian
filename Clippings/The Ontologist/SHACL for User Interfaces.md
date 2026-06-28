@@ -1,4 +1,8 @@
 ---
+type: Research Clipping
+title: "Prefixes"
+description: "In my previous article (Validating Anything with SHACL), I discussed validation in general and SHACL’s use as a language for validating RDF."
+timestamp: 2026-06-26T19:19:05Z
 feature: thumbnails/external/725e34d223b794b0c8f1ea6db9ee6165.png
 thumbnail: thumbnails/resized/0ac7d21da225927e52811d52939a9972_b89e22fb.jpg
 ---

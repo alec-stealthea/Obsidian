@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Building a Domain Persona"
+description: "Personas transform abstract domain roles into tangible characters that developers, analysts, and stakeholders can actually understand."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 _Personas transform abstract domain roles into tangible characters that developers, analysts, and stakeholders can actually understand. Think of them as your domain's field agents - each with their own mission brief, daily operational challenges, and success metrics. This guide shows you how to build personas that earn their place in your architecture._
 
 ---

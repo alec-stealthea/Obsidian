@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Application Portfolio Management"
+description: "For any medium to large organization, managing the application portfolio is like trying to herd digital cats."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 For any medium to large organization, managing the application portfolio is like trying to herd digital cats. The challenge isn't just knowing which applications exist - it's knowing which ones are actually earning their keep, which ones are potentially a risk to your organization's demise, and which ones disappeared into the cloud without leaving a forwarding address.
 
 The proliferation of software-as-a-service has made this even more interesting. Business areas can now acquire applications faster than a teenager downloads TikTok videos, often bypassing IT entirely. Meanwhile, your CMDB sits there, quietly maintaining records for applications that may have been decommissioned last Tuesday.

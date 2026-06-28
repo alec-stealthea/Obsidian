@@ -1,3 +1,10 @@
+---
+type: Data Model
+title: "Compassionate Intervention Release of Information Data Model"
+description: "The CI ROI data model centers on the CI Candidate entity, which aggregates healthcare encounters and clinical information from multiple source systems."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 The CI ROI data model centers on the CI Candidate entity, which aggregates healthcare encounters and clinical information from multiple source systems. 
 
 |   |   |   |

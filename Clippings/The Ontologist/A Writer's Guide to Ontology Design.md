@@ -1,4 +1,8 @@
 ---
+type: Research Clipping
+title: "A Writer's Guide to Ontology Design"
+description: "An ontology can seem truly daunting, especially with a class-oriented approach."
+timestamp: 2026-06-26T19:19:05Z
 feature: thumbnails/external/dbf9e9221c705cc66a8b27035f6cf5c5.jpg
 thumbnail: thumbnails/resized/e17f2b7bc9ca5b23998c09a156f0ac4d_b89e22fb.jpg
 ---

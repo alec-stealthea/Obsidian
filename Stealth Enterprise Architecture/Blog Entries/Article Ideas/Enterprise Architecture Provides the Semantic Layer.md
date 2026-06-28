@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Enterprise Architecture Provides the Semantic Layer"
+description: "There is a lot of discussion about ontologies and the context layer being important, but little conversation on how to create that layer."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 There is a lot of discussion about ontologies and the context layer being important, but little conversation on how to create that layer.  For that I am going to suggest we need Enterprise Architecture to be able to build out ontologies that provide the business context.
 
 A key to the success is taking advantage of open standards where available. The Stealth EA would like to propose that the Open Group ArchiMate Specification provides a reasonable starting point of an ontology for any organization.  Augmenting that ontology with a metamodel that illustrates how your particular organization is going to use ArchiMate in your models adapts the ontology as needed.  From

@@ -1,6 +1,10 @@
 ---
-
-## name: obsidian-to-publish description: > Takes an Obsidian markdown file and produces three separate publication-ready outputs: (1) a Substack article, (2) a personal LinkedIn post (Alec's voice), and (3) a Stealth EA organizational LinkedIn post. Designed for enterprise architecture and healthcare data thought leadership content.
+type: Skill
+name: obsidian-to-publish
+title: "Obsidian to Publish Skill"
+description: "Takes an Obsidian markdown file and produces three publication-ready outputs: a Substack article, a personal LinkedIn post in Alec's voice, and a Stealth EA organizational LinkedIn post."
+timestamp: 2026-06-26T19:19:05Z
+---
 
 # Obsidian to Publish Skill
 

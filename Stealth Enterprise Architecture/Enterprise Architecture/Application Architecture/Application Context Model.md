@@ -1,4 +1,8 @@
 ---
+type: Application Context Model
+title: "Application Context Model"
+description: "Every application has a cover story."
+timestamp: 2026-06-26T19:19:05Z
 feature: Application Context Model Legend.png
 ---
 Every application has a cover story. The official vendor pitch, the project charter that justified the funding, maybe even some dusty requirements documentation - if you're lucky. But what does it _actually_ do? Who _really_ uses it? And which other systems is it quietly exchanging information with at 2 AM?

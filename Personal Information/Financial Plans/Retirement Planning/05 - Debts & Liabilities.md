@@ -1,3 +1,10 @@
+---
+type: Note
+title: "05 — Debts & Liabilities"
+description: "Input file."
+timestamp: 2026-06-27T20:45:51Z
+---
+
 # 05 — Debts & Liabilities
 
 *Input file. Whether debts are gone by 2030 vs 2032 materially changes the spending floor.*

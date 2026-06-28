@@ -1,1 +1,8 @@
+---
+type: Glossary Term
+title: "Connected Graph"
+description: "In a connected graph, a traversal algorithm should be able to traverse all of the nodes and edges in the system."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 In a connected graph, a traversal algorithm should be able to traverse all of the nodes and edges in the system. A disconnected graph, on the other hand, will usually consist of islands of connectedness, with some nodes not traversable if started from certain other nodes. Fully connected graphs are considered to have referential integrity and are usually said to follow the closed world assumption (cf. Open / Closed World Assumption, below). A semantic graph is disconnected, and by extension does not assume referential integrity.

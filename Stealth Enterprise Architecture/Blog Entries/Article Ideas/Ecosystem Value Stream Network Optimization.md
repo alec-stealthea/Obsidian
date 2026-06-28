@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "Ecosystem Value Stream Network Optimization"
+description: "Thesis - Much of the work being done by governments using regulators is by creating holistic end user journey maps that paint an optimistic path of a consumer from one end to another."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 **Thesis** - Much of the work being done by governments using regulators is by creating holistic end user journey maps that paint an optimistic path of a consumer from one end to another. The successful implemention of solutions that improve overall ecosystems is quite rare. A key missing link is understanding the business architecture for the value stream network inside and between the players affected within the ecosystem. This means analysing the value streams within each of the players in the ecosystem and the business capabilities that much be implemented with the least amount of standards as possible.
 
 Let's take for example Sure Scripts. This is a success story that is largely is unheralded as a key mechanism that can improve health outcomes. (add summary of Sure Scripts history as a merger between two initiatives and paid for by the health insurance industry)

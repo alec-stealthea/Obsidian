@@ -1,3 +1,10 @@
+---
+type: Architecture Assessment
+title: "Review — Epic Pharmacy Inventory Management Setup and Support Guide"
+description: "Source: Pharmacy Inventory Management Setup and Support Guide.pdf (Epic official documentation, 192 pages, last updated May 1, 2026)"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Review — Epic Pharmacy Inventory Management Setup and Support Guide
 
 **Source:** [[Pharmacy Inventory Management Setup and Support Guide.pdf]] (Epic official documentation, 192 pages, last updated May 1, 2026)

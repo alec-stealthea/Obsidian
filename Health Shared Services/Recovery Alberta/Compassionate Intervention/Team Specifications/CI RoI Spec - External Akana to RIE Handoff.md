@@ -1,3 +1,10 @@
+---
+type: Interface Specification
+title: "CI RoI Spec — External Akana ↔ RIE Handoff"
+description: "Owning teams: PHIE (Akana) — producer side · RIE (IBM ACE) — consumer side"
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # CI RoI Spec — External Akana ↔ RIE Handoff
 
 **Owning teams:** PHIE (Akana) — producer side · RIE (IBM ACE) — consumer side

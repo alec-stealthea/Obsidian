@@ -1,3 +1,10 @@
+---
+type: Design Note
+title: "Compassionate Intervention — Release of Information"
+description: "This diagram focuses on the interaction between the CMI Application and the HSS Regional Integration Engine (RIE), which runs on IBM App Connect Enterprise (ACE), for the automated (statutory autho..."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # Compassionate Intervention — Release of Information
 ## CIP to IBM Integration Engine (Automated Path — Release 1)
 

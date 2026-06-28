@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Muco-Purulent Cervicitis"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Muco-Purulent Cervicitis
 
 Alberta Public Health

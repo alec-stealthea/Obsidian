@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Stealth Pizzeria Kitchen Business Domain"
+description: "The Pizzaria Kitchen domain, like all Stealth EA models begins with the roles that are specific to this domain."
+timestamp: 2026-06-26T19:19:05Z
 feature: Pizzaria Kitchen Business Domain Model.png
 thumbnail: thumbnails/resized/600c1e257a6a98f2398777ede0ca2cac_b89e22fb.jpg
 ---

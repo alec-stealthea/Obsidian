@@ -1,1 +1,8 @@
+---
+type: Glossary Term
+title: "Node Name"
+description: "A node can have a unique name, but it can also have a type name."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 A node can have a unique name, but it can also have a type name. In XML or JSON, the node identifier is give as a generic identifier, while the type is the node name. In RDF, the node has an identifier, but also typically has a type relationship to another node that identifies classes.

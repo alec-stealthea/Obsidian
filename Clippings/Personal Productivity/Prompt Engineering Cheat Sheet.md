@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Prompt Engineering Cheat Sheet"
+description: "["
+timestamp: 2026-06-26T19:19:05Z
+---
+
 ![](https://miro.medium.com/v2/resize:fit:1400/1*21kZewKuwzAH4eVQM5fM1Q.png)
 
 ## Aug-12th, 2024: Updated, new resources added.

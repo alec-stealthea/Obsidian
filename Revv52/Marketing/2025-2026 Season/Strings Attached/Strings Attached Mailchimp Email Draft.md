@@ -1,3 +1,10 @@
+---
+type: Marketing Plan
+title: "RMSO Strings Attached — Mailchimp Email Draft (Revv52 Fans)"
+description: "Stairway to Heaven, Bittersweet Symphony, Hallelujah & more — performed live with a full symphony."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 # RMSO Strings Attached — Mailchimp Email Draft (Revv52 Fans)
 
 ## Subject Line Options

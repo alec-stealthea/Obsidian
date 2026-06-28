@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "Extract, Transform, Load"
+description: "Extract, Transform and Load is a data integration pattern where data is extracted from source systems, transformed (cleaned, enriched, restructured) in a staging area, and then loaded into the targ..."
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - ETL
 ---

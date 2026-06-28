@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Clostridium difficile - Associated Infection"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Clostridium difficile - Associated Infection
 
 Alberta Public Health

@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "VIMS RFP Detailed Requirements"
+description: "o"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 ##### ATTACHMENT #1 MANDATORY REQUIREMENTS AND DESIRABLE PROVISIONS  
 
 |   |   |   |   |   |

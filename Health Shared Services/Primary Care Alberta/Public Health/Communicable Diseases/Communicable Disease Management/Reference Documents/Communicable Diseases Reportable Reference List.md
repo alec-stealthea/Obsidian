@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Communicable Diseases Reportable Reference List"
+description: "Communicable diseases reportable by NDR or other form"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Communicable Diseases Reportable Reference List
 
 Communicable diseases reportable by NDR or other form

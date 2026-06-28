@@ -1,3 +1,10 @@
+---
+type: Interface Specification
+title: "Z32030 — Kinder Sharpie — ED test patient"
+description: "Sample CIP webhook payload generated from CI - Connect Care Sample Report Jan 14 2026.xlsx."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # Z32030 — Kinder Sharpie — ED test patient
 
 Sample CIP webhook payload generated from **CI - Connect Care Sample Report Jan 14 2026.xlsx**. See [[CI RoI Sample JSON Responses]] for methodology and the EHS → ED correlation map.

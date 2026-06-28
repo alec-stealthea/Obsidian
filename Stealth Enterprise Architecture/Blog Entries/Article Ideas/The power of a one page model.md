@@ -1,3 +1,10 @@
+---
+type: Blog Draft
+title: "The power of a one page model"
+description: "In the sprawling landscape of enterprise architecture frameworks, where diagrams can be as complex as a space shuttle’s control panel, the one-page model emerges as our beacon of sanity - for the c..."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 In the sprawling landscape of enterprise architecture frameworks, where diagrams can be as complex as a space shuttle’s control panel, the one-page model emerges as our beacon of sanity - for the consumers of our work. Let’s dive into why this minimalist approach is essential in how we communicate complex designs.
 ### Less is More (Except in Coffee)
 In a world where one could easily get lost in the labyrinthine details of systems and processes, the constraint of a single page acts like a caffeine shot for clarity. It forces architects to zero in on what truly matters  for the audience we’re facing — leaving the rest in the metaphoric recycle bin. What do we abstract, and what do we highlight? It’s like choosing the VIPs for an exclusive party; only the essential elements get an invite.

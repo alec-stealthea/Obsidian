@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Data Catalog Vocabulary v2"
+description: "DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 ## Abstract
 
 DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web. This document defines the schema and provides examples for its use.

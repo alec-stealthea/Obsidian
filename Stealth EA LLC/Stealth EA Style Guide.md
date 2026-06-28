@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Stealth EA Style Guide"
+description: "Navigate the labyrinth of enterprise architecture without losing our minds – or our sense of humour."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 ## Brand Voice & Philosophy
 
 ### Core Mission

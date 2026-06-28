@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Business Process Model"
+description: "Business process modelling is an essential skill for Architects and Business Analysts."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 Business process modelling is an essential skill for Architects and Business Analysts. Business Process Modelling within enterprise architecture means that the business process model aligns to other Enterprise Architecture deliverables and techniques like [[Value Streams]] and [[Application Context Model]].
 ## Business Process Model and Notation (BPMN)
 

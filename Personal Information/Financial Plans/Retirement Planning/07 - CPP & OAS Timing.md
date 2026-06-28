@@ -1,3 +1,10 @@
+---
+type: Note
+title: "07 — CPP & OAS Timing"
+description: "Analysis file."
+timestamp: 2026-06-27T22:00:11Z
+---
+
 # 07 — CPP & OAS Timing
 
 *Analysis file. When to start CPP and OAS — independent of the pension start date.*

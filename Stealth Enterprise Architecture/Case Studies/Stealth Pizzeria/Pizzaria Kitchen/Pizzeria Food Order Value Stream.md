@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Pizzeria Food Order Value Stream"
+description: "Using the Value Stream - Motivation Template, the following is an example of what the Pizzeria Food Order Value Stream might look like."
+timestamp: 2026-06-26T19:19:05Z
 feature: Pizzaria Order Preparation Value Stream.png
 thumbnail: thumbnails/resized/7eedf10e4c7a556c65be979ecaa84d00_b89e22fb.jpg
 ---

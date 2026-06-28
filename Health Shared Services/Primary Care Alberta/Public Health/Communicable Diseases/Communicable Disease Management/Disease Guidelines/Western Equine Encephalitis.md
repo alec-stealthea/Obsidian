@@ -1,3 +1,10 @@
+---
+type: Disease Guideline
+title: "Western Equine Encephalitis"
+description: "Alberta Public Health"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Western Equine Encephalitis
 
 Alberta Public Health

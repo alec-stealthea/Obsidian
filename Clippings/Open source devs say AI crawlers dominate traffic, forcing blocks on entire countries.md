@@ -1,4 +1,6 @@
 ---
+type: Research Clipping
+timestamp: 2026-06-26T19:19:05Z
 title: "Open source devs say AI crawlers dominate traffic, forcing blocks on entire countries"
 source: "https://arstechnica.com/ai/2025/03/devs-say-ai-crawlers-dominate-traffic-forcing-blocks-on-entire-countries/"
 author:

@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Magnifica Humanitas"
+description: "INTRODUCTION"
+timestamp: 2026-06-26T19:19:05Z
+---
+
  ## On Safeguarding the Human Person in the Time of Artificial Intelligence
 
 **INTRODUCTION**

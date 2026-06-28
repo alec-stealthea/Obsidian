@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Creating Different Jira Projects"
+description: "In large organizations, the application portfolio is usually quite large."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 In large organizations, the application portfolio is usually quite large.  While some applications are tightly coupled to a particular business function, many are platforms that enable and support many business value streams.
 
 ## Business Domain Jira Project

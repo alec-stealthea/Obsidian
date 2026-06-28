@@ -1,4 +1,8 @@
 ---
+type: Reference
+title: "Healthcare O-VBA Hospital Enterprise Model"
+description: "The Healthcare Enterprise Model is part of the Healthcare O-VBA that provides a template for healthcare organizations to start their value-based journey."
+timestamp: 2026-06-26T19:19:05Z
 feature: Healthcare Extended Enterprise Model (needs update).png
 ---
 The Healthcare Enterprise Model is part of the Healthcare O-VBA that provides a template for healthcare organizations to start their value-based journey. This is the first in a series of articles that will outline a framework in how to model the business architecture of your healthcare organization. Over the next year, the Open Group Healthcare Forum will be publishing a 

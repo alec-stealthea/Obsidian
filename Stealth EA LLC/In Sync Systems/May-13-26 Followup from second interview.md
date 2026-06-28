@@ -1,3 +1,10 @@
+---
+type: Meeting Note
+title: "Domain Architect Interview Guide"
+description: "I had a second interview with the PM Practice Lead (Simon) as well as an Account Manager (Cassandra?)."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 I had a second interview with the PM Practice Lead (Simon) as well as an Account Manager (Cassandra?). We had a wide ranging conversation that seemed to focus on Artificial Intelligence. They were going to go back and discuss possible future opportunities. In my followup for next steps they asked what kind of architects I was comfortable interviewing.
 
 I attached the following interview guide that I used for my role within [[Health Shared Services]].

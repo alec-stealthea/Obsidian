@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Ontologies - Borrow, Build, or Buy?"
+description: "Semantics provides a way of defining the languages that you use for describing your business or organizational processes, for describing domains of knowledge, and for managing processes and resourc..."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 ![The complexity of data modeling, and ontology creation, gives rise to whether it is better to... [+] borrow, buy or build your ontologies.](https://imageio.forbes.com/specials-images/dam/imageserve/2c45d306b75f4d7aa0c58fe14376c575/960x0.jpg?format=jpg&width=1440)
 
 Semantics provides a way of defining the languages that you use for describing your business or organizational processes, for describing domains of knowledge, and for managing processes and resources at a global level. Central to this is the concept of an ontology - a specific data model (or set of interconnected models) that serve to provide the metadata to accomplish those semantics.

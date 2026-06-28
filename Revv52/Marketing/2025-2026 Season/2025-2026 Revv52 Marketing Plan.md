@@ -1,3 +1,10 @@
+---
+type: Marketing Plan
+title: "2025-2026 Revv52 Marketing Plan"
+description: "**##  Introduction"
+timestamp: 2026-06-26T19:19:05Z
+---
+
  **##  Introduction
 
 As a non-profit organization, investments in both time and financial resources are limited. This marketing plan shows how the investment of resources will help us achieve the outcomes in the Revv52 Strategic Plan and market the 2022/23 70th anniversary of Revv52 as an organization. 

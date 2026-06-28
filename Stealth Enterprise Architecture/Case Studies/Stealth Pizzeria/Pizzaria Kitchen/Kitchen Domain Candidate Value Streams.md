@@ -1,3 +1,10 @@
+---
+type: Case Study
+title: "Kitchen Domain — Candidate Value Streams"
+description: "This document expands the Kitchen Domain within the Stealth Pizzeria Enterprise Domain Model by identifying candidate value streams beyond the existing modeled streams."
+timestamp: 2026-06-26T19:19:05Z
+---
+
 # Kitchen Domain — Candidate Value Streams
 
 ## Context

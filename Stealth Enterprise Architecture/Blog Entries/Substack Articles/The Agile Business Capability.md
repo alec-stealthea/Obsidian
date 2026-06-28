@@ -1,4 +1,8 @@
 ---
+type: Blog Draft
+title: "The Agile Business Capability"
+description: "Your agile user stories are more strategic than you think."
+timestamp: 2026-06-26T19:19:05Z
 feature: Online Pizza Order Workflow.png
 published: 2026-01-21
 Channel: Substack

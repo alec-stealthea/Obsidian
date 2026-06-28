@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Emergency Department Measures"
+description: "The following are potential measures illustrated in this"
+timestamp: 2026-06-26T19:19:05Z
 feature: Emergency Department Quadruple Aim Measures.png
 ---
 ## Emergency Department Quadruple Aim Measures

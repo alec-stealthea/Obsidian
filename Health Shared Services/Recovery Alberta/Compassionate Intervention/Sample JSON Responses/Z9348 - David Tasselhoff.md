@@ -1,3 +1,10 @@
+---
+type: Interface Specification
+title: "Z9348 — David Tasselhoff — Inpatient test patient"
+description: "Sample CIP webhook payload generated from CI - Connect Care Sample Report Jan 14 2026.xlsx."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # Z9348 — David Tasselhoff — Inpatient test patient
 
 Sample CIP webhook payload generated from **CI - Connect Care Sample Report Jan 14 2026.xlsx**. See [[CI RoI Sample JSON Responses]] for methodology and the EHS → ED correlation map.

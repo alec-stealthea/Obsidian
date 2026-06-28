@@ -1,3 +1,10 @@
+---
+type: Reference
+title: "Guide for Outbreak Prevention & Control in Continuing Care Homes"
+description: "Guide for Outbreak Prevention"
+timestamp: 2026-06-26T19:19:06Z
+---
+
 # Guide for Outbreak Prevention & Control in Continuing Care Homes
 
 Guide for Outbreak Prevention

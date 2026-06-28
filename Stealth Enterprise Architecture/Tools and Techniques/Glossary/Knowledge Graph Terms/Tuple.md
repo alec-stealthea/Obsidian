@@ -1,4 +1,8 @@
 ---
+type: Glossary Term
+title: "Tuple"
+description: "A triple is a sequence of three values - a subject, predicate and object, that define an assertion, where each of these are either an identifier to a specific resource or a literal value."
+timestamp: 2026-06-26T19:19:05Z
 aliases:
   - Triple
 ---

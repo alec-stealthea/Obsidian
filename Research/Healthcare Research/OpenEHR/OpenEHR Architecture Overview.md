@@ -1,4 +1,8 @@
 ---
+type: Reference
+title: "OpenEHR Architecture Overview"
+description: "Architecture Overview (openehr.org)"
+timestamp: 2026-06-26T19:19:05Z
 feature: openEHR Components.png
 ---
 [Architecture Overview (openehr.org)](https://specifications.openehr.org/releases/BASE/latest/architecture_overview.html)

@@ -1,3 +1,9 @@
+---
+type: Note
+title: "2024-2026 Three Year Plan"
+timestamp: 2026-06-26T19:19:07Z
+---
+
 
 - 2024
 	- Attributes

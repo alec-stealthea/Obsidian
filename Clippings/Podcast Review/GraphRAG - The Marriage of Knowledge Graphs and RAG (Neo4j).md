@@ -1,4 +1,8 @@
 ---
+type: Research Clipping
+title: "GraphRAG - The Marriage of Knowledge Graphs and RAG (Neo4j)"
+description: "This was a great dissertation on the evolution of the web that was broken down into the following stages:"
+timestamp: 2026-06-26T19:19:05Z
 author: Emil Eifrem
 source: https://youtu.be/knDDGYHnnSI?si=8zzErFWSzNt9lIZd
 clipped: 2025-01-03

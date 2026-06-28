@@ -1,4 +1,8 @@
 ---
+type: Case Study
+title: "Emergency Department Walk-in Present Value Stage"
+description: "If you've followed along with defining a Hospital Enterprise Domain Model and then going to the Emergency Department Domain level where there's an Emergency Department Measures, a Emergency Departm..."
+timestamp: 2026-06-26T19:19:05Z
 feature: Emergency Department Walk-in Present Value Stage.png
 ---
 If you've followed along with defining a [[Hospital Enterprise Domain Model]] and then going to the Emergency Department Domain level where there's an [[Emergency Department Measures]], a [[Emergency Department Domain Value Stream Network]] and then the [[Emergency Room Walk-in Value Stream - Business Capability View.png]], we're now finally at the part where the rubber hits the road.

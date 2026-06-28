@@ -1,3 +1,10 @@
+---
+type: Case Study
+title: "Emergency Room Stakeholders"
+description: "-"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 - Employees
 	- Triage Nurse
 	- Emergency Physician

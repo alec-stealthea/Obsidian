@@ -1,3 +1,10 @@
+---
+type: Design Note
+title: "Compassionate Intervention — Release of Information"
+description: "This diagram shows the full end-to-end flow across all integration components, including both the automated (statutory authority, no clinician review) and clinician-prepared (human review, Epic Bri..."
+timestamp: 2026-06-26T19:19:07Z
+---
+
 # Compassionate Intervention — Release of Information
 ## Automated vs. Human Intervention: All Integration Engines
 

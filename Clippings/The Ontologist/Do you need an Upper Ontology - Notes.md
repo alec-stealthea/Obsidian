@@ -1,3 +1,10 @@
+---
+type: Research Clipping
+title: "Do you need an Upper Ontology - Notes"
+description: "https://ontologist.substack.com/p/do-you-need-an-upper-ontology"
+timestamp: 2026-06-26T19:19:05Z
+---
+
 https://ontologist.substack.com/p/do-you-need-an-upper-ontology
 
 Alec's take aways from the article that are relevant that requires investigation that are in the section "What to do instead" for the article linked above.
