@@ -2,7 +2,7 @@
 type: Note
 title: "11 — Scenarios & Cash Flow Model"
 description: "Analysis file."
-timestamp: 2026-06-27T22:07:17Z
+timestamp: 2026-06-28T00:00:00Z
 ---
 
 # 11 — Scenarios & Cash Flow Model
@@ -46,6 +46,18 @@ timestamp: 2026-06-27T22:07:17Z
 > **Don't take CPP at 61 to fund the RRSP.** Defer CPP (toward 65/70) and fill the room from cash freed as your loans retire — which does ~half the job by 2030 and nearly all of it by 2032. The deduction you'd capture (~$4.5k) is dwarfed by the permanent indexed CPP reduction (~$27k PV), and the math holds even under your family-history longevity. Early CPP only wins if you expect to die before ~74, or if you need the cash to *spend* (not to shelter). For the ~$45k of room still unfilled on a 2030 path, fill it — if at all — from any non-registered/surplus cash, not from CPP; the cost of leaving it unfilled is only ~$4.5k of arbitrage.
 
 *Caveats: ignores the small Post-Retirement Benefit from contributing while working 61–64 (nudges early-take up slightly) and the exact tax-sheltered growth on redirected CPP (also small) — neither changes the ranking. Supporting math: `CPP & RRSP Redirect Analysis.xlsx`.*
+
+## Income splitting built into the model (`CPP RRSP Income Split Model.xlsx`)
+
+*Added 2026-06-28. A first working year-by-year build now exists for the recommended path — **retire Feb 2030, Alec defers CPP to 70, Andrea takes CPP & OAS at 65** — with annual T1032 pension/RRIF income splitting modelled explicitly. See the drawdown logic in [[08 - Tax Strategy & Drawdown Order#Income splitting with Andrea (the clawback lever)]].*
+
+**How the split is modelled.** Each year the sheet builds both spouses' pre-split taxable income (LAPP + CPP + OAS + RRIF withdrawals), then transfers income from Alec to Andrea to **equalize the two**, capped at 50% of Alec's eligible pension (LAPP + RRIF). It assumes Alec does a **partial RRSP→RRIF conversion at 65** so his bridge-years drawdown is splittable. Columns then show each spouse's estimated Alberta tax and OAS clawback, the household after-tax total, and — the key output — **tax+clawback WITH split vs. WITHOUT**, with the annual saving in the last column.
+
+**Headline result:** splitting saves roughly **$18,000 in real (2026) dollars** across 2030–2055. The saving concentrates where the brackets are asymmetric — the early years while Andrea's income is just her LAPP (~$1,600–1,700/yr), and again once RRIF minimums and both CPP/OAS layers would otherwise push Alec over the **$95,323 OAS clawback line**. Once both incomes settle inside the same bracket and under the clawback threshold (late 2040s+), the marginal saving falls to ~zero — splitting can't beat a flat bracket. The model keeps **both** spouses under the clawback line in nearly every year, which is the real prize.
+
+**Assumptions (all editable on the `Assumptions` tab):** real-dollar basis (CPI netted out); LAPP grows −1.0%/yr real (60%-CPI indexing); 3% real investment return; OAS clawback threshold held at $95,323 real; tax via an approximate 2026 Alberta+federal bracket table (**confirm with an accountant** — credits beyond the basic personal amount, e.g. age and pension credits, are excluded, so absolute tax is conservative but the *with-vs-without* delta is robust). Levers to flex: Alec's meltdown amount, Andrea's CPP start age, returns, and indexing.
+
+**Still to layer in:** Andrea's confirmed MSCA CPP figure (currently an estimate), discretionary pre-65 drawdown on *Andrea's* larger RRSP, spending/surplus lines (file 04), and the portfolio-to-90 path. This build is the income/tax spine the fuller scenario model will hang on.
 
 ## Model structure (year-by-year, retirement → age 90+)
 Columns to project each year:

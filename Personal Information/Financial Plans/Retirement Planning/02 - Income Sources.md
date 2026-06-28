@@ -29,6 +29,7 @@ Request an official estimate from your plan administrator for **both** retiremen
 |                                               |                       |                     |                     |
 ### Andrea's Pension
 
+Validated LAPP estimates
 
 | Field          | Now    | Feb 1, 2030 | Feb 1, 2032 |
 | -------------- | ------ | ----------- | ----------- |
@@ -86,7 +87,7 @@ Request an official estimate from your plan administrator for **both** retiremen
 ## 5. Spouse/partner income sources (if applicable)
 | Source | Annual amount | Starts   | Notes                                                             |
 | ------ | ------------- | -------- | ----------------------------------------------------------------- |
-| LAPP   | $50,000       | May 2030 | This is an estimate, need to get the actual numbers from my wife. |
+| LAPP   | $47,480       | May 2030 | **Validated** (Feb 2030 retirement). See Andrea's Pension table above for Now/2030/2032 figures. |
 
 ---
 
