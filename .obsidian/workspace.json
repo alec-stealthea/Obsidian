@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OKF Types.md",
+                "file": "Personal Information/Financial Plans/Retirement Planning/08 - Tax Strategy & Drawdown Order.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OKF Types"
+              "title": "08 - Tax Strategy & Drawdown Order"
             }
           }
         ]
@@ -209,17 +209,18 @@
   },
   "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Personal Information/Financial Plans/Retirement Planning/11 - Scenarios & Cash Flow Model.md",
+    "Personal Information/Financial Plans/Retirement Planning/02 - Income Sources.md",
+    "OKF Types.md",
     "Templates/SBAR (Architecture Decision Request) Template.md",
     "Templates/Screen Specification Template.md",
     "Templates/User Story Template.md",
     "Vault Dashboard.md",
     "OKF SPEC.md",
-    "OKF Types.md",
     "Personal Information/Financial Plans/Retirement Planning/14 - Inheritance & Expected Inflows.md",
     "Personal Information/Financial Plans/Retirement Planning/CLAUDE-Retirement-Planning.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports/2026-06-28 CD Coherency Report.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports/2026-06-27 CD Coherency Report.md",
-    "Personal Information/Financial Plans/Retirement Planning/11 - Scenarios & Cash Flow Model.md",
     "Personal Information/Financial Plans/Retirement Planning/lu49jqnb6.tmp",
     "Personal Information/Financial Plans/Retirement Planning/CPP & RRSP Redirect Analysis.xlsx",
     "Personal Information/Financial Plans/Retirement Planning/07 - CPP & OAS Timing.md",
@@ -232,7 +233,6 @@
     "Personal Information/Financial Plans/Retirement Planning/09 - Healthcare & Benefits.md",
     "Personal Information/Financial Plans/Retirement Planning/12 - Action Items & Decision Log.md",
     "Personal Information/Financial Plans/Retirement Planning/03 - Assets & Savings.md",
-    "Personal Information/Financial Plans/Retirement Planning/02 - Income Sources.md",
     "Personal Information/Financial Plans/Retirement Planning/00 - Retirement Planning Hub.md",
     "Personal Information/Financial Plans/Current Monthly Budget.md",
     "Personal Information/Financial Plans/CLAUDE-Personal-Finance.md",
