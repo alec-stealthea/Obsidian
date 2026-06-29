@@ -11,24 +11,12 @@
             "id": "18f310dd4ab515c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Personal Information/Financial Plans/Retirement Planning/02 - Income Sources.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": false
-                }
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/health-alberta-tuberculosis-policy-2022.pdf"
               },
-              "icon": "lucide-file",
-              "title": "02 - Income Sources"
+              "icon": "lucide-file-text",
+              "title": "health-alberta-tuberculosis-policy-2022"
             }
           }
         ]
@@ -88,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5026054382324
+    "width": 503.5026054382324
   },
   "right": {
     "id": "5b6e0ba77496e078",
@@ -207,12 +195,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18f310dd4ab515c0",
+  "active": "fae33ded107d90ae",
   "lastOpenFiles": [
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Open Issues.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Build Specification - TB CD Episode Compass Rose (Tasks Targets Automation).md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Architecture Models/Communicable Disease Solution Architecture.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Architecture Models/Communicable Disease Conceptual Data Model.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Data Lake House/Communicable Disease Glossary — Category Hierarchy & Design Rationale.md",
+    "Health Shared Services/Recovery Alberta/Compassionate Intervention/CLAUDE-CI.md",
+    "Personal Information/Financial Plans/Retirement Planning/02 - Income Sources.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports/README.md",
     "Personal Information/Financial Plans/Retirement Planning/CPP RRSP Income Split Model.xlsx",
     "Personal Information/Financial Plans/Retirement Planning/08 - Tax Strategy & Drawdown Order.md",
     "Personal Information/Financial Plans/Retirement Planning/11 - Scenarios & Cash Flow Model.md",
-    "Personal Information/Financial Plans/Retirement Planning/02 - Income Sources.md",
     "OKF Types.md",
     "Templates/SBAR (Architecture Decision Request) Template.md",
     "Templates/Screen Specification Template.md",
@@ -231,20 +226,13 @@
     "Personal Information/Financial Plans/Retirement Planning/05 - Debts & Liabilities.md",
     "Personal Information/Financial Plans/Retirement Planning/06 - Pension Decision 2030 vs 2032.md",
     "Personal Information/Financial Plans/Retirement Planning/10 - Estate & Insurance.md",
-    "Personal Information/Financial Plans/Retirement Planning/09 - Healthcare & Benefits.md",
-    "Personal Information/Financial Plans/Retirement Planning/12 - Action Items & Decision Log.md",
-    "Personal Information/Financial Plans/Retirement Planning/03 - Assets & Savings.md",
-    "Personal Information/Financial Plans/Retirement Planning/00 - Retirement Planning Hub.md",
-    "Personal Information/Financial Plans/Current Monthly Budget.md",
-    "Personal Information/Financial Plans/CLAUDE-Personal-Finance.md",
     "Personal Information/Financial Plans/Retirement Planning",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting Application (OMRA)/Alberta Outbreak Management Reporting Application (OMRA) Design.pptx",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting Application (OMRA)/CDOM User Roles.pdf",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting Application (OMRA)",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/Alberta Outbreak Management Reporting Application (OMRA) Design.pptx",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/CDOM User Roles.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)",
     "Clippings/Artifical Intelligence/XXG0zfuk",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Submit Aggregate Outbreak Report - Facility Operator User Story.md.tmp.31359.3e706d8f3ea6",
     "Contact Identification Screen Specifications Draft Wireframe.png",
     "Screenshot 2026-06-22 at 10.09.58 AM.png",
     "Sexual Contacts Flowsheet.png",
