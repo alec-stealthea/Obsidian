@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 503.5026054382324
+    "width": 288.5026054382324
   },
   "right": {
     "id": "5b6e0ba77496e078",
@@ -207,7 +207,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18f310dd4ab515c0",
+  "active": "fae33ded107d90ae",
   "lastOpenFiles": [
     "Clippings/The Ontologist/When Chloe Became a Better Ontologist Than Me.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Open Issues.md",
