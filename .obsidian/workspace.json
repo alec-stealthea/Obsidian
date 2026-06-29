@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stealth Enterprise Architecture/Glossary/Knowledge Graph Terms/Blank Node.md",
+                "file": "Linter Test - Headings and Whitespace.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Blank Node"
+              "title": "Linter Test - Headings and Whitespace"
             }
           }
         ]
@@ -207,8 +207,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fae33ded107d90ae",
+  "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Linter Test - Tables and Mermaid.md",
+    "Linter Test - Headings and Whitespace.md",
+    "Stealth Enterprise Architecture/Glossary/Knowledge Graph Terms/Blank Node.md",
     "Linter Configuration Checklist.md",
     "Stealth Enterprise Architecture/Glossary/Knowledge Graph Terms/Assertion.md",
     "Stealth Enterprise Architecture/Glossary/ArchiMate/ArchiMate.md",
@@ -242,9 +245,6 @@
     "Personal Information/Financial Plans/Retirement Planning/11 - Scenarios & Cash Flow Model.md",
     "OKF Types.md",
     "Templates/SBAR (Architecture Decision Request) Template.md",
-    "Templates/Screen Specification Template.md",
-    "Templates/User Story Template.md",
-    "Vault Dashboard.md",
     "Contact Identification Screen Specifications Draft Wireframe.png",
     "Screenshot 2026-06-22 at 10.09.58 AM.png",
     "Sexual Contacts Flowsheet.png",

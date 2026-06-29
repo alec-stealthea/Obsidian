@@ -95,7 +95,7 @@
     },
     "header-increment": {
       "enabled": true,
-      "start-at-h2": true
+      "start-at-h2": false
     },
     "headings-start-line": {
       "enabled": true
@@ -193,7 +193,7 @@
       "enabled": true
     },
     "empty-line-around-code-fences": {
-      "enabled": false
+      "enabled": true
     },
     "empty-line-around-horizontal-rules": {
       "enabled": false
@@ -303,7 +303,7 @@
   "customRegexes": [],
   "commonStyles": {
     "aliasArrayStyle": "multi-line",
-    "tagArrayStyle": "single-line",
+    "tagArrayStyle": "multi-line",
     "minimumNumberOfDollarSignsToBeAMathBlock": 2,
     "escapeCharacter": "\"",
     "removeUnnecessaryEscapeCharsForMultiLineArrays": false
