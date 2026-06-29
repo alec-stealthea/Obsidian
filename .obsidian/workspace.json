@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/The Ontologist/When Chloe Became a Better Ontologist Than Me.md",
+                "file": "Stealth Enterprise Architecture/Enterprise Architecture/Information Architecture/Domain Data Lake House.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "When Chloe Became a Better Ontologist Than Me"
+              "title": "Domain Data Lake House"
             }
           }
         ]
@@ -207,10 +207,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fae33ded107d90ae",
+  "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Open Issues.md",
     "Clippings/The Ontologist/When Chloe Became a Better Ontologist Than Me.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Open Issues.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Data Lake House/CLAUDE-Communicable-Disease-Data-Lake-House.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/health-phdmg-shellfish-poisoning-2021-10.pdf",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/pphs-phdmg-west-nile-virus-2025-07.pdf",
