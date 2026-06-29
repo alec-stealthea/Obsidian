@@ -14,8 +14,16 @@ timestamp: 2026-06-29T00:00:00Z
 
 // ============================================================================
 // OUTBREAK MANAGEMENT REPORTING APPLICATION (OMRA) - DATABASE ERD
-// Version: 2.6
+// Version: 2.7
 // Date: January 12, 2026
+//   v2.7 update June 29, 2026 - non-facility outbreak support: FacilityLineList.facilityID,
+//     FacilityOutbreakAggregateReport.facilityID and Outbreak.outbreakFacility made nullable,
+//     and a nonFacilityLocation free-text column added to FacilityLineList and
+//     FacilityOutbreakAggregateReport, so a community/environmental/WGS-linked outbreak with
+//     no reporting facility can use the same Facility Questionnaire instrument (line-list or
+//     aggregate; Facility non-mandatory). Resolves CD-OI-26; build consequence tracked as
+//     CD-OI-27. Per the Create/Submit Facility Questionnaire Screen Specifications
+//     non-facility scenario and the O-ET-1 / O-M-1 stories.
 //   v2.6 update June 29, 2026 - submission-side entities imported from the Submit
 //     Facility Questionnaire Screen Specifications (Section 16): FacilitySubmissionReceipt
 //     (a dated acknowledgement returned to the operator, including a "no updates"
@@ -76,7 +84,7 @@ Table Outbreak {
   originatingContactID int [ref: > ContactIdentification.contactIdentificationID, note: 'v2.4 - set when this outbreak was escalated from a Contact Identification; preserves identifiers across contacts and outbreaks']
   outbreakType int [ref: > OutbreakType.outbreakTypeID]
   outbreakOrganism int [ref: > OutbreakOrganism.outbreakOrganismID, note: 'Junction table for multiple organisms']
-  outbreakFacility int [ref: > Facility.facilityID, note: '1:1 - separate outbreak per facility, linked via cluster']
+  outbreakFacility int [ref: > Facility.facilityID, note: '1:1 - separate outbreak per facility, linked via cluster. Nullable for a non-facility outbreak (community/environmental/WGS-linked) - see CD-OI-27.']
   outbreakInvestigationLead int [ref: > Person.personID, note: 'MOH or designate']
   outbreakStatus varchar(15) [note: 'Open, Closed, Re-opened']
   outbreakProgress varchar(15) [note: 'Tracking, Outbreak, Not Outbreak']
@@ -309,7 +317,8 @@ Table Room {
 Table FacilityLineList {
   lineListID int [primary key]
   outbreakID int [ref: > Outbreak.outbreakID]
-  facilityID int [ref: > Facility.facilityID]
+  facilityID int [ref: > Facility.facilityID, note: 'Nullable - a non-facility outbreak (community/environmental/WGS-linked) has no reporting facility; the questionnaire non-facility scenario captures a free-text location instead. See CD-OI-27.']
+  nonFacilityLocation varchar(255) [note: 'Free-text location/area used in place of a Facility for a non-facility outbreak line list (CD-OI-27)']
   lineListSubmissionDate datetime
   lineListSubmissionPerson int [ref: > Person.personID]
   reportingPeriodStart date
@@ -439,7 +448,8 @@ Table ContactAttempt {
 Table FacilityOutbreakAggregateReport {
   aggregateReportID int [primary key]
   outbreakID int [ref: > Outbreak.outbreakID]
-  facilityID int [ref: > Facility.facilityID]
+  facilityID int [ref: > Facility.facilityID, note: 'Nullable - a non-facility outbreak (community/environmental) has no reporting facility; a free-text location is used instead. See CD-OI-27.']
+  nonFacilityLocation varchar(255) [note: 'Free-text location/area used in place of a Facility for a non-facility aggregate report (CD-OI-27)']
   reportDate date [note: 'Date this aggregate snapshot represents']
   // Client/Resident Counts
   clientTotalCases int

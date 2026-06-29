@@ -13,7 +13,7 @@ timestamp: 2026-06-25T00:00:00Z
 
 This screen maintains the **authoritative communicable-disease dictionary** that the rest of the Outbreak Management Reporting Application (OMRA) depends on — it supplies the Disease lookup on [[Create Outbreak Investigation Screen Specifications|Create Outbreak Investigation]], the reporting-timing and case-classification logic used throughout an investigation, and the outbreak-definition thresholds that drive automated outbreak assessment.
 
-It is one of the three "Foundation" maintenance functions in the design deck (slides 6–8): [[User Maintenance Screen Specifications|User Maintenance]], Location / Facility Maintenance, and this Disease Maintenance screen. As established in [[User Maintenance Screen Specifications]] (§3.6, AC-3, AC-4), maintaining the Disease dimension is **dictionary/dimension stewardship**, not investigation data entry — it is restricted to the Business System Manager role, distinct from an investigator's "provisional add."
+It is one of the four "Foundation" maintenance functions in the design deck (slides 6–8): [[User Maintenance Screen Specifications|User Maintenance]], Location / Facility Maintenance, and this Disease Maintenance screen. As established in [[User Maintenance Screen Specifications]] (§3.6, AC-3, AC-4), maintaining the Disease dimension is **dictionary/dimension stewardship**, not investigation data entry — it is restricted to the Business System Manager role, distinct from an investigator's "provisional add."
 
 Source material for this specification:
 

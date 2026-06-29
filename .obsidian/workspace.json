@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Meeting Minutes/Untitled.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Communicable Disease Maintenance Screen Specifications"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 527.5026054382324
+    "width": 444.5026054382324
   },
   "right": {
     "id": "5b6e0ba77496e078",
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stealth Enterprise Architecture/Blog Entries/Article Ideas/Closed Loop Analytics/Model a Domain's Value Stream.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Model a Domain's Value Stream"
+              "title": "Backlinks for Communicable Disease Maintenance Screen Specifications"
             }
           },
           {
@@ -123,11 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Communicable Disease Maintenance Screen Specifications"
             }
           },
           {
@@ -165,12 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Communicable Disease Maintenance Screen Specifications"
             }
           },
           {
@@ -184,11 +186,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 325.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,10 +208,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18f310dd4ab515c0",
+  "active": "fae33ded107d90ae",
   "lastOpenFiles": [
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Contact Identification Screen Specifications.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Assign Staff to Outbreak - Team Lead Department Manager User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Meeting Minutes/Untitled.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Contact Identification Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Meeting Minutes",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Submit Facility Questionnaire Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Facility Questionnaire Maintenance Screen Specifications.md",
@@ -217,7 +221,6 @@
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Create Facility Questionnaire Screen Specifications.md",
     "Health Shared Services/Emergency Health Services/Community Paramedic Value Stream.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Search Screen Specifications.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
     "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync/Meeting Minutes/EHS MIH Appointment Scheduling Interface.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Data Lake House/Meeting Notes/Communicable Disease Glossary Design.md",
     "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync/Meeting Minutes",
@@ -236,7 +239,6 @@
     "Stealth Enterprise Architecture/Enterprise Architecture/Information Architecture/Knowledge Graph.md",
     "Stealth Enterprise Architecture/Enterprise Architecture/Information Architecture/Closed Loop Analytics.md",
     "Stealth Enterprise Architecture/Enterprise Architecture/Information Architecture/Domain Data Lake House.md",
-    "Clippings/The Ontologist/When Chloe Became a Better Ontologist Than Me.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/health-phdmg-shellfish-poisoning-2021-10.pdf",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/pphs-phdmg-west-nile-virus-2025-07.pdf",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/hlth-phdmg-tuberculosis-2022-11.pdf",
