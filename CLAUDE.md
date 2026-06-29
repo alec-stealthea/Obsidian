@@ -203,6 +203,12 @@ When adding frontmatter to an existing file, preserve all existing YAML fields a
 - Images and attachments go in `Stealth Enterprise Architecture/attachments/` for Stealth EA content or alongside the referencing note for other areas
 - Favicon and logo assets are at the vault root (for website use)
 
+### Headings & Titles
+
+The note's **filename is the title**, surfaced by Obsidian's inline title (Settings → Appearance → "Show inline title"). Body content therefore **starts at heading level 2 (`## H2`) and goes deeper** — notes should **not** include a level-1 (`# H1`) heading that repeats the filename, as it duplicates the inline title. When creating or editing a note, do not add a title H1; begin the body at H2.
+
+This is enforced by the [Obsidian Linter](https://platers.github.io/obsidian-linter/) plugin, configured per the [[Linter Configuration Checklist]]: the **Header Increment** rule with **"Start Header Increment at Heading Level 2"** auto-demotes any stray body `# H1` to `## H2` and shifts deeper headings accordingly. The Linter demotes but does not delete redundant title headings, so legacy notes that repeat their name as a body H1 are being cleaned up in a separate one-time pass.
+
 ### WikiLinks — Linking Between Notes
 
 WikiLinks are the connective tissue of this vault. They make the knowledge graph navigable in Obsidian's graph view and backlinks panel, and they help Claude discover related context when working in any area. Use `[[WikiLinks]]` for all internal vault references; use standard markdown links (`[text](url)`) only for external URLs.
@@ -277,6 +283,6 @@ This vault deliberately spans separate professional and personal domains. When w
 
 ---
 
-_Last Updated_: 2026-06-26
+_Last Updated_: 2026-06-29
 _Maintained By_: Alec Blair
-_Version_: 2.4
+_Version_: 2.5

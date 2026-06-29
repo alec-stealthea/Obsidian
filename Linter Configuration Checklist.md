@@ -52,16 +52,24 @@ timestamp: 2026-06-29T00:00:00Z
 - [ ] **YAML Title** (`yaml-title`) and **YAML Title Alias** (`yaml-title-alias`) → **OFF**. Your titles are curated in frontmatter, not derived from filenames.
 - [ ] **Force YAML escape** (`force-yaml-escape`) → **OFF** unless you hit a specific escaping need.
 
+## Title and heading convention (decision — 2026-06-29)
+
+> **Decision:** The note's **filename is the title (H1)**, shown by Obsidian's inline title. **Body content starts at H2** and goes deeper from there. Notes do **not** repeat their name as a body heading — that's redundant with the inline title.
+
+- [ ] **Settings → Appearance → "Show inline title"** → **ON** (the default). This renders the filename as the note's title/H1, so you never type the title as a heading.
+- [ ] **Authoring habit:** start every note's body at `## H2`. Do not add a `# H1` that repeats the filename.
+- [ ] **Existing-note caveat:** the Linter will *demote* a stray body H1 to H2, but it **cannot delete** a redundant title heading. Notes that currently repeat their name as a body H1 will end up with a `## Same Name` under the inline title until cleaned up. Removing those duplicates is a separate one-time pass (the Linter has no rule for it, since a custom regex can't compare against the filename).
+
 ## Heading tab — enable
 
-- [ ] **Header Increment** (`header-increment`) → **ON**. Catches skipped heading levels without altering text.
+- [ ] **Header Increment** (`header-increment`) → **ON**, with **"Start Header Increment at Heading Level 2" = ON**. This enforces the decision above: any stray `# H1` in a body is auto-demoted to `## H2` and everything beneath shifts accordingly, so body headings never compete with the filename-title. It also catches skipped heading levels. *(Note: this reverses earlier draft guidance that said to leave this OFF — that was based on the old "explicit H1 title in the body" convention, now retired.)*
 - [ ] **Headings Start Line** (`headings-start-line`) → **ON**. Removes stray leading whitespace so `#` headings render.
 - [ ] **Remove Trailing Punctuation in Heading** (`remove-trailing-punctuation-in-heading`) → **OPTIONAL**. Tidy, but harmless to skip.
 
 ## Heading tab — leave OFF (would cause damage)
 
 - [ ] **Capitalize Headings** (`capitalize-headings`) → **OFF**. Title-casing mangles your acronyms (OMRA, TOGAF, HSS, EA, HIA, ATLAS). If you ever want it, set Style to **First letter** only — never Title Case.
-- [ ] **File Name Heading** (`file-name-heading`) → **OFF**. Don't auto-insert an H1 from the filename.
+- [ ] **File Name Heading** (`file-name-heading`) → **OFF**. This rule *inserts* the filename as a body H1 — the exact redundancy you're avoiding. Keep it off; the inline title already shows the name.
 
 ## Spacing tab — enable (these reinforce your CommonMark rules)
 
