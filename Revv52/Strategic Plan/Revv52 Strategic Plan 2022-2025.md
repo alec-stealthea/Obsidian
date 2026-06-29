@@ -14,9 +14,6 @@ related:
   - "[[Revv52 Draft Strategic Plan 2026-2028]]"
   - "[[Revv52 Brand Toolkit]]"
 ---
-
-# Revv52 Strategic Plan 2022-2025
-
 ## Core Values and Guiding Principles
 
 As a group we value creativity, diversity, excellence, collaboration, and community.

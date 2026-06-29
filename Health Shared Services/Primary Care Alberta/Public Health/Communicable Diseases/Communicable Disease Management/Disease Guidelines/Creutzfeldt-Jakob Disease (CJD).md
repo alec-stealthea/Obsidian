@@ -4,7 +4,6 @@ title: "Creutzfeldt-Jakob Disease (CJD)"
 description: "Alberta Public Health"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Creutzfeldt-Jakob Disease (CJD)
 
 Alberta Public Health

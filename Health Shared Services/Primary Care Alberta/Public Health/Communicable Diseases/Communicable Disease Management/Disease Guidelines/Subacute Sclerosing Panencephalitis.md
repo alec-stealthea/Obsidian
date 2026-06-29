@@ -4,7 +4,6 @@ title: "Subacute Sclerosing Panencephalitis"
 description: "Alberta Public Health"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Subacute Sclerosing Panencephalitis
 
 Alberta Public Health

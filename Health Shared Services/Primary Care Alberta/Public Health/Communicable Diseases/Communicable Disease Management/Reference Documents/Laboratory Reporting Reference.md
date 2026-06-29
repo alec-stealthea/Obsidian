@@ -4,9 +4,6 @@ title: "Laboratory Reporting Reference"
 description: "Updated April 2023"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
-# Laboratory Reporting Reference
-
 ## Laboratory Reporting Reference
 Updated April 2023
 Report to MOH Report to CMOH Report to MOH Report to CMOH

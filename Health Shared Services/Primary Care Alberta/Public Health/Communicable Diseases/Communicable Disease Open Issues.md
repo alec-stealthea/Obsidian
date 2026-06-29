@@ -10,9 +10,6 @@ tags:
   - outbreak-management
 timestamp: 2026-06-26T00:00:00Z
 ---
-# Communicable Disease Open Issues
-
-> **Purpose**: A single place to track the *genuinely open* issues across the Communicable Disease (CD) sub-folders — design decisions still to be made, data-model gaps awaiting a revision, and stories or notes that need to be created and then linked. Context files (`CLAUDE-*.md`) capture *settled* context; open items live here so they are not silently re-decided inside individual stories or specs.
 >
 > **Scope**: spans `Communicable Diseases/` and its sub-folders — the CDC working group ([[CLAUDE-CDC]]), the Outbreak Management Reporting Application ([[CLAUDE-OMRA]]), and the Connect Care CD Episode work. Governed by [[CLAUDE-Communicable-Diseases]].
 >

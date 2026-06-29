@@ -4,7 +4,6 @@ title: "Streptococcal Disease Group A, Invasive"
 description: "Alberta Public Health"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Streptococcal Disease Group A, Invasive
 
 Alberta Public Health

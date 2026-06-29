@@ -4,7 +4,6 @@ title: "Carbapenemase-Producing Organisms (CPOs)"
 description: "Alberta Public Health"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Carbapenemase-Producing Organisms (CPOs)
 
 Alberta Public Health

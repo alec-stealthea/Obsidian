@@ -21,9 +21,6 @@ tags:
   - omra
 timestamp: 2026-06-17T00:00:00Z
 ---
-
-# HSS Screen Specification Generator
-
 ## Purpose
 
 Produce a screen specification that matches the established HSS format so that every

@@ -4,9 +4,6 @@ title: "Case Studies"
 description: "Real-world missions declassified."
 timestamp: 2026-06-26T19:19:05Z
 ---
-
-# Case Studies
-
 Real-world missions declassified. These case studies walk through actual enterprise architecture engagements — domain models, capability catalogues, value streams, and stakeholder analysis applied to recognisable industries.
 
 ---

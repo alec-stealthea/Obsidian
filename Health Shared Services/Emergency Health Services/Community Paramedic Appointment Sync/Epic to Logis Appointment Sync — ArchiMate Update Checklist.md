@@ -11,9 +11,6 @@ tags:
   - integration
 timestamp: 2026-06-23T00:00:00Z
 ---
-
-# Epic to Logis Appointment Sync — ArchiMate Update Checklist
-
 > **Purpose:** Working checklist of the ArchiMate elements and relationships to update so the model reflects the broker-driven design confirmed by the [[Logis IDS TransferSchedulingBroker Interface]]. Derived from the [[Logis TransferSchedulingBroker Interface Assessment]] and the revised [[Epic to Logis Appointment Sync Solution Concept Model]] (§3.5, §4, §6).
 
 ## A. Application Components

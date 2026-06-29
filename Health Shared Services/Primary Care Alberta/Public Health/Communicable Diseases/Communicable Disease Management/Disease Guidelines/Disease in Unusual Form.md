@@ -4,7 +4,6 @@ title: "Disease in Unusual Form"
 description: "Alberta Public Health"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Disease in Unusual Form
 
 Alberta Public Health

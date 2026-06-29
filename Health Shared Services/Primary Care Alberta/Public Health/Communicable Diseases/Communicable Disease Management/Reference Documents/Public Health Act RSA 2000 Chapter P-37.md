@@ -4,7 +4,6 @@ title: "Public Health Act RSA 2000 Chapter P-37"
 description: "Province o f Alberta"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Public Health Act RSA 2000 Chapter P-37
 
 Province o f Alberta

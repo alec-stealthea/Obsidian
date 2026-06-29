@@ -13,9 +13,6 @@ scope: Health Shared Services/Primary Care Alberta/Public Health/Communicable Di
 timestamp: 2026-06-23T00:00:00Z
 last-updated: 2026-06-23
 ---
-
-# Communicable Disease Glossary — Category Hierarchy & Design Rationale
-
 ## Purpose
 
 This note proposes a starting taxonomy for the **Communicable Disease Glossary** to be built in **Atlan**. It defines the category hierarchy, explains the design rationale, and maps the design onto Atlan's glossary model so it can be imported and extended. The companion file `Communicable Disease Glossary - Atlan Import.csv` in this folder implements the hierarchy and supporting concept terms in Atlan's bulk-import format.

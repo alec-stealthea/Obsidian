@@ -10,9 +10,6 @@ tags:
   - ndr
 timestamp: 2026-06-22T00:00:00Z
 ---
-
-# STI Flowsheet Logical Data Model
-
 > **Purpose:** Model the Epic Connect Care flowsheet structure for STI clinical documentation, covering all 6 exported flowsheets and the data elements required for Notifiable Disease Report (NDR) submission.
 >
 > **Modeled by:** Alec Blair / Stealth EA — May 2026

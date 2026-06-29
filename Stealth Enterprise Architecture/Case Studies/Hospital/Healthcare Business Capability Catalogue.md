@@ -6,10 +6,6 @@ timestamp: 2026-06-26T19:19:05Z
 feature: Healthcare Business Capability Catalogue.png
 published: 2026-02-11
 ---
-# Healthcare Business Capability Catalogue
-
-![[Healthcare Business Capability Catalogue.png]]
-
 ## Healthcare Business Capability Catalogue
 
 Healthcare Business Capability Catalogue
@@ -434,4 +430,3 @@ The ability to analyze possible future events by considering alternative possib
 #### Workforce Planning
 
 The ability to optimize the productivity of all employees.
-

@@ -4,9 +4,6 @@ title: "Enterprise Architecture"
 description: "The craft itself."
 timestamp: 2026-06-26T19:19:05Z
 ---
-
-# Enterprise Architecture
-
 The craft itself. Frameworks, patterns, principles, and practices that actually work in the wild — organised by architectural discipline. No buzzword bingo, just practical architectural wisdom for experienced practitioners.
 
 ---

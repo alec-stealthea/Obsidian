@@ -4,7 +4,6 @@ title: "California Serogroup Infection"
 description: "Alberta Public Health"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # California Serogroup Infection
 
 Alberta Public Health

@@ -7,7 +7,6 @@ tags:
   - solar
 created: 2026-06-10
 ---
-
 # Solar Savings Analysis Since GetEnergy Switch
 
 Analysis of actual money saved by the solar panels from the start of GetEnergy electricity service (Jan 23, 2026) through the most recent billed period (May 19, 2026) — 117 days across four billing periods. Companion to [[Solar Panel Return on Investment Calculation]].

@@ -5,10 +5,6 @@ description: "Retail Business Capability Map"
 timestamp: 2026-06-26T19:19:05Z
 feature: Retail Business Capability Model 1.png
 ---
-# Retail Business Capability Model
-
-![[Retail Business Capability Model 1.png]]
-
 ## Retail Business Capability Map
 
 Retail Business Capability Map
@@ -370,4 +366,3 @@ The ability to plan, execute, and measure targeted communication and outreach in
 #### Market Research
 
 The ability to gather, analyze, and interpret information about markets, customers, competitors, and external factors to inform strategic and operational decisions.
-

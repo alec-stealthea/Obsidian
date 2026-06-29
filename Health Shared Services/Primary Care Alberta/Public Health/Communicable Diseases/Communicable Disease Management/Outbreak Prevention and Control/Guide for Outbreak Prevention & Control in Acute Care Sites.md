@@ -4,7 +4,6 @@ title: "Guide for Outbreak Prevention & Control in Acute Care Sites"
 description: "Notice of Change"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Guide for Outbreak Prevention & Control in Acute Care Sites
 
 Notice of Change

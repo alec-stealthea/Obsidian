@@ -4,10 +4,6 @@ title: "Archi Embedding Architecture"
 timestamp: 2026-06-26T19:19:05Z
 feature: Archi Embedding Architecture.png
 ---
-# Archi Embedding Architecture
-
-![Archi Embedding Architecture](Archi%20Embedding%20Architecture.png)
-
 ## Archi
 
 ### JArchi Chunking Scripts
@@ -33,4 +29,3 @@ feature: Archi Embedding Architecture.png
 ## Claude Client
 
 ### Stealth EA MCP Client
-

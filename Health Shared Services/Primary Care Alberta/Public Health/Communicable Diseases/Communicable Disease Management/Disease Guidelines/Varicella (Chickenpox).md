@@ -4,7 +4,6 @@ title: "Varicella (Chickenpox)"
 description: "Alberta Public Health"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Varicella (Chickenpox)
 
 Alberta Public Health

@@ -4,7 +4,6 @@ title: "Alberta Tuberculosis Policy"
 description: "The Alberta Tuberculosis (TB) Policy document and its contents may be incorporated into the working knowledge of the reader, but its use is"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Alberta Tuberculosis Policy
 
 

@@ -4,7 +4,6 @@ title: "Child Care Outbreak Quick Reference"
 description: "Child Care Outbreak Checklist"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Child Care Outbreak Quick Reference
 
 Child Care Outbreak Checklist

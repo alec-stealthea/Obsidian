@@ -5,9 +5,6 @@ timestamp: 2026-06-26T19:19:05Z
 name: user-story-generator
 description: Generate structured user stories following Health Shared Services (HSS) enterprise architecture standards, with two-tier acceptance criteria, Alberta regulatory traceability (HIA, Public Health Act), and backlog metadata. Use whenever the user asks to create, write, or generate a user story, draft acceptance criteria, convert requirements or meeting notes into agile backlog items, or document a feature or capability need for a healthcare system — even if they don't say "user story" explicitly.
 ---
-
-# User Story Generator
-
 Generate user stories that meet Health Shared Services (HSS) enterprise architecture standards: specific personas, testable two-tier acceptance criteria, Alberta regulatory traceability, and complete backlog metadata.
 
 ## Interaction Pattern

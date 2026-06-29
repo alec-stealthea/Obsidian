@@ -4,7 +4,6 @@ title: "Neonatal Herpes Simplex Infection"
 description: "Alberta Public Health"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Neonatal Herpes Simplex Infection
 
 Alberta Public Health

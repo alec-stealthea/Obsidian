@@ -4,9 +4,6 @@ title: "Risk Assessment Matrix for MOH Pre-Approval"
 description: "Risk Assessment Matrix to Determine MOH Pre-Approval"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
-# Risk Assessment Matrix for MOH Pre-Approval
-
 Risk Assessment Matrix to Determine MOH Pre-Approval
 The Risk Assessment Worksheet (RAW) is intended for use during respiratory outbreaks where either the
 sending or receiving site are on movement restrictions for patients/residents. The RAW is a tool to facilitate

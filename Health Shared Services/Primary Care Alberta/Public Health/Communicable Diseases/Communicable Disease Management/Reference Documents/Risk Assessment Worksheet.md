@@ -4,9 +4,6 @@ title: "Risk Assessment Worksheet"
 description: "Risk Assessment Worksheet"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
-# Risk Assessment Worksheet
-
 Risk Assessment Worksheet
 - Refer to Risk Assessment Matrix before completing form
 - Discharging/Transferring site completes page 1 and 2

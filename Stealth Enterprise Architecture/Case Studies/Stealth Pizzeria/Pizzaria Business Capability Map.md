@@ -5,10 +5,6 @@ description: "Business Capabilities that directly shape the customer experience 
 timestamp: 2026-06-26T19:19:05Z
 feature: Pizzaria Business Capability Map.png
 ---
-# Pizzaria Business Capability Map
-
-![Pizzaria Business Capability Map](Pizzeria%20Business%20Capability%20Map.png)
-
 ## Contents
 
 - [[#Pizzeria Front of House]]

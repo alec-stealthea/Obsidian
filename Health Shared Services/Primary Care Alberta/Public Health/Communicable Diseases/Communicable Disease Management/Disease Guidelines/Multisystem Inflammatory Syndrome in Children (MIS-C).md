@@ -4,7 +4,6 @@ title: "Multisystem Inflammatory Syndrome in Children (MIS-C)"
 description: "This publication is issued under the Open Government Licence – Alberta"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Multisystem Inflammatory Syndrome in Children (MIS-C)
 
 

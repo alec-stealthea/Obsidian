@@ -4,7 +4,6 @@ title: "Acute Severe Hepatitis of Unknown Origin in Children"
 description: "Alberta Public Health"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Acute Severe Hepatitis of Unknown Origin in Children
 
 Alberta Public Health

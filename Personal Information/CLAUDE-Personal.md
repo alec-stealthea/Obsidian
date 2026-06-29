@@ -8,8 +8,6 @@ parent: "[[CLAUDE]]"
 last-updated: 2026-06-28
 timestamp: 2026-06-28T00:00:00Z
 ---
-# CLAUDE-Personal
-
 This section of the vault contains personal information about Alec — his values, motivations, habits, and life planning — drawn primarily from a coaching engagement in 2023.
 
 ## Who Alec Is (at a glance)

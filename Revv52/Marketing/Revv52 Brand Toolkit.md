@@ -14,9 +14,6 @@ related:
   - "[[Revv52 Marketing Plan 2025-2026 (Updated)]]"
   - "[[Revv52 Draft Strategic Plan 2026-2028]]"
 ---
-
-# Revv52 Brand Toolkit
-
 > Guidance on how to best express Revv52 to our fans
 
 ## Understanding the Revv52 Brand

@@ -4,7 +4,6 @@ title: "Outbreak Antiviral Prophylaxis Worksheet"
 description: "Outbreak Antiviral Prophylaxis in Supportive Living Accommodation and Continuing Care Homes Type B Sites Worksheet"
 timestamp: 2026-06-26T19:19:06Z
 ---
-
 # Outbreak Antiviral Prophylaxis Worksheet
 
 Outbreak Antiviral Prophylaxis in Supportive Living Accommodation and Continuing Care Homes Type B Sites Worksheet

@@ -4,7 +4,6 @@ title: "CI RoI Sample JSON Responses"
 description: "Sample CIP webhook payloads — one per test patient — generated from CI - Connect Care Sample Report Jan 14 2026.xlsx, formatted per the payload structure in CI RoI IBM Integration Engine Message Sp..."
 timestamp: 2026-06-26T19:19:07Z
 ---
-
 # CI RoI Sample JSON Responses
 
 Sample CIP webhook payloads — one per test patient — generated from **CI - Connect Care Sample Report Jan 14 2026.xlsx**, formatted per the payload structure in [[CI RoI IBM Integration Engine Message Specification]] and the entity attributes in [[Compassionate Intervention Release of Information Data Model]].

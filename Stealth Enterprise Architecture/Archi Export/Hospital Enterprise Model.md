@@ -5,10 +5,6 @@ description: "The ability to create, manage, and distribute the information pert
 timestamp: 2026-06-26T19:19:05Z
 feature: /Users/AlecBlair/Documents/Stealth EA/Stealth Enterprise Architecture/Archi Export/Hospital Enterprise Model.png
 ---
-# Hospital Enterprise Model
-
-![Hospital Enterprise Model](/Users/AlecBlair/Documents/Stealth%20EA/Stealth%20Enterprise%20Architecture/Archi%20Export/Hospital%20Enterprise%20Model.png)
-
 
 ## Hospital Back Office *(Grouping)*
 
@@ -226,4 +222,3 @@ Ability to use population health and operational data, statistical and qualitati
 ### Terminology Management *(Capability)*
 
 the ability to develop, maintain, and standardise medical and clinical terminology across applications, stakeholders, and value streams. It includes the creation, governance, and application of controlled vocabularies, coding systems, and nomenclatures to ensure consistency, accuracy, and interoperability in the documentation and exchange of healthcare information.
-
