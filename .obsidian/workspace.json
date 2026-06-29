@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
+                "file": "Stealth Enterprise Architecture/Blog Entries/Article Ideas/AI Tower of Babel or the foundation for a better world?.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Communicable Disease Maintenance Screen Specifications"
+              "title": "AI Tower of Babel or the foundation for a better world?"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
+                "file": "Stealth Enterprise Architecture/Blog Entries/Article Ideas/AI Tower of Babel or the foundation for a better world?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Communicable Disease Maintenance Screen Specifications"
+              "title": "Backlinks for AI Tower of Babel or the foundation for a better world?"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
+                "file": "Stealth Enterprise Architecture/Blog Entries/Article Ideas/AI Tower of Babel or the foundation for a better world?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Communicable Disease Maintenance Screen Specifications"
+              "title": "Outgoing links from AI Tower of Babel or the foundation for a better world?"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
+                "file": "Stealth Enterprise Architecture/Blog Entries/Article Ideas/AI Tower of Babel or the foundation for a better world?.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Communicable Disease Maintenance Screen Specifications"
+              "title": "Outline of AI Tower of Babel or the foundation for a better world?"
             }
           },
           {
@@ -208,10 +208,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fae33ded107d90ae",
+  "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Assign Staff to Outbreak - Team Lead Department Manager User Story.md",
+    "Stealth Enterprise Architecture/Blog Entries/Article Ideas/Closed Loop Analytics/Model a Domain's Value Stream.md",
+    "Stealth Enterprise Architecture/Archi Export/Hospital Enterprise Model.md",
+    "Stealth Enterprise Architecture/Archi Export/Hospital_Enterprise_Model.md",
+    "Stealth Enterprise Architecture/Archi Export/Archi Embedding Architecture.png",
+    "Stealth Enterprise Architecture/Archi Export/Archi Embedding Architecture.md",
+    "Stealth EA LLC/Stealth EA Style Guide.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Assign Staff to Outbreak - Team Lead Department Manager User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Meeting Minutes/Untitled.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Contact Identification Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Meeting Minutes",
@@ -234,11 +240,6 @@
     "Linter Configuration Checklist.md",
     "Stealth Enterprise Architecture/Glossary/Knowledge Graph Terms/Assertion.md",
     "Stealth Enterprise Architecture/Glossary/ArchiMate/ArchiMate.md",
-    "Stealth Enterprise Architecture/Glossary/ArchiMate/ArchiMate Equipment.md",
-    "Stealth Enterprise Architecture/Glossary/ArchiMate/ArchiMate Business Object.md",
-    "Stealth Enterprise Architecture/Enterprise Architecture/Information Architecture/Knowledge Graph.md",
-    "Stealth Enterprise Architecture/Enterprise Architecture/Information Architecture/Closed Loop Analytics.md",
-    "Stealth Enterprise Architecture/Enterprise Architecture/Information Architecture/Domain Data Lake House.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/health-phdmg-shellfish-poisoning-2021-10.pdf",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/pphs-phdmg-west-nile-virus-2025-07.pdf",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/hlth-phdmg-tuberculosis-2022-11.pdf",
@@ -255,7 +256,6 @@
     "Revv52/Marketing/2025-2026 Season/RMSO/RMSO Strings Attached Poster.png",
     "Communicable Disease Conceptual Data Model.png",
     "Stealth Enterprise Architecture/Stealth EA MAD ERD.png",
-    "Revv52/Marketing/2026-2027 Season/Revv52 2026-7 Season Graphic Prototype.png",
     "Untitled.canvas"
   ]
 }

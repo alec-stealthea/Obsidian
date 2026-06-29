@@ -4,14 +4,15 @@ title: "AI Tower of Babel or the foundation for a better world?"
 description: "The following is a blog idea inspired from the Magnifica Humanitas essay the pope released on May 25, 2026."
 timestamp: 2026-06-26T19:19:05Z
 ---
-
 The following is a blog idea inspired from the [[Magnifica Humanitas]] essay the pope released on May 25, 2026.  Also being used as reference is the [[Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"]] response.
 
-Increasingly, I am seeing how people are using artificial intelligence as a means for enhancing their own personal productivity. Sometimes that's by automating the routine or mundane.  Other times it's 
+> New technologies open up a horizon extending in directions that are imaginable but not yet fully predictable.
 
-"New technologies open up a horizon extending in directions that are imaginable but not yet fully predictable." 
+Anyone who has had a chance to use a large language model can see that this new technology shows what's opening up, but is not yet totally predictable.  People are using artificial intelligence as a means for enhancing their own personal productivity. Sometimes that's by automating the routine or mundane.  Other times it's more sophisticated with personal knowledge bases that provide context and skills to create for the particular professional domain for that professional.
 
-"Where are we going? Toward what goal do we wish to orient ourselves? What direction should we choose as a people and as a human community?"
+Many of the foundation model business leaders are suggesting that they can predict where large language models will take society.
+
+> Where are we going? Toward what goal do we wish to orient ourselves? What direction should we choose as a people and as a human community?
 
 "building for the common good means accepting the limits and weakness of humanity without considering them an error to be corrected."
 
