@@ -5,8 +5,8 @@ type: Context File
 title: CLAUDE-Communicable-Diseases
 scope: Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases
 parent: "[[CLAUDE-PCA]]"
-last-updated: 2026-06-26
-timestamp: 2026-06-26T00:00:00Z
+last-updated: 2026-06-29
+timestamp: 2026-06-29T00:00:00Z
 ---
 # CLAUDE-Communicable-Diseases.md — Communicable Diseases Context
 
@@ -34,30 +34,44 @@ These hold across the STI, TB, OMRA, and outbreak work — capture decisions her
 
 ## Folder Structure
 
+The area was reorganised (June 2026): **Architecture Models** and the **OMRA** application were promoted out of `Communicable Disease Management/` up to the `Communicable Diseases/` root, a new **Communicable Disease Data Lake House** folder was added, and PDF source libraries (`Disease Guidelines/`, `Guide for Outbreak Prevention and Control/`) now sit at the root alongside their authored markdown counterparts under `Communicable Disease Management/`.
+
 ```
 Communicable Diseases/
-├── Communicable Disease Management/
-│   ├── Architecture Models/            ← ATLAS solution/application context models for the CD ecosystem
-│   ├── Connect Care Communicable Disease Episode/  ← Epic CD Episode design: TB Compass Rose
-│   │                                                  build spec + OMRA↔Connect Care interface specs
-│   ├── Disease Guidelines/             ← ~100 disease-specific PH management guidelines (read-only reference)
-│   ├── Outbreak Prevention and Control/← Outbreak management guides by facility type
-│   ├── Reference Documents/            ← Public Health Act, reportable disease lists, NDR manual, TB policy
-│   ├── Research Papers/                ← Data-warehouse design research (star/snowflake schema)
-│   ├── Communicable Disease Working Groups/  ← Per-disease working-group artifacts
-│   │   ├── Sexually Transmitted Infections (STI)/  ← STI Intake Form Design Spec, STI Value Stream,
-│   │   │                                              Notification Form (AH0332), STI User Stories/
-│   │   ├── TB/                                       ← TB User Stories/ (TB Contact List)
-│   │   └── CDC/                                      ← Outbreak-management working group. See [[CLAUDE-CDC]]
-│   └── Outbreak Management Reporting Application (OMRA)/  ← Custom outbreak app. See [[CLAUDE-OMRA]]
-└── Connect Care Build Specifications/
-    └── Sexually Transmitted Infections/  ← Epic flowsheet build analysis feeding the CC build
-        ├── Sexual Contacts Flowsheet, STI Workflow Overview
-        └── STI Epic Build Analysis/      ← STI Flowsheet Logical Data Model (DBML), Epic flowsheet
-                                              exports (.xlsx), Family Planning Registry data
+├── Communicable Disease Definitions.xlsx     ← loose CD definitions workbook (root)
+├── Communicable Disease Open Issues.md       ← cross-folder open-issues register (root)
+├── Architecture Models/                ← ATLAS solution/application context models for the CD ecosystem:
+│                                          Conceptual Data Model, Solution Concept Model, Solution
+│                                          Architecture, Lambda Architecture (Real-Time Lab Surveillance),
+│                                          AOMS Design deck
+├── Communicable Disease Data Lake House/  ← Snowflake/Coalesce/Atlan analytics platform. See
+│                                             [[CLAUDE-Communicable-Disease-Data-Lake-House]]
+├── Outbreak Management Reporting Application (OMRA)/  ← Custom outbreak app. See [[CLAUDE-OMRA]]
+├── Connect Care Build Specifications/  ← Epic (Connect Care) build analysis & interface specs
+│   ├── Build Specification - TB CD Episode Compass Rose, Compass Rose Tasks Setup guide,
+│   │   OMRA↔Connect Care interface specs (Create CD Episode; Open Contact Identification)
+│   └── Sexually Transmitted Infections/  ← Epic flowsheet build analysis feeding the CC build
+│       ├── Sexual Contacts Flowsheet, STI Workflow Overview
+│       └── STI Epic Build Analysis/      ← STI Flowsheet Logical Data Model (DBML), Epic flowsheet
+│                                            exports (.xlsx), Family Planning Registry data
+├── Disease Guidelines/                 ← PDF source library: ~100 disease guideline PDFs (read-only;
+│                                          markdown versions live under CD Mgmt/Disease Guidelines/)
+├── Guide for Outbreak Prevention and Control/  ← PDF source library: CDC outbreak guides, checklists,
+│                                                  worksheets, Notice-of-Change docs (read-only)
+└── Communicable Disease Management/
+    ├── Disease Guidelines/             ← ~100 disease-specific PH management guidelines, markdown (reference)
+    ├── Outbreak Prevention and Control/← Outbreak management guides by facility type, markdown
+    ├── Reference Documents/            ← Public Health Act, reportable disease lists, NDR manual, TB policy
+    ├── Research Papers/                ← Data-warehouse design research (star/snowflake schema)
+    ├── Health Economics Evidence for CD Value Streams.md
+    └── Communicable Disease Working Groups/  ← Per-disease working-group artifacts
+        ├── Sexually Transmitted Infections (STI)/  ← STI Intake Form Design Spec, STI Value Stream,
+        │                                              Notification Form (AH0332), STI User Stories/
+        ├── TB/                                       ← TB User Stories/ (TB Contact List)
+        └── CDC/                                      ← Outbreak-management working group. See [[CLAUDE-CDC]]
 ```
 
-Note that `Connect Care Build Specifications/` is a **sibling** of `Communicable Disease Management/` under `Communicable Diseases/`, not a child of it.
+Note the parallel reference libraries: the **markdown** disease guidelines and outbreak guides live under `Communicable Disease Management/`, while the original **PDF** source documents live in the root-level `Disease Guidelines/` and `Guide for Outbreak Prevention and Control/` folders. Both are read-only source material. (The root PDF folder and the `Communicable Disease Management/Disease Guidelines/` markdown folder share a name but sit at different levels.)
 
 ## Key Authored Work
 
@@ -82,8 +96,9 @@ Open design decisions, data-model gaps, and pending story/note dependencies acro
 
 - [[CLAUDE-OMRA]] — Outbreak Management Reporting Application build (data model, screen specifications, RBAC/ABAC access model).
 - [[CLAUDE-CDC]] — Communicable Disease Control working group (outbreak-management user stories on the Outbreak value stream; e.g., [[Outbreak Search - Outbreak Investigator User Story]], [[Create Outbreak Investigation - CDC Investigator User Story]]).
+- [[CLAUDE-Communicable-Disease-Data-Lake-House]] — CD Data Lake House (Snowflake medallion platform, Coalesce ETL, Atlan glossary taxonomy, the Facility Location master dimension).
 
 ---
 
-_Last Updated_: 2026-06-26
-_Version_: 1.4 (added the Outbreak Application Team as the build team for the outbreak work; noted CDOM is a Visual Basic application)
+_Last Updated_: 2026-06-29
+_Version_: 1.6 (updated folder map for the June 2026 reorg — Architecture Models and OMRA promoted to the CD root; new Communicable Disease Data Lake House folder with its own [[CLAUDE-Communicable-Disease-Data-Lake-House]] context file; root-level PDF source library Disease Guidelines/ (typo corrected from "Guildelines") and Guide for Outbreak Prevention and Control/; Connect Care CD Episode build specs consolidated into the root Connect Care Build Specifications/; loose root files Definitions.xlsx and Open Issues.md)

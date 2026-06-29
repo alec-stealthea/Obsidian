@@ -4,7 +4,7 @@ tags:
 type: Context File
 scope: Health Shared Services/Primary Care Alberta
 parent: "[[CLAUDE-HSS]]"
-last-updated: 2026-06-25
+last-updated: 2026-06-29
 ---
 # CLAUDE-PCA.md — Primary Care Alberta Context
 
@@ -18,19 +18,16 @@ PCA's IT architecture footprint within Alec's portfolio centres on three major a
 
 ### Communicable Disease Management
 
-The largest content area in this folder. Located at `Public Health/Communicable Diseases/Communicable Disease Management/` and containing:
+The largest content area in this folder, located under `Public Health/Communicable Diseases/`. The area was reorganised in June 2026 so the major work products sit directly at the `Communicable Diseases/` root, with reference material grouped beneath them:
 
-- **Architecture Models/** — Solution concept models and application context models (ATLAS views) for the CD ecosystem, including Data Lakehouse, Episode Connect Care, Outbreak Application, and the overarching CD Solution Concept Model.
-- **Disease Guidelines/** — Extensive reference library of ~100 disease-specific public health management guidelines (from Acute Flaccid Paralysis through Zika Virus). These are source reference material, not Alec's authored content.
-- **Outbreak Prevention and Control/** — Guides for outbreak management across facility types (acute care, child care, continuing care, correctional centres, schools, shelters, supportive living). Includes checklists and antiviral worksheets.
-- **Reference Documents/** — Regulatory and procedural references: Public Health Act, reportable disease lists, NDR manual, TB policy, risk assessment tools, surveillance tracking.
-- **Research Papers/** — Data warehouse design research (star schema, snowflake schema) relevant to the CD data architecture.
-- **Communicable Disease Working Groups/** — Per-disease working-group artifacts. The **STI** subfolder holds the [[STI Intake Form Design Specification]] (digital redesign of the paper Notification of STI form AH0332), the STI Value Stream, and STI User Stories; the **TB** subfolder holds TB User Stories. These feed the shared contact-identification work in OMRA.
-- **Outbreak Management Reporting Application (OMRA)/** — Custom application coordinating outbreak investigations, facility line lists, and aggregate/AORF reporting; replaces REDCap and carries forward the legacy CD/OM (CDOM) data-stewardship functions. Holds the data model, the prototype wireframe deck, and the per-screen build specifications. **Naming caveat**: earlier artifacts carry older names (AOMS, OMRA) — treat AOMS, OMRA and OMRA as the same system and use **OMRA** in new content. See [[CLAUDE-OMRA]].
+- **Architecture Models/** (CD root) — Solution concept models and application context models (ATLAS views) for the CD ecosystem: Conceptual Data Model, Solution Concept Model, Solution Architecture, Lambda Architecture (real-time lab surveillance), and the AOMS design deck.
+- **Communicable Disease Data Lake House/** (CD root, new) — Data-platform design work: the Atlan glossary imports and Category Hierarchy & Design Rationale, the Facility Location Dimension pipeline specification, and supporting data-warehouse design research (star/snowflake, pandemic multidimensional warehouse).
+- **Outbreak Management Reporting Application (OMRA)/** (CD root) — Custom application coordinating outbreak investigations, facility line lists, and aggregate/AORF reporting; replaces REDCap and carries forward the legacy CD/OM (CDOM) data-stewardship functions. Holds the data model, the prototype wireframe deck, and the per-screen build specifications. **Naming caveat**: earlier artifacts carry older names (AOMS, OMRA) — treat AOMS, OMRA and OMRA as the same system and use **OMRA** in new content. See [[CLAUDE-OMRA]].
+- **Connect Care Build Specifications/** (CD root) — Epic (Connect Care) build analysis and interface specs: the TB CD Episode Compass Rose build specification, the OMRA↔Connect Care interface specs, and the **Sexually Transmitted Infections/** STI flowsheet build analysis — the [[STI Flowsheet Logical Data Model]] (6 exported flowsheets, 1,744 fields), Sexual Contacts flowsheet, STI Workflow Overview, and supporting Epic exports.
+- **Communicable Disease Management/** — Reference and working-group material: **Disease Guidelines/** (~100 disease-specific markdown guidelines), **Outbreak Prevention and Control/** (facility-type outbreak guides, checklists, worksheets), **Reference Documents/** (Public Health Act, reportable disease lists, NDR manual, TB policy), **Research Papers/**, the Health Economics evidence note, and **Communicable Disease Working Groups/** — STI (the [[STI Intake Form Design Specification]], STI Value Stream, STI User Stories), TB (TB User Stories), and CDC (outbreak-management stories). These feed the shared contact-identification work in OMRA.
+- **Disease Guidelines/** and **Guide for Outbreak Prevention and Control/** (CD root) — Read-only **PDF** source libraries paralleling the authored markdown versions under Communicable Disease Management.
 
-A sibling folder, **Connect Care Build Specifications/**, sits alongside Communicable Disease Management under `Communicable Diseases/`. Its **Sexually Transmitted Infections/** subfolder holds the Epic (Connect Care) STI flowsheet build analysis — the [[STI Flowsheet Logical Data Model]] (6 exported flowsheets, 1,744 fields), Sexual Contacts flowsheet, STI Workflow Overview, and the supporting Epic exports.
-
-The whole Communicable Disease area now carries its own context file — see [[CLAUDE-Communicable-Diseases]] for the cross-cutting program facts (CD/OM retirement, Connect Care as episode system of record, STICS, the Blue Prism intake automation) and the full folder map.
+The whole Communicable Disease area carries its own context file — see [[CLAUDE-Communicable-Diseases]] for the cross-cutting program facts (CD/OM retirement, Connect Care as episode system of record, STICS, the Blue Prism intake automation) and the full folder map.
 
 ### Screening
 
@@ -59,5 +56,5 @@ Located at `Honouring Life/`. EA review of the **Honouring Life Grant** program'
 
 ---
 
-_Last Updated_: 2026-06-25
-_Version_: 2.4
+_Last Updated_: 2026-06-29
+_Version_: 2.5 (refreshed the Communicable Disease section for the June 2026 reorg — Architecture Models, OMRA and Connect Care Build Specifications now at the CD root; added the new Communicable Disease Data Lake House folder and the root-level PDF source libraries)

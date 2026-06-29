@@ -11,12 +11,24 @@
             "id": "18f310dd4ab515c0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/health-alberta-tuberculosis-policy-2022.pdf"
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Open Issues.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "health-alberta-tuberculosis-policy-2022"
+              "icon": "lucide-file",
+              "title": "Communicable Disease Open Issues"
             }
           }
         ]
@@ -195,8 +207,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fae33ded107d90ae",
+  "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Data Lake House/CLAUDE-Communicable-Disease-Data-Lake-House.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/health-phdmg-shellfish-poisoning-2021-10.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/pphs-phdmg-west-nile-virus-2025-07.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/hlth-phdmg-tuberculosis-2022-11.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/hlth-phdmg-tetanus-2024-08.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/hlth-phdmg-streptococcal-disease-group-a-invasive-2024-11.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/hlth-phdmg-severe-acute-respiratory-infection-sari-2024-08.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/hlth-phdmg-rubella-2025-02.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/hlth-phdmg-respiratory-syncytial-virus-2024-08.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/hlth-phdmg-non-gonococcal-urethritis-2023-01.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Disease Guidelines/hlth-phdmg-congenital-rubella-infection-syndrome-2025-02.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Data Lake House/Facility Location Dimension Pipeline Specification.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Open Issues.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Build Specification - TB CD Episode Compass Rose (Tasks Targets Automation).md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Architecture Models/Communicable Disease Solution Architecture.md",
@@ -205,7 +229,6 @@
     "Health Shared Services/Recovery Alberta/Compassionate Intervention/CLAUDE-CI.md",
     "Personal Information/Financial Plans/Retirement Planning/02 - Income Sources.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports/README.md",
-    "Personal Information/Financial Plans/Retirement Planning/CPP RRSP Income Split Model.xlsx",
     "Personal Information/Financial Plans/Retirement Planning/08 - Tax Strategy & Drawdown Order.md",
     "Personal Information/Financial Plans/Retirement Planning/11 - Scenarios & Cash Flow Model.md",
     "OKF Types.md",
@@ -218,21 +241,10 @@
     "Personal Information/Financial Plans/Retirement Planning/CLAUDE-Retirement-Planning.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports/2026-06-28 CD Coherency Report.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports/2026-06-27 CD Coherency Report.md",
-    "Personal Information/Financial Plans/Retirement Planning/lu49jqnb6.tmp",
-    "Personal Information/Financial Plans/Retirement Planning/CPP & RRSP Redirect Analysis.xlsx",
     "Personal Information/Financial Plans/Retirement Planning/07 - CPP & OAS Timing.md",
     "Personal Information/Financial Plans/Retirement Planning/13 - Scenario - House Transfer to Daughter.md",
     "Personal Information/Financial Plans/Retirement Planning/04 - Expenses & Spending Plan.md",
     "Personal Information/Financial Plans/Retirement Planning/05 - Debts & Liabilities.md",
-    "Personal Information/Financial Plans/Retirement Planning/06 - Pension Decision 2030 vs 2032.md",
-    "Personal Information/Financial Plans/Retirement Planning/10 - Estate & Insurance.md",
-    "Personal Information/Financial Plans/Retirement Planning",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/Alberta Outbreak Management Reporting Application (OMRA) Design.pptx",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/CDOM User Roles.pdf",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)",
-    "Clippings/Artifical Intelligence/XXG0zfuk",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports",
     "Contact Identification Screen Specifications Draft Wireframe.png",
     "Screenshot 2026-06-22 at 10.09.58 AM.png",
     "Sexual Contacts Flowsheet.png",

@@ -3,10 +3,10 @@ tags:
   - claude-context
 type: Context File
 title: CLAUDE-OMRA
-scope: Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Outbreak Management Reporting Application (OMRA)
+scope: Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)
 parent: "[[CLAUDE-Communicable-Diseases]]"
-last-updated: 2026-06-26
-timestamp: 2026-06-26T00:00:00Z
+last-updated: 2026-06-29
+timestamp: 2026-06-29T00:00:00Z
 ---
 # CLAUDE-OMRA.md — Outbreak Management Reporting Application Context
 
@@ -99,5 +99,5 @@ The [[Communicable Disease Search Screen Specifications]] is the program's **sea
 
 ---
 
-_Last Updated_: 2026-06-26
-_Version_: 1.9 (pointed the open OMRA items to the cross-folder [[Communicable Disease Open Issues]] register)
+_Last Updated_: 2026-06-29
+_Version_: 2.0 (updated scope path — OMRA folder promoted from under Communicable Disease Management to the Communicable Diseases root in the June 2026 reorg)
