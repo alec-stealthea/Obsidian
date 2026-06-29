@@ -11,24 +11,10 @@
             "id": "18f310dd4ab515c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linter Test - Headings and Whitespace.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Linter Test - Headings and Whitespace"
+              "title": "New tab"
             }
           }
         ]
@@ -207,11 +193,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18f310dd4ab515c0",
+  "active": "fae33ded107d90ae",
   "lastOpenFiles": [
+    "Linter Test - Headings and Whitespace.md",
     "Obsidian Vault Title Cleanup Report.md",
     "Linter Test - Tables and Mermaid.md",
-    "Linter Test - Headings and Whitespace.md",
     "Stealth Enterprise Architecture/Glossary/Knowledge Graph Terms/Blank Node.md",
     "Linter Configuration Checklist.md",
     "Stealth Enterprise Architecture/Glossary/Knowledge Graph Terms/Assertion.md",
