@@ -11,10 +11,24 @@
             "id": "18f310dd4ab515c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Communicable Disease Maintenance Screen Specifications"
             }
           }
         ]
@@ -193,11 +207,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fae33ded107d90ae",
+  "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Create Outbreak Investigation Screen Specifications.md",
+    "Linter Test - Tables and Mermaid.md",
     "Linter Test - Headings and Whitespace.md",
     "Obsidian Vault Title Cleanup Report.md",
-    "Linter Test - Tables and Mermaid.md",
     "Stealth Enterprise Architecture/Glossary/Knowledge Graph Terms/Blank Node.md",
     "Linter Configuration Checklist.md",
     "Stealth Enterprise Architecture/Glossary/Knowledge Graph Terms/Assertion.md",
@@ -230,7 +245,6 @@
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports/README.md",
     "Personal Information/Financial Plans/Retirement Planning/08 - Tax Strategy & Drawdown Order.md",
     "Personal Information/Financial Plans/Retirement Planning/11 - Scenarios & Cash Flow Model.md",
-    "OKF Types.md",
     "Contact Identification Screen Specifications Draft Wireframe.png",
     "Screenshot 2026-06-22 at 10.09.58 AM.png",
     "Sexual Contacts Flowsheet.png",
