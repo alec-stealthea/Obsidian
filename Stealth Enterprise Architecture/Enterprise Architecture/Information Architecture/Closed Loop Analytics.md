@@ -5,6 +5,8 @@ description: "The Closed Loop Analytics pattern isn't just about moving data fro
 timestamp: 2026-06-26T19:19:05Z
 feature: Closed Loop Analytics.png
 ---
+### Related Reading
+- [[When Chloe Became a Better Ontologist Than Me]] — Kurt Cagle on the holon federation model: holons as self-contained graph endpoints that exchange answers rather than syncing data, AI-assisted entity harmonisation compiled into deterministic pipelines, and equivalence assertions stored as provenance-bearing claims rather than bare `owl:sameAs`. Relevant to lake house entity resolution, schema translation, and data provenance design.
 
 The Closed Loop Analytics pattern isn't just about moving data from applications to dashboards. It's about creating a data architecture that provides the ability to trace the way data is created through the execution of value streams within a domain. From there, building a clear chain of data providence not just to the applications of record for that domain's application portfolio. 
 

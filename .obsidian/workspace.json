@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stealth Enterprise Architecture/Enterprise Architecture/Information Architecture/Domain Data Lake House.md",
+                "file": "Stealth Enterprise Architecture/Glossary/Knowledge Graph Terms/Blank Node.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Domain Data Lake House"
+              "title": "Blank Node"
             }
           }
         ]
@@ -207,8 +207,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fae33ded107d90ae",
+  "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Stealth Enterprise Architecture/Glossary/Knowledge Graph Terms/Assertion.md",
+    "Stealth Enterprise Architecture/Glossary/ArchiMate/ArchiMate.md",
+    "Stealth Enterprise Architecture/Glossary/ArchiMate/ArchiMate Equipment.md",
+    "Stealth Enterprise Architecture/Glossary/ArchiMate/ArchiMate Business Object.md",
+    "Stealth Enterprise Architecture/Enterprise Architecture/Information Architecture/Knowledge Graph.md",
+    "Stealth Enterprise Architecture/Enterprise Architecture/Information Architecture/Closed Loop Analytics.md",
+    "Stealth Enterprise Architecture/Enterprise Architecture/Information Architecture/Domain Data Lake House.md",
     "Clippings/The Ontologist/When Chloe Became a Better Ontologist Than Me.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Open Issues.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Data Lake House/CLAUDE-Communicable-Disease-Data-Lake-House.md",
@@ -238,13 +245,6 @@
     "Templates/User Story Template.md",
     "Vault Dashboard.md",
     "OKF SPEC.md",
-    "Personal Information/Financial Plans/Retirement Planning/14 - Inheritance & Expected Inflows.md",
-    "Personal Information/Financial Plans/Retirement Planning/CLAUDE-Retirement-Planning.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports/2026-06-28 CD Coherency Report.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Coherency Reports/2026-06-27 CD Coherency Report.md",
-    "Personal Information/Financial Plans/Retirement Planning/07 - CPP & OAS Timing.md",
-    "Personal Information/Financial Plans/Retirement Planning/13 - Scenario - House Transfer to Daughter.md",
-    "Personal Information/Financial Plans/Retirement Planning/04 - Expenses & Spending Plan.md",
     "Contact Identification Screen Specifications Draft Wireframe.png",
     "Screenshot 2026-06-22 at 10.09.58 AM.png",
     "Sexual Contacts Flowsheet.png",
