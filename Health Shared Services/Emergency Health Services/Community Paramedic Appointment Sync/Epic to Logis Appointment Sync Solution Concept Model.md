@@ -9,7 +9,7 @@ tags:
   - logis
   - integration
   - mobile-integrated-health
-timestamp: 2026-06-24T00:00:00Z
+timestamp: 2026-06-29T00:00:00Z
 ---
 
 ## 1. Executive Summary
@@ -39,7 +39,9 @@ The split between the booking system (Logis) and the clinical system (Epic) prod
 
 ### 2.3 Desired Outcome
 
-Establish automated information exchanges so that an appointment booked in Logis is reflected as an actionable, chartable appointment in Epic, linked to the originating referral and encounter, with no manual re-keying — and so that the referral that triggers the MIH episode flows cleanly from Epic to Logis.
+Establish automated information exchanges so that an appointment booked in Logis is reflected as an actionable, chartable appointment in Epic, linked to the originating referral and encounter, with **minimal** manual re-keying — and so that the referral that triggers the MIH episode flows cleanly from Epic to Logis.
+
+The patient-visibility benefit is deliberately scoped. Per the [[EHS MIH Appointment Scheduling Interface|29 June 2026 working session]], MyChart will surface the appointment **date only — not a time**. Automated patient notifications are turned **off**; the EHS coordination centre phones the patient with a time window derived from the Logis schedule. Closing the duplicate-effort gap — not full patient self-service scheduling visibility — is the primary v1 outcome.
 
 ---
 
@@ -49,9 +51,9 @@ Establish automated information exchanges so that an appointment booked in Logis
 
 The solution comprises three exchanges, matching the original note:
 
-1. **Send Epic Referral Order** — the MIH referral order raised in Epic is sent to Logis to initiate the booking workflow.
-2. **Book Appointment in Logis** — the MIH Patient Coordinator books the initial appointment in Logis (system of record for scheduling and dispatch).
-3. **Close the Appointment Loop** — the booked appointment is sent from Logis back to Epic and created there as an **Outpatient** or **Inpatient** appointment depending on patient location, and linked to the originating referral/encounter.
+1. **Send Epic Referral Order** — an **accepted** MIH referral order (an ambulatory referral to MIH) raised in Epic is the trigger that pushes data to Logis to initiate the booking workflow.
+2. **Book Appointment in Logis** — the referral seeds the booking, and a **Logis coordinator completes the scheduling parameters** that ConnectCare cannot supply. Logis remains the system of record for scheduling and dispatch. (See §3.5 — the 29 June session settled on coordinator-assisted booking for v1 rather than fully broker-driven automation.)
+3. **Close the Appointment Loop** — Logis sends the booked-appointment notification back to Epic, where the appointment is created as an **Outpatient** or **Inpatient** appointment depending on patient location. In v1 a **ConnectCare coordinator links the two records** to close the loop; automated referral correlation is a future-state enhancement.
 
 ### 3.2 Standards Selection
 
@@ -90,9 +92,10 @@ sequenceDiagram
     Epic->>RIE: MIH Referral Order (outbound, HL7/FHIR)
     RIE->>Logis: Referral mapped to Logis REST/JSON
 
-    Note over PC,Logis: (2) Book Appointment in Logis
-    PC->>Logis: Book MIH appointment (system of record)
-    Logis-->>RIE: Appointment event (REST/Webhook API)
+    Note over PC,Logis: (2) Book Appointment in Logis (coordinator-assisted, v1)
+    RIE->>Logis: Seed booking from referral (BookTransport)
+    PC->>Logis: Logis coordinator completes scheduling parameters
+    Logis-->>RIE: Booked-appointment event (REST/Webhook API)
 
     Note over RIE,GC: (3) Close the Appointment Loop
     RIE->>RIE: Transform · Identity resolve · Code map · Route · Audit
@@ -103,14 +106,14 @@ sequenceDiagram
     else Patient is Inpatient
         Bridges->>GC: Create appointment (ADT)
     end
-    Note over Cadence,GC: Appointment linked back to MIH Referral Order / encounter
+    Note over Cadence,GC: v1 — ConnectCare coordinator links appointment ↔ MIH Referral Order / encounter (automated correlation = future state)
 ```
 
 ### 3.5 Realisation via the TransferSchedulingBroker Interface
 
 The [[Logis IDS TransferSchedulingBroker Interface]] specification confirms how this flow is realised on the Logis side, and the **RIE plays the "TransferSchedulingBroker" role** the vendor expects as its integration counterpart. Three points shape the design:
 
-- **Broker-driven booking (workflow inversion).** The interface is built for the broker to *initiate* the booking into Logis via `BookTransport` (`POST …/transferschedulingbroker/transport`), with Logis acting as the dispatch/execution engine returning status. This inverts the earlier assumption that the MIH Patient Coordinator books manually in Logis and Logis then pushes the appointment to Epic. The broker-driven pattern is the preferred realisation because it removes the manual double-entry that motivated this work: Epic referral → RIE → `BookTransport`. **This is a design decision to confirm with the MIH program** (see §6).
+- **Booking model — coordinator-assisted for v1 (decided), broker-driven deferred.** The interface *supports* the broker initiating the booking into Logis via `BookTransport` (`POST …/transferschedulingbroker/transport`), with Logis acting as the dispatch/execution engine returning status. The **29 June 2026 working session** settled the open design decision: v1 will be **coordinator-assisted** — the Epic referral seeds the booking, a Logis coordinator completes the parameters ConnectCare cannot send, and a ConnectCare coordinator links the returned appointment. Fully broker-driven automation (`BookTransport` with no human completion, plus automated referral correlation) remains the **target future state** because it removes the residual double-handling, but it is **not** the v1 scope. This changes the realisation *pattern* but not the *components*: the RIE still seeds the referral and mediates the round trip.
 - **OnHold → Confirm handshake.** A new booking is held **OnHold** in Logis until the RIE sends `ConfirmTransport` (Accept/Reject). On Accept, the OnHold reason is cleared and the transport is planned; on Reject it is cancelled. The RIE must implement this extra handshake stage; it has no equivalent in the original narrative.
 - **Transport-vs-appointment semantics.** The interface models a *transport* (`ALocation`→`BLocation`, pickup/dropoff, driving statuses, ETA), with an `IsAppointment` flag. MIH encounters are home visits rather than A→B transports, so SMEs must confirm the mapping (likely crew base → patient location) and whether the separate **Logis IDS Appointments module** is a better fit than the transport broker (see §6, §7).
 
@@ -187,8 +190,8 @@ This section revises the original context model. Elements are grouped into those
 | 5 | Identity resolution (Logis IDs → Epic Patient/provider/department) | HSS Integration | Epic Patient Lookup #5454; provider/department reference data |
 | 6 | Terminology / code mapping configuration | HSS Integration + MIH SMEs | Logis appointment type/status catalogue; Epic visit type/department build |
 | 7 | Outpatient/inpatient routing logic | HSS Integration | Patient-location data element from Logis or Epic |
-| 8 | Epic Incoming Appointment Scheduling (#5384) build in Bridges → Cadence / Grand Central | HSS / Epic | Epic build of MIH visit types and departments |
-| 9 | Referral-to-appointment linkage / loop closure | HSS / Epic | Referral identifier carried end-to-end |
+| 8 | Epic Incoming Appointment Scheduling (#5384) build in Bridges → Cadence / Grand Central | HSS / Epic | Epic build of MIH visit types and a **single department-level resource** (no vehicle/truck resources) |
+| 9 | Referral-to-appointment linkage / loop closure — **v1: manual link by ConnectCare coordinator**; automated Referral Correlation Service = future state | HSS / Epic | Referral identifier carried end-to-end; Booking Correlation Store |
 | 10 | Audit logging for HIA compliance | HSS Integration | HIA audit requirements |
 
 ---
@@ -200,8 +203,9 @@ This section revises the original context model. Elements are grouped into those
 - **Identity matching quality.** Loop closure depends on reliable patient (and provider/department) identity mapping; poor matching produces orphaned appointments. Reusing Epic's Patient Lookup service mitigates this.
 - **Patient-location signal for routing.** The outpatient/inpatient decision needs a trustworthy patient-location data element; confirm whether Logis or Epic is the authoritative source at the time of booking.
 - **Bidirectional consistency.** Reschedules, cancellations and no-shows must propagate in both directions to avoid the two systems drifting apart. Note the interface constrains this: a reschedule is a `PUT` permitted **only until `DrivingToPickup`** (later changes require cancel-and-rebook), and **no-show has no native status** so it must be synthesised (likely a `Cancelled` with a designated reason code).
-- **No patient identifier in the Logis payload.** The interface `Patient` type carries name, DOB, gender, address, phones and physicians but **no PHN/MRN**; bookings are keyed only by the broker-assigned `BookingId`. The RIE must therefore own the `BookingId` ↔ Epic patient/referral/encounter correlation (the Booking Correlation Store), and Epic Patient Lookup (#5454) must match on demographics alone. Loop-closure integrity rests entirely on this RIE cross-reference.
-- **Workflow inversion (design decision).** The interface is broker-driven — the RIE initiates the booking via `BookTransport` rather than the MIH Patient Coordinator booking manually in Logis. The broker-driven pattern is preferred (it eliminates the duplicate entry), but the choice must be confirmed with the MIH program, as it changes the coordinator's role (see §3.5).
+- **No patient identifier in the Logis payload.** The interface `Patient` type carries name, DOB, gender, address, phones and physicians but **no PHN/MRN**; bookings are keyed only by the broker-assigned `BookingId`. The RIE must therefore own the `BookingId` ↔ Epic patient/referral/encounter correlation (the Booking Correlation Store). The 29 June session reinforced the mitigation: **PHN must be carried outbound from Epic, where confidence is high**, and a PHN *lookup* in Logis must be avoided — the ePCR project established a painful precedent for unreliable Logis-side patient matching. Because the referral originates in Epic and the RIE holds the correlation, the design should never need to resolve a PHN from Logis demographics; Epic Patient Lookup (#5454) becomes a fallback rather than the primary path.
+- **Booking model decided (v1) — but completion stays manual.** The 29 June session settled the workflow-inversion question: v1 is **coordinator-assisted**, not fully broker-driven (see §3.5). The trade-off is that residual manual effort remains — a Logis coordinator completes scheduling parameters and a ConnectCare coordinator links the returned record — so the duplicate-effort problem is *reduced*, not eliminated, until the broker-driven future state is built. The automated **Referral Correlation Service** is therefore a future-state component, not a v1 build item.
+- **Appointment-status freeze and resourcing.** Check-in/check-out is driven entirely by Logis. An appointment can still move in Epic until the Logis status reaches **`arrived`** (the operational freeze point the program described; reconcile against the interface's reschedule-until-`DrivingToPickup` constraint during the George session). Logis checks appointments in the day ahead and its SLAs can lock them down; the paramedic logs into Logis, picks up the appointment and self-associates, so **no vehicle-level resource is needed in Epic**. Epic uses a **single department-level resource** rather than individual trucks — vehicles were built into Epic for launches 4 and 6, then removed, and the program agreed not to rebuild them. This simplifies the Epic visit-type/department build and the identity-resolution scope.
 
 ---
 
@@ -213,7 +217,8 @@ To be confirmed with Logis/ESO and the Epic teams before sizing:
 2. Could the existing **ESO Health Data Exchange (HDE)** pathway (which already does bidirectional EMS↔EHR exchange with Epic) carry appointment events, or is HDE scoped to ePCR/outcomes only?
 3. ~~The **IDS Appointments API specification** (already being requested): confirm payload, event triggers (book / reschedule / cancel / no-show), and webhook vs. polling delivery.~~ **Answered**: payload and operations are defined (`BookTransport`/`ConfirmTransport`/`CancelTransport`/`AttachFileToTransport` + inbound `TransportStatusUpdate`); delivery is **push/webhook** (Logis → broker endpoint). *Residual:* no-show is not a native status and must be mapped; reschedule (`PUT`) is allowed only until `DrivingToPickup`.
 4. On the Epic side, confirm **Incoming Appointment Scheduling (#5384)** as the inbound target and the MIH visit-type/department build required in Cadence and Grand Central.
-5. Confirm the **MIH workflow model** — broker-driven booking (RIE calls `BookTransport`) vs. coordinator-manual booking — and the resulting change to the MIH Patient Coordinator's role (see §3.5, §6).
+5. ~~Confirm the **MIH workflow model** — broker-driven booking (RIE calls `BookTransport`) vs. coordinator-manual booking.~~ **Decided (29 June 2026):** v1 is **coordinator-assisted** (Epic referral seeds the booking; Logis coordinator completes parameters; ConnectCare coordinator links the returned record). Fully broker-driven automation is deferred to a future state (see §3.5, §6). *Residual:* confirm the resulting MIH Patient Coordinator / Logis coordinator role split in the end-to-end workflow model.
+6. **Epic outbound message type — orders interface vs. referral notification.** Confirm with George (week of 6 July) whether the Epic→Logis trigger is an **outgoing orders interface** or a **referral notification**, and whether the inbound-to-Logis message is **HL7 v2 SIU** (likely — no FHIR API exists to create appointments in Logis) or FHIR. This determines the RIE transformation build and the Epic-side configuration. Define the **minimum spec** for what data travels in each direction.
 
 ---
 
@@ -256,7 +261,8 @@ To be confirmed with Logis/ESO and the Epic teams before sizing:
 | 2026-06-15 | Alec Blair (with Claude) | Initial revised solution concept model, derived from the Epic to Logis Appointment Sync context note. |
 | 2026-06-23 | Alec Blair (with Claude) | Added OKF frontmatter. Revised to reflect the Logis TransferSchedulingBroker interface specification: confirmed REST/JSON + push delivery (closed open questions #1, #3), recast RIE as the TransferSchedulingBroker role, relabelled Logis interfaces to actual operations, added the broker-driven workflow and OnHold→Confirm handshake (§3.5), and added the patient-identifier gap, workflow-inversion decision, and Booking Correlation Store. |
 | 2026-06-24 | Alec Blair (with Claude) | Converted the §3.4 Conceptual Flow from an ASCII diagram to a Mermaid sequence diagram. |
+| 2026-06-29 | Alec Blair (with Claude) | Revised to reflect the [[EHS MIH Appointment Scheduling Interface\|29 June MIH Appointment Scheduling working session]]: settled the booking model as **coordinator-assisted for v1** (broker-driven automation deferred), recast automated referral correlation as future state, narrowed the patient-visibility outcome (MyChart date-only, automated notifications off, coordination centre calls), added the appointment-status freeze (`arrived`) and single department-level resource (no vehicles) decisions, reinforced PHN-from-Epic (avoid Logis lookup, ePCR precedent), and added open question #6 (Epic outbound orders-vs-referral-notification message type, HL7 v2 vs FHIR — to confirm with George, week of 6 July). |
 
 ---
 
-_Related:_ [[Epic to Logis Appointment Sync]] · [[Logis TransferSchedulingBroker Interface Assessment]] · [[Logis IDS TransferSchedulingBroker Interface]] · [[CLAUDE-HSS]]
+_Related:_ [[Epic to Logis Appointment Sync]] · [[EHS MIH Appointment Scheduling Interface|29 June 2026 Working Session]] · [[Logis TransferSchedulingBroker Interface Assessment]] · [[Logis IDS TransferSchedulingBroker Interface]] · [[CLAUDE-HSS]]

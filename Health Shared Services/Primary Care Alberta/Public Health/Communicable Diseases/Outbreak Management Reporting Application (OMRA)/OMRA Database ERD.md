@@ -9,13 +9,24 @@ tags:
   - omra
   - communicable-disease
   - outbreak-management
-timestamp: 2026-06-25T00:00:00Z
+timestamp: 2026-06-29T00:00:00Z
 ---
 
 // ============================================================================
 // OUTBREAK MANAGEMENT REPORTING APPLICATION (OMRA) - DATABASE ERD
-// Version: 2.5
+// Version: 2.6
 // Date: January 12, 2026
+//   v2.6 update June 29, 2026 - submission-side entities imported from the Submit
+//     Facility Questionnaire Screen Specifications (Section 16): FacilitySubmissionReceipt
+//     (a dated acknowledgement returned to the operator, including a "no updates"
+//     confirmation), SubmissionValidation + SubmissionValidationIssue (the result of the
+//     Validate quality-check gate, header + per-issue detail), and SubmissionFileUpload
+//     (staging for an uploaded Excel/PDF before its rows are mapped into a line list /
+//     aggregate snapshot). Resolves the gaps that FacilityLineList (Section 5) and
+//     FacilityOutbreakAggregateReport (Section 8) carried no receipt, no validation-result
+//     store and no uploaded-file reference. Records the still-open access question (identity
+//     attribution for the authentication-free Facility Operator path) via
+//     FacilitySubmissionReceipt.submitterToken.
 //   v2.5 update June 25, 2026 - prototype design changes imported from the OMRA
 //     screen specifications:
 //     (a) Disease Maintenance "Add Disease" minimum-viable quick-add - adds
@@ -941,6 +952,79 @@ Table ContactInvestigationLifecycle {
 
 
 // ============================================================================
+// SECTION 16: FACILITY QUESTIONNAIRE SUBMISSION (RECEIPT, VALIDATION & UPLOAD)
+// ============================================================================
+// v2.6 - resolves the submission-side gaps flagged by Submit Facility Questionnaire
+// Screen Specifications. A facility submission is persisted as a line list (Section 5)
+// or an aggregate snapshot (Section 8); these tables add (a) a dated submission receipt
+// returned to the operator (including a "no updates" confirmation), (b) the result of the
+// Validate action, and (c) a staging record for an uploaded Excel/PDF before its rows are
+// mapped into the line list. None of these existed before: FacilityLineList /
+// FacilityOutbreakAggregateReport had no receipt, no validation-result store, and no
+// uploaded-file reference.
+
+Table FacilitySubmissionReceipt {
+  receiptID int [primary key]
+  outbreakID int [ref: > Outbreak.outbreakID]
+  facilityID int [ref: > Facility.facilityID]
+  submissionMode varchar(20) [note: 'Line List, Aggregate']
+  lineListID int [ref: > FacilityLineList.lineListID, note: 'Set when the submission is a line list (Section 5); null otherwise']
+  aggregateReportID int [ref: > FacilityOutbreakAggregateReport.aggregateReportID, note: 'Set when the submission is an aggregate snapshot (Section 8); null otherwise']
+  reportingPeriodDate date [note: 'The reporting period/date the submission represents (mirrors lineListSubmissionDate / reportDate)']
+  isNoUpdates bool [default: false, note: '"No updates / no change" confirmation for the period - a valid submission with no new/changed cases']
+  submissionChannel varchar(20) [note: 'Web, Excel, PDF, Proxy']
+  receiptReference varchar(50) [note: 'Human-readable confirmation reference returned to the operator']
+  receiptIssuedDateTime datetime
+  confirmationStatus varchar(30) [note: 'Received, Acknowledged, Superseded']
+  submittedBy int [ref: > Person.personID, note: 'Operator or proxy (Investigator / PPHST Call Analyst); null for an unauthenticated web submitter']
+  submitterToken varchar(100) [note: 'Tokenised, outbreak-scoped identifier for the authentication-free Facility Operator path when submittedBy is null - open access question']
+  createdDate datetime
+}
+
+Table SubmissionValidation {
+  validationID int [primary key]
+  lineListID int [ref: > FacilityLineList.lineListID, note: 'Validated line-list submission (Section 5); null if aggregate or pre-ingest upload']
+  aggregateReportID int [ref: > FacilityOutbreakAggregateReport.aggregateReportID, note: 'Validated aggregate snapshot (Section 8); null otherwise']
+  fileUploadID int [ref: > SubmissionFileUpload.fileUploadID, note: 'Validated pre-ingest upload; null for in-page submissions']
+  validationDateTime datetime
+  validationStatus varchar(30) [note: 'Passed, PassedWithWarnings, Failed']
+  triggeredAction varchar(20) [note: 'Validate (gate before Save) or Save']
+  validatedBy int [ref: > Person.personID]
+  // Header for one run of the quality checks (duplicate-by-date, mode integrity,
+  // mandatory-context, registry checks); one row per Validate/Save action.
+}
+
+Table SubmissionValidationIssue {
+  validationIssueID int [primary key]
+  validationID int [ref: > SubmissionValidation.validationID]
+  ruleCode varchar(50) [note: 'DUPLICATE_BY_DATE, MODE_INTEGRITY, MANDATORY_CONTEXT, REGISTRY_CHECK, UPLOAD_MAPPING, etc.']
+  severity varchar(10) [note: 'Error (blocks Save), Warning (Save allowed if acknowledged)']
+  message varchar(500)
+  targetRowRef varchar(100) [note: 'LineListPerson row the issue applies to; null for submission-level issues']
+  targetFieldRef varchar(100) [note: 'Field/column the issue applies to']
+  isAcknowledged bool [default: false, note: 'Operator/proxy acknowledged a warning to allow Save (BR 5.6)']
+}
+
+Table SubmissionFileUpload {
+  fileUploadID int [primary key]
+  outbreakID int [ref: > Outbreak.outbreakID]
+  facilityID int [ref: > Facility.facilityID]
+  uploadMode varchar(20) [note: 'Line List, Aggregate']
+  fileName varchar(255)
+  fileFormat varchar(10) [note: 'XLSX, PDF']
+  fileSizeBytes int
+  storageRef varchar(500) [note: 'Pointer to the stored file in document storage']
+  uploadDateTime datetime
+  uploadedBy int [ref: > Person.personID, note: 'Operator or proxy; null for unauthenticated web submitter']
+  ingestionStatus varchar(30) [note: 'Uploaded, Mapped, Ingested, Rejected']
+  mappingReport text [note: 'Per-column mapping/validation report; populated on a failed/partial map (ESC 6.2)']
+  resultingLineListID int [ref: > FacilityLineList.lineListID, note: 'Set once rows are committed to a line list (Section 5)']
+  resultingAggregateReportID int [ref: > FacilityOutbreakAggregateReport.aggregateReportID, note: 'Set once an aggregate snapshot is committed (Section 8)']
+  createdDate datetime
+}
+
+
+// ============================================================================
 // RELATIONSHIP NOTES
 // ============================================================================
 //
@@ -1041,5 +1125,22 @@ Table ContactInvestigationLifecycle {
 //     active filter/sort scope, the row count and the stated purpose. privacyBoundaryCrossed
 //     marks exports that include HIV/STI rows, which require steward authorization under the
 //     Section 14 DiseaseGroup privacy boundary. Reusable by any future PHI-exporting screen.
+//
+// 20. FACILITY QUESTIONNAIRE SUBMISSION (Section 16, v2.6): a facility submission is still
+//     persisted as a FacilityLineList (+ LineListPerson rows, Section 5) or a
+//     FacilityOutbreakAggregateReport snapshot (Section 8); Section 16 adds the wrapper the
+//     Submit Facility Questionnaire screen needs. FacilitySubmissionReceipt issues a dated,
+//     human-readable acknowledgement per reporting period and carries isNoUpdates so a
+//     "no change" report is recorded as intentional rather than missed; it points to whichever
+//     of lineListID / aggregateReportID the submission produced. SubmissionValidation +
+//     SubmissionValidationIssue store the Validate gate's outcome (BR 5.1-5.6) - one header per
+//     Validate/Save action with one issue row per rule hit, severity Error/Warning, and an
+//     isAcknowledged flag so warnings can be cleared to allow Save. SubmissionFileUpload stages
+//     an uploaded Excel/PDF (storageRef, ingestionStatus, mappingReport) before its rows are
+//     committed, then records resultingLineListID / resultingAggregateReportID once ingested
+//     (ESC 6.2). submittedBy is null for the authentication-free operator path;
+//     FacilitySubmissionReceipt.submitterToken holds the tokenised, outbreak-scoped identity -
+//     the open access question for that path. All mutations remain audited via AuditLog;
+//     correction rationale continues to live in AuditLog (no rationale column added).
 //
 // ============================================================================
