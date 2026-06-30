@@ -10,7 +10,6 @@ tags:
   - outbreak-management
 timestamp: 2026-06-26T00:00:00Z
 ---
-
 ## Design Specification Context
 
 This screen lets an investigator build and work the **exposed-contact list** for a communicable-disease investigation — capturing each contact's identity and exposure context, recording attempts to reach them, validating identity against the provincial Client Registry, and promoting uniquely identified contacts into a Communicable Disease Episode in Connect Care. It is the shared contact-identification surface across four investigation contexts (tuberculosis, sexually transmitted infections, and the CDC and SHE "uniquely identify individuals in outbreak" patterns), so it must serve both **source-case-driven** investigations (a known source person exposes others) and **region/outbreak-driven** investigations (no single source case). A contact-identification list can be **generated from either origin** — spawned directly from a single **Communicable Disease Episode** (a standalone source case, with no outbreak declared) or created **as part of a Facility Outbreak** — and a list that begins from a standalone episode can later be **escalated into an outbreak** (see Functional Behaviour 6).

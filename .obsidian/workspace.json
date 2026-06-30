@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/11 - Update CD Episode with Outbreak ID - CDC Investigator User Story.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRA).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "11 - Update CD Episode with Outbreak ID - CDC Investigator User Story"
+              "title": "Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRA)"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 533.5026054382324
+    "width": 397.5026054382324
   },
   "right": {
     "id": "5b6e0ba77496e078",
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/11 - Update CD Episode with Outbreak ID - CDC Investigator User Story.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRA).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 11 - Update CD Episode with Outbreak ID - CDC Investigator User Story"
+              "title": "Backlinks for Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRA)"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/11 - Update CD Episode with Outbreak ID - CDC Investigator User Story.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRA).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 11 - Update CD Episode with Outbreak ID - CDC Investigator User Story"
+              "title": "Outgoing links from Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRA)"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/11 - Update CD Episode with Outbreak ID - CDC Investigator User Story.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRA).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 11 - Update CD Episode with Outbreak ID - CDC Investigator User Story"
+              "title": "Outline of Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRA)"
             }
           },
           {
@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 325.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,14 +211,31 @@
   },
   "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Interface Specification - Create CD Episode and Draft Contact Abstract (OMRA to Connect Care).md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRA).md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Compass Rose Tasks Setup and Support Guide.pdf",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/TB Build Objects/Build Specification - TB CD Episode Compass Rose (Tasks Targets Automation).md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/TB Build Objects",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Meeting Minutes/Untitled.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/TB User Stories/TB Contact List - TB Nurse User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Contact Identification Screen Specifications.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Disease Guidelines/Acute Severe Hepatitis of Unknown Origin in Children.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Disease Guidelines/Acute Flaccid Paralysis.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/01 - Outbreak Search - Outbreak Investigator User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE/Meeting Minutes/June 30,2026 - SHE Bi-weekly Meeting Minutes.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE/Meeting Minutes/June 16, 2026 - CDS SHE Bi-Weekly Meeting.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/Meeting Minutes/CDC Bi-weekly CDS Working Group Meeting.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/Meeting Minutes",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE/CLAUDE-SHE-WG.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE/Meeting Minutes",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/11 - Update CD Episode with Outbreak ID - CDC Investigator User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE",
     "Personal Information/Physical Training Plan/Blair, Alec YouFit Life PARQ.pdf",
     "Personal Information/Physical Training Plan/Blair, Alec - YouFit Life Waiver.pdf.pdf",
     "Personal Information/Physical Training Plan/Blair, Alec - Waiver.pdf.pdf",
     "Personal Information/Physical Training Plan/Blair, Alec - Waiver 2025.pdf.pdf",
     "Personal Information/Physical Training Plan/Blair, Alec PARQ.pdf",
-    "Personal Information/Physical Training Plan/Waiver 2025.pdf.pdf",
-    "Personal Information/Physical Training Plan/Unconfirmed 848904.crdownload",
-    "Personal Information/Physical Training Plan/parq-trainerize.pdf",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/10 - Manager Outbreak Metrics and Reporting - Team Lead Department Manager User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/09 - Track Outbreak Activities and Tasks - CDC Investigator User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/08 - Submit Facility Outbreak Line List - Facility Operator User Story.md",
@@ -227,26 +245,9 @@
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/06 - Document Facility Outbreak Phone Encounter - PPHST Call Analyst User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/05 - Outbreak Assessment - CDC Investigator User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/04 - Maintain Outbreak Task Lists - Team Lead Department Manager User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/11 - Update CD Episode with Outbreak ID - CDC Investigator User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/03 - Assign Staff to Outbreak - Team Lead Department Manager User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/02 - Create Outbreak Investigation - CDC Investigator User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/01 - Outbreak Search - Outbreak Investigator User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC Communicable Disease Manage Outbreak Value Stream.md",
-    "Stealth Enterprise Architecture/Blog Entries/Article Ideas/AI Tower of Babel or the foundation for a better world?.md",
-    "Stealth Enterprise Architecture/Blog Entries/Article Ideas/Closed Loop Analytics/Model a Domain's Value Stream.md",
-    "Stealth Enterprise Architecture/Archi Export/Hospital Enterprise Model.md",
-    "Stealth Enterprise Architecture/Archi Export/Hospital_Enterprise_Model.md",
     "Stealth Enterprise Architecture/Archi Export/Archi Embedding Architecture.png",
-    "Stealth Enterprise Architecture/Archi Export/Archi Embedding Architecture.md",
-    "Stealth EA LLC/Stealth EA Style Guide.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Meeting Minutes/Untitled.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Contact Identification Screen Specifications.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Meeting Minutes",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Submit Facility Questionnaire Screen Specifications.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Facility Questionnaire Maintenance Screen Specifications.md",
-    "Health Shared Services/Emergency Health Services/Community Paramedic Appointment Sync/Meeting Minutes",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Data Lake House/Meeting Notes",
     "Contact Identification Screen Specifications Draft Wireframe.png",
     "Screenshot 2026-06-22 at 10.09.58 AM.png",
     "Sexual Contacts Flowsheet.png",

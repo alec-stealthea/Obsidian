@@ -14,7 +14,6 @@ tags:
   - automation
 timestamp: 2026-06-24T00:00:00Z
 ---
-
 # Build Specification — TB Communicable Disease Episode in Compass Rose
 
 > **System:** Connect Care (Epic) — Compass Rose &nbsp;|&nbsp; **Scope:** One episode type spanning Active TB and Latent TB infection &nbsp;|&nbsp; **Status:** Draft for build-team review
@@ -102,7 +101,7 @@ Resolution statuses (overall status = Resolved; the close-reason taxonomy from t
 
 ---
 
-## 6. Episode Status Progression
+## 6. TB Episode Cascade of Care Status Progression
 
 ```mermaid
 flowchart TD
@@ -151,12 +150,12 @@ All tasks: Task Context `I LTR 29 = Checklist`; Episode Class `I LTR 53100` = th
 
 ### 8.1 Stage A — Intake & Determination (template TPL‑INTAKE; added on episode creation)
 
-| Code | Task | Next on completion | Auto-complete from | Outcomes / branching |
-|---|---|---|---|---|
-| A1 | Open episode & link **Source Care Abstract ID** | → A2 | — | cross-ref interface specs |
-| A2 | Record exposure & risk factors | → A3 | — | — |
-| A3 | Order & administer TST/IGRA; obtain result | → A4 | IGRA/TST result final | Positive → A4; Negative → resolve RES‑IND |
-| A4 | Chest x-ray & clinical evaluation (**determination**) | Task Rule branches | CXR result final | **Task Rule `I LTR 53121`**: outcome `Active` → advance TB‑40A; `Latent` → advance TB‑40L |
+| Code | Task                                                  | Next on completion | Auto-complete from    | Outcomes / branching                                                                      |
+| ---- | ----------------------------------------------------- | ------------------ | --------------------- | ----------------------------------------------------------------------------------------- |
+| A1   | Open episode & link **Source Care Abstract ID**       | → A2               | —                     | cross-ref interface specs                                                                 |
+| A2   | Record exposure & risk factors                        | → A3               | —                     | —                                                                                         |
+| A3   | Order & administer TST/IGRA; obtain result            | → A4               | IGRA/TST result final | Positive → A4; Negative → resolve RES‑IND                                                 |
+| A4   | Chest x-ray & clinical evaluation (**determination**) | Task Rule branches | CXR result final      | **Task Rule `I LTR 53121`**: outcome `Active` → advance TB‑40A; `Latent` → advance TB‑40L |
 
 ### 8.2 Stage B — Latent TBI / TPT (template TPL‑LATENT; added on status → TB‑40L)
 

@@ -1,0 +1,1 @@
+The Safe and Healthy Environments (SHE) clinical area largely follows the same outbreak value stream as Communicable Disease Control.

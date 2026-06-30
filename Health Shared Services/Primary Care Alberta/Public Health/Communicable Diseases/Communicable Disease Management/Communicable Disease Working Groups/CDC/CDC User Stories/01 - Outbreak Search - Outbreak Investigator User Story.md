@@ -11,7 +11,6 @@ tags:
   - search
 timestamp: 2026-06-25T00:00:00Z
 ---
-
 ## Background
 
 Confirming whether a situation is a new outbreak — or part of one already under investigation — is the first decision an Outbreak Investigator makes. Before declaring and opening a new outbreak, the investigator needs to see what is already active, what has recently closed, and whether the facility, region, organism or PHAC identifier in front of them already maps to an existing investigation. Without a reliable search, the program risks opening duplicate outbreaks for the same event or missing that a "new" report is really an update to an open one.
