@@ -14,7 +14,7 @@ timestamp: 2026-06-26T00:00:00Z
 
 ## Background
 
-Once a suspected outbreak has been opened — created as an investigation record via the [[Create Outbreak Investigation - CDC Investigator User Story|create-outbreak]] capability (O-A-4) — the Outbreak Investigator's next job is to **assess** it: to gather and document enough about the reported event to decide whether it actually meets the **outbreak definition** for the disease in question and therefore deserves continued investigation, or whether it can be dispositioned as *not an outbreak* / no further action. This story sits at the **Assess (A)** stage of the Outbreak Value Stream, immediately after the confirm/search ([[Outbreak Search - Outbreak Investigator User Story|O-C-3]]) and create-outbreak (O-A-4) work and before the manage-and-close work.
+Once a suspected outbreak has been opened — created as an investigation record via the [[02 - Create Outbreak Investigation - CDC Investigator User Story|create-outbreak]] capability (O-A-4) — the Outbreak Investigator's next job is to **assess** it: to gather and document enough about the reported event to decide whether it actually meets the **outbreak definition** for the disease in question and therefore deserves continued investigation, or whether it can be dispositioned as *not an outbreak* / no further action. This story sits at the **Assess (A)** stage of the Outbreak Value Stream, immediately after the confirm/search ([[01 - Outbreak Search - Outbreak Investigator User Story|O-C-3]]) and create-outbreak (O-A-4) work and before the manage-and-close work.
 
 The assessment is where the investigator characterises the event — healthcare vs. non-healthcare setting, facility vs. non-facility, the disease-specific criteria that apply, and the likely exposure source — and where the first evidence (an initial line list, lab results, or external jurisdiction identifiers) is brought onto the record so a defensible "outbreak / not an outbreak / keep tracking" decision can be made. The `Outbreak` row created at open is the parent that this assessment enriches; Connect Care remains the **system of record for individual cases** (see [[CLAUDE-OMRA]] data-ownership boundaries), while OMRA owns the outbreak coordination record and the assessment metadata.
 
@@ -22,7 +22,7 @@ The build realisation of this story is expected to share the [[Create Outbreak I
 
 > **Note on the disposition vocabulary.** "Meets the outbreak definition" maps to the ERD `Outbreak.outbreakProgress` enum **Tracking / Outbreak / Not an Outbreak**, paired with the `Outbreak.outbreakStatus` (Open / Closed) and the broader `Outbreak.outbreakLifecycleStatus`. Setting the assessment to **Under Investigation** (AC2) is the process state the investigator works the assessment in; the *Outbreak / Not an Outbreak / Tracking* value is the **outcome** of the assessment. Which field drives the UI is the same open question flagged in [[Create Outbreak Investigation Screen Specifications]].
 
-> **Note on the Story ID.** This story is carried as **O-A-6** per the working draft. The [[Create Outbreak Investigation - CDC Investigator User Story|Create Outbreak story (O-A-4)]] currently references the assessment story as *O-A-2*; that cross-reference should be updated to point to **O-A-6** (this note) — flagged in Dependencies rather than silently back-edited.
+> **Note on the Story ID.** This story is carried as **O-A-6** per the working draft. The [[02 - Create Outbreak Investigation - CDC Investigator User Story|Create Outbreak story (O-A-4)]] currently references the assessment story as *O-A-2*; that cross-reference should be updated to point to **O-A-6** (this note) — flagged in Dependencies rather than silently back-edited.
 
 ## User Story
 
@@ -63,7 +63,7 @@ How will the user be able to say we built what they needed?
 
 ## Dependencies
 
-- **Story ID cross-reference (O-A-4 ↔ O-A-6).** The [[Create Outbreak Investigation - CDC Investigator User Story|Create Outbreak story (O-A-4)]] references the assessment story as *O-A-2*; update that reference to **O-A-6** (this note) once confirmed.
+- **Story ID cross-reference (O-A-4 ↔ O-A-6).** The [[02 - Create Outbreak Investigation - CDC Investigator User Story|Create Outbreak story (O-A-4)]] references the assessment story as *O-A-2*; update that reference to **O-A-6** (this note) once confirmed.
 - **CDC Facility Operator submission story (O-ET-1).** AC3 (receive a line list) depends on the *Submit Facility Outbreak Line List — CDC Facility Operator* story for the submit side of the exchange. Link here once that note exists.
 - **Non-facility line list via the Facility Questionnaire (AC6 — resolved 2026-06-29).** The non-facility / WGS-candidate line list is **not** a separate story; it is a scenario of the [[Create Facility Questionnaire Screen Specifications|Facility Questionnaire]] with Facility made non-mandatory (CD-OI-26 resolved; build consequence CD-OI-27). Only the WGS/candidate-outbreak column detail remains open (CD-OI-23).
 - **`Outbreak` ERD gaps (later analysis round).** Disease/criteria, Setting and Zone/Region do not yet have direct columns on `Outbreak` (no `infectiousDiseaseID`, `outbreakSettingID`, `zoneID`/region) — flagged in [[Create Outbreak Investigation Screen Specifications]] and [[OMRA Database ERD]]. The healthcare/non-healthcare, facility/non-facility and exposure-source attributes in AC1 should be confirmed against the resolved data model.
@@ -80,7 +80,7 @@ How will the user be able to say we built what they needed?
 | Status                       | Analysis                                                                                                                                        |
 | Build Team(s)                | Outbreak Application Team                                                                                                                        |
 | Related Design Spec          | [[Create Outbreak Investigation Screen Specifications]]; [[OMRA Database ERD]]                                                                  |
-| Related Pattern Story        | [[Create Outbreak Investigation - CDC Investigator User Story]]; [[Outbreak Search - Outbreak Investigator User Story]]                         |
+| Related Pattern Story        | [[02 - Create Outbreak Investigation - CDC Investigator User Story]]; [[01 - Outbreak Search - Outbreak Investigator User Story]]                         |
 | Reference Material           | [[CLAUDE-OMRA]]; [[User Maintenance Screen Specifications]]                                                                                     |
 | Regulatory Drivers           | Public Health Act & Communicable Diseases Regulation; Health Information Act (HIA), RSA 2000, c H-5; PHAC / international reporting              |
 | Link to System Design Doc    | [Link — TBD]                                                                                                                                    |

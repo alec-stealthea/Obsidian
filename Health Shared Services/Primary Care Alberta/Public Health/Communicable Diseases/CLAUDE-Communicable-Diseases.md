@@ -95,7 +95,7 @@ Open design decisions, data-model gaps, and pending story/note dependencies acro
 ## Child Context Files
 
 - [[CLAUDE-OMRA]] — Outbreak Management Reporting Application build (data model, screen specifications, RBAC/ABAC access model).
-- [[CLAUDE-CDC]] — Communicable Disease Control working group (outbreak-management user stories on the Outbreak value stream; e.g., [[Outbreak Search - Outbreak Investigator User Story]], [[Create Outbreak Investigation - CDC Investigator User Story]]).
+- [[CLAUDE-CDC]] — Communicable Disease Control working group (outbreak-management user stories on the Outbreak value stream; e.g., [[01 - Outbreak Search - Outbreak Investigator User Story]], [[02 - Create Outbreak Investigation - CDC Investigator User Story]]).
 - [[CLAUDE-Communicable-Disease-Data-Lake-House]] — CD Data Lake House (Snowflake medallion platform, Coalesce ETL, Atlan glossary taxonomy, the Facility Location master dimension).
 
 ---
