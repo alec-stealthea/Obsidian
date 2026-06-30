@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Maintain Outbreak Task Lists - Team Lead Department Manager User Story.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/11 - Update CD Episode with Outbreak ID - CDC Investigator User Story.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Maintain Outbreak Task Lists - Team Lead Department Manager User Story"
+              "title": "11 - Update CD Episode with Outbreak ID - CDC Investigator User Story"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Maintain Outbreak Task Lists - Team Lead Department Manager User Story.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/11 - Update CD Episode with Outbreak ID - CDC Investigator User Story.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Maintain Outbreak Task Lists - Team Lead Department Manager User Story"
+              "title": "Backlinks for 11 - Update CD Episode with Outbreak ID - CDC Investigator User Story"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Maintain Outbreak Task Lists - Team Lead Department Manager User Story.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/11 - Update CD Episode with Outbreak ID - CDC Investigator User Story.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Maintain Outbreak Task Lists - Team Lead Department Manager User Story"
+              "title": "Outgoing links from 11 - Update CD Episode with Outbreak ID - CDC Investigator User Story"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Maintain Outbreak Task Lists - Team Lead Department Manager User Story.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/11 - Update CD Episode with Outbreak ID - CDC Investigator User Story.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Maintain Outbreak Task Lists - Team Lead Department Manager User Story"
+              "title": "Outline of 11 - Update CD Episode with Outbreak ID - CDC Investigator User Story"
             }
           },
           {
@@ -210,20 +210,20 @@
   },
   "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/10 - Manager Outbreak Metrics and Reporting - Team Lead Department Manager User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/09 - Track Outbreak Activities and Tasks - CDC Investigator User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/08 - Submit Facility Outbreak Line List - Facility Operator User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/07 - Submit Aggregate Outbreak Report - Facility Operator User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Set Outbreak Status (Deprecated) - CDC Investigator User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Create Exposure Incident ID - CDC Investigator User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/06 - Document Facility Outbreak Phone Encounter - PPHST Call Analyst User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/05 - Outbreak Assessment - CDC Investigator User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/04 - Maintain Outbreak Task Lists - Team Lead Department Manager User Story.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/11 - Update CD Episode with Outbreak ID - CDC Investigator User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/03 - Assign Staff to Outbreak - Team Lead Department Manager User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Outbreak Assessment - CDC Investigator User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/02 - Create Outbreak Investigation - CDC Investigator User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/01 - Outbreak Search - Outbreak Investigator User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC Communicable Disease Manage Outbreak Value Stream.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Update CD Episode Outbreak ID - CDC Investigator User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Track Outbreak Activities and Tasks - CDC Investigator User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Submit Facility Outbreak Line List - Facility Operator User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Submit Aggregate Outbreak Report - Facility Operator User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Set Outbreak Status (Deprecated) - CDC Investigator User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Manager Outbreak Metrics and Reporting - Team Lead Department Manager User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Maintain Outbreak Task Lists - Team Lead Department Manager User Story.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/Document Facility Outbreak Phone Encounter - PPHST Call Analyst User Story.md",
     "Stealth Enterprise Architecture/Blog Entries/Article Ideas/AI Tower of Babel or the foundation for a better world?.md",
     "Stealth Enterprise Architecture/Blog Entries/Article Ideas/Closed Loop Analytics/Model a Domain's Value Stream.md",
     "Stealth Enterprise Architecture/Archi Export/Hospital Enterprise Model.md",

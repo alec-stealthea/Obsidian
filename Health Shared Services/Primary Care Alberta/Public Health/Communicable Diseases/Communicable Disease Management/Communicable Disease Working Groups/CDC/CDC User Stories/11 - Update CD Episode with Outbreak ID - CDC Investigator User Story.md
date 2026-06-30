@@ -41,7 +41,7 @@ This is a **Manage (M)** stage activity on the Outbreak Value Stream: the outbre
 - **Scenario B — Find the clients still missing an Outbreak ID.** The investigator needs to know **which** clients meet the case definition but do not yet carry the Outbreak ID on their abstract. They run a report (in Connect Care / Epic) that lists those clients so none is overlooked, then works the list to completion.
 - **Scenario C — New qualifying case filed after declaration.** After the outbreak is declared, a further case meeting the case definition is filed. The investigator (or, desirably, the system) ensures the new episode's abstract is stamped with the existing Outbreak ID so the late-arriving case is captured.
 - **Scenario D — Case that should not be associated.** A candidate case turns out **not** to meet the case definition (e.g., ruled out). The investigator does **not** apply the Outbreak ID — or removes it if previously applied — so the outbreak case set stays accurate.
-- **Scenario E — Client linked to more than one event.** A client appears in two related/clustered outbreaks. The investigator can record the correct Outbreak ID(s) so the abstract reflects the right outbreak association(s) (pairs with [[Outbreak Assessment - CDC Investigator User Story|Outbreak Assessment]], O-A-6, on related/cluster outbreaks).
+- **Scenario E — Client linked to more than one event.** A client appears in two related/clustered outbreaks. The investigator can record the correct Outbreak ID(s) so the abstract reflects the right outbreak association(s) (pairs with [[05 - Outbreak Assessment - CDC Investigator User Story|Outbreak Assessment]], O-A-6, on related/cluster outbreaks).
 
 ## Acceptance Testing
 
@@ -83,7 +83,7 @@ How will the user be able to say we built what they needed?
 | Status                       | Analysis                                                                                                              |
 | Build Team(s)                | Outbreak Application Team; Epic Connect Care Team (for the Connect Care report and abstract field)                    |
 | Related Design Spec          | [[Interface Specification - Create CD Episode and Draft Contact Abstract (OMRA to Connect Care)]]; [[OMRA Database ERD]] |
-| Related Pattern Story        | [[02 - Create Outbreak Investigation - CDC Investigator User Story]]; [[Create Exposure Incident ID - CDC Investigator User Story]]; [[Outbreak Assessment - CDC Investigator User Story]] |
+| Related Pattern Story        | [[02 - Create Outbreak Investigation - CDC Investigator User Story]]; [[Create Exposure Incident ID - CDC Investigator User Story]]; [[05 - Outbreak Assessment - CDC Investigator User Story]] |
 | Reference Material           | [[CLAUDE-OMRA]]; [[CLAUDE-CDC]]; [[User Maintenance Screen Specifications]]; [[Communicable Disease Open Issues]]      |
 | Regulatory Drivers           | Public Health Act & Communicable Diseases Regulation; Health Information Act (HIA), RSA 2000, c H-5                    |
 | Link to System Design Doc    | [Link — TBD]                                                                                                          |

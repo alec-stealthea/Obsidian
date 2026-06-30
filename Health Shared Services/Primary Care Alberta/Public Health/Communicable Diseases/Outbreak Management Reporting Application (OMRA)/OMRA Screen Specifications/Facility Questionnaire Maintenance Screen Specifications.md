@@ -28,7 +28,7 @@ Source material for this specification:
 - **Data model** — [[OMRA Database ERD]] (v2.5): the line-list entities `FacilityLineList`, `LineListPerson`, `LineListPersonType`, `CaseClassification`, `LineListPersonSymptom` (Section 5) and `FacilityOutbreakAggregateReport` (Section 8) that templates configure; the disease-reference entities `InfectiousDisease`, `Organism` / `DiseaseOrganism`, `Symptom` / `DiseaseSymptom`, `Vaccine` / `DiseaseVaccine`, `DiagnosticTest` / `DiseaseTest` (Section 10) that seed default columns; and `DiseaseContactQuestion` / `ContactDiseaseQuestionResponse` (Section 15) as the analogue template pattern.
 - **Access model** — [[User Maintenance Screen Specifications]] (Role-Based Access Specification); template stewardship is Business System Manager.
 - **Related screens** — [[Create Facility Questionnaire Screen Specifications]] (instantiates a template per outbreak); [[Communicable Disease Maintenance Screen Specifications]] (the dictionary-maintenance exemplar this screen mirrors).
-- **Source user stories** — [[Submit Facility Outbreak Line List - Facility Operator User Story]] (O-ET-1) and [[Submit Aggregate Outbreak Report - Facility Operator User Story]] (O-M-1), whose instruments these templates define.
+- **Source user stories** — [[08 - Submit Facility Outbreak Line List - Facility Operator User Story]] (O-ET-1) and [[07 - Submit Aggregate Outbreak Report - Facility Operator User Story]] (O-M-1), whose instruments these templates define.
 
 ## Wireframe
 
@@ -124,4 +124,4 @@ The maintained elements are **template definitions**, not instrument data. Each 
 - **Link to Jira Task** — _to be added_
 - **Specifications Status** — Draft for working-group review
 - **Linked SBARs** — _to be added_
-- **Linked Enabling Stories** — [[Submit Facility Outbreak Line List - Facility Operator User Story]] (O-ET-1); [[Submit Aggregate Outbreak Report - Facility Operator User Story]] (O-M-1)
+- **Linked Enabling Stories** — [[08 - Submit Facility Outbreak Line List - Facility Operator User Story]] (O-ET-1); [[07 - Submit Aggregate Outbreak Report - Facility Operator User Story]] (O-M-1)

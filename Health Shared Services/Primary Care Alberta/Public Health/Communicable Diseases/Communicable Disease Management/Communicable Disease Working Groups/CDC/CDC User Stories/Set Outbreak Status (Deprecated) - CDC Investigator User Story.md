@@ -14,7 +14,7 @@ timestamp: 2026-06-26T00:00:00Z
 ---
 
 > [!warning] DEPRECATED — MERGED
-> This user story has been **approved for deprecation**. Its content has been merged into the [[02 - Create Outbreak Investigation - CDC Investigator User Story|Create Outbreak Investigation story (O-A-4)]] and the [[Outbreak Assessment - CDC Investigator User Story|Outbreak Assessment story (O-A-6)]]. It is retained for traceability only and should not be groomed or built as a standalone story.
+> This user story has been **approved for deprecation**. Its content has been merged into the [[02 - Create Outbreak Investigation - CDC Investigator User Story|Create Outbreak Investigation story (O-A-4)]] and the [[05 - Outbreak Assessment - CDC Investigator User Story|Outbreak Assessment story (O-A-6)]]. It is retained for traceability only and should not be groomed or built as a standalone story.
 >
 > Source decision: working note "Need to consider merging with the Create Outbreak User Story" — *Jessica: "That makes sense to me!"*
 
@@ -64,7 +64,7 @@ The content below is migrated verbatim from the source working note. Gaps, blank
 | User Story ID                | O-A-4 *(collides with live Create Outbreak Investigation — see flag above)*               |
 | Status                       | Deprecated (was: Analysis)                                                                |
 | Build Team(s)                | Outbreak Management Application Team                                                      |
-| Merged Into                  | [[02 - Create Outbreak Investigation - CDC Investigator User Story]]; [[Outbreak Assessment - CDC Investigator User Story]] |
+| Merged Into                  | [[02 - Create Outbreak Investigation - CDC Investigator User Story]]; [[05 - Outbreak Assessment - CDC Investigator User Story]] |
 | Link to System Design Doc    | [Link]                                                                                    |
 | Link to Design Sign-off Mins | [Link]                                                                                    |
 | Last Updated                 | June 26, 2026                                                                             |

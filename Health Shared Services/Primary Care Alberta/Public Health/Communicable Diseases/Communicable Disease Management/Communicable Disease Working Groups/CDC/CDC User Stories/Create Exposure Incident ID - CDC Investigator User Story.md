@@ -38,7 +38,7 @@ This story sits at the **Confirm (C)** stage of the Outbreak Value Stream: the E
 
 - **Scenario A — Confirm an outbreak (happy path).** During investigation of a suspected event, the investigator requests one or more EI numbers to send community / environmental samples (e.g., a sewer sample, a food sample) to the lab. The returned results, tagged with the EI/Outbreak ID, provide enough evidence to confirm there are enough cases to warrant managing the situation as an outbreak.
 - **Scenario B — Manage / monitor a declared outbreak.** Once the outbreak is declared, lab tests associated to the EI number allow **new results** to be linked back to the appropriate outbreak as part of the Communicable Disease Episode Value Stream.
-- **Scenario C — Related outbreaks with multiple EI numbers.** An event spans multiple EI numbers (e.g., several sample streams or sites). The investigator must be able to associate / relate those EI numbers — and the outbreaks they belong to — with one another (see [[Outbreak Assessment - CDC Investigator User Story|Outbreak Assessment]], O-A-6).
+- **Scenario C — Related outbreaks with multiple EI numbers.** An event spans multiple EI numbers (e.g., several sample streams or sites). The investigator must be able to associate / relate those EI numbers — and the outbreaks they belong to — with one another (see [[05 - Outbreak Assessment - CDC Investigator User Story|Outbreak Assessment]], O-A-6).
 - **Scenario D — Community sample requiring an EI number for testing.** A respiratory community sample is submitted without an EI number; the lab will **not** run the Respiratory Pathogen Panel (RPP) — a required test for respiratory outbreak management — until a valid EI number is supplied, so the investigator generates one first. *(Raised by Jessica.)*
 - **Scenario E — Genomic result from PHAC.** A Whole Genome Sequencing (WGS) result arrives from PHAC / the National Microbiology Laboratory; the investigator is alerted so the genomic result can be linked to the outbreak (scope boundary with the CD Episode / Abstract to be confirmed — see Desirable AC1 and Dependencies).
 
@@ -60,7 +60,7 @@ How will the user be able to say we built what they needed?
 
 1. **Alert on a WGS lab test from PHAC.** When a Whole Genome Sequencing lab test arrives from PHAC, the system raises an alert. *Confirm* whether this is better realised as a **link from the Communicable Disease Episode and its associated Abstract** rather than an EI-generation feature (scope boundary flagged in Dependencies).
 2. **Support a zone-specific OI number as well as a ProvLab EI number.** The investigator can generate a **zone-specific OI number** in addition to a ProvLab EI number, with the right variant selected for the context. *(NDOB question — confirm whether this is a variant of this story or its own story.)*
-3. **Relate multiple EI numbers across associated outbreaks.** Where related outbreaks each carry their own EI number, the records can be associated so results and evidence can be viewed across the related set (pairs with [[Outbreak Assessment - CDC Investigator User Story|Outbreak Assessment]], O-A-6).
+3. **Relate multiple EI numbers across associated outbreaks.** Where related outbreaks each carry their own EI number, the records can be associated so results and evidence can be viewed across the related set (pairs with [[05 - Outbreak Assessment - CDC Investigator User Story|Outbreak Assessment]], O-A-6).
 4. **Pre-populate intake from the outbreak record.** When an outbreak already exists, the EI intake form pre-populates from the `Outbreak` record so the EI/Outbreak ID is provisioned without re-keying.
 
 ## Dependencies
@@ -85,7 +85,7 @@ How will the user be able to say we built what they needed?
 | Status                       | Analysis                                                                                                                                        |
 | Build Team(s)                | Outbreak Application Team                                                                                                                        |
 | Related Design Spec          | [[Create Outbreak Investigation Screen Specifications]]; [[OMRA Database ERD]]                                                                  |
-| Related Pattern Story        | [[02 - Create Outbreak Investigation - CDC Investigator User Story]]; [[Outbreak Assessment - CDC Investigator User Story]]                          |
+| Related Pattern Story        | [[02 - Create Outbreak Investigation - CDC Investigator User Story]]; [[05 - Outbreak Assessment - CDC Investigator User Story]]                          |
 | Reference Material           | [[CLAUDE-OMRA]]; [[User Maintenance Screen Specifications]]; [[Communicable Disease Open Issues]]                                               |
 | Regulatory Drivers           | Public Health Act & Communicable Diseases Regulation; Health Information Act (HIA), RSA 2000, c H-5; PHAC / WGS reporting                        |
 | Link to System Design Doc    | [Link — TBD]                                                                                                                                    |
