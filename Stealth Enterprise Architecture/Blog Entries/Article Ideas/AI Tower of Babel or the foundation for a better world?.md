@@ -6,6 +6,8 @@ timestamp: 2026-06-26T19:19:05Z
 ---
 The following is a blog idea inspired from the [[Magnifica Humanitas]] essay the pope released on May 25, 2026.  Also being used as reference is the [[Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"]] response.
 
+The following quotes are in reasonable order of when they appear in the original text. For this first draft, there's a response for each quote.
+
 > New technologies open up a horizon extending in directions that are imaginable but not yet fully predictable.
 
 Anyone who has had a chance to use a large language model can see that this new technology shows what's opening up, but is not yet totally predictable.  People are using artificial intelligence as a means for enhancing their own personal productivity. Sometimes that's by automating the routine or mundane.  Other times it's more sophisticated with personal knowledge bases that provide context and skills to create for the particular professional domain for that professional.
