@@ -11,7 +11,6 @@ tags:
   - create-outbreak
 timestamp: 2026-06-26T00:00:00Z
 ---
-
 ## Background
 
 Once an Outbreak Investigator has confirmed (via the [[Outbreak Search - Outbreak Investigator User Story|outbreak search]], O-C-3) that a situation is not already under investigation, the next decision is to **open the outbreak** — to create the investigation record that the rest of the Outbreak Management Reporting Application (OMRA) hangs off. Creating that record is what lets the investigator mark the outbreak **Active**, which in turn triggers the three things that have to happen quickly at the start of an outbreak: reporting to the appropriate stakeholders, sending the **Initial AORF** (Alberta Outbreak Reporting Form, due within 24 hours of declaration), and standing up the **outbreak team** with the right additional CDC staff.
