@@ -49,6 +49,7 @@ How will the user be able to say we built what they needed?
 	1. Completed Contact List created within 3-5 days[^1] from the an infectious TB episode being created.
 	2. Clinical Assessment of the 'high priority' contacts be completed within seven days
 	3. Contact list is closed 30 days after being created.
+10. Priority of the Contact - As per the  [[Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management|PHAC TB Contact Investigation and Outbreak Management Standards ]] In section 4, contacts will be prioritized as high, medium or low based on the criteria elaborated in that section.
 
 ### Desirable (Nice to Have)
 
