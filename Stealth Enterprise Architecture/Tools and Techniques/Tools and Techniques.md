@@ -18,7 +18,7 @@ A comprehensive reference of enterprise architecture terminology — from Applic
 
 ## Key Deliverables
 
-- [[Architecture Decision Request (aka SBAR)]] — A structured approach to architectural decision-making, borrowed from clinical communication and adapted for EA.
+- [[Architecture Decision (using SBAR)]] — A structured approach to architectural decision-making, borrowed from clinical communication and adapted for EA.
 
 ---
 

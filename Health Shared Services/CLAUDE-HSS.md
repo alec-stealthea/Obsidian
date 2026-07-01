@@ -25,7 +25,7 @@ Alec is the Enterprise Architect for the IT Community Portfolio. The portfolio c
 
 - [[Solution Context Model]]
 - [[Value Stream Model]]
-- [[Architecture Decision Request (aka SBAR)]]
+- [[Architecture Decision (using SBAR)]]
 
 ## Folder Structure
 

@@ -78,7 +78,7 @@ The presentation structure a note follows, *independent of its subject*. Like `a
 
 | Value | Meaning |
 |---|---|
-| `SBAR` | Situation–Background–Assessment–Recommendation briefing structure (borrowed from clinical handoff practice). The Stealth EA Architecture Decision Request deliverable, but reusable for any concise decision/recommendation brief — not only Architecture Decisions. Lead with the recommendation (RSBA) for executive audiences. See [[Architecture Decision Request (aka SBAR)]]. |
+| `SBAR` | Situation–Background–Assessment–Recommendation briefing structure (borrowed from clinical handoff practice). The Stealth EA Architecture Decision Request deliverable, but reusable for any concise decision/recommendation brief — not only Architecture Decisions. Lead with the recommendation (RSBA) for executive audiences. See [[Architecture Decision (using SBAR)]]. |
 
 ---
 

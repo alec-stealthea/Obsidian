@@ -117,4 +117,4 @@ A CD Episode associates to **exactly one owning Outbreak node** (`EpicAbstract.o
 
 ---
 
-_References: [[OMRA Database ERD]] (v2.4, Sections 11 and 15); [[Contact Identification Screen Specifications]]; [[TB Contact List - TB Nurse User Story]]; [[STI Large Exposure User Story]]; [[Alberta Tuberculosis Policy]]; Public Health Act and Communicable Diseases Regulation; Health Information Act (HIA), RSA 2000, c H-5. SBAR format per [[Architecture Decision Request (aka SBAR)]]._
+_References: [[OMRA Database ERD]] (v2.4, Sections 11 and 15); [[Contact Identification Screen Specifications]]; [[TB Contact List - TB Nurse User Story]]; [[STI Large Exposure User Story]]; [[Alberta Tuberculosis Policy]]; Public Health Act and Communicable Diseases Regulation; Health Information Act (HIA), RSA 2000, c H-5. SBAR format per [[Architecture Decision (using SBAR)]]._

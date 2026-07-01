@@ -10,7 +10,6 @@ tags:
   - contact-tracing
 timestamp: 2026-06-22T00:00:00Z
 ---
-
 ## Background
 
 Tuberculosis contact investigation is **source-case driven**: when an active TB case is confirmed, the TB Nurse works outward from that person to identify everyone who shared air space during the infectious period — household members, close social and workplace contacts, and people exposed in congregate settings (shelters, correctional facilities, continuing care, schools) or during air travel. TB contact lists are large by nature — normally **30–50 contacts**, with that range holding roughly **80% of the time** — so the screen must support high-volume capture, not one-record-at-a-time entry.
@@ -46,6 +45,10 @@ How will the user be able to say we built what they needed?
 6. **Track identification and contact status.** *Given* a logged contact, *when* the nurse works the record, *then* the contact's investigation status reflects whether the contact has been identified, contact has been attempted, the contact was reached, the contact is unable to contact, or a CD Episode was created.
 7. **Report exposures and unreached contacts for the source case.** *Given* a source case's contact list, *when* the nurse or a reviewer reports on it, *then* the total number of exposures and the number unable to contact are shown for that source case, supporting PHAC and Ministry reporting guidelines. [[hlth-phdmg-tuberculosis-2022-11.pdf|Tuberculosis Prevention and Control Guidelines]]
 8. **Privacy-conforming handling of identifiers.** *Given* a contact record containing demographic identifiers, *when* it is viewed, *then* identifiers are exposed only to users with a need-to-know role within the TB disease group. [Health Information Act (HIA), RSA 2000, c H-5 — use and disclosure, [verify section]]
+9. **Timeliness of Contact Investigation** - As per [[Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management|PHAC TB Contact Investigation and Outbreak Management Standards ]] In section 3.3.1 the following timing is expected:
+	1. Completed Contact List created within 3-5 days[^1] from the an infectious TB episode being created.
+	2. Clinical Assessment of the 'high priority' contacts be completed within seven days
+	3. Contact list is closed 30 days after being created.
 
 ### Desirable (Nice to Have)
 
@@ -75,3 +78,5 @@ How will the user be able to say we built what they needed?
 ### Update Comments
 
 - 2026-06-22: Upgraded the rough draft to the HSS user-story standard — specific TB Nurse persona, four concrete scenarios (source-case list, minor/guardian, air-travel, large congregate-setting), two-tier Given/When/Then acceptance criteria with Public Health Act / HIA / PHAC traceability, and links to the [[Contact Identification Screen Specifications]] design spec and the STI pattern story (Alec Blair).
+
+[^1]: Note that for PHAC there is up to a 48 hour notification of a positive TB test to public health. Within Alberta and because of Connect Care access, this notice is essentially immediate.
