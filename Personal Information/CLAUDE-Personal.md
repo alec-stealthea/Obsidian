@@ -37,6 +37,11 @@ From the coaching engagement, Alec identified a set of inner "boardroom" persona
 - **Ferris** ("Don't need to do that now") — The procrastinator. Puts things off or prioritizes trivial over important. Threat: not renegotiating commitments.
 - **Lacey** ("Live and love in the moment") — Joy and presence. Excited about small things. Threat: not appreciating small moments.
 
+## Extended Family
+
+- Barbara Isobel Blair (nickname Nanna)
+	- James Allison Alexander (nickname Alec)
+- 
 ## Three Year Plans
 
 The `Three Year Plans/` subfolder contains forward-looking life plans:

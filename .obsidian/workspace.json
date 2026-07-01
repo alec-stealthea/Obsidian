@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/TB User Stories/TB Contact List - TB Nurse User Story.md",
+                "file": "Personal Information/Family/Alec Blair.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TB Contact List - TB Nurse User Story"
+              "title": "Alec Blair"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/TB User Stories/TB Contact List - TB Nurse User Story.md",
+                "file": "Personal Information/Family/Alec Blair.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TB Contact List - TB Nurse User Story"
+              "title": "Backlinks for Alec Blair"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/TB User Stories/TB Contact List - TB Nurse User Story.md",
+                "file": "Personal Information/Family/Alec Blair.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TB Contact List - TB Nurse User Story"
+              "title": "Outgoing links from Alec Blair"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/TB User Stories/TB Contact List - TB Nurse User Story.md",
+                "file": "Personal Information/Family/Alec Blair.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TB Contact List - TB Nurse User Story"
+              "title": "Outline of Alec Blair"
             }
           },
           {
@@ -211,15 +211,20 @@
   },
   "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Personal Information/CLAUDE-Personal.md",
+    "Personal Information/Family/Alec Blair.md",
+    "Personal Information/Family",
+    "Personal Information/Three Year Plans/2026-2028 Three Year Plan.md",
+    "Templates/User Story Template.md",
+    "Templates/4 P Meeting Template.md",
+    "Templates/Architecture Decision SBAR Template.md",
+    "Templates/Daily Plan Template.md",
+    "Templates/OMRA Screen Specification Template.md",
+    "Templates/Progress Meeting Template.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/TB User Stories/TB Contact List - TB Nurse User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Meeting Minutes/June 12, 2026 - TB CDS Bi-weekly Working Group Meeting.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/TB User Stories/TB Contact List - TB Nurse User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Recommendations for tuberculosis infection screening among returned travellers.md",
-    "Templates/OMRA Screen Specification Template.md",
-    "Templates/Architecture Decision SBAR Template.md",
-    "Templates/Progress Meeting Template.md",
-    "Templates/Daily Plan Template.md",
-    "Templates/4 P Meeting Template.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Architecture Models/Architecture Decisions/Use of Bugsy for Community Communicable Disease Management SBAR.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Architecture Models/Architecture Decisions/Outstanding Architecture Issues.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Architecture Models/Communicable Disease Conceptual Data Model.md",
@@ -236,17 +241,12 @@
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Disease Guidelines/Acute Flaccid Paralysis.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/01 - Outbreak Search - Outbreak Investigator User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE/Meeting Minutes/June 30,2026 - SHE Bi-weekly Meeting Minutes.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE/Meeting Minutes/June 16, 2026 - CDS SHE Bi-Weekly Meeting.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/Meeting Minutes/CDC Bi-weekly CDS Working Group Meeting.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/Meeting Minutes",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE/CLAUDE-SHE-WG.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE/Meeting Minutes",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/11 - Update CD Episode with Outbreak ID - CDC Investigator User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE",
     "Personal Information/Physical Training Plan/Blair, Alec YouFit Life PARQ.pdf",
     "Personal Information/Physical Training Plan/Blair, Alec - YouFit Life Waiver.pdf.pdf",
     "Personal Information/Physical Training Plan/Blair, Alec - Waiver.pdf.pdf",
-    "Personal Information/Physical Training Plan/Blair, Alec - Waiver 2025.pdf.pdf",
     "Stealth Enterprise Architecture/Archi Export/Archi Embedding Architecture.png",
     "Contact Identification Screen Specifications Draft Wireframe.png",
     "Screenshot 2026-06-22 at 10.09.58 AM.png",

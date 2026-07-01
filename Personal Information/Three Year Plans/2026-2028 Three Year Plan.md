@@ -15,6 +15,7 @@ This is a follow-up plan from the [[2024-2026 Three Year Plan]].  My risks of my
 			- 5 years to retirement
 			- Andrea's car loan paid off in the fall resulting in $350 bi-weekly added to cash flow
 		- Family
+			- Richard (brother-in-law) retires this fall
 		- Professional
 			- Successful deployment of Continuing Care Home Vacancy and Waitlist Management Solution
 		- Avocational
@@ -22,9 +23,6 @@ This is a follow-up plan from the [[2024-2026 Three Year Plan]].  My risks of my
 			- Probability - Medium
 			- Impact - More time spent working with Revv52 vs. possible side-hustles
 	- **Risks**
-		- Maybe Haley gets engaged?
-			- Probability - Medium
-			- Impact - mostly getting finances in order to support a wedding donation
 		- Zachary starts school in airplane mechanic
 			- Probability medium
 			- Impact - Still living at home
@@ -37,7 +35,7 @@ This is a follow-up plan from the [[2024-2026 Three Year Plan]].  My risks of my
 			- Turn 62
 			- 4 years to retirement
 		- **Family**
-			- My brother retires?
+			- Haley and Kevin Wedding Lune 5, 2027
 		- **Work**
 			- Outbreak application and CDS solution released for TB and STI
 		- **Avocational**
@@ -55,9 +53,10 @@ This is a follow-up plan from the [[2024-2026 Three Year Plan]].  My risks of my
 		- **Personal**
 			- Turn 63
 		- **Family**
-			- 
+			- Nanna turns 85?
+			- Andrew retires
 		- **Professional**
 			- Full deployment of the CDS Solution
 		- **Avocational**
-			- Past president for Revv52
+			- Become past president for Revv52
 	- **Risks**
