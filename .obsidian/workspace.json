@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal Information/Contacts/Alec Blair.md",
+                "file": "Personal Information/Contacts/Alec Blair & Andrea Blair.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Alec Blair"
+              "title": "Alec Blair & Andrea Blair"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal Information/Contacts/Alec Blair.md",
+                "file": "Personal Information/Contacts/Alec Blair & Andrea Blair.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Alec Blair"
+              "title": "Backlinks for Alec Blair & Andrea Blair"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal Information/Contacts/Alec Blair.md",
+                "file": "Personal Information/Contacts/Alec Blair & Andrea Blair.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Alec Blair"
+              "title": "Outgoing links from Alec Blair & Andrea Blair"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal Information/Contacts/Alec Blair.md",
+                "file": "Personal Information/Contacts/Alec Blair & Andrea Blair.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Alec Blair"
+              "title": "Outline of Alec Blair & Andrea Blair"
             }
           },
           {
@@ -211,9 +211,9 @@
   },
   "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Personal Information/Contacts/Alec Blair.md",
     "Personal Information/Contacts/Andrea Blair.md",
     "Personal Information/Contacts/Alec Blair & Andrea Blair.md",
-    "Personal Information/Contacts/Alec Blair.md",
     "Templates/Union Template.md",
     "Templates/Person Template.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Reference Documents/Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management.md",
