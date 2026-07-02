@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal Information/Family/Alec Blair.md",
+                "file": "Personal Information/Contacts/Alec Blair.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal Information/Family/Alec Blair.md",
+                "file": "Personal Information/Contacts/Alec Blair.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal Information/Family/Alec Blair.md",
+                "file": "Personal Information/Contacts/Alec Blair.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal Information/Family/Alec Blair.md",
+                "file": "Personal Information/Contacts/Alec Blair.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -209,18 +209,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fae33ded107d90ae",
+  "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Personal Information/Contacts/Andrea Blair.md",
+    "Personal Information/Contacts/Alec Blair & Andrea Blair.md",
+    "Personal Information/Contacts/Alec Blair.md",
+    "Templates/Union Template.md",
+    "Templates/Person Template.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Reference Documents/Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Reference Documents/Recommendations for tuberculosis infection screening among returned travellers.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Reference Documents/Alberta Tuberculosis Policy.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/CLAUDE-Communicable-Diseases.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Create Outbreak Investigation Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/01 - Outbreak Search - Outbreak Investigator User Story.md",
-    "Personal Information/Family/Alec Blair.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/CLAUDE-TB.md",
     "Personal Information/CLAUDE-Personal.md",
-    "Personal Information/Family",
+    "Personal Information/Contacts",
     "Personal Information/Three Year Plans/2026-2028 Three Year Plan.md",
     "Templates/User Story Template.md",
     "Templates/4 P Meeting Template.md",
@@ -234,13 +238,8 @@
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Architecture Models/Architecture Decisions/Outstanding Architecture Issues.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Architecture Models/Communicable Disease Conceptual Data Model.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Architecture Models/Architecture Decisions",
-    "Stealth Enterprise Architecture/Tools and Techniques/Key Deliverables/Architecture Decision (using SBAR).md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Interface Specification - Open Contact Identification from CD Abstract (Connect Care to OMRA).md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Interface Specification - Create CD Episode and Draft Contact Abstract (OMRA to Connect Care).md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/Compass Rose Tasks Setup and Support Guide.pdf",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/TB Build Objects/Build Specification - TB CD Episode Compass Rose (Tasks Targets Automation).md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/TB Build Objects",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Contact Identification Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/Meeting Minutes",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE/Meeting Minutes",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE",

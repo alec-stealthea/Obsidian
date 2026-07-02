@@ -8,8 +8,8 @@ tags:
   - reference
 scope: (vault-wide)
 parent: "[[OKF SPEC]]"
-last-updated: 2026-06-28
-timestamp: 2026-06-28T00:00:00Z
+last-updated: 2026-07-02
+timestamp: 2026-07-02T00:00:00Z
 ---
 
 # OKF Type Vocabulary
@@ -152,6 +152,13 @@ The presentation structure a note follows, *independent of its subject*. Like `a
 | `Case Study` | Worked real-world examples in `Case Studies/`. |
 | `Book Note` | Reading notes / summaries in the `Stealth EA Bookshelf/`. |
 
+## People & Relationships
+
+| Type | Use for |
+|---|---|
+| `Person` | A friend, family member, or professional contact. One note per person; the filename is the person's name. Family structure lives in `Union` notes, not person attributes. Created from `Templates/Person Template.md`. |
+| `Union` | A marriage, common-law, or partnership relationship joining two `Person` notes and their children (GEDCOM `FAM`-record pattern). Children are listed once, on the union, in birth order. Created from `Templates/Union Template.md`. |
+
 ## General
 
 | Type | Use for |
@@ -203,11 +210,12 @@ This vocabulary borrows from established standards so the vault stays interopera
 - **[ADR / ISO/IEC/IEEE 42010](http://www.iso-architecture.org/42010/templates/42010-ad-template.pdf)** — source of the `Architecture Decision` type and its expected content (context, options, decision, rationale, consequences); `status` carries the request→record lifecycle rather than separate types.
 - **SBAR (clinical handoff communication)** — source of the `format: SBAR` deliverable-structure facet, adopted by Stealth EA as the Architecture Decision Request form. A *form* facet, deliberately decoupled from `type` so it can wrap any concise decision/recommendation brief.
 - **[ANSI/SPARC three-schema](https://en.wikipedia.org/wiki/Three-schema_approach)** — source of the `data-layer` facet.
+- **[GEDCOM 7 (FamilySearch)](https://gedcom.io/specifications/FamilySearchGEDCOMv7.html)** — source of the `Person`/`Union` split: individuals (`INDI`) connect through family records (`FAM`) rather than pointing at each other, so children are recorded once and remarriages/blended families work without duplicated attributes. Keeps the door open to export for tools like [Gramps](https://gramps-project.org/).
 
 When backfilling the `Health Shared Services/` records at scale, the relevant records-management standards are **ISO 15489** (records management) and **ISO 23081** (records metadata); for clinical *subject* tagging (distinct from `type`), HL7 FHIR resource names and SNOMED CT are the controlled vocabularies to draw on.
 
 ---
 
-_Last Updated_: 2026-06-28
+_Last Updated_: 2026-07-02
 _Maintained By_: Alec Blair
 _Seeded from_: 29 distinct `type` values in vault use as of 2026-06-28
