@@ -9,13 +9,23 @@ tags:
   - omra
   - communicable-disease
   - outbreak-management
-timestamp: 2026-06-29T00:00:00Z
+timestamp: 2026-07-02T00:00:00Z
 ---
 
 // ============================================================================
 // OUTBREAK MANAGEMENT REPORTING APPLICATION (OMRA) - DATABASE ERD
-// Version: 2.7
+// Version: 2.8
 // Date: January 12, 2026
+//   v2.8 update July 2, 2026 - TB contact-investigation fields (Section 15), per the
+//     TB Contact List - TB Nurse User Story and Contact Identification Screen Specifications
+//     aligned to PHAC Canadian TB Standards Chapter 11: ContactIdentification gains aliasName,
+//     contactPriority (investigator-set High/Medium/Low), immunosuppressedFlag,
+//     flightDurationHours, phacAirTravelNotifiedDate and phacReportingFormRef. Index-case
+//     infectiousness (smear/cavitary) is deliberately NOT stored per-contact: it is an
+//     investigation-level attribute of the source case, calculated from the linked source-case
+//     abstract (indexCaseAbstractID -> EpicAbstract) and surfaced via the Data Lakehouse.
+//     Contact age-under-5 is derived from contactDOB, not stored as a flag. TB-only fields
+//     stay null for STI/CDC/SHE contact lists (progressive disclosure by disease group).
 //   v2.7 update June 29, 2026 - non-facility outbreak support: FacilityLineList.facilityID,
 //     FacilityOutbreakAggregateReport.facilityID and Outbreak.outbreakFacility made nullable,
 //     and a nonFacilityLocation free-text column added to FacilityLineList and
@@ -876,6 +886,16 @@ Table ContactIdentification {
   exposureRoomID int [ref: > Room.roomID, note: 'Room/department within the facility']
   flightNumber varchar(20) [note: 'Air-travel exposure - PHAC air-travel contact investigation']
   breakInContactDate date [note: 'Date exposure ended - anchors the follow-up / screening window']
+  // --- v2.8: TB contact-investigation fields (PHAC Canadian TB Standards, Ch.11); null for non-TB lists ---
+  aliasName varchar(200) [note: 'TB - alias/nickname captured in the contact interview (Ch.11 3.4)']
+  contactPriority varchar(10) [note: 'TB - investigator-set High/Medium/Low priority (Ch.11 4.1); the UI tooltip surfaces the exposure criteria, exposure hours are NOT stored']
+  immunosuppressedFlag bool [default: false, note: 'TB - contact at high risk of rapid progression (HIV, dialysis, transplant, silicosis) (Ch.11 4.1)']
+  flightDurationHours decimal(4,1) [note: 'TB - total flight duration; PHAC air-travel notification applies at >=8h international within the prior 3 months (Ch.11 4.3.3)']
+  phacAirTravelNotifiedDate date [note: 'TB - date PHAC was notified via the P/T TB program for a qualifying flight exposure']
+  phacReportingFormRef varchar(100) [note: 'TB - reference to the submitted PHAC air-travel reporting form']
+  // NOTE: index-case infectiousness (smear status / cavitary) is NOT stored on the contact - it is an
+  // investigation-level calculation off the linked source-case abstract (indexCaseAbstractID -> EpicAbstract),
+  // surfaced via the Data Lakehouse. Contact age-under-5 is derived from contactDOB, not a stored flag.
   // Workflow + record lifecycle
   investigationStatus varchar(30) [note: 'No Attempts, Attempts in progress, Unable to contact, CD Episode Created, No Exposure Determined']
   recordStatus varchar(30) [note: 'Open, Closed, Closed - Duplicate']
@@ -1107,6 +1127,11 @@ Table SubmissionFileUpload {
 //     DiseaseContactQuestion + ContactDiseaseQuestionResponse model disease-specific
 //     contact questions (e.g., HIV shared needle Y/N). HIV/STI contact records inherit
 //     the DiseaseGroup privacy boundary from Section 14.
+//     v2.8 adds TB contact-investigation fields (aliasName, contactPriority, immunosuppressedFlag,
+//     flightDurationHours, phacAirTravelNotifiedDate, phacReportingFormRef) per PHAC Canadian TB
+//     Standards Ch.11; these stay null for non-TB lists. Index-case infectiousness is not stored
+//     per-contact (calculated from the source-case abstract, surfaced via the Data Lakehouse) and
+//     contact age-under-5 is derived from contactDOB.
 //
 // 17. CONTACT LINEAGE & LIFECYCLE (v2.4): A ContactIdentification may escalate into its
 //     own Outbreak (ContactIdentification.escalatedToOutbreakID; Outbreak.originatingContactID
