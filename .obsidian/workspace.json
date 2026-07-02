@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal Information/Family/Alec Blair.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/CLAUDE-Communicable-Diseases.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Alec Blair"
+              "title": "CLAUDE-Communicable-Diseases"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 476.5026054382324
+    "width": 414.5026054382324
   },
   "right": {
     "id": "5b6e0ba77496e078",
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal Information/Family/Alec Blair.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/CLAUDE-Communicable-Diseases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Alec Blair"
+              "title": "Backlinks for CLAUDE-Communicable-Diseases"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal Information/Family/Alec Blair.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/CLAUDE-Communicable-Diseases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Alec Blair"
+              "title": "Outgoing links from CLAUDE-Communicable-Diseases"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal Information/Family/Alec Blair.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/CLAUDE-Communicable-Diseases.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Alec Blair"
+              "title": "Outline of CLAUDE-Communicable-Diseases"
             }
           },
           {
@@ -211,9 +211,11 @@
   },
   "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Create Outbreak Investigation Screen Specifications.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/01 - Outbreak Search - Outbreak Investigator User Story.md",
+    "Personal Information/Family/Alec Blair.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/CLAUDE-TB.md",
     "Personal Information/CLAUDE-Personal.md",
-    "Personal Information/Family/Alec Blair.md",
     "Personal Information/Family",
     "Personal Information/Three Year Plans/2026-2028 Three Year Plan.md",
     "Templates/User Story Template.md",
@@ -239,8 +241,6 @@
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Contact Identification Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Disease Guidelines/Acute Severe Hepatitis of Unknown Origin in Children.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Disease Guidelines/Acute Flaccid Paralysis.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/01 - Outbreak Search - Outbreak Investigator User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/Meeting Minutes",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE/Meeting Minutes",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE",
