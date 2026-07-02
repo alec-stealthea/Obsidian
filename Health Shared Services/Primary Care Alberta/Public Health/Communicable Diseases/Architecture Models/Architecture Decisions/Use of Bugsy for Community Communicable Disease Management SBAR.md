@@ -1,7 +1,7 @@
 ---
 type: Architecture Decision
-title: Untitled
-description: ""
+title: "Use of Bugsy for Community Communicable Disease Management SBAR"
+description: "Architecture decision request on the use of Bugsy for community communicable disease management within the CD Solution."
 status: Draft
 format: SBAR
 tags:

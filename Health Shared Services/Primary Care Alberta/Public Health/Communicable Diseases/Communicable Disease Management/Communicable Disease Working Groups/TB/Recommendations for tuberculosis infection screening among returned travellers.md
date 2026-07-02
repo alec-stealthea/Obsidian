@@ -1,4 +1,5 @@
 ---
+type: Research Clipping
 title: "Recommendations for tuberculosis infection screening among returned travellers"
 source: "https://www.canada.ca/en/public-health/services/catmat/recommendations-tuberculosis-infection-screening-returned-travellers.html"
 author:
@@ -7,7 +8,11 @@ published:
 created: 2026-07-01
 description: "Risk of tuberculosis infection and disease among travellers and recommendations for travellers and infection screening and preventive treatment."
 tags:
-  - "clippings"
+  - clippings
+  - tuberculosis
+  - screening
+  - travel-medicine
+timestamp: 2026-07-01T00:00:00Z
 ---
 **Published:** May 15, 2026
 

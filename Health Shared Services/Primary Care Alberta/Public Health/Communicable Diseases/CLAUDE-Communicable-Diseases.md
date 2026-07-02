@@ -5,8 +5,8 @@ type: Context File
 title: CLAUDE-Communicable-Diseases
 scope: Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases
 parent: "[[CLAUDE-PCA]]"
-last-updated: 2026-06-29
-timestamp: 2026-06-29T00:00:00Z
+last-updated: 2026-07-02
+timestamp: 2026-07-02T00:00:00Z
 ---
 # CLAUDE-Communicable-Diseases.md — Communicable Diseases Context
 
@@ -44,6 +44,8 @@ Communicable Diseases/
 │                                          Conceptual Data Model, Solution Concept Model, Solution
 │                                          Architecture, Lambda Architecture (Real-Time Lab Surveillance),
 │                                          AOMS Design deck
+│   └── Architecture Decisions/         ← Outstanding Architecture Issues register; in-progress SBAR decision
+│                                          requests (e.g., Use of Bugsy for Community CD Management)
 ├── Communicable Disease Data Lake House/  ← Snowflake/Coalesce/Atlan analytics platform. See
 │                                             [[CLAUDE-Communicable-Disease-Data-Lake-House]]
 ├── Outbreak Management Reporting Application (OMRA)/  ← Custom outbreak app. See [[CLAUDE-OMRA]]
@@ -67,7 +69,9 @@ Communicable Diseases/
     └── Communicable Disease Working Groups/  ← Per-disease working-group artifacts
         ├── Sexually Transmitted Infections (STI)/  ← STI Intake Form Design Spec, STI Value Stream,
         │                                              Notification Form (AH0332), STI User Stories/
-        ├── TB/                                       ← TB User Stories/ (TB Contact List)
+        ├── TB/                                       ← TB User Stories/ (TB-I-1 contact list), Meeting Minutes/,
+        │                                              PHAC/CTS clippings (Chapter 11, CATMAT travel guidance).
+        │                                              See [[CLAUDE-TB]]
         └── CDC/                                      ← Outbreak-management working group. See [[CLAUDE-CDC]]
 ```
 
@@ -96,9 +100,10 @@ Open design decisions, data-model gaps, and pending story/note dependencies acro
 
 - [[CLAUDE-OMRA]] — Outbreak Management Reporting Application build (data model, screen specifications, RBAC/ABAC access model).
 - [[CLAUDE-CDC]] — Communicable Disease Control working group (outbreak-management user stories on the Outbreak value stream; e.g., [[01 - Outbreak Search - Outbreak Investigator User Story]], [[02 - Create Outbreak Investigation - CDC Investigator User Story]]).
+- [[CLAUDE-TB]] — Tuberculosis working group (TB user stories, PHAC/CTS reference clippings, meeting minutes, Compass Rose build context).
 - [[CLAUDE-Communicable-Disease-Data-Lake-House]] — CD Data Lake House (Snowflake medallion platform, Coalesce ETL, Atlan glossary taxonomy, the Facility Location master dimension).
 
 ---
 
-_Last Updated_: 2026-06-29
-_Version_: 1.6 (updated folder map for the June 2026 reorg — Architecture Models and OMRA promoted to the CD root; new Communicable Disease Data Lake House folder with its own [[CLAUDE-Communicable-Disease-Data-Lake-House]] context file; root-level PDF source library Disease Guidelines/ (typo corrected from "Guildelines") and Guide for Outbreak Prevention and Control/; Connect Care CD Episode build specs consolidated into the root Connect Care Build Specifications/; loose root files Definitions.xlsx and Open Issues.md)
+_Last Updated_: 2026-07-02
+_Version_: 1.7 (added [[CLAUDE-TB]] to child context files and updated TB folder entry in working-group map; added Architecture Decisions/ subfolder to Architecture Models/ map entry)

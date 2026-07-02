@@ -1,3 +1,15 @@
+---
+type: Meeting Note
+title: "June 12, 2026 - TB CDS Bi-weekly Working Group Meeting"
+description: "Meeting notes from the TB Communicable Disease Solution bi-weekly working group — abstract data elements, Compass Rose scope, build list, contact service types, and cascade of care."
+tags:
+  - meeting-note
+  - tuberculosis
+  - cds
+  - connect-care
+  - compass-rose
+timestamp: 2026-06-12T00:00:00Z
+---
 
 Fri, 12 Jun 26
 
@@ -48,4 +60,3 @@ Fri, 12 Jun 26
 - Working group to review registered case number question and come prepared to decide at next meeting
 - Program team to revisit contact cascade of care question once abstract build is clearer (Manisha/Anne’s team)
 - Summary email to be sent to broader group
-

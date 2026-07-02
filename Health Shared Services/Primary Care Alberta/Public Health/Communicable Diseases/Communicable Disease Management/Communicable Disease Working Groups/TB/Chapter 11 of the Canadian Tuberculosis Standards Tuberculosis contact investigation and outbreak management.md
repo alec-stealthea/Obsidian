@@ -1,4 +1,5 @@
 ---
+type: Research Clipping
 title: "Chapter 11 of the Canadian Tuberculosis Standards: Tuberculosis contact investigation and outbreak management"
 source: "https://www.canada.ca/en/public-health/services/diseases/tuberculosis/health-professionals/canadian-tuberculosis-standards/contact-investigation-outbreak-management.html"
 author:
@@ -7,7 +8,11 @@ published:
 created: 2026-07-01
 description: "About contact investigation and clinical follow up of those who are infected or have active tuberculosis disease."
 tags:
-  - "clippings"
+  - clippings
+  - tuberculosis
+  - contact-investigation
+  - outbreak-management
+timestamp: 2026-07-01T00:00:00Z
 ---
 ## Authors and affiliations
 
