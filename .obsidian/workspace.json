@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/CLAUDE-Communicable-Diseases.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Reference Documents/Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CLAUDE-Communicable-Diseases"
+              "title": "Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 414.5026054382324
+    "width": 544.5026054382324
   },
   "right": {
     "id": "5b6e0ba77496e078",
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/CLAUDE-Communicable-Diseases.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Reference Documents/Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CLAUDE-Communicable-Diseases"
+              "title": "Backlinks for Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/CLAUDE-Communicable-Diseases.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Reference Documents/Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CLAUDE-Communicable-Diseases"
+              "title": "Outgoing links from Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management"
             }
           },
           {
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/CLAUDE-Communicable-Diseases.md",
+                "file": "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Reference Documents/Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLAUDE-Communicable-Diseases"
+              "title": "Outline of Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management"
             }
           },
           {
@@ -211,6 +211,10 @@
   },
   "active": "18f310dd4ab515c0",
   "lastOpenFiles": [
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Reference Documents/Recommendations for tuberculosis infection screening among returned travellers.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Reference Documents/Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Reference Documents/Alberta Tuberculosis Policy.md",
+    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/CLAUDE-Communicable-Diseases.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Create Outbreak Investigation Screen Specifications.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/CDC User Stories/01 - Outbreak Search - Outbreak Investigator User Story.md",
     "Personal Information/Family/Alec Blair.md",
@@ -226,8 +230,6 @@
     "Templates/Progress Meeting Template.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/TB User Stories/TB Contact List - TB Nurse User Story.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Meeting Minutes/June 12, 2026 - TB CDS Bi-weekly Working Group Meeting.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Chapter 11 of the Canadian Tuberculosis Standards Tuberculosis contact investigation and outbreak management.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/TB/Recommendations for tuberculosis infection screening among returned travellers.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Architecture Models/Architecture Decisions/Use of Bugsy for Community Communicable Disease Management SBAR.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Architecture Models/Architecture Decisions/Outstanding Architecture Issues.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Architecture Models/Communicable Disease Conceptual Data Model.md",
@@ -239,8 +241,6 @@
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/TB Build Objects/Build Specification - TB CD Episode Compass Rose (Tasks Targets Automation).md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Connect Care Build Specifications/TB Build Objects",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Contact Identification Screen Specifications.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Outbreak Management Reporting Application (OMRA)/OMRA Screen Specifications/Communicable Disease Maintenance Screen Specifications.md",
-    "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Disease Guidelines/Acute Severe Hepatitis of Unknown Origin in Children.md",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/CDC/Meeting Minutes",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE/Meeting Minutes",
     "Health Shared Services/Primary Care Alberta/Public Health/Communicable Diseases/Communicable Disease Management/Communicable Disease Working Groups/SHE",
